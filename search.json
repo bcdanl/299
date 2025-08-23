@@ -1,0 +1,534 @@
+[
+  {
+    "objectID": "listing-danl-299-lec.html",
+    "href": "listing-danl-299-lec.html",
+    "title": "DANL 299 - Lecture",
+    "section": "",
+    "text": "Title\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nLecture 1\n\n\nSyllabus, Course Outline, and Introduction\n\n\nAugust 25, 2025\n\n\n\n\n\n\nNo matching items\n\n Back to top"
+  },
+  {
+    "objectID": "listing-danl-299-wk.html",
+    "href": "listing-danl-299-wk.html",
+    "title": "Weeks",
+    "section": "",
+    "text": "Title\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\n\n\nNo matching items\n\n Back to top"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "DANL 299: Data Preparation and Management, Fall 2025",
+    "section": "",
+    "text": "Welcome! 👋\n\\(-\\) Explore, Learn, and Grow with Data Analytics! 🌟"
+  },
+  {
+    "objectID": "index.html#bullet-lecture",
+    "href": "index.html#bullet-lecture",
+    "title": "DANL 299: Data Preparation and Management, Fall 2025",
+    "section": "\\(\\bullet\\,\\) 🚀 Lecture",
+    "text": "\\(\\bullet\\,\\) 🚀 Lecture\n\n\n\n\n\n\nTitle\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nLecture 1\n\n\nSyllabus, Course Outline, and Introduction\n\n\nAugust 25, 2025\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html#bullet-classwork",
+    "href": "index.html#bullet-classwork",
+    "title": "DANL 299: Data Preparation and Management, Fall 2025",
+    "section": "\\(\\bullet\\,\\) ⌨️ Classwork",
+    "text": "\\(\\bullet\\,\\) ⌨️ Classwork\n\n\n\n\n\n\nTitle\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nClasswork 1\n\n\nBuilding a Personal Website using Git, GitHub, and RStudio with Quarto\n\n\nAugust 25, 2025\n\n\n\n\nClasswork 2\n\n\nMarkdown Basics\n\n\nAugust 27, 2025\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html#bullet-homework",
+    "href": "index.html#bullet-homework",
+    "title": "DANL 299: Data Preparation and Management, Fall 2025",
+    "section": "\\(\\bullet\\,\\) 💻 Homework",
+    "text": "\\(\\bullet\\,\\) 💻 Homework\n\n\n\n\n\n\nTitle\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "danl-rw/danl-299-project.html#esg_proj_2024_data",
+    "href": "danl-rw/danl-299-project.html#esg_proj_2024_data",
+    "title": "Unifying Environmental, Social, and Governance (ESG) Metrics with Financial Analysis",
+    "section": "1. esg_proj_2024_data",
+    "text": "1. esg_proj_2024_data\n\nThe esg_proj_2024_data DataFrame which provides a list of companies and associated information, including ESG scores.\n\n\nimport pandas as pd\nurl_2024 = \"https://bcdanl.github.io/data/esg_proj_2024_data.csv\"\nesg_proj_2024_data = pd.read_csv(url_2024)\n\n\n\n\n  \n\n\n\n\nVariable Description\n\nSymbol: a company’s ticker;\nCompany Name: a company name;\nSector: a sector a company belongs to;\nIndustry: an industry a company belongs to;\nCountry: a country a company belongs to;\nMarket_Cap: a company’s market capitalization as of December 20, 2024 (Source: Nasdaq’s Stock Screener).\n\nA company’s market capitalization is the value of the company that is traded on the stock market, calculated by multiplying the total number of shares by the present share price.\n\nIPO_Year: the year a company first went public by offering its shares to be traded on a stock exchange.\nTotal_ESG: The overall ESG (Environmental, Social, and Governance) risk score, summarizing the company’s exposure to ESG-related risks as of March 31, 2024. A lower score indicates lower risk.\nEnvironmental: The company’s exposure to environmental risks (e.g., emissions, energy use, environmental policy) as of March 31, 2024. A lower score indicates lower risk.\nSocial: The company’s exposure to social risks (e.g., labor practices, human rights, diversity, and customer relations) as of March 31, 2024. A lower score indicates lower risk.\nGovernance: The company’s exposure to governance-related risks (e.g., board structure, executive pay, shareholder rights, transparency) as of March 31, 2024. A lower score indicates lower risk.\nControversy: A score reflecting the severity of recent ESG-related controversies involving the company as of March 31, 2024. Higher scores typically indicate greater or more serious controversies."
+  },
+  {
+    "objectID": "danl-rw/danl-299-project.html#esg_proj_2025",
+    "href": "danl-rw/danl-299-project.html#esg_proj_2025",
+    "title": "Unifying Environmental, Social, and Governance (ESG) Metrics with Financial Analysis",
+    "section": "2. esg_proj_2025",
+    "text": "2. esg_proj_2025\n\nThe esg_proj_2025 DataFrame provides a list of companies and associated information.\n\n\nurl_2025 = \"https://bcdanl.github.io/data/esg_proj_2025.csv\"\nesg_proj_2025 = pd.read_csv(url_2025)\n\n\n\n\n  \n\n\n\n\nVariable Description\n\nMarket_Cap: a company’s market capitalization as of March 29, 2025."
+  },
+  {
+    "objectID": "danl-rw/danl-299-project.html#stock_history_2023",
+    "href": "danl-rw/danl-299-project.html#stock_history_2023",
+    "title": "Unifying Environmental, Social, and Governance (ESG) Metrics with Financial Analysis",
+    "section": "3. stock_history_2023",
+    "text": "3. stock_history_2023\n\nThe stock_history_2023 DataFrame contains daily historical stock market data for the year 2023.\n\n\nurl = \"https://bcdanl.github.io/data/stock_history_2023.csv\"\nstock_history_2023 = pd.read_csv(url)\n\n\n\n\n  \n\n\n\nVariable Description\n\nSymbol: Company’s stock ticker\nDate: Trading date\nYear: Trading year\nOpen: Opening price on the date\nHigh: Highest price on the date\nLow: Lowest price on the date\nClose: Closing price on the date\nVolume: Trading volume\nDividend: Cash dividend paid per share on the date (if any), as reported by Yahoo Finance\nStock_Split: The ratio of any stock split that occurred on the given date."
+  },
+  {
+    "objectID": "danl-rw/danl-299-project.html#data-collection",
+    "href": "danl-rw/danl-299-project.html#data-collection",
+    "title": "Unifying Environmental, Social, and Governance (ESG) Metrics with Financial Analysis",
+    "section": "1. Data Collection",
+    "text": "1. Data Collection\nFor data collection, include only the companies that are common to both the esg_proj_2024_data and esg_proj_2025 DataFrames.\n\nScraping web data falls into a legal gray area. In the U.S., scraping publicly available information is not illegal, but it is not always clearly allowed either.\n\nMost companies do not go after individuals for minor or non-commercial violations of their Terms of Service (ToS). Still, if the scraping causes harm, it can lead to legal trouble.\n\nTips for Collecting Data from Yahoo! Finance:\n\nScrape at a reasonable and moderate rate. To avoid overloading servers, use time.sleep(random.uniform(5, y)) between page visits.\nThe method of explicit waits are not required, but they are helpful for ensuring elements load before scraping.\nBe aware that some companies may not have data available for Environmental, Social, or Governance Risk Scores, or Controversy Level.\nConsider starting with the following setup for Selenium web-scrapping\n\n\n# %%\n# =============================================================================\n# Setup libraries\n# =============================================================================\nimport time\nimport random\nimport pandas as pd\nimport os\nfrom selenium import webdriver\nfrom selenium.webdriver.common.by import By\nfrom selenium.webdriver.chrome.options import Options\nfrom selenium.webdriver.support.ui import WebDriverWait\nfrom selenium.webdriver.support import expected_conditions as EC\n\n# %%\n# =============================================================================\n# Setup working directory\n# =============================================================================\nwd_path = 'PATHNAME_OF_YOUR_WORKING_DIRECTORY'\nos.chdir(wd_path)\n\n\n# %%\n# =============================================================================\n# Setup WebDriver with options\n# =============================================================================\noptions = Options()\noptions.add_argument(\"window-size=1400,1200\")  # Set window size\noptions.add_argument('--disable-blink-features=AutomationControlled')  # Prevent detection of automation by disabling blink features\noptions.page_load_strategy = 'eager'  # Load only essential content first, skipping non-critical resources\n\ndriver = webdriver.Chrome(options=options)\n\n\na. ESG Data\n\nFor each company in the esg_proj_2025 DataFrame, employ the Python selenium library to gather ESG Risk Ratings, along with the Controversy Level from the Sustainability section of each company’s webpage on Yahoo! Finance, such as:\n\nApple Inc. (AAPL)\nMicrosoft Corporation (MSFT)\n\n\n\n\n\nb. Historical Stock Data\n\nFor each company found in both the esg_proj_2024_data and esg_proj_2025 DataFrames, employ the selenium library to retrieve:\n\nDaily stock prices from January 1, 2024, to March 31, 2025\n\ne.g., https://finance.yahoo.com/quote/MSFT/history/?p=MSFT&period1=1704067200&period2=1743446400\n1704067200 = January 1, 2024\n1743446400 = March 31, 2025\n\n\nNote: GOOGLEFINANCE function in Google Sheets is freely available for retrieving current or historical stock data.\n\nAlthough our course does not cover Google Sheets, you are welcome to use it to collect historical stock data if you prefer.\nIf you choose Google Sheets’ GOOGLEFINANCE() for collecting historical stock data, please share your Google Sheets with Prof. Choe.\n\n\n\n\nDividend Cleaning\nIf you scrape historical data tables from each company’s page on Yahoo Finance (e.g., MSFT Historical Data), you can construct a DataFrame similar to the df_all DataFrame shown below.\nThe df_all DataFrame contains stock data for Apple Inc., Microsoft, and Nvidia from the beginning of 2024 through the end of Q1 2025:\nimport pandas as pd\ndf_all = pd.read_csv('https://bcdanl.github.io/data/aapl_msft_nvda_2024_2025.csv')\n\n\n\n  \n\n\nNote that some rows in the df_all DataFrame include dividend declarations rather than price and volume data (e.g., Apple Inc. on February 10, 2025; Microsoft on February 20, 2025). These dividend entries appear in the Open/High/Low/Close/Adj Close/Volume columns as strings like “0.25 Dividend”.\n\nNote: Apple Inc’s “0.25 Dividend” means that on that specific date, Apple Inc issued a cash dividend of $0.01 per share.\n\nTo separate these dividend entries from the actual stock trading data, we use the str.contains() method:\n# Filter rows where the 'Open' column contains the word 'Dividend' (these represent dividend entries)\ndf_dividend = df_all[df_all['Open'].str.contains('Dividend', na=False)]\n\n# Filter out dividend rows to keep only stock price data\ndf_stock = df_all[~df_all['Open'].str.contains('Dividend', na=False)]\n\nAt this point:\n\ndf_stock does not include dividend announcements.\ndf_dividend includes only dividend announcements.\n\n\nWe now clean and format the dividend information:\n# Select only relevant columns for dividend data\ndf_dividend = df_dividend[['Date', 'Symbol', 'Open']]\n\n# Copy 'Open' column (which contains dividend information) into a new column named 'Dividend'\ndf_dividend['Dividend'] = df_dividend['Open']\n\n# Keep only the necessary columns: Date, Symbol, and Dividend\ndf_dividend = df_dividend[['Date', 'Symbol', 'Dividend']]\n\n# Remove the text \" Dividend\" from the Dividend column to isolate the numeric value\ndf_dividend['Dividend'] = df_dividend['Dividend'].str.replace(' Dividend', '')\n\n\n\nStock Split Cleaning\nSimilarly, some row in the df_stock DataFrame from the “Dividend Cleaning” subsection includes stock splits rather than price and volume data (e.g., Nvidia on June 10, 2024). These stock split entries appear in the Open/High/Low/Close/Adj Close/Volume columns as strings like “10:1 Stock Splits”.\nTo separate these stock split entries from the actual stock trading data, again we use the str.contains() method:\n# Filter rows where the 'Open' column contains the word 'Split' (these represent stock split entries)\ndf_split = df_stock[df_stock['Open'].str.contains('Split', na=False)]\n\n# Filter out dividend rows to keep only stock price data\ndf_stock = df_stock[~df_stock['Open'].str.contains('Split', na=False)]\n\nAt this point:\n\ndf_stock includes only daily stock trading information.\ndf_split includes only stock splits.\n\n\nWe now clean and format the split information:\n# Select only relevant columns for dividend data\ndf_split = df_split[['Date', 'Symbol', 'Open']]\n\n# Copy 'Open' column (which contains dividend information) into a new column named 'Split'\ndf_split['Split'] = df_split['Open']\n\n# Keep only the necessary columns: Date, Symbol, and Split\ndf_split = df_split[['Date', 'Symbol', 'Split']]\n\n# Remove the text \" Stock Splits\" from the Split column to isolate the numeric value\ndf_split['Split'] = df_split['Split'].str.replace(' Stock Splits', '')\n\nNote: NVDA’s “10:1 Stock Split” means that each existing share was split into 10 shares.\n\nIf you owned 1 share before June 10, 2024, you would own 10 shares after the split.\nTo maintain consistency, Yahoo Finance retroactively adjusts all historical prices and volumes to reflect stock splits.\n\nFor example, the table below shows NVDA’s adjusted stock prices and volumes from June 7–11, 2024:\n\n\n\n\n  \n\n\n\n\n\nExtracting the year from a datetime variable\n\nTo extract the year from a datetime variable in a pandas DataFrame, you can use the .dt.year accessor.\n\n# Sample DataFrame with string dates\ndata = {\n    'Symbol': ['AAPL', 'MSFT', 'GOOG'],\n    'Date': ['2024-12-29', '2024-12-30', '2025-01-03'],\n    'Close': [130.21, 265.78, 122.34]\n}\n\ndf = pd.DataFrame(data)\n\n# Convert 'Date' column to datetime\ndf['Date'] = df['Date'].astype('datetime64[ns]')\n\n# Extract year from 'Date' variable\ndf['Year'] = df['Date'].dt.year"
+  },
+  {
+    "objectID": "danl-rw/danl-299-project.html#data-analysis",
+    "href": "danl-rw/danl-299-project.html#data-analysis",
+    "title": "Unifying Environmental, Social, and Governance (ESG) Metrics with Financial Analysis",
+    "section": "2. Data Analysis",
+    "text": "2. Data Analysis\n\nIf you are unable to complete the data collection tasks, please use the esg_proj_2024_data and stock_history_2023 DataFrames for your data analysis.\nIf you successfully completed the data collection tasks, you may “optionally” incorporate the stock_history_2023 DataFrame into your analysis as an additional data source.\nBelow are the key components in the data analysis webpage.\n\nTitle: A clear and concise title that gives an idea of the project topics.\nIntroduction:\n\nBackground: Provide context for the research questions, explaining why they are significant, relevant, or interesting.\nStatement of the Problem: Clearly articulate the specific problem or issue the project will address.\n\nData Collection: Use a Python script (*.py) to write the code and the comment on how to retrieve ESG data and historical stock data using Python selenium.\n\nDo NOT provide your code for data collection in your webpage. You should submit your Python script for data collection to Brightspace.\n\nDescriptive Statistics\n\n\nProvide both grouped and un-grouped descriptive statistics and distribution plots for the ESG data and the finance/accounting data\nOptionally, provide correlation heat maps using corr() and seaborn.heatmap(). Below provides the Python code for creating a correlation heatmap.\n\n\n\nimport pandas as pd\nimport seaborn as sns\nimport matplotlib.pyplot as plt\n\n# Sample DataFrame with varied correlations\ndata = {\n    'Revenue': [100, 200, 300, 400, 500],  \n    'Profit': [20, 40, 60, 80, 100],       \n    'n_Employee': [50, 45, 40, 35, 30], \n    'n_Customer': [10, 11, 12, 13, 14]  \n}\n\n# Create a DataFrame from the dictionary\ndf = pd.DataFrame(data)\n\n# Calculate the correlation matrix of the DataFrame\ncorr = df.corr()\n\n# Set up the matplotlib figure size\nplt.figure(figsize=(8, 6))\n\n# Generate a heatmap in seaborn:\n# - 'corr' is the correlation matrix\n# - 'annot=True' enables annotations inside the squares with the correlation values\n# - 'cmap=\"coolwarm\"' assigns a color map from cool to warm (blue to red)\n# - 'fmt=\".2f\"' formats the annotations to two decimal places\n# - 'linewidths=.5' adds lines between each cell\nsns.heatmap(corr, annot=True, cmap='coolwarm', fmt=\".2f\", linewidths=.5)\n\n# Title of the heatmap\nplt.title('Correlation Heatmap with Varied Correlations')\n\n# Display the heatmap\nplt.show()\n\n\n\n\n\nExploratory Data Analysis:\n\nExplore the trend of ESG scores from 2024 to 2025.\nAdditionally, list the questions you aim to answer.\nAddress the questions through data visualization with seaborn (or lets-plot) and pandas methods and attributes.\n\nSignificance of the Project:\n\nExplain its implications for real-world applications, business strategies, or public policy.\n\nReferences\n\nList all sources cited in the project.\nLeave a web address of the reference if that is from the web.\nIndicate if the code and the write-up are guided by generative AI, such as ChatGPT. There will be no penalties on using any generative AI.\nClearly state if the code and the write-up result from collaboration with colleagues. There will be no penalties for collaboration, provided that the shared portions are clearly indicated."
+  },
+  {
+    "objectID": "danl-rw/danl-299-project.html#interpreting-esg-data-on-yahoo-finance",
+    "href": "danl-rw/danl-299-project.html#interpreting-esg-data-on-yahoo-finance",
+    "title": "Unifying Environmental, Social, and Governance (ESG) Metrics with Financial Analysis",
+    "section": "Interpreting ESG Data on Yahoo Finance 🧾",
+    "text": "Interpreting ESG Data on Yahoo Finance 🧾\nIn Yahoo Finance, the ESG data helps investors evaluate a company’s sustainability profile and exposure to long-term environmental, social, and governance risks. Here’s how to interpret each metric:\n\n🔢 Total ESG Risk Score\n\nWhat it means: A composite score reflecting the company’s overall exposure to ESG-related risks.\nHow to interpret:\n\nLower score = lower risk → Better ESG performance.\n\nHigher score = higher risk → More vulnerable to ESG-related issues.\n\nExample: A company with total_ESG = 15 is considered to have lower ESG risk than one with total_ESG = 30.\n\n\n\n\n🌍 Environmental Risk Score\n\nWhat it measures: Exposure to environmental risks such as:\n\nCarbon emissions\n\nEnergy efficiency\n\nWaste management\n\nClimate change strategy\n\n\nInterpretation:\n\nLower score → better environmental practices.\nHigher score → more environmental liabilities or poor sustainability measures.\n\n\n\n\n👥 Social Risk Score\n\nWhat it measures: Exposure to social risks, including:\n\nLabor practices\n\nHuman rights\n\nInclusive culture and representation\nCustomer and community relations\n\n\nInterpretation:\n\nLower score = better social responsibility.\nHigher score = more risk from labor issues, PR problems, etc.\n\n\n\n\n🏛 Governance Risk Score\n\nWhat it measures: Exposure to governance-related risks, such as:\n\nBoard structure and independence\n\nExecutive compensation\n\nShareholder rights\n\nTransparency and ethics\n\n\nInterpretation:\n\nLower score suggests better corporate oversight.\nHigher score suggests poor governance structures.\n\n\n\n\n🚨 Controversy Level\n\nWhat it measures: Reflects recent ESG-related controversies involving the company.\nScale: Usually ranges from 0 (no controversies) to 5 (severe and ongoing issues).\nInterpretation:\n\nLow score (0–1): Minimal or no controversies.\nHigh score (4–5): Major controversies — potential reputational or legal risks.\nNote: A company may have good ESG scores but still be flagged due to a high controversy score.\n\n\n\n\n🧠 ESG Score Summary\n\n\n\nMetric\nGood Score\nBad Score\n\n\n\n\ntotal_ESG\nLow\nHigh\n\n\nEnvironmental\nLow\nHigh\n\n\nSocial\nLow\nHigh\n\n\nGovernance\nLow\nHigh\n\n\nControversy\n0–1\n4–5"
+  },
+  {
+    "objectID": "danl-rw/danl-299-project.html#general-tips-on-data-visualization",
+    "href": "danl-rw/danl-299-project.html#general-tips-on-data-visualization",
+    "title": "Unifying Environmental, Social, and Governance (ESG) Metrics with Financial Analysis",
+    "section": "General Tips on Data Visualization 📈",
+    "text": "General Tips on Data Visualization 📈\n\nDistribution\nWhen describing the distribution of a variable, we are typically interested in several key characteristics:\n\nCenter: The central tendency of the data, such as the mean or median, which indicates the typical or average value.\nSpread: How spread the values are within the variable, showing the range and standard deviation of values.\nCommon Values: Identifying frequent values and the mode.\nRare Values: Recognizing unusual or infrequent values.\nShape: The overall shape of the distribution, such as whether it’s symmetric, skewed left or right, or having multiple groups with multiple peaks.\n\n\n\n\n\n\n\n\n\nRelationship Between Two Variables\n\nStart with determining whether the two variables have a positive association, a negative association, or no association.\n\n\nE.g., A negative slope in the fitted line indicates that sales decrease as the price increases, while a positive slope would indicate that sales increase with price. A zero slope means that there is no relationship between sales and price; changes in price do not affect sales.\n\n\n\n\n\n\n\n\nInput on the x-axis; output on the y-axis\n\n\nBy convention, the input (or predictor) variable is plotted on the x-axis, and the output (or response) variable on the y-axis.\nThis helps visualize potential relationships—though it shows correlation, not necessarily causation.\nCorrelation does not necessarily mean causation.\n\n\nWhen a question asks you to describe how the relationship varies by another categorical variable, examine both the direction of the slope (negative, positive, or none) from the fitted line and the steepness of the slope (steep or shallow).\n\n\nThe slope of the fitted straight line is the rate at which the “y” variable (like grades) changes as the “x” variable (like study hours) changes. In simple terms, it shows how much one thing goes up or down when the other thing changes.\nFor example, a comment such as, “The plot shows a negative relationship between sales and price” does not address how the relationship differs by brand.\n\n\nThe focus is on the relationship, not the distribution.\n\n\nWhile adding a comment on the distribution of a single variable can be helpful, the question is primarily about the relationship between the two variables.\n\n\n\n\nTime Trend of a Variable\nHere are some general tips for describing the time trend of a variable:\n\nStart with Identifying the Overall Trend\n\n\nLook for the general direction of the trend over time.\n\nIs it moving upward, downward, or remaining relatively constant?\n\n\n\nNote Patterns and Cycles\n\n\nIdentify any repeating patterns, such as seasonal fluctuations (e.g., monthly or quarterly changes) or long-term cycles.\n\nThese can reveal consistent influences that affect the variable over time.\n\n\n\nHighlight Any Significant Fluctuations\n\n\nDescribe any sharp increases, decreases, or irregular spikes in the data.\n\n\n\n\n\n\n\n\n\nInterpreting Visualization\n\nBe specific.\n\nAvoid vague statements. Below examples do not actually explain what the patterns are.\n\n“The plot shows how the time trend of a stock price varies across sectors, with each sector having a unique best fitting line and scatter pattern”\n“The trend shows the evolution of stock price in the market over time”\n\nClearly describe what is the pattern—and how it differs across categories.\n\nAdd Narration:\n\nConnect the visualization to real-world phenomena and/or your idea that could help explain it, adding insight into what is happening."
+  },
+  {
+    "objectID": "danl-rw/danl-299-project.html#project-write-up",
+    "href": "danl-rw/danl-299-project.html#project-write-up",
+    "title": "Unifying Environmental, Social, and Governance (ESG) Metrics with Financial Analysis",
+    "section": "Project Write-up",
+    "text": "Project Write-up\n\n\n\n\n\n\n\n\n\n\n\n\nAttribute\nVery Deficient (1)\nSomewhat Deficient (2)\nAcceptable (3)\nVery Good (4)\nOutstanding (5)\n\n\n\n\n1. Quality of research questions\n• Not stated or very unclear• Entirely derivative• Anticipate no contribution\n• Stated somewhat confusingly• Slightly interesting, but largely derivative• Anticipate minor contributions\n• Stated explicitly• Somewhat interesting and creative• Anticipate limited contributions\n• Stated explicitly and clearly• Clearly interesting and creative• Anticipate at least one good contribution\n• Articulated very clearly• Highly interesting and creative• Anticipate several important contributions\n\n\n2. Quality of data visualization\n• Very poorly visualized• Unclear• Unable to interpret figures\n• Somewhat visualized• Somewhat unclear• Difficulty interpreting figures\n• Mostly well visualized• Mostly clear• Acceptably interpretable\n• Well organized• Well thought-out visualization• Almost all figures clearly interpretable\n• Very well visualized• Outstanding visualization• All figures clearly interpretable\n\n\n3. Quality of exploratory data analysis\n• Little or no critical thinking• Little or no understanding of data analytics concepts with Python\n• Rudimentary critical thinking• Somewhat shaky understanding of data analytics concepts with Python\n• Average critical thinking• Understanding of data analytics concepts with Python\n• Mature critical thinking• Clear understanding of data analytics concepts with Python\n• Sophisticated critical thinking• Superior understanding of data analytics concepts with Python\n\n\n4. Quality of business/economic analysis\n• Little or no critical thinking• Little or no understanding of business/economic concepts\n• Rudimentary critical thinking• Somewhat shaky understanding of business/economic concepts\n• Average critical thinking• Understanding of business/economic concepts\n• Mature critical thinking• Clear understanding of business/economic concepts\n• Sophisticated critical thinking• Superior understanding of business/economic concepts\n\n\n5. Quality of writing\n• Very poorly organized• Very difficult to read• Many typos and grammatical errors\n• Somewhat disorganized• Somewhat difficult to read• Numerous typos and grammatical errors\n• Mostly well organized• Mostly easy to read• Some typos and grammatical errors\n• Well organized• Easy to read• Very few typos or grammatical errors\n• Very well organized• Very easy to read• No typos or grammatical errors\n\n\n6. Quality of Jupyter Notebook usage\n• Very poorly organized• Many redundant warning/error messages• Inappropriate code to produce outputs\n• Somewhat disorganized• Numerous warning/error messages• Misses important code\n• Mostly well organized• Some warning/error messages• Provides appropriate code\n• Well organized• Very few warning/error messages• Provides advanced code\n• Very well organized• No warning/error messages• Proposes highly advanced code"
+  },
+  {
+    "objectID": "danl-rw/danl-299-project.html#data-collection-1",
+    "href": "danl-rw/danl-299-project.html#data-collection-1",
+    "title": "Unifying Environmental, Social, and Governance (ESG) Metrics with Financial Analysis",
+    "section": "Data Collection",
+    "text": "Data Collection\n\n\n\n\n\n\n\n\n\nEvaluation\nDescription\nCriteria\n\n\n\n\n1 (Very Deficient)\n- Very poorly implemented- Data is unreliable.\n- Poor web scraping practices with selenium, leading to unreliable or incorrect data from Yahoo Finance.- Inadequate use of pandas, resulting in poorly structured DataFrames.\n\n\n2 (Somewhat Deficient)\n- Somewhat effective implementation- Data has minor reliability issues.\n- Basic web scraping with selenium that sometimes fails to capture all relevant data accurately.- Basic use of pandas, but with occasional issues in data structuring.\n\n\n3 (Acceptable)\n- Effective web scraping with selenium, capturing most required data from Yahoo Finance.- Adequate use of pandas to structure data in a mostly logical format.\n\n\n\n4 (Very Good)\n- Well-implemented and organized- Data is reliable.\n- Thorough web scraping with selenium that consistently captures accurate and complete data from Yahoo Finance.- Skillful use of pandas for clear and logical data structuring.\n\n\n5 (Outstanding)\n- Exceptionally implemented- Data is highly reliable.\n- Expert web scraping with selenium, capturing detailed and accurate data from Yahoo Finance without fail.- Expert use of pandas to create exceptionally well-organized DataFrames that facilitate easy analysis."
+  },
+  {
+    "objectID": "listing-danl-299-hw.html",
+    "href": "listing-danl-299-hw.html",
+    "title": "DANL 299 - Homework",
+    "section": "",
+    "text": "Title\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\n\n\nNo matching items\n\n Back to top"
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-01-2025-0825.html#instructor-1",
+    "href": "danl-lec/danl-299-lec-01-2025-0825.html#instructor-1",
+    "title": "Lecture 1",
+    "section": "Instructor",
+    "text": "Instructor\nCurrent Appointment & Education\n\nName: Byeong-Hak Choe.\nAssistant Professor of Data Analytics and Economics, School of Business at SUNY Geneseo.\nPh.D. in Economics from University of Wyoming.\nM.S. in Economics from Arizona State University.\nM.A. in Economics from SUNY Stony Brook.\nB.A. in Economics & B.S. in Applied Mathematics from Hanyang University at Ansan, South Korea.\n\nMinor in Business Administration.\nConcentration in Finance."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-01-2025-0825.html#instructor-2",
+    "href": "danl-lec/danl-299-lec-01-2025-0825.html#instructor-2",
+    "title": "Lecture 1",
+    "section": "Instructor",
+    "text": "Instructor\nEconomics and Data Science\n\nChoe, B.H., Newbold, S. and James, A., “Estimating the Value of Statistical Life through Big Data”\n\nQuestion: How much is the society willing to pay to reduce the likelihood of fatality?\n\nChoe, B.H., “Social Media Campaigns, Lobbying and Legislation: Evidence from #climatechange and Energy Lobbies.”\n\nQuestion: To what extent do social media campaigns compete with fossil fuel lobbying on climate change legislation?\n\nChoe, B.H. and Ore-Monago, T., 2024. “Governance and Climate Finance in the Developing World”\n\nQuestion: In what ways and through what forms does poor governance act as a significant barrier to reducing greenhouse gas emissions in developing countries?"
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-01-2025-0825.html#syllabus-1",
+    "href": "danl-lec/danl-299-lec-01-2025-0825.html#syllabus-1",
+    "title": "Lecture 1",
+    "section": "Syllabus",
+    "text": "Syllabus\nEmail, Class & Office Hours\n\nEmail: bchoe@geneseo.edu\nClass Homepage:\n\nhttps://brightspace.geneseo.edu/\nhttp://bcdanl.github.io/299/\n\nOffice: South Hall 227B\nOffice Hours:\n\nMondays 3:30 P.M. – 5:00 P.M.\n\nWednesdays 3:30 P.M. – 5:00 P.M."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-01-2025-0825.html#syllabus-2",
+    "href": "danl-lec/danl-299-lec-01-2025-0825.html#syllabus-2",
+    "title": "Lecture 1",
+    "section": "Syllabus",
+    "text": "Syllabus\nCourse Description\n\nThis course is designed to provide a comprehensive overview of data handling techniques, focusing on practical application through case studies.\nKey topics include:\n\ndata loading, cleaning, transformation, merging, and reshaping;\ntechniques for slicing, dicing, and summarizing datasets;\ndata collection via web scraping and APIs.\n\nThese areas will be explored through detailed, real-world examples to address common data analysis challenges.\nThroughout the course, students will gain hands-on experience with Python and its data analysis libraries, along with practical applications of git and GitHub."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-01-2025-0825.html#syllabus-3",
+    "href": "danl-lec/danl-299-lec-01-2025-0825.html#syllabus-3",
+    "title": "Lecture 1",
+    "section": "Syllabus",
+    "text": "Syllabus\nRequired Materials\n\nPython for Data Analysis (3rd Edition) by Wes McKinney\n\nA free online version of this book is available."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-01-2025-0825.html#syllabus-4",
+    "href": "danl-lec/danl-299-lec-01-2025-0825.html#syllabus-4",
+    "title": "Lecture 1",
+    "section": "Syllabus",
+    "text": "Syllabus\nReference Materials\n\nGuide for Quarto\nPython Programming for Data Science by Tomas Beuzen\nCoding for Economists by Arthur Turrell\nPython for Econometrics in Economics by Fabian H. C. Raters\nQuantEcon DataScience - Python Fundamentals by Chase Coleman, Spencer Lyon, and Jesse Perla\nQuantEcon DataScience - pandas by Chase Coleman, Spencer Lyon, and Jesse Perla"
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-01-2025-0825.html#syllabus-5",
+    "href": "danl-lec/danl-299-lec-01-2025-0825.html#syllabus-5",
+    "title": "Lecture 1",
+    "section": "Syllabus",
+    "text": "Syllabus\nCourse Requirements\n\nLaptop: You should bring your own laptop (Mac or Windows) to the classroom.\n\nThe minimum specification for your laptop in this course is 2+ core CPU, 4+ GB RAM, and 500+ GB disk storage.\n\nHomework: There will be six homework assignments.\nProject: There will be one project on a personal website.\nExams: There will be two Midterm Exams and one Final Exam.\n\nThe Midterm Exam 2 is comprehensive.\nThe Final Exam is comprehensive.\n\nDiscussions: You are encouraged to participate in GitHub-based online discussions and class discussion, and office hours.\n\nCheckout the netiquette policy in the syllabus."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-01-2025-0825.html#syllabus-6",
+    "href": "danl-lec/danl-299-lec-01-2025-0825.html#syllabus-6",
+    "title": "Lecture 1",
+    "section": "Syllabus",
+    "text": "Syllabus\nPersonal Website\n\nYou will create your own website using Quarto, R Studio, and Git.\nYou will publish your homework assignments and team project on your website.\nYour website will be hosted in GitHub.\nThe basics in Markdown will be discussed.\nReferences:\n\nQuarto Guide"
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-01-2025-0825.html#syllabus-7",
+    "href": "danl-lec/danl-299-lec-01-2025-0825.html#syllabus-7",
+    "title": "Lecture 1",
+    "section": "Syllabus",
+    "text": "Syllabus\nWhy Personal Website?\n\n\nHere is the example website:\n\nDANL Website Template\n\nProfessional Showcase: Display skills and projects\nVisibility and Networking: Increase online presence\nContent Sharing and Engagement: Publish articles, insights\nJob Opportunities: Attract potential employers and clients\nLong-term Asset: A growing repository of your career journey"
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-01-2025-0825.html#syllabus-8",
+    "href": "danl-lec/danl-299-lec-01-2025-0825.html#syllabus-8",
+    "title": "Lecture 1",
+    "section": "Syllabus",
+    "text": "Syllabus\nProject\n\nThe project report should include data collection and exploratory data analysis using summary statistics, visual representations, and data wrangling.\nThe document for the team project must be published in each member’s website."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-01-2025-0825.html#syllabus-9",
+    "href": "danl-lec/danl-299-lec-01-2025-0825.html#syllabus-9",
+    "title": "Lecture 1",
+    "section": "Syllabus",
+    "text": "Syllabus\nClass Schedule and Exams\n\nThere will be tentatively 28 class sessions.\nThe Midterm Exam I is scheduled on October 8, 2025, Wednesday, during the class time.\nThe Midterm Exam II is scheduled on November 12, 2025, Wednesday, during the class time.\nThe Final Exam is to be determined\nNo class on\n\nSeptember 1 (Labor Day)\nOctober 13 (Fall Break)\nNovember 26 (Thanksgiving Break)\n\nThe due for the team project is December 16, 2025, Tuesday, 11:59 P.M., Eastern Time"
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-01-2025-0825.html#syllabus-10",
+    "href": "danl-lec/danl-299-lec-01-2025-0825.html#syllabus-10",
+    "title": "Lecture 1",
+    "section": "Syllabus",
+    "text": "Syllabus\nCourse Contents\n\n\n\n\n\n\n\n\nThe first part of the course covers Python basics and pandas basics."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-01-2025-0825.html#syllabus-11",
+    "href": "danl-lec/danl-299-lec-01-2025-0825.html#syllabus-11",
+    "title": "Lecture 1",
+    "section": "Syllabus",
+    "text": "Syllabus\nCourse Contents\n\n\n\n\n\n\n\n\nThe second part of the course covers data collection."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-01-2025-0825.html#syllabus-12",
+    "href": "danl-lec/danl-299-lec-01-2025-0825.html#syllabus-12",
+    "title": "Lecture 1",
+    "section": "Syllabus",
+    "text": "Syllabus\nCourse Contents\n\n\n\n\n\n\n\n\nThe third part of the course covers advanced pandas."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-01-2025-0825.html#syllabus-13",
+    "href": "danl-lec/danl-299-lec-01-2025-0825.html#syllabus-13",
+    "title": "Lecture 1",
+    "section": "Syllabus",
+    "text": "Syllabus\nGrading\n\\[\n\\begin{align}\n(\\text{Total Percentage Grade}) =&\\quad\\;\\, 0.05\\times(\\text{Attendance Score})\\notag\\\\\n&\\,+\\, 0.20\\times(\\text{Total Homework Score})\\notag\\\\\n&\\,+\\, 0.25\\times(\\text{Project and Website Score})\\notag\\\\\n&\\,+\\, 0.50\\times(\\text{Total Exam Score}).\\notag\n\\end{align}\n\\]"
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-01-2025-0825.html#syllabus-14",
+    "href": "danl-lec/danl-299-lec-01-2025-0825.html#syllabus-14",
+    "title": "Lecture 1",
+    "section": "Syllabus",
+    "text": "Syllabus\nGrading\n\nYou are allowed up to 5 absences without penalty.\n\nSend me an email if you have standard excused reasons (illness, family emergency, transportation problems, etc.).\n\nFor each absence beyond the initial five, there will be a deduction of 1% from the Total Percentage Grade.\nParticipation will be evaluated by quantity and quality of GitHub-based online discussions and in-person discussion.\nThe single lowest homework score will be dropped when calculating the total homework score."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-01-2025-0825.html#syllabus-15",
+    "href": "danl-lec/danl-299-lec-01-2025-0825.html#syllabus-15",
+    "title": "Lecture 1",
+    "section": "Syllabus",
+    "text": "Syllabus\nGrading\n\\[\n\\begin{align}\n&(\\text{Midterm Exam Score}) \\\\\n=\\, &\\text{max}\\,\\left\\{0.50\\times(\\text{Midterm Exam I Score}) \\,+\\, 0.50\\times(\\text{Midterm Exam II Score})\\right.,\\notag\\\\\n&\\qquad\\;\\,\\left.0.25\\times(\\text{Midterm Exam I Score}) \\,+\\, 0.75\\times(\\text{Midterm Exam II Score})\\right\\}.\\notag\n\\end{align}\n\\]\n\nThe Midterm Exam Score is the maximum between\n\nthe simple average of the Midterm Exam I score and the Midterm Exam II Score and\nthe weighted average of them with one-fourth weight on the Midterm Exam I Score and three-third weight on the Midterm Exam II Score."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-01-2025-0825.html#syllabus-16",
+    "href": "danl-lec/danl-299-lec-01-2025-0825.html#syllabus-16",
+    "title": "Lecture 1",
+    "section": "Syllabus",
+    "text": "Syllabus\nGrading\n\\[\n\\begin{align}\n&(\\text{Total Exam Score}) \\\\\n=\\, &\\text{max}\\,\\left\\{0.50\\times(\\text{Midterm Exam Score}) \\,+\\, 0.50\\times(\\text{Final Exam Score})\\right.,\\notag\\\\\n&\\qquad\\;\\,\\left.0.25\\times(\\text{Midterm Exam Score}) \\,+\\, 0.75\\times(\\text{Final Exam Score})\\right\\}.\\notag\n\\end{align}\n\\]\n\nThe Total Exam Score is the maximum between\n\nthe simple average of the Midterm Exam Score and the Final Exam Score and\nthe weighted average of them with one-fourth weight on the Midterm Exam Score and three-third weight on the Final Exam Score."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-01-2025-0825.html#syllabus-17",
+    "href": "danl-lec/danl-299-lec-01-2025-0825.html#syllabus-17",
+    "title": "Lecture 1",
+    "section": "Syllabus",
+    "text": "Syllabus\nMake-up Policy\n\nMake-up exams will not be given unless you have either a medically verified excuse or an absence excused by the University.\nIf you cannot take exams because of religious obligations, notify me by email at least two weeks in advance so that an alternative exam time may be set.\nA missed exam without an excused absence earns a grade of zero.\nLate submissions for homework assignment will be accepted with a penalty.\nA zero will be recorded for a missed assignment."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-01-2025-0825.html#syllabus-18",
+    "href": "danl-lec/danl-299-lec-01-2025-0825.html#syllabus-18",
+    "title": "Lecture 1",
+    "section": "Syllabus",
+    "text": "Syllabus\nAcademic Integrity and Plagiarism\n\nAll homework assignments and exams must be the original work by you.\nExamples of academic dishonesty include:\n\nrepresenting the work, thoughts, and ideas of another person as your own\nallowing others to represent your work, thoughts, or ideas as theirs, and\nbeing complicit in academic dishonesty by suspecting or knowing of it and not taking action.\n\nGeneseo’s Library offers frequent workshops to help you understand how to paraphrase, quote, and cite outside sources properly.\n\nSee https://www.geneseo.edu/library/library-workshops."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-01-2025-0825.html#syllabus-19",
+    "href": "danl-lec/danl-299-lec-01-2025-0825.html#syllabus-19",
+    "title": "Lecture 1",
+    "section": "Syllabus",
+    "text": "Syllabus\nAccessibility\n\nThe Office of Accessibility will coordinate reasonable accommodations for persons with physical, emotional, or cognitive disabilities to ensure equal access to academic programs, activities, and services at Geneseo.\nPlease contact me and the Office of Accessibility Services for questions related to access and accommodations."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-01-2025-0825.html#syllabus-20",
+    "href": "danl-lec/danl-299-lec-01-2025-0825.html#syllabus-20",
+    "title": "Lecture 1",
+    "section": "Syllabus",
+    "text": "Syllabus\nWell-being\n\nYou are strongly encouraged to communicate your needs to faculty and staff and seek support if you are experiencing unmanageable stress or are having difficulties with daily functioning.\nLiz Felski, the School of Business Student Advocate (felski@geneseo.edu, South Hall 303), or the Dean of Students (585-245-5706) can assist and provide direction to appropriate campus resources.\nFor more information, see https://www.geneseo.edu/dean_students."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-01-2025-0825.html#syllabus-21",
+    "href": "danl-lec/danl-299-lec-01-2025-0825.html#syllabus-21",
+    "title": "Lecture 1",
+    "section": "Syllabus",
+    "text": "Syllabus\nCareer Design\n\nTo get information about career development, you can visit the Career Development Events Calendar (https://www.geneseo.edu/career_development/events/calendar).\nYou can stop by South 112 to get assistance in completing your Handshake Profile https://app.joinhandshake.com/login.\n\nHandshake is ranked #1 by students as the best place to find full-time jobs.\n50% of the 2018-2020 graduates received a job or internship offer on Handshake.\nHandshake is trusted by all 500 of the Fortune 500."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-01-2025-0825.html#why-data-analytics",
+    "href": "danl-lec/danl-299-lec-01-2025-0825.html#why-data-analytics",
+    "title": "Lecture 1",
+    "section": "Why Data Analytics?",
+    "text": "Why Data Analytics?\n\nFill in the gaps left by traditional business and economics classes.\n\nPractical skills that will benefit your future career.\nNeglected skills like how to actually find datasets in the wild and clean them.\n\nData analytics skills are largely distinct from (and complementary to) the core quantitative works familiar to business undergrads.\n\nData visualization, cleaning and wrangling; databases; machine learning; etc.\n\nIn short, we will cover things that I wish someone had taught me when I was undergraduate."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-01-2025-0825.html#you-at-the-end-of-this-course",
+    "href": "danl-lec/danl-299-lec-01-2025-0825.html#you-at-the-end-of-this-course",
+    "title": "Lecture 1",
+    "section": "You, at the end of this course",
+    "text": "You, at the end of this course"
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-01-2025-0825.html#why-data-analytics-1",
+    "href": "danl-lec/danl-299-lec-01-2025-0825.html#why-data-analytics-1",
+    "title": "Lecture 1",
+    "section": "Why Data Analytics?",
+    "text": "Why Data Analytics?\n\nData analysts use analytical tools and techniques to extract meaningful insights from data.\n\nSkills in data analytics are also useful for business analysts or market analysts.\n\nBreau of Labor Statistics forecasts that the projected growth rate of the employment in the industry related to data analytics from 2021 to 2031 is 36%.\n\nThe average growth rate for all occupations is 5%."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-01-2025-0825.html#the-state-of-the-art",
+    "href": "danl-lec/danl-299-lec-01-2025-0825.html#the-state-of-the-art",
+    "title": "Lecture 1",
+    "section": "The State of the Art",
+    "text": "The State of the Art\nGenerative AI and ChatGPT\n\n\nData Science and Big Data Trend\nFrom 2008 to 2023\n\n\nProgrammers in 2025"
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-01-2025-0825.html#the-state-of-the-art-1",
+    "href": "danl-lec/danl-299-lec-01-2025-0825.html#the-state-of-the-art-1",
+    "title": "Lecture 1",
+    "section": "The State of the Art",
+    "text": "The State of the Art\nGenerative AI and ChatGPT\n\nUsers around the world have explored how to best utilize GPT for writing essays and programming codes.\n\n\n\n\nIs AI a threat to data analytics?\n\nFundamental understanding of the subject matter is still crucial for effectively utilizing AI’s capabilities.\n\n\n\n\n\nIf you use Generative AI such as ChatGPT, please try to understand what ChatGPT gives you.\n\nCopying and pasting it without any understanding harms your learning opportunity."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-01-2025-0825.html#what-is-git",
+    "href": "danl-lec/danl-299-lec-01-2025-0825.html#what-is-git",
+    "title": "Lecture 1",
+    "section": "What is Git?",
+    "text": "What is Git?\n\n\n\n\n\\(\\quad\\)\n\nGit is the most popular version control tool for any software development.\n\nIt tracks changes in a series of snapshots of the project, allowing developers to revert to previous versions, compare changes, and merge different versions.\nIt is the industry standard and ubiquitous for coding collaboration."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-01-2025-0825.html#what-is-github",
+    "href": "danl-lec/danl-299-lec-01-2025-0825.html#what-is-github",
+    "title": "Lecture 1",
+    "section": "What is GitHub?",
+    "text": "What is GitHub?\n\nGitHub is a web-based hosting platform for Git repositories to store, manage, and share code.\nOut class website is hosted on a GitHub repository.\nCourse contents will be posted not only in Brightspace but also in our GitHub repositories (“repos”) and websites.\nGithub is useful for many reasons, but the main reason is how user friendly it makes uploading and sharing code."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-01-2025-0825.html#what-is-github-1",
+    "href": "danl-lec/danl-299-lec-01-2025-0825.html#what-is-github-1",
+    "title": "Lecture 1",
+    "section": "What is GitHub?",
+    "text": "What is GitHub?"
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-01-2025-0825.html#what-is-rstudio",
+    "href": "danl-lec/danl-299-lec-01-2025-0825.html#what-is-rstudio",
+    "title": "Lecture 1",
+    "section": "What is RStudio?",
+    "text": "What is RStudio?\n\nRStudio is an integrated development environment (IDE) mainly for R programming.\n\nAn IDE is a software application that provides comprehensive facilities (e.g., text code editor, graphical user interface (GUI)) to computer programmers for software development.\n\nRStudio is a user-friendly interface that makes using R easier and more interactive.\n\nIt provides a console, syntax-highlighting editor that supports direct code execution, as well as tools for plotting, history, debugging, and workspace management."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-01-2025-0825.html#what-is-python",
+    "href": "danl-lec/danl-299-lec-01-2025-0825.html#what-is-python",
+    "title": "Lecture 1",
+    "section": "What is Python?",
+    "text": "What is Python?\n\nPython is a versatile programming language known for its simplicity and readability.\nPython has become a dominant tool in various fields including data analysis, machine learning, and web development.\n\nIt is widely used among developers, data scientists, and researchers for building applications and performing data-driven tasks.\nPython is open source and has a vast ecosystem of libraries and frameworks."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-01-2025-0825.html#what-is-jupyter",
+    "href": "danl-lec/danl-299-lec-01-2025-0825.html#what-is-jupyter",
+    "title": "Lecture 1",
+    "section": "What is Jupyter?",
+    "text": "What is Jupyter?\n\nJupyter is an open-source IDE primarily for Python, though it supports many other languages.\n\nJupyter provides a notebook interface that allows users to write and execute code in a more interactive and visual format.\n\nJupyter Notebook (*.ipynb) is a user-friendly environment that enhances coding, data analysis, and visualization.\n\nIt offers a web-based interface that combines live code, equations, visualizations, and narrative text.\nJupyter Notebook is widely used for data science, machine learning, and research, enabling easy sharing and collaboration.\n\nWe will use a free cloud version of Jupyter, which is Google Colab."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-01-2025-0825.html#installing-the-tools-1",
+    "href": "danl-lec/danl-299-lec-01-2025-0825.html#installing-the-tools-1",
+    "title": "Lecture 1",
+    "section": "Installing the Tools",
+    "text": "Installing the Tools\nAnaconda\n\nTo install Anaconda, go to the following download page:\n\nhttps://www.anaconda.com/products/distribution.\nClick the “Download” button."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-01-2025-0825.html#installing-the-tools-2",
+    "href": "danl-lec/danl-299-lec-01-2025-0825.html#installing-the-tools-2",
+    "title": "Lecture 1",
+    "section": "Installing the Tools",
+    "text": "Installing the Tools\nR programming\n\nThe R language is available as a free download from the R Project website at:\n\nWindows: https://cran.r-project.org/bin/windows/base/\nMac: https://cran.r-project.org/bin/macosx/\nDownload the file of R that corresponds to your Mac OS (Big Sur, Apple silicon arm64, High Sierra, El Capitan, Mavericks, etc.)"
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-01-2025-0825.html#installing-the-tools-3",
+    "href": "danl-lec/danl-299-lec-01-2025-0825.html#installing-the-tools-3",
+    "title": "Lecture 1",
+    "section": "Installing the Tools",
+    "text": "Installing the Tools\nR Studio\n\n\nThe RStudio Desktop is available as a free download from the following webpage:\n\nhttps://www.rstudio.com/products/rstudio/download/#download\n\n\n\n\n\n\nFor Mac users, try the following steps:\n\nRun RStudio-*.dmg file.\nFrom the Pop-up menu, click the RStudio icon.\nWhile clicking the RStudio icon, drag it to the Applications directory."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-01-2025-0825.html#installing-the-tools-4",
+    "href": "danl-lec/danl-299-lec-01-2025-0825.html#installing-the-tools-4",
+    "title": "Lecture 1",
+    "section": "Installing the Tools",
+    "text": "Installing the Tools\nRStudio Environment\n\n\n\n\n\nScript Pane is where you write R commands in a script file that you can save.\n\n\n\nAn R script is simply a text file containing R commands.\nRStudio will color-code different elements of your code to make it easier to read.\n\n\n\n\n\n\n\n\nTo open an R script,\n\nFile \\(&gt;\\) New File \\(&gt;\\) R Script\n\n\n\n\n\n\nTo save the R script,\n\nFile \\(&gt;\\) Save"
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-01-2025-0825.html#installing-the-tools-5",
+    "href": "danl-lec/danl-299-lec-01-2025-0825.html#installing-the-tools-5",
+    "title": "Lecture 1",
+    "section": "Installing the Tools",
+    "text": "Installing the Tools\nRStudio Environment\n\n\n\n\n\nConsole Pane allows you to interact directly with the R interpreter and type commands where R will immediately execute them."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-01-2025-0825.html#installing-the-tools-6",
+    "href": "danl-lec/danl-299-lec-01-2025-0825.html#installing-the-tools-6",
+    "title": "Lecture 1",
+    "section": "Installing the Tools",
+    "text": "Installing the Tools\nRStudio Environment\n\n\n\n\n\nEnvironment Pane is where you can see the values of variables, data frames, and other objects that are currently stored in memory.\nType below in the Console Pane, and then hit Enter:\n\na &lt;- 1"
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-01-2025-0825.html#installing-the-tools-7",
+    "href": "danl-lec/danl-299-lec-01-2025-0825.html#installing-the-tools-7",
+    "title": "Lecture 1",
+    "section": "Installing the Tools",
+    "text": "Installing the Tools\nRStudio Environment\n\n\n\n\n\nPlots Pane contains any graphics that you generate from your R code."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-01-2025-0825.html#installing-the-tools-8",
+    "href": "danl-lec/danl-299-lec-01-2025-0825.html#installing-the-tools-8",
+    "title": "Lecture 1",
+    "section": "Installing the Tools",
+    "text": "Installing the Tools\nR Packages and tidyverse\n\nR packages are collections of R functions, compiled code, and data that are combined in a structured format.\n\n\n\nThe tidyverse is a collection of R packages designed for data science that share an underlying design philosophy, grammar, and data structures.\n\nThe tidyverse packages work harmoniously together to make data manipulation, exploration, and visualization more.\nWe will use several R packages from tidyverse throughout the course. (e.g., ggplot2, dplyr, tidyr)"
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-01-2025-0825.html#installing-the-tools-9",
+    "href": "danl-lec/danl-299-lec-01-2025-0825.html#installing-the-tools-9",
+    "title": "Lecture 1",
+    "section": "Installing the Tools",
+    "text": "Installing the Tools\nInstalling R packages with install.packages(\"packageName\")\n\nR packages can be easily installed from within R using functions install.packages(\"packageName\").\n\nTo install the R package tidyverse, type and run the following from R console:\n\n\n\ninstall.packages(\"tidyverse\")\n\nWhile running the above codes, you may encounter the question below from the R Console:\n\n\n\n\nMac: “Do you want to install from sources the packages which need compilation?” from Console Pane.\n\n\n\nWindows: “Would you like to use a personal library instead?” from Pop-up message.\n\n\n\n\nType no in the R Console, and then hit Enter."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-01-2025-0825.html#installing-the-tools-10",
+    "href": "danl-lec/danl-299-lec-01-2025-0825.html#installing-the-tools-10",
+    "title": "Lecture 1",
+    "section": "Installing the Tools",
+    "text": "Installing the Tools\nLoading R packages with library(packageName)\n\nOnce installed, a package is loaded into an R session using library(packageName) so that its functions and data can be used.\n\nTo load the R package tidyverse, type and run the following command from a R script:\n\n\nlibrary(tidyverse)\ndf_mpg &lt;- mpg\n\n\nmpg is the data.frame provided by the R package ggplot2, one of the R pakcages in tidyverse."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-01-2025-0825.html#installing-the-tools-11",
+    "href": "danl-lec/danl-299-lec-01-2025-0825.html#installing-the-tools-11",
+    "title": "Lecture 1",
+    "section": "Installing the Tools",
+    "text": "Installing the Tools\nRStudio Options Setting\n\n\n\n\n\nThis option menu is found by menus as follows:\n\nTools \\(&gt;\\) Global Options\n\nCheck the boxes as in the left.\nChoose the option Never for  Save workspace to .RData on exit:"
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-01-2025-0825.html#building-a-personal-website-on-github",
+    "href": "danl-lec/danl-299-lec-01-2025-0825.html#building-a-personal-website-on-github",
+    "title": "Lecture 1",
+    "section": "Building a Personal Website on GitHub",
+    "text": "Building a Personal Website on GitHub\n\nFollow steps described in Classwork 1."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-01-2025-0825.html#lets-practice-markdown",
+    "href": "danl-lec/danl-299-lec-01-2025-0825.html#lets-practice-markdown",
+    "title": "Lecture 1",
+    "section": "Let’s Practice Markdown!",
+    "text": "Let’s Practice Markdown!\n\nJupyter Notebook, Quarto, and GitHub-based Discussion Boards use markdown as its underlying document syntax.\nLet’s do Classwork 2."
+  },
+  {
+    "objectID": "danl-cw/danl-299-cw-01.html",
+    "href": "danl-cw/danl-299-cw-01.html",
+    "title": "Classwork 1",
+    "section": "",
+    "text": "Getting a GitHub account\nStep 1. Create the GitHub account with your Geneseo email.\n\nGo to GitHub.\nClick “Sign up for GitHub”.\n\n\nChoose your GitHub username carefully:\n\nhttps://USERNAME.github.io will be the address for your website.\nByeong-Hak’s GitHub username is bcdanl, so that Byeong-Hak owns the web address https://bcdanl.github.io.\n\nIt is recommended to have a username with all lower cases.\n\n\n\n\n\nInstalling git if you do not have one.\nStep 2.\n\nCheck whether git is installed in your laptop.\n\n\nFrom the Console Pane in RStudio, click Terminal tab.\n\n\n\n\n\nFrom the Terminal, run the following command to check if your laptop has git installed.\n\ngit --version\n\nIf your computer has git installed, you will see the message below and you do not need to install git:\n\ngit version 2.xx\n\nIf your computer does not have git installed, you will see the message below and you need to install git:\n\n'git' is not recognized as an internal or external command\n\n\nInstall git if you do not have one. Move to the next step if you have git installed in your laptop.\n\n\n\n\nMac\n\nGo to http://git-scm.com/downloads, and download the file.\nClick “macOS”, scroll down the webpage, and then click “installer” from the Binary installer section.\nRun the downloaded file.\n\n\n\n\nWindows\n\nGo to https://gitforwindows.org, and download the file.\nRun the downloaded file.\n\n\n\n\n\nKeep clicking “Next” to complete the installation of git.\nAfter the git installation is done, close RStudio and re-open it.\n\n\nHow to open git installation file on Mac?\n\nRun the downloaded file.\nClick Okay\nGo to “Setting” &gt; “Privacy and Security”\nGo to “General” or scroll down\nClick “Open Anyway”\n\n\n\n\n\n\n\n\nSetting up GitHub Credential on your local Git.\nStep 3. In Terminal, run the following commands one by one:\ngit config --global user.email \"YOUR_EMAIL_ADDRESS\"\ngit config --global user.name \"YOUR_USERNAME\"\nFor example, the email address for my GitHub account is bchoe@geneseo.edu, and my GitHub username is bcdanl, so that I ran below:\ngit config --global user.email \"bchoe@geneseo.edu\"\ngit config --global user.name \"bcdanl\"\n\nStep 4. Obtain a personal access token (PAT) from GitHub.\n\nIn RStudio Console, run the followings line by line:\n\ninstall.packages(\"usethis\")\nusethis::create_github_token()\n\nThen, click “Generate token” in the pop-upped web browser.\nWe can think of GitHub’s personal access token as a password that expires. You can decide how long it remains valid. My recommendation is to set its expiration for May 31, 2025, or later.\n\n\n\n\n\nThen, copy the generated PAT, and paste it to your clipboard or R script.\n\n\nStep 5. Set the GitHub credential using the PAT.\n\nIn RStudio Console, run the followings line by line:\n\ninstall.packages(\"gitcreds\")\ngitcreds::gitcreds_set()\n\nYou will be asked to provide your PAT.\nPaste your PAT to the RStudio Console, and then hit Enter.\n\n\n\n\n\n\n\nNote\n\n\n\n\nIt does not harm to create multiple PAT for one GitHub account.\nAfter the PAT expires, you should repeat the following if you want to update your GitHub website:\n\n\nCreate a new PAT:\n\nusethis::create_github_token()\n\nReplace the current PAT with the new PAT:\n\ngitcreds::gitcreds_set()\n\nSelect the option 2: Replace these credentials by typing 2 and hitting Enter on R Console.\n\n\n\n\n\n\nEstablishing the Connection between GitHub repo and your local Git\nStep 6. Login to your GitHib and make the repository.\n\nFrom https://github.com, click the plus [+] icon in the upper right corner and select “New repository”.\nName this repo USERNAME.github.io, which will be the domain for your website.\n\n\ne.g., If your GitHub username is abc9, the name of your repo should be abc9.github.io, not abc_9.github.io.\n\n\nThen, copy the web address of your GitHub repo, https://github.com/USERNAME/USERNAME.github.io\n\n\nFor example, the web address for Byeong-Hak’s GitHub repo is https://github.com/bcdanl/bcdanl.github.io.\n\n\nStep 7. Create a RStudio project with Version Control\n\n\n\n\nClick “Project (None)” at the top-right corner in RStudio.\nClick “New Project” &gt; “Version Control” &gt; “Git”\nPaste the web address of your GitHub repo to the Repository URL menu.\nClick “Browse” to select the parent directory for your local project directory (I recommend “Documents” folder.)\nClick “Create”\n\n\n\n\n\n\n\nNote\n\n\n\nIf Step 7 does not work on your laptop, try below Steps 7-1 and 7-2 instead. If Step 7 DOES work well, skip Steps 7-1 and 7-2.\n\n\nStep 7-1. Use git clone to establish the connection between GitHub repo and your local laptop:\n\nChange directory to “Documents” in Terminal using cd command.\n\ncd &lt;pathname of \"Documents\" directory&gt;\n\nHere, you need to know the pathname of “Documents” directory.\nFor example, LAPTOP_USERNAME below is not your GitHub username but one for your local laptop.\n\nMac\ncd /Users/LAPTOP_USERNAME/Documents\nWindows\ncd C:/Users/LAPTOP_USERNAME/Documents\n\nUse git clone to creates a local copy of the GitHub Repository.\n\ngit clone &lt;repository-url&gt;\n\nFor example,\n\ngit clone https://github.com/USERNAME/USERNAME.github.io\n\nStep 7-2. Create a RStudio project from Existing Directory\n\nClick “Project (None)” at the top-right corner in RStudio.\nClick “New Project” &gt; “Existing Directory”\nClick “Browse” to select the local copy of the GitHub Repository\nClick “Create Project”\n\n\n\n\nDownloading Website Template Files\nStep 8. Download the files of website template:\n\nGo to the following webpage: https://github.com/bcdanl/danl-website-template\nFrom the webpage above, click the green icon &lt; &gt; Code, and then click “Download Zip”\nExtract the Zip file you have downloaded\nIf there are the files, .gitignore, .DS_Store, or *.Rproj, in the folder, delete all of them.\nMove all the files that were compressed in the Zip file to your local project directory, USERNAME.github.io.\n\n\nSelect all the files in the danl-website-template folder (Tip: Ctrl + A (Windows) / command + A (Mac) selects all files in a directory).\nThen, Ctrl + C (Windows) / command + C (Mac) to copy them.\nThen, go to your local project directory USERNAME.github.io.\nThen, Ctrl + V (Windows) / command + V (Mac) to paste them to your local project directory USERNAME.github.io.\n\n\nRemove the danl-website-template directory from your local project directory, if you have one.\n\n\nAll the website files should be located at the same level with the R Project file (USERNAME.github.io.Rproj), shown below.\n\n\n\n\n\n\n\nPushing the Website Files to the GitHub repository\n\n\n\nStep 8. Push the files to your GitHub repository\n\nOn Terminal within RStudio, execute the following 3-step git commands, which will stage, commit, and push all the files in the local working directory to your GitHub repository:\n\n\ngit add . adds changes in your local working directory (e.g., edited files, new files, deleted files) to the staging area, which is a temporary area where you can prepare your next commit\n\ngit add .\n\ngit commit -m \"...\" records the changes in the staging area as a new snapshot in the local working directory, along with a message describing the changes.\n\ngit commit -m \"any message to describe the changes\"\n\ngit push uploads the local changes to the online repository in GitHub.\n\ngit push\n\nStep 9. Check whether the files are well uploaded.\n\nGo to the webpages of your GitHub repository and your website:\n\nhttps://github.com/USERNAME/USERNAME.github.io.git\nhttps://USERNAME.github.io\nRefresh the webpages (Ctrl + R for Windows users; cmd + R for Mac users)\n\nAdd a URL for your website (https://YOUR_GITHUB_USERNAME.github.io/) in About section in your GihtHub repository webpage by clicking the setting. Below describes how to do it:\n\n\n\n\nDiscussion\nWelcome to our Classwork 1 Discussion Board! 👋 \nThis space is designed for you to engage with your classmates about the material covered in Classwork 1.\nWhether you are looking to delve deeper into the content, share insights, or have questions about the content, this is the perfect place for you.\nIf you have any specific questions for Byeong-Hak (@bcdanl) regarding the Classwork 1 materials or need clarification on any points, don’t hesitate to ask here.\nAll comments will be stored here.\nLet’s collaborate and learn from each other!\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "listing-danl-299-cw.html",
+    "href": "listing-danl-299-cw.html",
+    "title": "DANL 299 - Classwork",
+    "section": "",
+    "text": "Title\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nClasswork 2\n\n\nMarkdown Basics\n\n\nAugust 27, 2025\n\n\n\n\nClasswork 1\n\n\nBuilding a Personal Website using Git, GitHub, and RStudio with Quarto\n\n\nAugust 25, 2025\n\n\n\n\n\n\nNo matching items\n\n Back to top"
+  },
+  {
+    "objectID": "danl-wk/wk-01.html",
+    "href": "danl-wk/wk-01.html",
+    "title": "Week 1",
+    "section": "",
+    "text": "Welcome to DANL 299! 👋\nIn this first week, we will explore what you can expect to learn in this course and review the logistics, including the structure of lectures, classes, and assessments, as well as how we will interact throughout the semester. This week also sets the stage for what is ahead by introducing key tools and basics in Python programming."
+  },
+  {
+    "objectID": "danl-wk/wk-01.html#lecture-slides",
+    "href": "danl-wk/wk-01.html#lecture-slides",
+    "title": "Week 1",
+    "section": "🏫 Lecture Slides",
+    "text": "🏫 Lecture Slides\nEither click on the slide area below or click here to view it in fullscreen.\n\n\n\n\n🎥 Looking for lecture recordings? You can only find those on Brightspace."
+  },
+  {
+    "objectID": "danl-wk/wk-01.html#classwork",
+    "href": "danl-wk/wk-01.html#classwork",
+    "title": "Week 1",
+    "section": "✍️ Classwork",
+    "text": "✍️ Classwork\n🚧 Come back after the lecture to read the coursework instructions for the week 🚧"
+  },
+  {
+    "objectID": "danl-wk/wk-01.html#recommended-reading",
+    "href": "danl-wk/wk-01.html#recommended-reading",
+    "title": "Week 1",
+    "section": "📚 Recommended Reading",
+    "text": "📚 Recommended Reading\n\nCheck the end of slides for the list of references cited in the lecture."
+  },
+  {
+    "objectID": "danl-wk/wk-01.html#discussion",
+    "href": "danl-wk/wk-01.html#discussion",
+    "title": "Week 1",
+    "section": "💬 Discussion",
+    "text": "💬 Discussion\nWelcome to our Week 1 Discussion Board! 👋 \nThis space is designed for you to engage with your classmates about the material covered in Week 1.\nWhether you are looking to delve deeper into the content, share insights, or have questions about the content, this is the perfect place for you.\nIf you have any specific questions for Byeong-Hak (@bcdanl) or peer classmate (@GitHub-Username) regarding the Week 1 materials or need clarification on any points, don’t hesitate to ask here.\nLet’s collaborate and learn from each other!"
+  },
+  {
+    "objectID": "syllabus.html",
+    "href": "syllabus.html",
+    "title": "Syllabus",
+    "section": "",
+    "text": "Course Information\n\nInstructor: Byeong-Hak Choe\nEmail: bchoe@geneseo.edu\nPhone: (585) 245-5425\nClass Websites:\n\nGitHub Course Website\nBrightspace Course Shell\n\nOffice: South Hall 227B\nOffice Hours:\n\nMondays and Wednesdays 3:30 P.M. – 5:00 P.M.\nBy appointment via email\n\n\n\n\nCourse Description\nThis course aims to provide overview of how one can manipulate, process, clean, crunch, and collect data with hands-on and practical case studies that show you how to solve a broad set of data analysis problems effectively. We will use a computing development environment, Jupyter Notebook, which is a shell and notebook for exploratory computing. This course will cover topics such as (1) loading, cleaning, transforming, merging, and reshaping data, (2) creating informative visualizations, (3) dataset slicing, dicing, and summarizing, and (4) collecting data via web scraping and application programming interfaces (APIs). We will cover these topics to solve real-world data analysis problems with thorough, detailed examples. Computing is done in Python. Throughout the course, students will gain hands-on experience with Python and its data analysis libraries (e.g., pandas, seaborn, requests, selenium), along with practical applications of git and GitHub. We will use Python in a Jupyter Notebook environment, along with practical applications of Git and GitHub.\n\n\nSchool of Business Mission\nThe School of Business at SUNY Geneseo is committed to exceptional business and economics education within the context of a strong liberal arts tradition. The School is distinguished by a uniquely accomplished and dedicated faculty, motivated and capable students, a robust professional development program, and the engaged support of alumni, employers, and business leaders. Students acquire strong quantitative, analytical, and communication skills while preparing for professional success as socially conscious contributors. We strive for teaching excellence, and we recognize that high-quality faculty scholarship and professional activities increase our impact on knowledge, practice, and pedagogy.\n\n\nBachelor of Arts in Data Analytics Program Competency Goals\n\nCompetency Goal 1: Our learners will have strong analytical skills.\nCompetency Goal 2: Our learners will have strong quantitative skills.\nCompetency Goal 3: Our learners will have effective communications skills.\nCompetency Goal 4: Our learners will have a thorough understanding of various functional areas of business.\nCompetency Goal 5: Our learners will have a multidimensional understanding of social responsibility.\n\n\n\nCourse Learning Outcomes\n\nUnderstand methods and attributes of numerous data set objects represented in Python Programming;\nKnow how to perform a multitude of data operations in Python Programming such as grouping, pivoting, and joining;\nKnow how to manipulate, process, and clean all types of data sets (including broken and incomplete) in Python for data analytics applications;\nKnow how to effectively present and visualize resulting data;\nKnow how to effectively collect data;\nUnderstand how to solve broad set of data analytics problems and describe how Python Programming is used strategically and tactically for them.\n\n\n\nCourse Requirements\n\nHomework: 5 assignments\nProject: There will be one project on a personal website.\nExams: 2 midterms and 1 final\nTools:\n\nRStudio Desktop\n\nTerms of Use\n\nAnaconda Distribution\n\nTerms of Service\n\nGoogle Colab\n\nTerms of Service\n\nGitHub\n\nSite Policy\n\nBrightspace\n\nPrivacy Policy\n\nMicrosoft Teams\n\nServices Agreement\n\n\n\n\n\nProject\n\nAgenda: Unifying ESG Metrics with Financial Analysis\n\nDeliverables: Code + write-up published on team websites\n\nGrading based on: data collection, EDA, business/economic analysis, and website usage\n\n\n\nRecommended References\nWe will be drawing material from a wide variety of sources for this course; as such, there is no single, required textbook per se.\n\nPython for Data Analysis – Wes McKinney\n\nPython Programming for Data Science – Beuzen\n\nCoding for Economists – Turrell\n\nPython for Econometrics in Economics – Raters\n\nQuantEcon Data Science\n\nQuarto Guide\n\n\n\nCourse Schedule\n\n\n\n\n\n\n\n\n\nWeek\nDates\nTopic\nNotes\n\n\n\n\n1\nAug 25–29\nInstalling Tools\n\n\n\n2\nSep 2–5\nPython Basics (Part 1)\nLabor Day (Sep 1)\n\n\n3\nSep 8–12\nPython Basics (Part 2)\nHW 1\n\n\n4\nSep 15–19\nDataFrame operations with pandas (Part 1)\n\n\n\n5\nSep 22–26\nDataFrame operations with pandas (Part 2)\n\n\n\n6\nSep 29–Oct 3\nDataFrame operations with pandas (Part 3)\nHW 2\n\n\n7\nOct 6–10\nDataFrame operations with pandas (Part 4)\nMidterm Exam I\n\n\n8\nOct 15–17\nWeb scraping with pandas.read_html()\nFall Break (Oct 13–14)\n\n\n9\nOct 20–24\nWeb scraping with Selenium (Part 1)\n\n\n\n10\nOct 27–31\nWeb scraping with Selenium (Part 2)\nHW 3\n\n\n11\nNov 3–7\nData Collection with APIs\nHW 4\n\n\n12\nNov 10–14\nData Collection with APIs (Part 2)\nMidterm Exam II\n\n\n13\nNov 17–21\nDataFrame Group operations (Part 1)\n\n\n\n14\nNov 24–25\nDataFrame Group operations (Part 2)\nThanksgiving Break (Nov 26–28)\n\n\n15\nDec 1–5\nDataFrame Group operations (Part 3)\n\n\n\n16\nDec 8\nDataFrame Group operations (Part 4)\nHW 5\n\n\n\n\nExam Schedule\n\nMidterm Exam 1: during class time in the week 7 (Oct 6–10)\nMidterm Exam 2: during class time in the week 12 (Nov 10–14)\nFinal Exam: To be determined  \n\n\n\n\nAttendance\nStudents are allowed up to four absences without penalty. Additional absences may affect your grade unless they are formally excused. If you must miss class for a standard excused reason (e.g., illness, family emergency, transportation issues), please notify me at bchoe@geneseo.edu so the absence can be recorded appropriately.\nRegular attendance is expected, as discussions, activities, and projects are central to your learning. If you anticipate challenges that may affect your attendance, please reach out—I am happy to work with you to help you stay on track.\n\n\nGrading\n\nTotal Percentage Grade\n\nAttendance: 5%\n\nHomework: 20% (single lowest homework score dropped)\n\nProject: 25%\n\nExams: 50% \\[\n\\begin{align}\n\\quad\\\\\n&\\text{(Total Percentage Score)} \\\\\n= &\\quad\\; 0.05 \\times \\text{(Attendance)} \\\\\n&+ 0.05 \\times \\text{(Quiz \\& Participation)}\\\\\n&+ 0.20 \\times \\text{(Homework)}\\\\\n&+ 0.20 \\times \\text{(Project)}\\\\\n&+ 0.50 \\times \\text{(Exams)}\n\\end{align}\n\\]\n\nExam Score Calculations\n\n\\[\n\\begin{align}\n&\\quad(\\text{Midterm Exam Score})\\\\\n&= \\max\\left\\{0.50 \\times \\text{(Midterm 1 Score)} + 0.50 \\times \\text{(Midterm 2 Score)},\\right.\\\\\n&\\qquad\\quad\\;\\;\\,\\left.0.25 \\times \\text{(Midterm 1 Score)} + 0.75 \\times \\text{(Midterm 2 Score)}\\right\\}.\\\\\n\\quad\\\\\n&\\quad(\\text{Total Exam Score})\\\\\n&= \\max\\left\\{0.50 \\times \\text{(Midterm Exam Score)} + 0.50 \\times \\text{(Final Exam Score)},\\right.\\\\\n&\\qquad\\quad\\;\\;\\,\\left.0.25 \\times \\text{(Midterm Exam Score)} + 0.75 \\times \\text{(Final Exam Score)}\\right\\}.\n\\end{align}\n\\]\n\nLetter Grade Scale\nTotal percentage scores are converted to letter grades according to the following ranges:\n\n\\[\n\\begin{align}\n100 &≥ A ≥ 93 &gt; A− ≥ 90\\\\\n90 &&gt; B+ ≥ 87 &gt; B ≥ 83 &gt; B− ≥ 80\\\\\n80 &&gt; C+ ≥ 77 &gt; C ≥ 73 &gt; C− ≥ 70\\\\\n70 &&gt; D ≥ 60 &gt; E\n\\end{align}\n\\]\n\n\nPolicies\n\nMake-up Exams\nMake-up exams will not be given unless you have either a medically verified excuse or an absence excused by the University. For religious obligations, notify the instructor by email at least two weeks in advance to set an alternative time. A missed exam without an excused absence earns a grade of zero.\n\n\nArtificial Intelligence (AI)\nUnless AI tools are explicitly permitted for homework or in-class quizzes, you must complete your work independently. Using tools like ChatGPT for any aspect of coursework is a form of academic dishonesty and undermines the development of your own skills. If you have questions, please ask.\n\n\n\n\n\n\n📝 If you use AI for a particular assignment and/or project, you must also:\n\n📝 You must document which AI platforms and tools you used.\n📤 You must include your prompts and AI outputs with your assignment submission.\n🧠 You must include a reflection on your AI usage and learning process.\n\n\n\n\nAcademic Integrity and Plagiarism\nAll homework assignments and exams must be your original work. Academic dishonesty will not be tolerated. Examples include:\n\nRepresenting the work, thoughts, or ideas of another person as your own\n\nAllowing others to represent your work, thoughts, or ideas as theirs\n\nBeing complicit in academic dishonesty by suspecting or knowing of it and not taking action\n\nSee: Academic Dishonesty Policy and Procedures and Plagiarism Tutorial Brightspace Link\n\n\n\n\nAccessibility\nSUNY Geneseo is dedicated to providing an equitable and inclusive educational experience for all students. The Office of Accessibility (OAS) will coordinate reasonable accommodations for persons with disabilities to ensure equal access to academic programs, activities, and services offered by SUNY Geneseo.\nStudents with approved accommodations may submit a semester request to renew their academic accommodations. More information on the process for requesting academic accommodations is on the OAS website.\nQuestions? Contact the OAS by email, phone, or in-person:\nOffice of Accessibility Services\nErwin Hall 22\n585-245-5112\naccess@geneseo.edu\n\n\nPublic Health and Class Attendance\nIf you are experiencing symptoms associated with COVID on a day that class meets in-person, do not attend. Communicate proactively about absences and contact the Dean of Students if you expect to be out for an extended period.\n\n\nReligious Observations and Class Attendance\nNew York State Education Law 224-a stipulates that “any student in an institution of higher education who is unable, because of [their] religious beliefs, to attend classes on a particular day or days shall, because of such absence on the particular day or days, be excused from any examination or any study or work requirements” (see General Classroom Policies for more information). SUNY Geneseo has a commitment to inclusion and belonging, and I want to stress my respect for the diverse identities and faith traditions of students in my class. If you anticipate an absence due to religious observations, please contact me as soon as possible in advance to discuss your needs and arrange make up plans. The New York State Department of Civil Service maintains a calendar of major religious observations.\n\n\nMilitary Obligations and Class Attendance\nFederal and New York State law requires institutions of higher education to provide an excused leave of absence from classes without penalty to students enrolled in the National Guard or armed forces reserves who are called to active duty. If you are called to active military duty and need to miss classes, please let me know and consult as soon as possible with the Dean of Students.\n\n\nBias-Related Incidents\n\n“We are here to listen, to learn, to teach, to debate, to change, to grow. We should all be safe to pursue these goals at SUNY Geneseo while being who we are. Together, we commit ourselves to pluralism, cultivating a community that respects difference and promotes a sense of inclusion and belonging.”\n\nAs this excerpt from our Community Commitment to Diversity, Equity, and Inclusion states, here at SUNY Geneseo, we want to provide a space where everyone feels welcome to learn and grow in their identities as well as in their role as students, faculty, and staff. If in the unfortunate instance you witness or experience an incident of bias, we encourage you to reach out to the Chief Diversity Officer, Director of Multicultural Affairs, and/or our University Police Department. You may also choose to report it through the bias-related incident reporting form. In trying to create an environment that facilitates growth through diverse thoughts and ideas, reporting incidents of bias - including threats, vandalism, and microaggressive behaviors - can help bring a better understanding of our campus climate as well as provide opportunities for learning and restoring harm.\n\n\n\nPersonal Health, Well-being, and Basic Needs\n\nWell-Being\nPrioritizing well-being can support the achievement of academic goals and alleviate stress. Eating nutritious foods, getting enough sleep, exercising, avoiding drugs and alcohol, maintaining healthy relationships, and building in time to relax all help promote a healthy lifestyle and general well-being. Your health and wellbeing are foundational to your ability to learn, and if you find that you are feeling unwell (physically or mentally) and it is impacting your ability to complete your coursework, please reach out. In a similar way, I will occasionally ask for some patience and flexibility on your part.\nIf I am slow responding to an email, if I take some time to grade an assignment, or if I am a bit late posting course materials, please be patient (and feel free to send me a ‘nudge’; I will not be offended). You will never suffer any disadvantage in the course because of delays on my part. Remember that we are all in this together.\n\n\nBasic Needs Statement\nIn order to foster a sense of belonging and connection, a state of financial, mental, emotional and physical stability must be achieved. If you are facing food insecurity, displacement, an emergency, crisis, or health-related or medical expense, you are not alone. Concerns about academic performance, health situations, family health and wellness (including the loss of a loved one), interpersonal relationships and commitments, and other factors can contribute to stress. Students are strongly encouraged to communicate their needs to faculty and staff and seek support if they are experiencing unmanageable stress or are having difficulties with daily functioning. The Dean of Students (585-245-5706) can assist and provide direction to appropriate campus resources. For more information, visit the Dean of Students Office website.\n\n\nMental Health\nAs a student, you may experience a range of challenges that can impact your mental health and thus impact your learning; common examples include increased anxiety, shifts in mood, strained relationships, difficulties related to substance use, trouble concentrating, and lack of motivation, among many others. These experiences may reduce your ability to participate fully in daily activities and affect your academic performance.\nSUNY Geneseo offers free, confidential counseling for students through Student Health and Counseling, and seeking support for your mental health can be key to your success at college. You can learn more about the various mental health services available on campus online. To request a counseling appointment, please complete the online form.\n\n\nGuidelines for Attendance and Public Health\nSUNY Geneseo is a residential liberal arts college where we all learn together in a shared space. This classroom community is vital for engaging in discussions, solving problems, and answering questions together. Learning is an active process, and it requires engagement - on my part and yours. I promise to create an interactive and collaborative classroom space, and in return I expect you to attend and engage in the activities.\nIt’s possible that some of you may get sick over the course of the semester. Because we want you to be successful and because we value your contribution to the course, we expect you to prioritize attendance. If you are not feeling well and your symptoms do not allow you to attend class, stay home (except to go to the health center), rest, and take care of yourself. You can find more guidelines from the Center for Disease Control for precautions when sick which cover flu, COVID, and other illnesses.\nI expect you to communicate with me directly about your absences. I can support you to keep up with class if you are out for an illness, but I need you to take responsibility for being transparent and clear in letting me know when you are out and why. Although I can work with you on keeping up, you may miss some course content and extended absences may impact your ability to realize your full potential in this class. For extended absences (i.e., more than a couple of days of classes), you should contact the Dean of Students who can assist with reaching out to your faculty.\n\n\nFood Security for SUNY Geneseo Students\nSUNY Geneseo is committed to supporting students who are experiencing food insecurity. If you’re unfamiliar with the phrase “food insecurity,” you can learn more at the following link on Feeding America’s website: Understanding Food Insecurity.\nKnights’ Harvest Pantry, our on-campus food pantry, is a collaborative initiative supported by Campus Auxiliary Services (CAS) and facilitated by trained student volunteers. The program is advised by the Assistant Director of Student Volunteerism and Community Engagement in partnership with the Geneseo Opportunities for Leadership Development (GOLD) program.\nStudents who are in need can confidentially request a bag of food and basic hygiene supplies through our website. These bags typically include non-perishable items and, when available, fresh fruits, vegetables, meat, and dairy products. Pickups take place at the GOLD Leadership Center in MacVittie College Union, Room 114.\nWe are committed to protecting student privacy and promoting dignity, while also working to destigmatize food insecurity on our campus. If Knights’ Harvest Pantry does not fully meet your needs or if you’d prefer to discuss your situation privately, please reach out to Cheyenne DeMarco, Assistant Director of Student Volunteerism and Community Engagement, at cdemarco@geneseo.edu for a one-on-one consultation.\nPlease note that Knights’ Harvest Pantry is closed during official SUNY breaks, including Fall Break, Winter Intersession, Spring Break, and summer between semesters. During these times, students are encouraged to access the Geneseo-Groveland Emergency Food Pantry, located at 31 Center Street, Geneseo, NY 14454. For updates on pantry hours, events, and additional support opportunities, follow us on Instagram or Facebook: @knightsharvestgeneseo. For questions or support, contact Cheyenne DeMarco at cdemarco@geneseo.edu or (585) 245-5893.\n\n\nEmergency Funding\nThe college has three sources of emergency funding for students experiencing short-term financial crises. The Camiolo Student Emergency Loan Fund (SELF) provides short-term loans to students for situations both temporary and beyond their control. The SELF was established with the expectation that students who use the fund seek to “pay it forward” as soon as they are able by contributing to the fund so other students can be helped, too. While there is not a legal obligation, the donors hope that student loan recipients respect and honor the value of community and helping others in their time of crisis. The One Knight Student Aid Emergency Fund assists Geneseo students who are facing financial emergencies mainly related to the COVID-19 pandemic. The fund offers grants (one-time award) depending on a student’s documented financial need. For those students expecting a refund from financial aid, a Temple Hill loan of up to $500 can be offered prior to the approved loan dispersal. If you are experiencing financial hardship, please contact the Dean of Students (585-245-5706), who can assist and provide direction to appropriate campus resources.\n\n\n\nSUNY Geneseo’s Commitments, Mission and Values\nSUNY Geneseo has several core documents that articulate our shared commitments and learning objectives. These include:\n\nSUNY Geneseo Mission, Vision and Values\nCommunity Commitment to Diversity, Equity, and Inclusion\nSustainability as a Core Value\nGeneseo Learning Outcomes for Baccalaureate Education\n\n\n\nDisclaimer\nThe syllabus may be subject to change during the semester. If it is changed, you will be notified via email and Brightspace.\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "danl-cw/danl-299-cw-02.html",
+    "href": "danl-cw/danl-299-cw-02.html",
+    "title": "Classwork 2",
+    "section": "",
+    "text": "Markdown is a lightweight markup language with plain-text formatting syntax. Its main goal is to be readable and easy to write, even when viewed as plain text. Markdown is widely used for creating formatted text on the web and in various applications such as Quarto.\n\n\n\n\nHeadings are created by adding one or more # symbols before your heading text. The number of # symbols indicates the level of the heading.\n# Heading 1\n## Heading 2\n### Heading 3\n\n\n\nYou can make text bold by wrapping it with two asterisks **, and italic by using one asterisk *.\n*italic* or _italic_\n**bold** or __bold__\n\n\n\nUnordered lists are created using *, -, or +, while ordered lists are numbered.\n- Item 1\n- Item 2\n  - Subitem 2.1\n  - Subitem 2.2\n1. First item\n2. Second item\n\n\n\nLinks are created using [Link Text](URL)\n[DANL 210](https://bcdanl.github.io/210)\n\n\n\nImages are created using ![Alt Text](Image URL).\n![Geneseo Logo](https://bcdanl.github.io/img/geneseo-logo.gif)\n\n\n\n\n\n\n&gt; Be yourself. Everyone else is already taken. - Oscar Wilde.\n\n\n\n\nA ton of markdown emojis are available here 😄 (:smile:)\n\nhttps://github.com/ikatyang/emoji-cheat-sheet\n\n\n\n\n\nCode blocks are created by using triple backticks (```). Optionally, you can specify the language for syntax highlighting.\n```\n\"string\"\n```\n```python\n# Python code block\nimport numpy as np\n```\n\n\n\n\n\nDo the following tasks on this Classwork 2 Discussion Board:\n\nBasic Syntax: Write a comment with a heading, an unordered list, an ordered list, a link, and an image.\nAdvanced Syntax: Write a comment that includes a Python code block, a blockquote, and an emoji.\n\n\n\n\n\n\nQuarto Markdown Basics\nStart writing on GitHub"
+  },
+  {
+    "objectID": "danl-cw/danl-299-cw-02.html#basic-syntax",
+    "href": "danl-cw/danl-299-cw-02.html#basic-syntax",
+    "title": "Classwork 2",
+    "section": "",
+    "text": "Headings are created by adding one or more # symbols before your heading text. The number of # symbols indicates the level of the heading.\n# Heading 1\n## Heading 2\n### Heading 3\n\n\n\nYou can make text bold by wrapping it with two asterisks **, and italic by using one asterisk *.\n*italic* or _italic_\n**bold** or __bold__\n\n\n\nUnordered lists are created using *, -, or +, while ordered lists are numbered.\n- Item 1\n- Item 2\n  - Subitem 2.1\n  - Subitem 2.2\n1. First item\n2. Second item\n\n\n\nLinks are created using [Link Text](URL)\n[DANL 210](https://bcdanl.github.io/210)\n\n\n\nImages are created using ![Alt Text](Image URL).\n![Geneseo Logo](https://bcdanl.github.io/img/geneseo-logo.gif)"
+  },
+  {
+    "objectID": "danl-cw/danl-299-cw-02.html#advanced-syntax",
+    "href": "danl-cw/danl-299-cw-02.html#advanced-syntax",
+    "title": "Classwork 2",
+    "section": "",
+    "text": "&gt; Be yourself. Everyone else is already taken. - Oscar Wilde.\n\n\n\n\nA ton of markdown emojis are available here 😄 (:smile:)\n\nhttps://github.com/ikatyang/emoji-cheat-sheet\n\n\n\n\n\nCode blocks are created by using triple backticks (```). Optionally, you can specify the language for syntax highlighting.\n```\n\"string\"\n```\n```python\n# Python code block\nimport numpy as np\n```"
+  },
+  {
+    "objectID": "danl-cw/danl-299-cw-02.html#practice-problems",
+    "href": "danl-cw/danl-299-cw-02.html#practice-problems",
+    "title": "Classwork 2",
+    "section": "",
+    "text": "Do the following tasks on this Classwork 2 Discussion Board:\n\nBasic Syntax: Write a comment with a heading, an unordered list, an ordered list, a link, and an image.\nAdvanced Syntax: Write a comment that includes a Python code block, a blockquote, and an emoji."
+  },
+  {
+    "objectID": "danl-cw/danl-299-cw-02.html#references",
+    "href": "danl-cw/danl-299-cw-02.html#references",
+    "title": "Classwork 2",
+    "section": "",
+    "text": "Quarto Markdown Basics\nStart writing on GitHub"
+  }
+]
