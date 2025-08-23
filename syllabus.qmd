@@ -110,7 +110,7 @@ We will be drawing material from a wide variety of sources for this course; as s
 | 5   | Sep 22–26    | DataFrame operations with pandas (Part 2)                                        |       |
 | 6   | Sep 29–Oct 3 | DataFrame operations with pandas (Part 3)                    | HW 2  |
 | 7   | Oct 6–10     | DataFrame operations with pandas (Part 4)                    | Midterm Exam I |
-| 8   | Oct 15–17    | Web scraping with pandas.read_html()                         | Fall Break (Oct 13–14) |
+| 8   | Oct 15–17    | Web scraping with `pandas.read_html()`                         | Fall Break (Oct 13–14) |
 | 9   | Oct 20–24    | Web scraping with Selenium (Part 1)                                 |       |
 | 10  | Oct 27–31    | Web scraping with Selenium (Part 2)                                 | HW 3      |
 | 11  | Nov 3–7      | Data Collection with APIs                                           | HW 4 |
