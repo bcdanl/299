@@ -633,7 +633,8 @@ $$
 ::: {.column width="50%"}
 ### Most Popular Languagues
 
-![](../lec_figs/stackoverflow-py-r-sql.png)
+![](https://bcdanl.github.io/lec_figs/stackoverflow-py-r-sql.png)
+
 :::
 
 
@@ -660,7 +661,7 @@ $$
 
 From 2008 to 2025
  
-![](../lec_figs/stackoverflow-trends-chart-data-science-2024.png)
+![](https://bcdanl.github.io/lec_figs/stackoverflow-trends-chart-data-science-2024.png)
 
 :::
 
