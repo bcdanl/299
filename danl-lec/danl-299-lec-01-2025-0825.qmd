@@ -197,7 +197,7 @@ theme_set(theme_fivethirtyeight()+
 
 - You will create your own website using Quarto, R Studio, and Git. 
 
-- You will publish your homework assignments and team project on your website. 
+- You will publish your homework assignments and a project on your website. 
 
 - Your website will be hosted in [GitHub](https://www.github.com){target="_blank"}. 
 
@@ -226,7 +226,7 @@ theme_set(theme_fivethirtyeight()+
 
 - The project report should include data collection and exploratory data analysis using summary statistics, visual representations, and data wrangling. 
 
-- The document for the team project must be published in each member's website. 
+- The document for the project must be published in each member's website. 
 
 
 
@@ -244,7 +244,7 @@ theme_set(theme_fivethirtyeight()+
 - The **Final Exam** is to be determined.
 
 
-- The due for the **team project** is December 16, 2025, Tuesday, 11:59 P.M., Eastern Time
+- The due for the **project** is December 16, 2025, Tuesday, 11:59 P.M., Eastern Time
 
 
 ## Syllabus
