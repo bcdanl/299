@@ -90,7 +90,7 @@ business.
 
 We will be drawing material from a wide variety of sources for this course; as such, there is no single, required textbook per se.
 
-- [Python for Data Analysis](https://wesmckinney.com/book/) – Wes McKinney  
+- [Python for Data Analysis](https://wesmckinney.com/book/) – Wes McKinney
 - [Python Programming for Data Science](https://www.tomasbeuzen.com/python-programming-for-data-science) – Beuzen  
 - [Coding for Economists](https://aeturrell.github.io/coding-for-economists) – Turrell  
 - [Python for Econometrics in Economics](https://pyecon.org/lecture/) – Raters  
@@ -141,6 +141,7 @@ Regular attendance is expected, as discussions, activities, and projects are cen
   - **Homework**: 20% *(single lowest homework score dropped)*  
   - **Project**: 25%  
   - **Exams**: 50%
+  
 $$
 \begin{align}
 \quad\\
@@ -159,13 +160,29 @@ $$
 \begin{align}
 &\quad(\text{Midterm Exam Score})\\
 &= \max\left\{0.50 \times \text{(Midterm 1 Score)} + 0.50 \times \text{(Midterm 2 Score)},\right.\\ 
-&\qquad\quad\;\;\,\left.0.25 \times \text{(Midterm 1 Score)} + 0.75 \times \text{(Midterm 2 Score)}\right\}.\\
-\quad\\
+&\qquad\quad\;\;\,\left.0.33 \times \text{(Midterm 1 Score)} + 0.67 \times \text{(Midterm 2 Score)}\right\}.
+\end{align}
+$$
+
+- The Midterm Exam Score will be the **higher** of the following two calculations:  
+
+  1. The simple average of Midterm Exam 1 and Midterm Exam 2
+  2. The weighted average, with one-third weight on Midterm Exam 1 and two-thirds weight on Midterm Exam 2
+
+
+$$
+\begin{align}
 &\quad(\text{Total Exam Score})\\
 &= \max\left\{0.50 \times \text{(Midterm Exam Score)} + 0.50 \times \text{(Final Exam Score)},\right.\\ 
 &\qquad\quad\;\;\,\left.0.25 \times \text{(Midterm Exam Score)} + 0.75 \times \text{(Final Exam Score)}\right\}.
 \end{align}
 $$
+
+- The Total Exam Score will be the **higher** of the following two calculations:  
+
+  1. The simple average of Midterm Exam and Final Exam
+  2. The weighted average, with one-fourth weight on Midterm Exam and three-forth weight on Final Exam.
+
 
 - **Letter Grade Scale**  
 Total percentage scores are converted to letter grades according to the following ranges:
