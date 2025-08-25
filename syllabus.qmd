@@ -113,16 +113,16 @@ We will be drawing material from a wide variety of sources for this course; as s
 | 8   | Oct 15–17    | Web scraping with `pandas.read_html()`                         | Fall Break (Oct 13–14) |
 | 9   | Oct 20–24    | Web scraping with Selenium (Part 1)                                 |       |
 | 10  | Oct 27–31    | Web scraping with Selenium (Part 2)                                 | HW 3      |
-| 11  | Nov 3–7      | Data Collection with APIs                                           | HW 4 |
-| 12  | Nov 10–14    | Data Collection with APIs (Part 2)                                 | Midterm Exam II |
-| 13  | Nov 17–21    | DataFrame Group operations (Part 1)                                 |  |
+| 11  | Nov 3–7      | Web scraping with Selenium (Part 3) |  |
+| 12  | Nov 10–14    | Data Collection with APIs (Part 1) | HW 4 |
+| 13  | Nov 17–21    | Data Collection with APIs (Part 2)                                 | Midterm Exam II |
 | 14  | Nov 24–25    | DataFrame Group operations (Part 2)  | Thanksgiving Break (Nov 26–28) |
 | 15  | Dec 1–5      | DataFrame Group operations (Part 3)                                |       |
 | 16  | Dec 8        | DataFrame Group operations (Part 4)                                 | HW 5 |
 
 ### Exam Schedule
 - **Midterm Exam 1**: during class time in the week 7 (Oct 6–10)
-- **Midterm Exam 2**: during class time in the week 12 (Nov 10–14)
+- **Midterm Exam 2**: during class time in the week 13 (Nov 17–21)
 - **Final Exam**: To be determined
   <!-- - **DANL 101-03 (MW 2:00pm-3:15pm)**: December 12, Friday, 3:30 P.M.-5:30 P.M. -->
   <!-- - **DANL 101-04 (MWF 9:30am-10:20am)**: December 16, Tuesday, 8:30 A.M.-10:30 A.M. -->

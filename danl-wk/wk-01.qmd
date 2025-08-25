@@ -23,8 +23,7 @@ Either click on the slide area below or click [here](../danl-lec/danl-299-lec-01
 
 ## ✍️ Classwork
 
-🚧 Come back after the lecture to read the coursework instructions for the week 🚧
-
+🚧 Please complete [Classwork 1](../danl-cw/danl-299-cw-01.qmd){target="_blank"} and [Classwork 2](../danl-cw/danl-299-cw-02.qmd){target="_blank"} to practice building and working with a personal website hosted on GitHub.
 
 ## 📚 Recommended Reading
 
