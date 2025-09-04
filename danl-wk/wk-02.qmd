@@ -1,0 +1,42 @@
+---
+title: Week 2
+subtitle: Introduction, Context & Key Concept
+date: 2025-09-04
+from: markdown+emoji
+---
+
+In our second week, we will explore Jupyter Notebook and Quarto, along with website management and web communication. This week also lays the foundation for what lies ahead by introducing essential tools and the basics of Python programming.
+
+
+## 🏫 Lecture Slides 
+
+Either click on the slide area below or click [here](../danl-lec/danl-299-lec-03-2025-0904.html){target='_blank'} to view it in fullscreen.
+
+<div class="container" style="position: relative;overflow: hidden;width: 100%;min-height:600px;">
+<iframe src="../danl-lec/danl-299-lec-03-2025-0904.html" style="position=absolute;top: 0;left: 0;bottom: 0;right: 0;width: 100%;min-height:600px;"></iframe>
+</div>
+
+
+🎥 Looking for lecture recordings? You can only find those on Brightspace.
+
+## ✍️ Classwork
+
+🚧 Please complete [Classwork 2](../danl-cw/danl-299-cw-02.qmd){target="_blank"} and [Classwork 2](../danl-cw/danl-299-cw-03.qmd){target="_blank"} to practice using Markdown and to manage your personal website for web communication.
+
+
+## 📚 Recommended Reading
+
+- Check the end of slides for the list of references cited in the lecture.
+
+## 💬 Discussion
+
+<font size = "5">Welcome to our Week 2 Discussion Board! 👋 </font>
+
+
+This space is designed for you to engage with your classmates about the material covered in Week 2.
+
+Whether you are looking to delve deeper into the content, share insights, or have questions about the content, this is the perfect place for you.
+
+If you have any specific questions for Byeong-Hak (**@bcdanl**) or peer classmate (@GitHub-Username) regarding the Week 1 materials or need clarification on any points, don't hesitate to ask here. 
+
+Let's collaborate and learn from each other!

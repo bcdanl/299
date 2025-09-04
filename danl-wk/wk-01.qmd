@@ -7,11 +7,12 @@ from: markdown+emoji
 
 Welcome to DANL 299! 👋 
 
-In this first week, we will explore what you can expect to learn in this course and review the logistics, including the structure of lectures, classes, and assessments, as well as how we will interact throughout the semester. This week also sets the stage for what is ahead by introducing key tools and basics in Python programming.
+In this first week, we will explore what you can expect to learn in this course and review the logistics, including the structure of lectures, classes, and assessments, as well as how we will interact throughout the semester. This week also introduces the framework for building and managing a personal website for data analytics.
 
 
 ## 🏫 Lecture Slides 
 
+### Syllabus
 Either click on the slide area below or click [here](../danl-lec/danl-299-lec-01-2025-0825.html){target='_blank'} to view it in fullscreen.
 
 <div class="container" style="position: relative;overflow: hidden;width: 100%;min-height:600px;">
@@ -19,11 +20,20 @@ Either click on the slide area below or click [here](../danl-lec/danl-299-lec-01
 </div>
 
 
+### Introduction and DANL tools
+Either click on the slide area below or click [here](../danl-lec/danl-299-lec-02-2025-0827.html){target='_blank'} to view it in fullscreen.
+
+<div class="container" style="position: relative;overflow: hidden;width: 100%;min-height:600px;">
+<iframe src="../danl-lec/danl-299-lec-02-2025-0827.html" style="position=absolute;top: 0;left: 0;bottom: 0;right: 0;width: 100%;min-height:600px;"></iframe>
+</div>
+
+
+
 🎥 Looking for lecture recordings? You can only find those on Brightspace.
 
 ## ✍️ Classwork
 
-🚧 Please complete [Classwork 1](../danl-cw/danl-299-cw-01.qmd){target="_blank"} and [Classwork 2](../danl-cw/danl-299-cw-02.qmd){target="_blank"} to practice building and working with a personal website hosted on GitHub.
+🚧 Please complete [Classwork 1](../danl-cw/danl-299-cw-01.qmd){target="_blank"} to practice building and working with a personal website hosted on GitHub.
 
 ## 📚 Recommended Reading
 
