@@ -5,7 +5,7 @@ date: 2025-09-04
 from: markdown+emoji
 ---
 
-In our second week, we will explore Jupyter Notebook and Quarto, along with website management and web communication. This week also lays the foundation for what lies ahead by introducing essential tools and the basics of Python programming.
+In our second week, we will explore Jupyter Notebook and Quarto, along with website management and web communication. 
 
 
 ## 🏫 Lecture Slides 
