@@ -282,6 +282,26 @@ else:
 - One conditional construct we're bound to use at some point, is the `if-else` chain:
 
 
+##  Booleans, Conditions, and `if` Statements with `in`
+
+```{.python}
+fruits = ["apple", "banana", "cherry"]
+
+favorite = "banana"
+
+if favorite in fruits:
+    print(f"{favorite} is available!")
+else:
+    print(f"{favorite} is not in the list.")
+```
+
+- The keyword `in` lets you check whether a value is present in a list, string, or other iterable.  
+- This works seamlessly inside an `if-else` structure.  
+- Useful for **membership tests** such as:  
+  - Validating if a company is in a stock list  
+  - Seeing if a word exists in a sentence  
+	
+	
 ##  Indentation
 
 - We have seen that certain parts of the code examples are indented. 
