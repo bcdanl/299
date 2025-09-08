@@ -1,0 +1,40 @@
+---
+title: Week 3
+subtitle: Python Basics
+date: 2025-09-08
+from: markdown+emoji
+---
+
+In our week 3, we will start practicing Python basics
+
+
+## 🏫 Lecture Slides 
+
+- **Lecture 4 — Python Basics I**  
+  [View Slides](../danl-lec/danl-299-lec-04-2025-0908.html){target="_blank"}  
+- **Lecture 5 — Python Basics II**  
+  [View Slides](../danl-lec/danl-299-lec-05-2025-0910.html){target="_blank"}  
+
+🎥 Looking for lecture recordings? You can only find those on Brightspace.
+
+
+## ✍️ Classwork
+
+🚧 Please complete [Classwork 4](../danl-cw/danl-299-cw-04.qmd) to practice basics in Python programming.
+
+## 📚 Recommended Reading
+
+- Check the end of slides for the list of references cited in the lecture.
+
+## 💬 Discussion
+
+<font size = "5">Welcome to our Week 3 Discussion Board! 👋 </font>
+
+
+This space is designed for you to engage with your classmates about the material covered in Week 3.
+
+Whether you are looking to delve deeper into the content, share insights, or have questions about the content, this is the perfect place for you.
+
+If you have any specific questions for Byeong-Hak (**@bcdanl**) or peer classmate (@GitHub-Username) regarding the Week 1 materials or need clarification on any points, don't hesitate to ask here. 
+
+Let's collaborate and learn from each other!
