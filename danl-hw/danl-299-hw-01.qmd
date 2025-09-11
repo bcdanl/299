@@ -23,6 +23,8 @@ language:
 
 - The due is September 22, 2025, 5:15 P.M.
 
+- Please note that the use of generative AI tools (e.g., ChatGPT, Copilot) is prohibited for this assignment.
+
 - Please send Prof. Choe an email ([bchoe@geneseo.edu](mailto::bchoe@geneseo.edu)) if you have any questions.
 
 <br><br><br>
