@@ -433,7 +433,7 @@ Byeong-Hak Choe
 <div class="sourceCode" id="cb1"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1"></a><span class="dv">10</span> <span class="op">==</span> <span class="dv">20</span></span>
 <span id="cb1-2"><a href="#cb1-2"></a><span class="dv">10</span> <span class="op">==</span> <span class="st">'10'</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <ul>
-<li>Boolean data have either <code>True</code> or <code>False</code> value.</li>
+<li class="fragment">Boolean data have either <code>True</code> or <code>False</code> value.</li>
 </ul>
 </section>
 <section id="booleans-conditions-and-if-statements-2" class="slide level2">
@@ -441,12 +441,12 @@ Byeong-Hak Choe
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
 
-<div class="datatables html-widget html-fill-item" id="htmlwidget-1d1c72e02c0257769325" style="width:100%;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-1d1c72e02c0257769325">{"x":{"filter":"none","vertical":false,"data":[["x and y","x or y","not x"],["Are x and y both True?","Is at least one of x and y True?","Is x False?"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>Operator<\/th>\n      <th>Description<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"dom":"t","paging":false,"columnDefs":[{"targets":"_all","orderable":false},{"name":"Operator","targets":0},{"name":"Description","targets":1}],"order":[],"autoWidth":false,"orderClasses":false},"callback":"function(table) {\n\n  // Change header background and text color\n  $('thead th').css('background-color', '#1c4982');\n  $('thead th').css('color', 'white');\n\n  // Loop through each row and alternate background color\n  $('tbody tr').each(function(index) {\n    if (index % 2 == 0) {\n      $(this).css('background-color', '#d1dae6'); // Light color for even rows\n    } else {\n      $(this).css('background-color', '#9fb2cb'); // Dark color for odd rows\n    }\n  });\n\n  // Set text color for all rows\n  $('tbody tr').css('color', 'black');\n\n  // Add hover effect\n  $('tbody tr').hover(\n    function() {\n      $(this).css('background-color', '#607fa7'); // Color when mouse hovers over a row\n    }, \n    function() {\n      var index = $(this).index();\n      if (index % 2 == 0) {\n        $(this).css('background-color', '#d1dae6'); // Restore even row color\n      } else {\n        $(this).css('background-color', '#9fb2cb'); // Restore odd row color\n      }\n    }\n  );\n\n}"},"evals":["callback"],"jsHooks":[]}</script>
+<div class="datatables html-widget html-fill-item" id="htmlwidget-3a6f90d37970d0b88d1e" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-3a6f90d37970d0b88d1e">{"x":{"filter":"none","vertical":false,"data":[["x and y","x or y","not x"],["Are x and y both True?","Is at least one of x and y True?","Is x False?"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>Operator<\/th>\n      <th>Description<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"dom":"t","paging":false,"columnDefs":[{"targets":"_all","orderable":false},{"name":"Operator","targets":0},{"name":"Description","targets":1}],"order":[],"autoWidth":false,"orderClasses":false},"callback":"function(table) {\n\n  // Change header background and text color\n  $('thead th').css('background-color', '#1c4982');\n  $('thead th').css('color', 'white');\n\n  // Loop through each row and alternate background color\n  $('tbody tr').each(function(index) {\n    if (index % 2 == 0) {\n      $(this).css('background-color', '#d1dae6'); // Light color for even rows\n    } else {\n      $(this).css('background-color', '#9fb2cb'); // Dark color for odd rows\n    }\n  });\n\n  // Set text color for all rows\n  $('tbody tr').css('color', 'black');\n\n  // Add hover effect\n  $('tbody tr').hover(\n    function() {\n      $(this).css('background-color', '#607fa7'); // Color when mouse hovers over a row\n    }, \n    function() {\n      var index = $(this).index();\n      if (index % 2 == 0) {\n        $(this).css('background-color', '#d1dae6'); // Restore even row color\n      } else {\n        $(this).css('background-color', '#9fb2cb'); // Restore odd row color\n      }\n    }\n  );\n\n}"},"evals":["callback"],"jsHooks":[]}</script>
 </div>
 </div>
 <ul>
-<li>Existing booleans can be combined, which create a boolean when executed.</li>
+<li class="fragment">Existing booleans can be combined, which create a boolean when executed.</li>
 </ul>
 </section>
 <section id="booleans-conditions-and-if-statements-3" class="slide level2">
@@ -455,8 +455,8 @@ Byeong-Hak Choe
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
 
-<div class="datatables html-widget html-fill-item" id="htmlwidget-4feaa5171611bd676f63" style="width:100%;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-4feaa5171611bd676f63">{"x":{"filter":"none","vertical":false,"data":[["x == y","x != y","x &gt; y","x &gt;= y","x &lt; y","x &lt;= y"],["Is x equal to y?","Is x not equal to y?","Is x greater than y?","Is x greater than or equal to y?","Is x less than y?","Is x less than or equal to y?"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>Operator<\/th>\n      <th>Description<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"dom":"t","paging":false,"columnDefs":[{"targets":"_all","orderable":false},{"name":"Operator","targets":0},{"name":"Description","targets":1}],"order":[],"autoWidth":false,"orderClasses":false},"callback":"function(table) {\n\n  // Change header background and text color\n  $('thead th').css('background-color', '#1c4982');\n  $('thead th').css('color', 'white');\n\n  // Loop through each row and alternate background color\n  $('tbody tr').each(function(index) {\n    if (index % 2 == 0) {\n      $(this).css('background-color', '#d1dae6'); // Light color for even rows\n    } else {\n      $(this).css('background-color', '#9fb2cb'); // Dark color for odd rows\n    }\n  });\n\n  // Set text color for all rows\n  $('tbody tr').css('color', 'black');\n\n  // Add hover effect\n  $('tbody tr').hover(\n    function() {\n      $(this).css('background-color', '#607fa7'); // Color when mouse hovers over a row\n    }, \n    function() {\n      var index = $(this).index();\n      if (index % 2 == 0) {\n        $(this).css('background-color', '#d1dae6'); // Restore even row color\n      } else {\n        $(this).css('background-color', '#9fb2cb'); // Restore odd row color\n      }\n    }\n  );\n\n}"},"evals":["callback"],"jsHooks":[]}</script>
+<div class="datatables html-widget html-fill-item" id="htmlwidget-4e91376f8632663fce4d" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-4e91376f8632663fce4d">{"x":{"filter":"none","vertical":false,"data":[["x == y","x != y","x &gt; y","x &gt;= y","x &lt; y","x &lt;= y"],["Is x equal to y?","Is x not equal to y?","Is x greater than y?","Is x greater than or equal to y?","Is x less than y?","Is x less than or equal to y?"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>Operator<\/th>\n      <th>Description<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"dom":"t","paging":false,"columnDefs":[{"targets":"_all","orderable":false},{"name":"Operator","targets":0},{"name":"Description","targets":1}],"order":[],"autoWidth":false,"orderClasses":false},"callback":"function(table) {\n\n  // Change header background and text color\n  $('thead th').css('background-color', '#1c4982');\n  $('thead th').css('color', 'white');\n\n  // Loop through each row and alternate background color\n  $('tbody tr').each(function(index) {\n    if (index % 2 == 0) {\n      $(this).css('background-color', '#d1dae6'); // Light color for even rows\n    } else {\n      $(this).css('background-color', '#9fb2cb'); // Dark color for odd rows\n    }\n  });\n\n  // Set text color for all rows\n  $('tbody tr').css('color', 'black');\n\n  // Add hover effect\n  $('tbody tr').hover(\n    function() {\n      $(this).css('background-color', '#607fa7'); // Color when mouse hovers over a row\n    }, \n    function() {\n      var index = $(this).index();\n      if (index % 2 == 0) {\n        $(this).css('background-color', '#d1dae6'); // Restore even row color\n      } else {\n        $(this).css('background-color', '#9fb2cb'); // Restore odd row color\n      }\n    }\n  );\n\n}"},"evals":["callback"],"jsHooks":[]}</script>
 </div>
 </div>
 </section>
@@ -468,9 +468,9 @@ Byeong-Hak Choe
 <span id="cb2-4"><a href="#cb2-4"></a>boolean_condition2 <span class="op">=</span> <span class="dv">10</span> <span class="op">==</span> <span class="st">'10'</span></span>
 <span id="cb2-5"><a href="#cb2-5"></a><span class="bu">print</span>(boolean_condition2)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <ul>
-<li><p>The <code>==</code> is an operator that compares the objects on either side and returns <code>True</code> if they have the same values</p></li>
-<li><p><strong>Q</strong>. What does <code>not (not True)</code> evaluate to?</p></li>
-<li><p><strong>Q</strong>. <a href="https://bcdanl.github.io/299/danl-cw/danl-299-cw-04.html#question-2" target="_blank"><strong>Classwork 4.2</strong></a></p></li>
+<li class="fragment"><p>The <code>==</code> is an operator that compares the objects on either side and returns <code>True</code> if they have the same values</p></li>
+<li class="fragment"><p><strong>Q</strong>. What does <code>not (not True)</code> evaluate to?</p></li>
+<li class="fragment"><p><strong>Q</strong>. <a href="https://bcdanl.github.io/299/danl-cw/danl-299-cw-04.html#question-2" target="_blank"><strong>Classwork 4.2</strong></a></p></li>
 </ul>
 </section>
 <section id="booleans-conditions-and-if-statements-5" class="slide level2">
@@ -487,7 +487,7 @@ Byeong-Hak Choe
 <span id="cb3-10"><a href="#cb3-10"></a><span class="cf">if</span> name <span class="op">!=</span> <span class="st">"Geneseo"</span> <span class="kw">and</span> score <span class="op">&gt;</span> <span class="dv">90</span>:</span>
 <span id="cb3-11"><a href="#cb3-11"></a>    <span class="bu">print</span>(<span class="st">"You are not called Geneseo and you have a high score"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <ul>
-<li>The real power of conditions comes when we start to use them in more complex examples, such as <code>if</code> statements.</li>
+<li class="fragment">The real power of conditions comes when we start to use them in more complex examples, such as <code>if</code> statements.</li>
 </ul>
 </section>
 <section id="booleans-conditions-and-if-statements-6" class="slide level2">
@@ -498,11 +498,11 @@ Byeong-Hak Choe
 <span id="cb4-4"><a href="#cb4-4"></a></span>
 <span id="cb4-5"><a href="#cb4-5"></a><span class="bu">print</span>(<span class="st">"Bob"</span> <span class="kw">in</span> name_list)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <ul>
-<li>One of the most useful conditional keywords is <code>in</code>.
+<li class="fragment">One of the most useful conditional keywords is <code>in</code>.
 <ul>
-<li>This one must pop up ten times a day in most coders’ lives because it can pick out a variable or make sure something is where it’s supposed to be.</li>
+<li class="fragment">This one must pop up ten times a day in most coders’ lives because it can pick out a variable or make sure something is where it’s supposed to be.</li>
 </ul></li>
-<li><strong>Q</strong>. Check if “a” is in the string “Sun Devil Arena” using <code>in</code>. Is “a” in “Anyone”?</li>
+<li class="fragment"><strong>Q</strong>. Check if “a” is in the string “Sun Devil Arena” using <code>in</code>. Is “a” in “Anyone”?</li>
 </ul>
 </section>
 <section id="booleans-conditions-and-if-statements-7" class="slide level2">
@@ -518,7 +518,7 @@ Byeong-Hak Choe
 <span id="cb5-9"><a href="#cb5-9"></a><span class="cf">else</span>:</span>
 <span id="cb5-10"><a href="#cb5-10"></a>    <span class="bu">print</span>(<span class="st">"Better luck next time."</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <ul>
-<li>One conditional construct we’re bound to use at some point, is the <code>if-else</code> chain:</li>
+<li class="fragment">One conditional construct we’re bound to use at some point, is the <code>if-else</code> chain:</li>
 </ul>
 </section>
 <section id="booleans-conditions-and-if-statements-with-in" class="slide level2">
@@ -532,24 +532,24 @@ Byeong-Hak Choe
 <span id="cb6-7"><a href="#cb6-7"></a><span class="cf">else</span>:</span>
 <span id="cb6-8"><a href="#cb6-8"></a>    <span class="bu">print</span>(<span class="ss">f"</span><span class="sc">{</span>favorite<span class="sc">}</span><span class="ss"> is not in the list."</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <ul>
-<li>The keyword <code>in</code> lets you check whether a value is present in a list, string, or other iterable.<br>
+<li class="fragment">The keyword <code>in</code> lets you check whether a value is present in a list, string, or other iterable.<br>
 </li>
-<li>This works seamlessly inside an <code>if-else</code> structure.<br>
+<li class="fragment">This works seamlessly inside an <code>if-else</code> structure.<br>
 </li>
-<li>Useful for <strong>membership tests</strong> such as:
+<li class="fragment">Useful for <strong>membership tests</strong> such as:
 <ul>
-<li>Validating if a company is in a stock list<br>
+<li class="fragment">Validating if a company is in a stock list<br>
 </li>
-<li>Seeing if a word exists in a sentence</li>
+<li class="fragment">Seeing if a word exists in a sentence</li>
 </ul></li>
 </ul>
 </section>
 <section id="indentation" class="slide level2">
 <h2>Indentation</h2>
 <ul>
-<li><p>We have seen that certain parts of the code examples are indented.</p></li>
-<li><p>Code that is part of a function, a conditional clause, or loop is indented.</p></li>
-<li><p>Indention is actually what tells the Python interpreter that some code is to be executed as part of, say, a loop and not to executed after the loop is finished.</p></li>
+<li class="fragment"><p>We have seen that certain parts of the code examples are indented.</p></li>
+<li class="fragment"><p>Code that is part of a function, a conditional clause, or loop is indented.</p></li>
+<li class="fragment"><p>Indention is actually what tells the Python interpreter that some code is to be executed as part of, say, a loop and not to executed after the loop is finished.</p></li>
 </ul>
 </section>
 <section id="indentation-1" class="slide level2">
@@ -559,8 +559,8 @@ Byeong-Hak Choe
 <span id="cb7-3"><a href="#cb7-3"></a><span class="cf">if</span> x <span class="op">&gt;</span> <span class="dv">2</span>:</span>
 <span id="cb7-4"><a href="#cb7-4"></a>    <span class="bu">print</span>(<span class="st">"x is greater than 2"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <ul>
-<li><p>Here’s a basic example of indentation as part of an <code>if</code> statement.</p></li>
-<li><p>The standard practice for indentation is that each sub-statement should be indented by 4 spaces.</p></li>
+<li class="fragment"><p>Here’s a basic example of indentation as part of an <code>if</code> statement.</p></li>
+<li class="fragment"><p>The standard practice for indentation is that each sub-statement should be indented by 4 spaces.</p></li>
 </ul>
 </section></section>
 <section>
@@ -574,9 +574,9 @@ Byeong-Hak Choe
 <img src="https://bcdanl.github.io/lec_figs/python_string_index.png">
 </p>
 <ul>
-<li><p>With slicing methods, we can get subset of the data object.</p></li>
-<li><p>Slicing methods can apply for strings, lists, arrays, and DataFrames.</p></li>
-<li><p>The above example describes indexing in Python</p></li>
+<li class="fragment"><p>With slicing methods, we can get subset of the data object.</p></li>
+<li class="fragment"><p>Slicing methods can apply for strings, lists, arrays, and DataFrames.</p></li>
+<li class="fragment"><p>The above example describes indexing in Python</p></li>
 </ul>
 </section>
 <section id="strings" class="slide level2">
@@ -584,7 +584,7 @@ Byeong-Hak Choe
 <div class="sourceCode" id="cb8"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1"></a>string <span class="op">=</span> <span class="st">"cheesecake"</span></span>
 <span id="cb8-2"><a href="#cb8-2"></a><span class="bu">print</span>( string[<span class="op">-</span><span class="dv">4</span>:] )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <ul>
-<li>From strings, we can access the individual characters via slicing and indexing.</li>
+<li class="fragment">From strings, we can access the individual characters via slicing and indexing.</li>
 </ul>
 <div class="columns">
 <div class="column" style="width:50%;">
@@ -598,57 +598,58 @@ Byeong-Hak Choe
 </div>
 </div>
 <ul>
-<li>Both lists and strings will allow us to use the <code>len()</code> command to get their length:</li>
+<li class="fragment">Both lists and strings will allow us to use the <code>len()</code> command to get their length:</li>
 </ul>
 </section>
 <section id="string-related-functions" class="slide level2">
 <h2>String-related Functions</h2>
 <h4 id="dot-operation">Dot operation</h4>
 <ul>
-<li><p>In Python, we can access attributes by using a dot notation (<code>.</code>).</p></li>
-<li><p>Unlike <code>len()</code>, some functions use a dot to access to strings.</p></li>
-<li><p>To use those string functions, type (1) the name of the string, (2) a dot, (3) the name of the function, and (4) any arguments that the function needs:</p>
+<li class="fragment"><p>In Python, we can access attributes by using a dot notation (<code>.</code>).</p></li>
+<li class="fragment"><p>Unlike <code>len()</code>, some functions use a dot to access to strings.</p></li>
+<li class="fragment"><p>To use those string functions, type (1) the name of the string, (2) a dot, (3) the name of the function, and (4) any arguments that the function needs:</p>
 <ul>
-<li><code>string_name.some_function(arguments)</code>.</li>
+<li class="fragment"><code>string_name.some_function(arguments)</code>.</li>
 </ul></li>
 </ul>
 </section>
 <section id="string-related-functions-1" class="slide level2">
 <h2>String-related Functions</h2>
-<h4 id="split-with-split">Split with <code>split()</code></h4>
-<ul>
-<li>We can use the built-in string <code>split()</code> function to break a string into a list of smaller strings based on some <em>separator</em>.
-<ul>
-<li>If we don’t specify a <em>separator</em>, <code>split()</code> uses any sequence of white space characters—newlines, spaces, and tabs:</li>
-</ul>
 <div class="sourceCode" id="cb11"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1"></a>tasks <span class="op">=</span> <span class="st">'get gloves,get mask,give cat vitamins,call ambulance'</span></span>
 <span id="cb11-2"><a href="#cb11-2"></a>tasks.split(<span class="st">','</span>)</span>
-<span id="cb11-3"><a href="#cb11-3"></a>tasks.split()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
+<span id="cb11-3"><a href="#cb11-3"></a>tasks.split()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<h4 id="split-with-split">Split with <code>split()</code></h4>
+<ul>
+<li class="fragment">We can use the built-in string <code>split()</code> function to break a string into a list of smaller strings based on some <em>separator</em>.
+<ul>
+<li class="fragment">If we don’t specify a <em>separator</em>, <code>split()</code> uses any sequence of white space characters—newlines, spaces, and tabs:</li>
+</ul></li>
 </ul>
 </section>
 <section id="string-related-functions-2" class="slide level2">
 <h2>String-related Functions</h2>
-<h4 id="combine-by-using-join">Combine by Using <code>join()</code></h4>
-<ul>
-<li><code>join()</code> collapses a <em>list</em> of strings into a single string.</li>
-</ul>
 <div class="sourceCode" id="cb12"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1"></a>crypto_list <span class="op">=</span> [<span class="st">'Yeti'</span>, <span class="st">'Bigfoot'</span>, <span class="st">'Loch Ness Monster'</span>]</span>
 <span id="cb12-2"><a href="#cb12-2"></a>crypto_string <span class="op">=</span> <span class="st">', '</span>.join(crypto_list)</span>
 <span id="cb12-3"><a href="#cb12-3"></a><span class="bu">print</span>(<span class="st">'Found and signing book deals:'</span>, crypto_string)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<h4 id="combine-by-using-join">Combine by Using <code>join()</code></h4>
+<ul>
+<li class="fragment"><code>join()</code> collapses a <em>list</em> of strings into a single string.</li>
+</ul>
 </section>
 <section id="strings-and-slicing" class="slide level2">
 <h2>Strings and Slicing</h2>
 <ul>
-<li><p>We can extract a substring (a part of a string) from a string by using a <strong>slice</strong>.</p></li>
-<li><p>We define a slice by using square brackets (<code>[]</code>), a <em>start</em> index, an <em>end</em> index, and an optional <em>step</em> count between them.</p>
+<li class="fragment"><p>We can extract a substring (a part of a string) from a string by using a <strong>slice</strong>.</p></li>
+<li class="fragment"><p>We define a slice by using square brackets (<code>[]</code>), a <em>start</em> index, an <em>end</em> index, and an optional <em>step</em> count between them.</p>
 <ul>
-<li>We can omit some of these.</li>
+<li class="fragment">We can omit some of these.</li>
 </ul></li>
-<li><p>The slice will include characters from index <em>start</em> to one before <em>end</em>:</p></li>
+<li class="fragment"><p>The slice will include characters from index <em>start</em> to one before <em>end</em>:</p></li>
 </ul>
 </section>
 <section id="get-a-substring-with-a-slice" class="slide level2">
 <h2>Get a Substring with a Slice</h2>
+<div>
 <div class="panel-tabset">
 <ul id="tabset-1" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-1-1"><code>[:]</code></a></li><li><a href="#tabset-1-2"><code>[ start :]</code></a></li><li><a href="#tabset-1-3"><code>[: end ]</code></a></li><li><a href="#tabset-1-4"><code>[ start : end ]</code></a></li><li><a href="#tabset-1-5"><code>[ start : end : step ]</code></a></li></ul>
 <div class="tab-content">
@@ -701,15 +702,16 @@ Byeong-Hak Choe
 </div>
 </div>
 </div>
+</div>
 </section>
 <section id="lists" class="slide level2">
 <h2>Lists</h2>
 <ul>
-<li>Python is
+<li class="fragment">Python is
 <ul>
-<li>a zero-indexed language (things start counting from zero);</li>
-<li>left inclusive;</li>
-<li>right exclusive when we are specifying a range of values.</li>
+<li class="fragment">a zero-indexed language (things start counting from zero);</li>
+<li class="fragment">left inclusive;</li>
+<li class="fragment">right exclusive when we are specifying a range of values.</li>
 </ul></li>
 </ul>
 </section>
@@ -722,14 +724,15 @@ Byeong-Hak Choe
 <img src="https://bcdanl.github.io/lec_figs/python-slicing-fence.png">
 </p>
 <ul>
-<li>We can think of items in a list-like object as being fenced in.
+<li class="fragment">We can think of items in a list-like object as being fenced in.
 <ul>
-<li>The index represents the fence post.</li>
+<li class="fragment">The index represents the fence post.</li>
 </ul></li>
 </ul>
 </section>
 <section id="lists-2" class="slide level2">
 <h2>Lists</h2>
+<div>
 <div class="panel-tabset">
 <ul id="tabset-2" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-2-1"><code>[index]</code></a></li><li><a href="#tabset-2-2">Get an Item with a Slice</a></li></ul>
 <div class="tab-content">
@@ -776,11 +779,12 @@ Byeong-Hak Choe
 </div>
 </div>
 </div>
+</div>
 </section>
 <section id="slicing-methods-1" class="slide level2">
 <h2>Slicing Methods</h2>
 <ul>
-<li><strong>Q</strong>. <a href="https://bcdanl.github.io/299/danl-cw/danl-299-cw-04.html#question-3" target="_blank"><strong>Classwork 4.3</strong></a></li>
+<li class="fragment"><strong>Q</strong>. <a href="https://bcdanl.github.io/299/danl-cw/danl-299-cw-04.html#question-3" target="_blank"><strong>Classwork 4.3</strong></a></li>
 </ul>
 </section></section>
 <section>
@@ -795,10 +799,10 @@ Byeong-Hak Choe
 <span id="cb25-3"><a href="#cb25-3"></a><span class="bu">str</span>(<span class="dv">5</span>)</span>
 <span id="cb25-4"><a href="#cb25-4"></a><span class="bu">int</span>(<span class="st">"xyz"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <ul>
-<li><p>A function can take any number and type of input <em>parameters</em> and <strong>return</strong> any number and type of output <em>results</em>.</p></li>
-<li><p>Python ships with more than 65 built-in functions.</p></li>
-<li><p>Python also allows a user to define a new function.</p></li>
-<li><p>We will mostly use built-in functions.</p></li>
+<li class="fragment"><p>A function can take any number and type of input <em>parameters</em> and <strong>return</strong> any number and type of output <em>results</em>.</p></li>
+<li class="fragment"><p>Python ships with more than 65 built-in functions.</p></li>
+<li class="fragment"><p>Python also allows a user to define a new function.</p></li>
+<li class="fragment"><p>We will mostly use built-in functions.</p></li>
 </ul>
 </section>
 <section id="functions-arguments-and-parameters-1" class="slide level2">
@@ -807,17 +811,17 @@ Byeong-Hak Choe
 <span id="cb26-2"><a href="#cb26-2"></a><span class="bu">print</span>(<span class="st">"Cherry"</span>, <span class="st">"Strawberry"</span>, <span class="st">"Key Lime"</span>, sep <span class="op">=</span> <span class="st">"!"</span>)</span>
 <span id="cb26-3"><a href="#cb26-3"></a><span class="bu">print</span>(<span class="st">"Cherry"</span>, <span class="st">"Strawberry"</span>, <span class="st">"Key Lime"</span>, sep<span class="op">=</span><span class="st">" "</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <ul>
-<li><p>We invoke a function by entering its name and a pair of opening and closing parentheses.</p></li>
-<li><p>Much as a cooking recipe can accept ingredients, a function invocation can accept inputs called <strong>arguments</strong>.</p></li>
-<li><p>We pass arguments sequentially inside the parentheses (, separated by commas).</p></li>
-<li><p>A <strong>parameter</strong> is a name given to an expected function argument.</p></li>
-<li><p>A <em>default argument</em> is a fallback value that Python passes to a parameter if the function invocation does not explicitly provide one.</p></li>
+<li class="fragment"><p>We invoke a function by entering its name and a pair of opening and closing parentheses.</p></li>
+<li class="fragment"><p>Much as a cooking recipe can accept ingredients, a function invocation can accept inputs called <strong>arguments</strong>.</p></li>
+<li class="fragment"><p>We pass arguments sequentially inside the parentheses (, separated by commas).</p></li>
+<li class="fragment"><p>A <strong>parameter</strong> is a name given to an expected function argument.</p></li>
+<li class="fragment"><p>A <em>default argument</em> is a fallback value that Python passes to a parameter if the function invocation does not explicitly provide one.</p></li>
 </ul>
 </section>
 <section id="functions-arguments-and-parameters-2" class="slide level2">
 <h2>Functions, Arguments, and Parameters</h2>
 <ul>
-<li><strong>Q</strong>. <a href="https://bcdanl.github.io/299/danl-cw/danl-299-cw-04.html#question-4" target="_blank"><strong>Classwork 4.4</strong></a></li>
+<li class="fragment"><strong>Q</strong>. <a href="https://bcdanl.github.io/299/danl-cw/danl-299-cw-04.html#question-4" target="_blank"><strong>Classwork 4.4</strong></a></li>
 </ul>
 </section></section>
 <section>
@@ -833,43 +837,38 @@ Byeong-Hak Choe
 <span id="cb27-2"><a href="#cb27-2"></a><span class="cf">while</span> count <span class="op">&lt;=</span> <span class="dv">5</span>:</span>
 <span id="cb27-3"><a href="#cb27-3"></a>    <span class="bu">print</span>(count)</span>
 <span id="cb27-4"><a href="#cb27-4"></a>    count <span class="op">+=</span> <span class="dv">1</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div><div class="column" style="width:50%;">
 <ol type="1">
-<li>We first assigned the value 1 to <code>count</code>.</li>
-<li>The <code>while</code> loop compared the value of <code>count</code> to 5 and continued if <code>count</code> was less than or equal to 5.</li>
-<li>Inside the loop, we printed the value of <code>count</code> and then <em>incremented</em> its value by one with the statement <code>count += 1</code>.</li>
-<li>Python goes back to the top of the loop, and again compares <code>count</code> with 5.</li>
-<li>The value of <code>count</code> is now 2, so the contents of the <code>while</code> loop are again executed, and <code>count</code> is incremented to 3.</li>
-<li>This continues until <code>count</code> is incremented from 5 to 6 at the bottom of the loop.</li>
-<li>On the next trip to the top, <code>count &lt;= 5</code> is now <code>False</code>, and the <code>while</code> loop ends.</li>
+<li class="fragment">We first assigned the value 1 to <code>count</code>.</li>
+<li class="fragment">The <code>while</code> loop compared the value of <code>count</code> to 5 and continued if <code>count</code> was less than or equal to 5.</li>
+<li class="fragment">Inside the loop, we printed the value of <code>count</code> and then <em>incremented</em> its value by one with the statement <code>count += 1</code>.</li>
+</ol>
+</div><div class="column" style="width:50%;">
+<ol start="4" type="1">
+<li class="fragment">Python goes back to the top of the loop, and again compares <code>count</code> with 5.</li>
+<li class="fragment">The value of <code>count</code> is now 2, so the contents of the <code>while</code> loop are again executed, and <code>count</code> is incremented to 3.</li>
+<li class="fragment">This continues until <code>count</code> is incremented from 5 to 6 at the bottom of the loop.</li>
+<li class="fragment">On the next trip to the top, <code>count &lt;= 5</code> is now <code>False</code>, and the <code>while</code> loop ends.</li>
 </ol>
 </div>
 </div>
 </section>
 <section id="asking-the-user-for-input" class="slide level2">
 <h2>Asking the user for input</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
 <div class="sourceCode" id="cb28"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb28-1"><a href="#cb28-1"></a>stuff <span class="op">=</span> <span class="bu">input</span>()</span>
 <span id="cb28-2"><a href="#cb28-2"></a><span class="co"># Type something and press Return/Enter on Console </span></span>
 <span id="cb28-3"><a href="#cb28-3"></a><span class="co"># before running print(stuff)</span></span>
 <span id="cb28-4"><a href="#cb28-4"></a><span class="bu">print</span>(stuff)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div><div class="column" style="width:50%;">
 <ul>
-<li>Sometimes we would like to take the value for a variable from the user via their keyboard.
+<li class="fragment"><p>Sometimes we would like to take the value for a variable from the user via their keyboard.</p>
 <ul>
-<li>The <code>input()</code> function gets <em>input</em> from the keyboard.</li>
-<li>When the <code>input()</code> is called, the program stops and waits for the user to type something on Console (interactive Python interpreter).</li>
-<li>When the user presses <strong>Return</strong> or <strong>Enter</strong> on Console, the program resumes and input returns what the user typed as a string.</li>
+<li class="fragment">The <code>input()</code> function gets <em>input</em> from the keyboard.</li>
+<li class="fragment">When the <code>input()</code> is called, the program stops and waits for the user to type something on Console (interactive Python interpreter).</li>
+<li class="fragment">When the user presses <strong>Return</strong> or <strong>Enter</strong> on Console, the program resumes and input returns what the user typed as a string.</li>
 </ul></li>
 </ul>
-</div>
-</div>
 </section>
 <section id="cancel-with-break" class="slide level2">
 <h2>Cancel with <code>break</code></h2>
-<div class="columns">
-<div class="column" style="width:50%;">
 <div class="sourceCode" id="cb29"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb29-1"><a href="#cb29-1"></a><span class="cf">while</span> <span class="va">True</span>:</span>
 <span id="cb29-2"><a href="#cb29-2"></a>    user_input <span class="op">=</span> <span class="bu">input</span>(<span class="st">"Enter 'yes' to continue or 'no' to stop: "</span>)</span>
 <span id="cb29-3"><a href="#cb29-3"></a>    <span class="cf">if</span> user_input.lower() <span class="op">==</span> <span class="st">'no'</span>:</span>
@@ -879,22 +878,17 @@ Byeong-Hak Choe
 <span id="cb29-7"><a href="#cb29-7"></a>        <span class="bu">print</span>(<span class="st">"You chose to continue."</span>)</span>
 <span id="cb29-8"><a href="#cb29-8"></a>    <span class="cf">else</span>:</span>
 <span id="cb29-9"><a href="#cb29-9"></a>        <span class="bu">print</span>(<span class="st">"Invalid input, please enter 'yes' or 'no'."</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div><div class="column" style="width:50%;">
 <ul>
-<li><code>While</code> loop is used to execute a block of code repeatedly until given boolean condition evaluated to <code>False</code>.
+<li class="fragment"><code>While</code> loop is used to execute a block of code repeatedly until given boolean condition evaluated to <code>False</code>.
 <ul>
-<li><code>while True</code> loop will run forever unless we write it with a <code>break</code> statement.</li>
+<li class="fragment"><code>while True</code> loop will run forever unless we write it with a <code>break</code> statement.</li>
 </ul></li>
-<li>If we want to loop until something occurs, but we’re not sure when that might happen, we can use an infinite loop with a <code>break</code> statement.</li>
+<li class="fragment">If we want to loop until something occurs, but we’re not sure when that might happen, we can use an infinite loop with a <code>break</code> statement.</li>
 </ul>
-</div>
-</div>
 </section>
 <section id="repeat-with-while-1" class="slide level2">
 <h2>Repeat with <code>while</code></h2>
 <h3 id="skip-ahead-with-continue">Skip Ahead with <code>continue</code></h3>
-<div class="columns">
-<div class="column" style="width:50%;">
 <div class="sourceCode" id="cb30"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb30-1"><a href="#cb30-1"></a><span class="cf">while</span> <span class="va">True</span>:</span>
 <span id="cb30-2"><a href="#cb30-2"></a>    value <span class="op">=</span> <span class="bu">input</span>(<span class="st">"Integer, please [q to quit]: "</span>)</span>
 <span id="cb30-3"><a href="#cb30-3"></a>    <span class="cf">if</span> value <span class="op">==</span> <span class="st">'q'</span>: <span class="co"># quit</span></span>
@@ -903,20 +897,15 @@ Byeong-Hak Choe
 <span id="cb30-6"><a href="#cb30-6"></a>    <span class="cf">if</span> number <span class="op">%</span> <span class="dv">2</span> <span class="op">==</span> <span class="dv">0</span>: <span class="co"># an even number</span></span>
 <span id="cb30-7"><a href="#cb30-7"></a>        <span class="cf">continue</span></span>
 <span id="cb30-8"><a href="#cb30-8"></a>    <span class="bu">print</span>(number, <span class="st">"squared is"</span>, number<span class="op">*</span>number)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div><div class="column" style="width:50%;">
 <ul>
-<li><p>Sometimes, we don’t want to break out of a loop but just want to skip ahead to the next iteration for some reason.</p></li>
-<li><p>The <code>continue</code> statement is used to skip the rest of the code inside a loop for the <em>current iteration</em> only.</p></li>
+<li class="fragment"><p>Sometimes, we don’t want to break out of a loop but just want to skip ahead to the next iteration for some reason.</p></li>
+<li class="fragment"><p>The <code>continue</code> statement is used to skip the rest of the code inside a loop for the <em>current iteration</em> only.</p></li>
 </ul>
-</div>
-</div>
 </section>
 <section id="repeat-with-while-2" class="slide level2">
 <h2>Repeat with <code>while</code></h2>
 <h3 id="check-break-use-with-else">Check <code>break</code> Use with <code>else</code></h3>
-<ul>
-<li>We can consider using <code>while</code> with <code>else</code> when we’ve coded a <code>while</code> loop to check for something, and <code>break</code>ing as soon as it’s found. <!-- - The `else` would be run if the `while` loop completed but the object was not found. --></li>
-</ul>
+<p><!-- - The `else` would be run if the `while` loop completed but the object was not found. --></p>
 <div class="sourceCode" id="cb31"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb31-1"><a href="#cb31-1"></a>numbers <span class="op">=</span> [<span class="dv">1</span>, <span class="dv">3</span>, <span class="dv">5</span>]</span>
 <span id="cb31-2"><a href="#cb31-2"></a>position <span class="op">=</span> <span class="dv">0</span></span>
 <span id="cb31-3"><a href="#cb31-3"></a></span>
@@ -929,16 +918,19 @@ Byeong-Hak Choe
 <span id="cb31-10"><a href="#cb31-10"></a><span class="cf">else</span>:  <span class="co"># break not called</span></span>
 <span id="cb31-11"><a href="#cb31-11"></a>    <span class="bu">print</span>(<span class="st">'No number greater than 4 found'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <ul>
-<li>Consider it a break checker.</li>
+<li class="fragment">We can consider using <code>while</code> with <code>else</code> when we’ve coded a <code>while</code> loop to check for something, and <code>break</code>ing as soon as it’s found.
+<ul>
+<li class="fragment">Consider it a break checker.</li>
+</ul></li>
 </ul>
 </section>
 <section id="iterate-with-for-and-in" class="slide level2">
 <h2>Iterate with <code>for</code> and <code>in</code></h2>
 <ul>
-<li><p>Sometimes we want to loop through a set of things such as a string of text, a list of words or a list of numbers.</p>
+<li class="fragment">Sometimes we want to loop through a set of things such as a string of text, a list of words or a list of numbers.
 <ul>
-<li><p>When we have a list of things to loop through, we can construct a <code>for</code> loop.</p></li>
-<li><p>A <code>for</code> loop makes it possible for you to traverse data structures without knowing how large they are or how they are implemented.</p></li>
+<li class="fragment">When we have a list of things to loop through, we can construct a <code>for</code> loop.</li>
+<li class="fragment">A <code>for</code> loop makes it possible for you to traverse data structures without knowing how large they are or how they are implemented.</li>
 </ul>
 <!-- - We can iterate over data that is created on the fly, allowing processing of data streams that would otherwise not fit in the computer’s memory all at once. --></li>
 </ul>
@@ -946,9 +938,11 @@ Byeong-Hak Choe
 </section>
 <section id="iterate-with-for-and-in-1" class="slide level2">
 <h2>Iterate with <code>for</code> and <code>in</code></h2>
+<div>
 <ul>
 <li>Let’s see two ways to walk through a string here:</li>
 </ul>
+</div>
 <div class="columns">
 <div class="column" style="width:50%;">
 <div class="sourceCode" id="cb32"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb32-1"><a href="#cb32-1"></a>word <span class="op">=</span> <span class="st">'thud'</span></span>
@@ -963,7 +957,7 @@ Byeong-Hak Choe
 </div>
 </div>
 <ul>
-<li>Which one do you prefer?</li>
+<li class="fragment">Which one do you prefer?</li>
 </ul>
 </section>
 <section id="iterate-with-for-and-in-2" class="slide level2">
@@ -975,7 +969,7 @@ Byeong-Hak Choe
 <span id="cb34-4"><a href="#cb34-4"></a>        <span class="cf">break</span></span>
 <span id="cb34-5"><a href="#cb34-5"></a>    <span class="bu">print</span>(letter)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <ul>
-<li>A <code>break</code> in a <code>for</code> loop breaks out of the loop, as it does for a <code>while</code> loop:</li>
+<li class="fragment">A <code>break</code> in a <code>for</code> loop breaks out of the loop, as it does for a <code>while</code> loop:</li>
 </ul>
 </section>
 <section id="iterate-with-for-and-in-3" class="slide level2">
@@ -987,16 +981,16 @@ Byeong-Hak Choe
 <span id="cb35-4"><a href="#cb35-4"></a>        <span class="cf">continue</span></span>
 <span id="cb35-5"><a href="#cb35-5"></a>    <span class="bu">print</span>(letter)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <ul>
-<li>Inserting a <code>continue</code> in a <code>for</code> loop jumps to the next iteration of the loop, as it does for a <code>while</code> loop.</li>
+<li class="fragment">Inserting a <code>continue</code> in a <code>for</code> loop jumps to the next iteration of the loop, as it does for a <code>while</code> loop.</li>
 </ul>
 </section>
 <section id="generate-number-sequences-with-range" class="slide level2">
 <h2>Generate Number Sequences with <code>range()</code></h2>
 <ul>
-<li><p>The <code>range()</code> function returns a stream of numbers within a specified range, without first having to create and store a large data structure such as a <em>list</em> or <em>tuple</em>.</p>
+<li class="fragment">The <code>range()</code> function returns a stream of numbers within a specified range, without first having to create and store a large data structure such as a <em>list</em> or <em>tuple</em>.
 <ul>
-<li><p>This lets us create huge ranges without using all the memory in our computers and crashing our program.</p></li>
-<li><p><code>range()</code> returns an iterable object, so we need to step through the values with <code>for</code> … <code>in</code>, or convert the object to a sequence like a <em>list</em>.</p></li>
+<li class="fragment">This lets us create huge ranges without using all the memory in our computers and crashing our program.</li>
+<li class="fragment"><code>range()</code> returns an iterable object, so we need to step through the values with <code>for</code> … <code>in</code>, or convert the object to a sequence like a <em>list</em>.</li>
 </ul></li>
 </ul>
 </section>
@@ -1009,11 +1003,11 @@ Byeong-Hak Choe
 <span id="cb36-3"><a href="#cb36-3"></a><span class="bu">list</span>( <span class="bu">range</span>(<span class="dv">0</span>, <span class="dv">3</span>) )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div><div class="column" style="width:50%;">
 <ul>
-<li>We use <code>range()</code> similar to how we use <em>slices</em>: <code>range( start, stop, step )</code>.
+<li class="fragment">We use <code>range()</code> similar to how we use <em>slices</em>: <code>range( start, stop, step )</code>.
 <ul>
-<li>If we omit <code>start</code>, the <code>range</code> begins at 0.</li>
-<li>The only required value is <code>stop</code>; as with <em>slices</em>, the last value created will be just before stop.</li>
-<li>The default value of <code>step</code> is 1, but we can change it.</li>
+<li class="fragment">If we omit <code>start</code>, the <code>range</code> begins at 0.</li>
+<li class="fragment">The only required value is <code>stop</code>; as with <em>slices</em>, the last value created will be just before stop.</li>
+<li class="fragment">The default value of <code>step</code> is 1, but we can change it.</li>
 </ul></li>
 </ul>
 </div>
@@ -1022,12 +1016,6 @@ Byeong-Hak Choe
 <section id="iterate-with-for-and-in-4" class="slide level2">
 <h2>Iterate with <code>for</code> and <code>in</code></h2>
 <h3 id="check-break-use-with-else-1">Check <code>break</code> Use with <code>else</code></h3>
-<ul>
-<li>Similar to <code>while</code>, <code>for</code> has an optional <code>else</code> that checks whether the <code>for</code> completed normally.
-<ul>
-<li>If <code>break</code> was not called, the <code>else</code> statement is run.</li>
-</ul></li>
-</ul>
 <div class="sourceCode" id="cb37"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb37-1"><a href="#cb37-1"></a>word <span class="op">=</span> <span class="st">'thud'</span></span>
 <span id="cb37-2"><a href="#cb37-2"></a><span class="cf">for</span> letter <span class="kw">in</span> word:</span>
 <span id="cb37-3"><a href="#cb37-3"></a>    <span class="cf">if</span> letter <span class="op">==</span> <span class="st">'x'</span>:</span>
@@ -1036,13 +1024,19 @@ Byeong-Hak Choe
 <span id="cb37-6"><a href="#cb37-6"></a>    <span class="bu">print</span>(letter)</span>
 <span id="cb37-7"><a href="#cb37-7"></a><span class="cf">else</span>:</span>
 <span id="cb37-8"><a href="#cb37-8"></a>    <span class="bu">print</span>(<span class="st">"No 'x' in there."</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<ul>
+<li class="fragment">Similar to <code>while</code>, <code>for</code> has an optional <code>else</code> that checks whether the <code>for</code> completed normally.
+<ul>
+<li class="fragment">If <code>break</code> was not called, the <code>else</code> statement is run.</li>
+</ul></li>
+</ul>
 </section>
 <section id="loop-with-while-and-for-1" class="slide level2">
 <h2>Loop with <code>while</code> and <code>for</code></h2>
 <h3 id="class-exercises">Class Exercises</h3>
 <ul>
-<li><p><strong>Q</strong>. <a href="https://bcdanl.github.io/299/danl-cw/danl-299-cw-04.html#question-5" target="_blank"><strong>Classwork 4.5</strong></a></p></li>
-<li><p><strong>Q</strong>. <a href="https://bcdanl.github.io/299/danl-cw/danl-299-cw-04.html#question-6" target="_blank"><strong>Classwork 4.6</strong></a></p></li>
+<li class="fragment"><p><strong>Q</strong>. <a href="https://bcdanl.github.io/299/danl-cw/danl-299-cw-04.html#question-5" target="_blank"><strong>Classwork 4.5</strong></a></p></li>
+<li class="fragment"><p><strong>Q</strong>. <a href="https://bcdanl.github.io/299/danl-cw/danl-299-cw-04.html#question-6" target="_blank"><strong>Classwork 4.6</strong></a></p></li>
 </ul>
 </section></section>
 <section>
@@ -1053,6 +1047,7 @@ Byeong-Hak Choe
 <section id="list-comprehension" class="slide level2">
 <h2>List Comprehension</h2>
 <h3 id="what-is-list-comprehension">What is List Comprehension?</h3>
+<div>
 <ul>
 <li>A concise way to create or modify lists.</li>
 <li>Syntax: <code>[expression for item in iterable if condition]</code></li>
@@ -1066,10 +1061,12 @@ Byeong-Hak Choe
 </ol>
 <div class="sourceCode" id="cb39"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb39-1"><a href="#cb39-1"></a>numbers <span class="op">=</span> [<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">4</span>, <span class="dv">5</span>, <span class="dv">6</span>]</span>
 <span id="cb39-2"><a href="#cb39-2"></a>evens <span class="op">=</span> [x <span class="cf">for</span> x <span class="kw">in</span> numbers <span class="cf">if</span> x <span class="op">!=</span> <span class="dv">2</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
 </section>
 <section id="dictionary-comprehension" class="slide level2">
 <h2>Dictionary Comprehension</h2>
 <h3 id="what-is-dictionary-comprehension">What is Dictionary Comprehension?</h3>
+<div>
 <ul>
 <li>A concise way to create or modify dictionaries.</li>
 <li>Syntax: <code>{key_expression: value_expression for item in iterable if condition}</code></li>
@@ -1088,6 +1085,7 @@ Byeong-Hak Choe
 </ol>
 <div class="sourceCode" id="cb42"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb42-1"><a href="#cb42-1"></a>original_dict <span class="op">=</span> {<span class="st">'a'</span>: <span class="dv">1</span>, <span class="st">'b'</span>: <span class="dv">2</span>, <span class="st">'c'</span>: <span class="dv">3</span>}</span>
 <span id="cb42-2"><a href="#cb42-2"></a>swapped_dict <span class="op">=</span> {v: k <span class="cf">for</span> k, v <span class="kw">in</span> original_dict.items()}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
 </section></section>
 <section>
 <section id="modifying-lists-and-dictionaries" class="title-slide slide level1 center" data-background-color="#1c4982">
@@ -1097,15 +1095,18 @@ Byeong-Hak Choe
 <section id="modifying-a-list" class="slide level2">
 <h2>Modifying a List</h2>
 <h3 id="adding-items">Adding Items</h3>
+<div>
 <ul>
 <li><strong><code>append()</code></strong>: Adds an item to the end of the list.</li>
 </ul>
 <div class="sourceCode" id="cb43"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb43-1"><a href="#cb43-1"></a>my_list <span class="op">=</span> [<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>]</span>
 <span id="cb43-2"><a href="#cb43-2"></a>my_list.append(<span class="dv">4</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
 </section>
 <section id="modifying-a-list-1" class="slide level2">
 <h2>Modifying a List</h2>
 <h3 id="deleting-items">Deleting Items</h3>
+<div>
 <ul>
 <li><strong><code>remove()</code></strong>: Deletes the first occurrence of value in the list.</li>
 </ul>
@@ -1122,20 +1123,24 @@ Byeong-Hak Choe
 <div class="sourceCode" id="cb46"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb46-1"><a href="#cb46-1"></a>my_list <span class="op">=</span> [<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">4</span>]</span>
 <span id="cb46-2"><a href="#cb46-2"></a><span class="kw">del</span> my_list[<span class="dv">1</span>] </span>
 <span id="cb46-3"><a href="#cb46-3"></a><span class="kw">del</span> my_list[<span class="dv">1</span>:<span class="dv">3</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
 </section>
 <section id="modifying-a-dictionary" class="slide level2">
 <h2>Modifying a Dictionary</h2>
 <h3 id="addingupdating-items">Adding/Updating Items</h3>
+<div>
 <ul>
 <li><strong><code>update()</code></strong>: Adds new key-value pairs or updates existing ones.</li>
 </ul>
 <div class="sourceCode" id="cb47"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb47-1"><a href="#cb47-1"></a>my_dict <span class="op">=</span> {<span class="st">'a'</span>: <span class="dv">1</span>, <span class="st">'b'</span>: <span class="dv">2</span>}</span>
 <span id="cb47-2"><a href="#cb47-2"></a>my_dict.update({<span class="st">'c'</span>: <span class="dv">3</span>})  </span>
 <span id="cb47-3"><a href="#cb47-3"></a>my_dict.update({<span class="st">'a'</span>: <span class="dv">10</span>})  </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
 </section>
 <section id="modifying-a-dictionary-1" class="slide level2">
 <h2>Modifying a Dictionary</h2>
 <h3 id="deleting-items-1">Deleting Items</h3>
+<div>
 <ul>
 <li><strong>Dictionary Comprehension</strong>: Removes items based on a condition.</li>
 </ul>
@@ -1146,6 +1151,7 @@ Byeong-Hak Choe
 </ul>
 <div class="sourceCode" id="cb49"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb49-1"><a href="#cb49-1"></a>my_dict <span class="op">=</span> {<span class="st">'a'</span>: <span class="dv">1</span>, <span class="st">'b'</span>: <span class="dv">2</span>, <span class="st">'c'</span>: <span class="dv">3</span>}</span>
 <span id="cb49-2"><a href="#cb49-2"></a><span class="kw">del</span> my_dict[<span class="st">'b'</span>]  </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
 </section></section>
 <section>
 <section id="handle-errors-with-try-and-except" class="title-slide slide level1 center" data-background-color="#1c4982">
@@ -1156,13 +1162,13 @@ Byeong-Hak Choe
 <h2>Handle Errors with <code>try</code> and <code>except</code></h2>
 <h3 id="exception-handlers">Exception handlers</h3>
 <ul>
-<li><p>In some languages, errors are indicated by special function return values.</p>
+<li class="fragment"><p>In some languages, errors are indicated by special function return values.</p>
 <ul>
-<li>Python uses <em>exceptions</em>: code that is executed when an associated error occurs.</li>
+<li class="fragment">Python uses <em>exceptions</em>: code that is executed when an associated error occurs.</li>
 </ul></li>
-<li><p>When we run code that might fail under some circumstances, we also need appropriate <em>exception handlers</em> to intercept any potential errors.</p>
+<li class="fragment"><p>When we run code that might fail under some circumstances, we also need appropriate <em>exception handlers</em> to intercept any potential errors.</p>
 <ul>
-<li>Accessing a list or tuple with an out-of-range position, or a dictionary with a nonexistent key.</li>
+<li class="fragment">Accessing a list or tuple with an out-of-range position, or a dictionary with a nonexistent key.</li>
 </ul></li>
 </ul>
 </section>
@@ -1173,7 +1179,7 @@ Byeong-Hak Choe
 <span id="cb50-2"><a href="#cb50-2"></a>position <span class="op">=</span> <span class="dv">5</span></span>
 <span id="cb50-3"><a href="#cb50-3"></a>short_list[position]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <ul>
-<li>If we don’t provide your own exception handler, Python prints an error message and some information about where the error occurred and then terminates the program:</li>
+<li class="fragment">If we don’t provide your own exception handler, Python prints an error message and some information about where the error occurred and then terminates the program:</li>
 </ul>
 </section>
 <section id="handle-errors-with-try-and-except-3" class="slide level2">
@@ -1187,7 +1193,7 @@ Byeong-Hak Choe
 <span id="cb51-7"><a href="#cb51-7"></a>    <span class="bu">print</span>(<span class="st">'Need a position between 0 and'</span>, <span class="bu">len</span>(short_list)<span class="op">-</span><span class="dv">1</span>, <span class="st">' but got'</span>,</span>
 <span id="cb51-8"><a href="#cb51-8"></a>    position)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <ul>
-<li>Rather than leaving things to chance, use <code>try</code> to wrap your code, and <code>except</code> to provide the error handling:</li>
+<li class="fragment">Rather than leaving things to chance, use <code>try</code> to wrap your code, and <code>except</code> to provide the error handling:</li>
 </ul>
 </section>
 <section id="handle-errors-with-try-and-except-4" class="slide level2">
@@ -1200,16 +1206,17 @@ Byeong-Hak Choe
 <span id="cb52-6"><a href="#cb52-6"></a>    <span class="bu">print</span>(<span class="st">'Need a position between 0 and'</span>, <span class="bu">len</span>(short_list)<span class="op">-</span><span class="dv">1</span>, <span class="st">' but got'</span>,</span>
 <span id="cb52-7"><a href="#cb52-7"></a>    position)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <ul>
-<li>The code inside the <code>try</code> block is run.
+<li class="fragment">The code inside the <code>try</code> block is run.
 <ul>
-<li>If there is an error, an exception is raised and the code inside the <code>except</code> block runs.</li>
+<li class="fragment">If there is an error, an exception is raised and the code inside the <code>except</code> block runs.</li>
 </ul></li>
-<li>If there are no errors, the <code>except</code> block is skipped.</li>
+<li class="fragment">If there are no errors, the <code>except</code> block is skipped.</li>
 </ul>
 </section>
 <section id="handle-errors-with-try-and-except-5" class="slide level2">
 <h2>Handle Errors with <code>try</code> and <code>except</code></h2>
 <h3 id="except-type"><code>except</code> type</h3>
+<div>
 <ul>
 <li><p>Specifying a plain <code>except</code> with no arguments, as we did here, is a catchall for any exception type.</p></li>
 <li><p>If more than one type of exception could occur, it’s best to provide a separate exception handler for each.</p></li>
@@ -1219,6 +1226,7 @@ Byeong-Hak Choe
 <img src="https://bcdanl.github.io/lec_figs/int-py-ch9-exception.png" style="width: 90%; margin-bottom: -20px;">
 <p style="font-style: bold;">
 </p>
+</div>
 </div>
 </section>
 <section id="handle-errors-with-try-and-except-6" class="slide level2">
@@ -1241,12 +1249,12 @@ Byeong-Hak Choe
 <h2>Handle Errors with <code>try</code> and <code>except</code></h2>
 <h3 id="except-type-2"><code>except</code> type</h3>
 <ul>
-<li><p>The example looks for an <code>IndexError</code> first, because that’s the exception type raised when we provide an illegal position to a sequence.</p></li>
-<li><p>It saves an <code>IndexError</code> exception in the variable <code>err</code>, and any other exception in the variable <code>other</code>.</p></li>
-<li><p>The example prints everything stored in <code>other</code> to show what you get in that object.</p>
+<li class="fragment"><p>The example looks for an <code>IndexError</code> first, because that’s the exception type raised when we provide an illegal position to a sequence.</p></li>
+<li class="fragment"><p>It saves an <code>IndexError</code> exception in the variable <code>err</code>, and any other exception in the variable <code>other</code>.</p></li>
+<li class="fragment"><p>The example prints everything stored in <code>other</code> to show what you get in that object.</p>
 <ul>
-<li>Inputting position <code>3</code> raised an <code>IndexError</code> as expected.</li>
-<li>Entering <code>two</code> annoyed the <code>int()</code> function, which we handled in our second, catchall <code>except</code> code.</li>
+<li class="fragment">Inputting position <code>3</code> raised an <code>IndexError</code> as expected.</li>
+<li class="fragment">Entering <code>two</code> annoyed the <code>int()</code> function, which we handled in our second, catchall <code>except</code> code.</li>
 </ul></li>
 </ul>
 </section>
@@ -1254,7 +1262,7 @@ Byeong-Hak Choe
 <h2>Handle Errors with <code>try</code> and <code>except</code></h2>
 <h3 id="class-exercises-1">Class Exercises</h3>
 <ul>
-<li><strong>Q</strong>. <a href="https://bcdanl.github.io/299/danl-cw/danl-299-cw-04.html#question-7" target="_blank"><strong>Classwork 4.7</strong></a></li>
+<li class="fragment"><strong>Q</strong>. <a href="https://bcdanl.github.io/299/danl-cw/danl-299-cw-04.html#question-7" target="_blank"><strong>Classwork 4.7</strong></a></li>
 </ul>
 </section></section>
 <section>
@@ -1265,12 +1273,12 @@ Byeong-Hak Choe
 <section id="importing-modules-packages-and-libraries" class="slide level2">
 <h2>Importing Modules, Packages, and Libraries</h2>
 <ul>
-<li><p>Python is a general-purpose programming language and is not specialized for numerical or statistical computation.</p></li>
-<li><p>The core libraries that enable Python to store and analyze data efficiently are:</p>
+<li class="fragment"><p>Python is a general-purpose programming language and is not specialized for numerical or statistical computation.</p></li>
+<li class="fragment"><p>The core libraries that enable Python to store and analyze data efficiently are:</p>
 <ul>
-<li><code>pandas</code></li>
-<li><code>numpy</code></li>
-<li><code>matplotlib</code> and <code>seaborn</code></li>
+<li class="fragment"><code>pandas</code></li>
+<li class="fragment"><code>numpy</code></li>
+<li class="fragment"><code>matplotlib</code> and <code>seaborn</code></li>
 </ul></li>
 </ul>
 </section>
@@ -1281,7 +1289,7 @@ Byeong-Hak Choe
 <img src="https://bcdanl.github.io/lec_figs/pandas-logo.png">
 </p>
 <ul>
-<li><code>pandas</code> provides <code>Series</code> and <code>DataFrames</code> which are used to store data in an easy-to-use format.</li>
+<li class="fragment"><code>pandas</code> provides <code>Series</code> and <code>DataFrames</code> which are used to store data in an easy-to-use format.</li>
 </ul>
 </section>
 <section id="importing-modules-packages-and-libraries-2" class="slide level2">
@@ -1291,7 +1299,7 @@ Byeong-Hak Choe
 <img src="https://bcdanl.github.io/lec_figs/numpy-logo.png">
 </p>
 <ul>
-<li><code>numpy</code>, numerical Python, provides the array block (<code>np.array()</code>) for doing fast and efficient computations;</li>
+<li class="fragment"><code>numpy</code>, numerical Python, provides the array block (<code>np.array()</code>) for doing fast and efficient computations;</li>
 </ul>
 </section>
 <section id="importing-modules-packages-and-libraries-3" class="slide level2">
@@ -1301,13 +1309,14 @@ Byeong-Hak Choe
 <img src="https://bcdanl.github.io/lec_figs/matplotlib-logo.png"><img src="https://bcdanl.github.io/lec_figs/seaborn-logo.png">
 </p>
 <ul>
-<li><code>matplotlib</code> provides graphics. The most important submodule would be <code>matplotlib.pyplot</code>.</li>
-<li><code>seaborn</code> provides a general improvement in the default appearance of <code>matplotlib</code>-produced plots.</li>
+<li class="fragment"><code>matplotlib</code> provides graphics. The most important submodule would be <code>matplotlib.pyplot</code>.</li>
+<li class="fragment"><code>seaborn</code> provides a general improvement in the default appearance of <code>matplotlib</code>-produced plots.</li>
 </ul>
 </section>
 <section id="importing-modules-packages-and-libraries-4" class="slide level2">
 <h2>Importing Modules, Packages, and Libraries</h2>
 <h3 id="import-statement"><code>import</code> statement</h3>
+<div>
 <ul>
 <li><p>A <strong>module</strong> is basically a bunch of related codes saved in a file with the extension <code>.py</code>.</p></li>
 <li><p>A <strong>package</strong> is basically a directory of a collection of modules.</p></li>
@@ -1318,10 +1327,12 @@ Byeong-Hak Choe
 <ul>
 <li>This makes the code and variables in the imported module available to our programming codes.</li>
 </ul>
+</div>
 </section>
 <section id="importing-modules-packages-and-libraries-5" class="slide level2">
 <h2>Importing Modules, Packages, and Libraries</h2>
 <h3 id="import-statement-1"><code>import</code> statement</h3>
+<div>
 <div class="columns">
 <div class="column" style="width:50%;">
 <h4 id="as"><code>as</code></h4>
@@ -1337,10 +1348,12 @@ Byeong-Hak Choe
 <div class="sourceCode" id="cb56"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb56-1"><a href="#cb56-1"></a><span class="im">from</span> LIBRARY <span class="im">import</span> FUNCTION, PACKAGE, MODULE</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </div>
+</div>
 </section>
 <section id="installing-modules-packages-and-libraries" class="slide level2">
 <h2>Installing Modules, Packages, and Libraries</h2>
 <h3 id="pip-tool"><code>pip</code> tool</h3>
+<div>
 <div class="columns">
 <div class="column" style="width:50%;">
 <ul>
@@ -1357,6 +1370,7 @@ Byeong-Hak Choe
 <ul>
 <li><strong>Q</strong>. <a href="https://bcdanl.github.io/299/danl-cw/danl-299-cw-04.html#question-8" target="_blank"><strong>Classwork 4.8</strong></a></li>
 </ul>
+</div>
 
 <div class="footer footer-default">
 

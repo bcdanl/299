@@ -5,7 +5,7 @@ format:
   clean-revealjs:
     self-contained: false
     chalkboard: true
-    incremental: false
+    incremental: true
     code-annotations: hover
     scrollable: false
 
@@ -394,25 +394,29 @@ print( len(list_of_numbers) )
 
 
 ##  String-related Functions
-#### Split with `split()`
-- We can use the built-in string `split()` function to break a string into a list of smaller strings based on some *separator*.
-  - If we don’t specify a *separator*, `split()` uses any sequence of white space characters---newlines, spaces, and tabs:
+
+
 ```{.python}
 tasks = 'get gloves,get mask,give cat vitamins,call ambulance'
 tasks.split(',')
 tasks.split()
 ```
 
+#### Split with `split()`
+- We can use the built-in string `split()` function to break a string into a list of smaller strings based on some *separator*.
+  - If we don’t specify a *separator*, `split()` uses any sequence of white space characters---newlines, spaces, and tabs:
+
 
 ##  String-related Functions
 
-#### Combine by Using `join()`
-- `join()` collapses a *list* of strings into a single string.
 ```{.python}
 crypto_list = ['Yeti', 'Bigfoot', 'Loch Ness Monster']
 crypto_string = ', '.join(crypto_list)
 print('Found and signing book deals:', crypto_string)
 ```
+
+#### Combine by Using `join()`
+- `join()` collapses a *list* of strings into a single string.
 
 
 ## Strings and Slicing
@@ -431,7 +435,7 @@ print('Found and signing book deals:', crypto_string)
 
 ## Get a Substring with a Slice
 
-
+::::{.nonincremental}
 ::: {.panel-tabset}
 ## `[:]`
 ```{.python}
@@ -488,7 +492,7 @@ letters[: : -1 ]
 
 :::
 
-
+::::
 
 
 ## Lists
@@ -521,6 +525,7 @@ list_example[ 1 : 3 ]
 
 ## Lists
 
+::::{.nonincremental}
 ::: {.panel-tabset}
 ## `[index]`
 ### Get an Item by `[index]`
@@ -586,7 +591,7 @@ suny[-6 : -4]
 
 :::
 
-
+::::
 
 
 ## Slicing Methods
@@ -663,14 +668,16 @@ while count <= 5:
     count += 1
 ```
 
+
+1. We first assigned the value 1 to `count`.
+2. The `while` loop compared the value of `count` to 5 and continued if `count` was less than or equal to 5.
+3. Inside the loop, we printed the value of `count` and then *incremented* its value by one with the statement `count += 1`.
+
 :::
 
 ::: {.column width="50%"}
 
 
-1. We first assigned the value 1 to `count`.
-2. The `while` loop compared the value of `count` to 5 and continued if `count` was less than or equal to 5.
-3. Inside the loop, we printed the value of `count` and then *incremented* its value by one with the statement `count += 1`.
 4. Python goes back to the top of the loop, and again compares `count` with 5.
 5. The value of `count` is now 2, so the contents of the `while` loop are again executed, and `count` is incremented to 3.
 6. This continues until `count` is incremented from 5 to 6 at the bottom of the loop.
@@ -684,10 +691,6 @@ while count <= 5:
 ##  Asking the user for input
   
 
-:::: {.columns}
-
-::: {.column width="50%"}
-
 ```{.python}
 stuff = input()
 # Type something and press Return/Enter on Console 
@@ -695,26 +698,18 @@ stuff = input()
 print(stuff)
 ```
 
-:::
-
-::: {.column width="50%"}
-
-
 - Sometimes we would like to take the value for a variable from the user via their keyboard. 
+
+
+
   - The `input()` function gets *input* from the keyboard.
   - When the `input()` is called, the program stops and waits for the user to type something on Console (interactive Python interpreter).
   - When the user presses **Return** or **Enter** on Console, the program resumes and input returns what the user typed as a string.
-
-:::
-::::
 
 
 
 ##  Cancel with `break`
 
-:::: {.columns}
-
-::: {.column width="50%"}
 ```{.python}
 while True:
     user_input = input("Enter 'yes' to continue or 'no' to stop: ")
@@ -727,26 +722,17 @@ while True:
         print("Invalid input, please enter 'yes' or 'no'.")
 ```
 
-:::
-
-::: {.column width="50%"}
-
 - `While` loop is used to execute a block of code repeatedly until given boolean condition evaluated to `False`. 
   - `while True` loop will run forever unless we write it with a `break` statement.
 
 - If we want to loop until something occurs, but we’re not sure when that might happen, we can use an infinite loop with a `break` statement. 
 
 
-:::
-::::
 
 
 ## Repeat with `while`
 ### Skip Ahead with `continue`
 
-:::: {.columns}
-
-::: {.column width="50%"}
 ```{.python}
 while True:
     value = input("Integer, please [q to quit]: ")
@@ -758,21 +744,16 @@ while True:
     print(number, "squared is", number*number)
 ```
 
-:::
-::: {.column width="50%"}
 - Sometimes, we don’t want to break out of a loop but just want to skip ahead to the
 next iteration for some reason. 
 
 - The `continue` statement is used to skip the rest of the code inside a loop for the *current iteration* only. 
 
-:::
-::::
 
 
 ## Repeat with `while`
 ### Check `break` Use with `else`
 
-- We can consider using `while` with `else` when we’ve coded a `while` loop to check for something, and `break`ing as soon as it’s found. 
   <!-- - The `else` would be run if the `while` loop completed but the object was not found. -->
   
 ```{.python}
@@ -788,15 +769,15 @@ while position < len(numbers):
 else:  # break not called
     print('No number greater than 4 found')
 ```
-- Consider it a break checker.
+
+- We can consider using `while` with `else` when we’ve coded a `while` loop to check for something, and `break`ing as soon as it’s found. 
+  - Consider it a break checker.
 
 
 ##  Iterate with `for` and `in`
 
 - Sometimes we want to loop through a set of things such as a string of text, a list of words or a list of numbers.
-
   - When we have a list of things to loop through, we can construct a `for` loop. 
-
   - A `for` loop makes it possible for you to traverse data structures without knowing how large they are or how they are implemented. 
   
   <!-- - We can iterate over data that is created on the fly, allowing processing of data streams that would otherwise not fit in the computer’s memory all at once. -->
@@ -807,8 +788,10 @@ else:  # break not called
 
 ##  Iterate with `for` and `in`
 
+:::{.nonincremental}
 - Let's see two ways to walk through a string here:
 
+:::
 
 :::: {.columns}
 
@@ -863,11 +846,8 @@ for letter in word:
 
 ## Generate Number Sequences with `range()`
 
-- The `range()` function returns a stream of numbers within a specified range, without
-first having to create and store a large data structure such as a *list* or *tuple*. 
-
+- The `range()` function returns a stream of numbers within a specified range, without first having to create and store a large data structure such as a *list* or *tuple*. 
   - This lets us create huge ranges without using all the memory in our computers and crashing our program.
-  
   - `range()` returns an iterable object, so we need to step through the values with `for` ... `in`, or convert the object to a sequence like a *list*. 
 
 
@@ -897,8 +877,6 @@ list( range(0, 3) )
 
 ## Iterate with `for` and `in`
 ### Check `break` Use with `else`
-- Similar to `while`, `for` has an optional `else` that checks whether the `for` completed normally. 
-  - If `break` was not called, the `else` statement is run.
 
 ```{.python}
 word = 'thud'
@@ -912,6 +890,8 @@ else:
 ```
 
 
+- Similar to `while`, `for` has an optional `else` that checks whether the `for` completed normally. 
+  - If `break` was not called, the `else` statement is run.
 
 ## Loop with `while` and `for`
 ###  Class Exercises
@@ -927,6 +907,7 @@ else:
 ## List Comprehension
 ### What is List Comprehension?
 
+:::{.nonincremental}
 - A concise way to create or modify lists.
 - Syntax: `[expression for item in iterable if condition]`
 
@@ -941,10 +922,13 @@ numbers = [1, 2, 3, 4, 5, 6]
 evens = [x for x in numbers if x != 2]
 ```
 
+:::
 
 ## Dictionary Comprehension
 
 ### What is Dictionary Comprehension?
+
+:::{.nonincremental}
 
 - A concise way to create or modify dictionaries.
 - Syntax: `{key_expression: value_expression for item in iterable if condition}`
@@ -966,23 +950,26 @@ original_dict = {'a': 1, 'b': 2, 'c': 3}
 swapped_dict = {v: k for k, v in original_dict.items()}
 ```
 
-
+:::
 
 # **Modifying Lists and Dictionaries** {background-color="#1c4982"}
 
 ## Modifying a List
 ### Adding Items
 
+:::{.nonincremental}
 - **`append()`**: Adds an item to the end of the list.
   
 ```{.python}
 my_list = [1, 2, 3]
 my_list.append(4)
 ```
-  
+
+:::
+
 ## Modifying a List
 ### Deleting Items
-
+:::{.nonincremental}
 - **`remove()`**: Deletes the first occurrence of value in the list.
   
 ```{.python}
@@ -1007,10 +994,12 @@ del my_list[1]
 del my_list[1:3]
 ```
 
+:::
 
 ## Modifying a Dictionary
 ### Adding/Updating Items
 
+:::{.nonincremental}
 - **`update()`**: Adds new key-value pairs or updates existing ones.
   
 ```{.python}
@@ -1018,10 +1007,13 @@ my_dict = {'a': 1, 'b': 2}
 my_dict.update({'c': 3})  
 my_dict.update({'a': 10})  
 ```
-  
+
+:::
+
 ## Modifying a Dictionary
 ### Deleting Items
 
+:::{.nonincremental}
 - **Dictionary Comprehension**: Removes items based on a condition.
 
 ```{.python}
@@ -1036,7 +1028,7 @@ my_dict = {'a': 1, 'b': 2, 'c': 3}
 del my_dict['b']  
 ```
 
-
+:::
 
 
 
@@ -1102,6 +1094,8 @@ except:
 
 ## Handle Errors with `try` and `except`
 ### `except` type
+
+:::{.nonincremental}
 - Specifying a plain `except` with no arguments, as we did here, is a catchall for any exception type.
 
 - If more than one type of exception could occur, it’s best to provide a
@@ -1114,6 +1108,7 @@ separate exception handler for each.
   <p style="font-style: bold;"></p>
 </div>
 
+:::
 
 ## Handle Errors with `try` and `except`
 ### `except` type
@@ -1201,6 +1196,8 @@ while True:
 
 ## Importing Modules, Packages, and Libraries
 ### `import` statement
+
+:::{.nonincremental}
 - A **module** is basically a bunch of related codes saved in a file with the extension `.py`.
 
 - A **package** is basically a directory of a collection of modules. 
@@ -1217,11 +1214,12 @@ import LIBRARY_NAME
 
 - This makes the code and variables in the imported module available to our programming codes.
 
+:::
 
 ## Importing Modules, Packages, and Libraries
 ### `import` statement
 
-
+:::{.nonincremental}
 :::: {.columns}
 ::: {.column width="50%"}
 #### `as`
@@ -1247,10 +1245,12 @@ from LIBRARY import FUNCTION, PACKAGE, MODULE
 
 :::
 ::::
+::::
 
 ## Installing Modules, Packages, and Libraries
 ### `pip` tool
 
+:::{.nonincremental}
 :::: {.columns}
 ::: {.column width="50%"}
 - To install a library `LIBRARY` on your Google Colab, run:
@@ -1272,3 +1272,5 @@ pip install LIBRARY
 ::::
 
 - **Q**. [**Classwork 4.8**](https://bcdanl.github.io/299/danl-cw/danl-299-cw-04.html#question-8){target="_blank"}
+
+::::

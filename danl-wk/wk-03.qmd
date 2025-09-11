@@ -18,6 +18,12 @@ In our week 3, we will start practicing Python basics
 🎥 Looking for lecture recordings? You can only find those on Brightspace.
 
 
+### Useful Keyboard Shortcuts for Lecture Slides
+- **CTRL + Shift + F**: Search
+- **M**: Toggle menu
+- **E**: PDF export/printing mode
+
+
 ## ✍️ Classwork
 
 🚧 Please complete [Classwork 4](../danl-cw/danl-299-cw-04.qmd) to practice basics in Python programming.
