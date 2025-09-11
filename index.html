@@ -128,9 +128,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-subtitle','listing-date',{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-title','listing-subtitle','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
       
-      searchColumns: [],
+      searchColumns: ["listing-date","listing-title","listing-author"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -355,7 +355,7 @@ Date
 <tbody class="list">
 <tr data-index="0" data-listing-date-sort="1756094400000" data-listing-file-modified-sort="1757015486854" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="15" data-listing-title-sort="Lecture 1" data-listing-filename-sort="danl-299-lec-01-2025-0825.qmd">
 <td>
-<a href="#" onclick="window.open('./danl-lec/danl-299-lec-01-2025-0825.html'); return false;"" class="title listing-title">Lecture 1</a>
+<a href="./danl-lec/danl-299-lec-01-2025-0825.html" class="title listing-title">Lecture 1</a>
 </td>
 <td>
 <span class="listing-subtitle">Syllabus and Course Outline</span>
@@ -366,7 +366,7 @@ Date
 </tr>
 <tr data-index="1" data-listing-date-sort="1756267200000" data-listing-file-modified-sort="1757014137488" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-title-sort="Lecture 2" data-listing-filename-sort="danl-299-lec-02-2025-0827.qmd">
 <td>
-<a href="#" onclick="window.open('./danl-lec/danl-299-lec-02-2025-0827.html'); return false;"" class="title listing-title">Lecture 2</a>
+<a href="./danl-lec/danl-299-lec-02-2025-0827.html" class="title listing-title">Lecture 2</a>
 </td>
 <td>
 <span class="listing-subtitle">Prologue; DANL Tools; Building a Website; Markdown</span>
@@ -377,7 +377,7 @@ Date
 </tr>
 <tr data-index="2" data-listing-date-sort="1756958400000" data-listing-file-modified-sort="1757015041306" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-title-sort="Lecture 3" data-listing-filename-sort="danl-299-lec-03-2025-0904.qmd">
 <td>
-<a href="#" onclick="window.open('./danl-lec/danl-299-lec-03-2025-0904.html'); return false;"" class="title listing-title">Lecture 3</a>
+<a href="./danl-lec/danl-299-lec-03-2025-0904.html" class="title listing-title">Lecture 3</a>
 </td>
 <td>
 <span class="listing-subtitle">Getting Started with Jupyter Notebook and Quarto</span>
@@ -388,7 +388,7 @@ Date
 </tr>
 <tr data-index="3" data-listing-date-sort="1757304000000" data-listing-file-modified-sort="1757015454399" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-title-sort="Lecture 4" data-listing-filename-sort="danl-299-lec-04-2025-0908.qmd">
 <td>
-<a href="#" onclick="window.open('./danl-lec/danl-299-lec-04-2025-0908.html'); return false;"" class="title listing-title">Lecture 4</a>
+<a href="./danl-lec/danl-299-lec-04-2025-0908.html" class="title listing-title">Lecture 4</a>
 </td>
 <td>
 <span class="listing-subtitle">Py Basics - Variables, Data Types, Operators, Casting, Containers</span>
@@ -399,7 +399,7 @@ Date
 </tr>
 <tr data-index="4" data-listing-date-sort="1757476800000" data-listing-file-modified-sort="1757018523356" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="24" data-listing-title-sort="Lecture 5" data-listing-filename-sort="danl-299-lec-05-2025-0910.qmd">
 <td>
-<a href="#" onclick="window.open('./danl-lec/danl-299-lec-05-2025-0910.html'); return false;"" class="title listing-title">Lecture 5</a>
+<a href="./danl-lec/danl-299-lec-05-2025-0910.html" class="title listing-title">Lecture 5</a>
 </td>
 <td>
 <span class="listing-subtitle">Py Basics - <code>if</code>-<code>else</code>; Slicing; Functions; <code>while</code> &amp; <code>for</code>; List &amp; Dict; <code>try</code>-<code>except</code></span>
@@ -506,6 +506,17 @@ Date
 </tr>
 </thead>
 <tbody class="list">
+<tr data-index="0" data-listing-date-sort="1757563200000" data-listing-file-modified-sort="1757618531456" data-listing-date-modified-sort="1757618531000" data-listing-reading-time-sort="5" data-listing-title-sort="Homework 1" data-listing-filename-sort="danl-299-hw-01.qmd">
+<td>
+<a href="./danl-hw/danl-299-hw-01.html" class="title listing-title">Homework 1</a>
+</td>
+<td>
+<span class="listing-subtitle">Personal Website and Python Basics</span>
+</td>
+<td>
+<span class="listing-date">September 11, 2025</span>
+</td>
+</tr>
 </tbody>
 
 </table>
