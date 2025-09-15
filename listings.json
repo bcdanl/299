@@ -6,22 +6,9 @@
       "/danl-lec/danl-299-lec-02-2025-0827.html",
       "/danl-lec/danl-299-lec-03-2025-0904.html",
       "/danl-lec/danl-299-lec-04-2025-0908.html",
-      "/danl-lec/danl-299-lec-05-2025-0910.html"
-    ]
-  },
-  {
-    "listing": "/listing-danl-299-cw.html",
-    "items": [
-      "/danl-cw/danl-299-cw-04.html",
-      "/danl-cw/danl-299-cw-03.html",
-      "/danl-cw/danl-299-cw-02.html",
-      "/danl-cw/danl-299-cw-01.html"
-    ]
-  },
-  {
-    "listing": "/listing-danl-299-hw.html",
-    "items": [
-      "/danl-hw/danl-299-hw-01.html"
+      "/danl-lec/danl-299-lec-05-2025-0910.html",
+      "/danl-lec/danl-299-lec-06-2025-0917.html",
+      "/danl-lec/danl-299-lec-07-2025-0922.html"
     ]
   },
   {
@@ -32,11 +19,28 @@
       "/danl-lec/danl-299-lec-03-2025-0904.html",
       "/danl-lec/danl-299-lec-04-2025-0908.html",
       "/danl-lec/danl-299-lec-05-2025-0910.html",
+      "/danl-lec/danl-299-lec-06-2025-0917.html",
+      "/danl-lec/danl-299-lec-07-2025-0922.html",
       "/danl-cw/danl-299-cw-01.html",
       "/danl-cw/danl-299-cw-02.html",
       "/danl-cw/danl-299-cw-03.html",
       "/danl-cw/danl-299-cw-04.html",
       "/danl-hw/danl-299-hw-01.html"
+    ]
+  },
+  {
+    "listing": "/listing-danl-299-hw.html",
+    "items": [
+      "/danl-hw/danl-299-hw-01.html"
+    ]
+  },
+  {
+    "listing": "/listing-danl-299-cw.html",
+    "items": [
+      "/danl-cw/danl-299-cw-04.html",
+      "/danl-cw/danl-299-cw-03.html",
+      "/danl-cw/danl-299-cw-02.html",
+      "/danl-cw/danl-299-cw-01.html"
     ]
   },
   {

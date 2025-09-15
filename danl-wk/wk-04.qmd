@@ -1,11 +1,11 @@
 ---
-title: Week 3
-subtitle: Python Basics
+title: Week 4
+subtitle: Python Basics; Pandas Basics
 date: 2025-09-08
 from: markdown+emoji
 ---
 
-In our week 3, we will start practicing Python basics
+In Week 4, we’ll wrap up Python basics and then move on to Pandas, a powerful library for data analysis with DataFrames.
 
 
 ## 🏫 Lecture Slides 
@@ -14,6 +14,10 @@ In our week 3, we will start practicing Python basics
   [View Slides](../danl-lec/danl-299-lec-04-2025-0908.html){target="_blank"}  
 - **Lecture 5 — Python Basics II**  
   [View Slides](../danl-lec/danl-299-lec-05-2025-0910.html){target="_blank"}  
+- **Lecture 7 — Pandas Basics - Loading Data**  
+  [View Slides](../danl-lec/danl-299-lec-06-2025-0917.html){target="_blank"}  
+- **Lecture 8 — Pandas Basics**  
+  [View Slides](../danl-lec/danl-299-lec-07-2025-0922.html){target="_blank"}  
 
 🎥 Looking for lecture recordings? You can only find those on Brightspace.
 
@@ -34,13 +38,13 @@ In our week 3, we will start practicing Python basics
 
 ## 💬 Discussion
 
-<font size = "5">Welcome to our Week 3 Discussion Board! 👋 </font>
+<font size = "5">Welcome to our Week 4 Discussion Board! 👋 </font>
 
 
-This space is designed for you to engage with your classmates about the material covered in Week 3.
+This space is designed for you to engage with your classmates about the material covered in Week 4.
 
 Whether you are looking to delve deeper into the content, share insights, or have questions about the content, this is the perfect place for you.
 
-If you have any specific questions for Byeong-Hak (**@bcdanl**) or peer classmate (@GitHub-Username) regarding the Week 3 materials or need clarification on any points, don't hesitate to ask here. 
+If you have any specific questions for Byeong-Hak (**@bcdanl**) or peer classmate (@GitHub-Username) regarding the Week 4 materials or need clarification on any points, don't hesitate to ask here. 
 
 Let's collaborate and learn from each other!

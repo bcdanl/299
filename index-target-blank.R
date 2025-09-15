@@ -11,7 +11,8 @@ system(paste("rm", shQuote("index.html")))
 # Next lecture number & dates
 lec_dates <- c('0825', '0827',
                '0904', '0908',
-               '0910')
+               '0910',
+               '0917', '0922')
 lec_n <- length(lec_dates)
 
 lec_nos <- 1:lec_n

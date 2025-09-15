@@ -842,6 +842,29 @@ for letter in word:
 ```
 - Inserting a `continue` in a `for` loop jumps to the next iteration of the loop, as it does for a `while` loop.
 
+## 🔄 Loop Control: `continue`, `pass`, `break`
+
+
+```{.python}
+for num in range(1, 6):
+
+    if num == 2:
+        continue   # skip printing 2
+
+    if num == 3:
+        pass       # do nothing, move on
+
+    if num == 4:
+        break      # exit the loop
+
+    print(num)
+
+```
+
+- In a `for` or `while` loop, you can alter flow with:
+    - **`continue`** → skips to the next loop iteration  
+    - **`pass`** → does nothing (placeholder)  
+    - **`break`** → exits the loop completely  
 
 
 ## Generate Number Sequences with `range()`
