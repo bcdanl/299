@@ -1,6 +1,6 @@
 ---
 title: Lecture 8
-subtitle: "`pandas` Basics - Sorting Methods; Setting a New Index; Locating Observations/Values"
+subtitle: "`pandas` - Sorting Methods; Setting a New Index; Locating Observations/Values"
 format:
   clean-revealjs:
     self-contained: false

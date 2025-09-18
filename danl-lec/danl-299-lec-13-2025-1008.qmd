@@ -1,6 +1,6 @@
 ---
 title: Lecture 13
-subtitle: "`pandas` Basics - Joining DataFrames; Concatenating DataFrames"
+subtitle: "`pandas` - Joining DataFrames; Concatenating DataFrames"
 format:
   clean-revealjs:
     self-contained: false

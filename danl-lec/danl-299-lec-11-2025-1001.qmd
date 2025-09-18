@@ -1,6 +1,6 @@
 ---
 title: Lecture 11
-subtitle: "`pandas` Basics - Missing Values; Duplicates"
+subtitle: "`pandas` - Missing Values; Duplicates"
 format:
   clean-revealjs:
     self-contained: false

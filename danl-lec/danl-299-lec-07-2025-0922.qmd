@@ -1,6 +1,6 @@
 ---
 title: Lecture 7
-subtitle: "`pandas` Basics - Getting a Data Summary; Selecting Variables; Counting; Sorting"
+subtitle: "`pandas` - Getting a Data Summary; Selecting Variables; Counting; Sorting"
 format:
   clean-revealjs:
     self-contained: false

@@ -1,6 +1,6 @@
 ---
 title: Lecture 10
-subtitle: "`pandas` Basics - Filtering by a Condition"
+subtitle: "`pandas` - Filtering by a Condition"
 format:
   clean-revealjs:
     self-contained: false
