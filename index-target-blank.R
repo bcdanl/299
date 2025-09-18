@@ -12,7 +12,9 @@ system(paste("rm", shQuote("index.html")))
 lec_dates <- c('0825', '0827',
                '0904', '0908',
                '0910',
-               '0917', '0922')
+               '0917', '0922',
+               '0924', '0929',
+               '1001', '1006', '1008')
 lec_n <- length(lec_dates)
 
 lec_nos <- 1:lec_n
