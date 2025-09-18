@@ -1,7 +1,7 @@
 ---
 title: Classwork 5
 subtitle: Pandas - Loading, Summarizing, Selecting, Counting, Sorting, and Indexing Data
-date: 2025-09-17
+date: 2025-09-22
 execute: 
   eval: false
 from: markdown+emoji
