@@ -1,0 +1,48 @@
+---
+title: Week 5
+subtitle: Python Basics; Pandas Basics
+date: 2025-09-22
+from: markdown+emoji
+---
+
+In Week 5, we'll continue to discuss Pandas basics.
+
+
+## 🏫 Lecture Slides 
+ 
+- **Lecture 7 — Getting a Data Summary; Selecting Variables; Counting**  
+  [View Slides](../danl-lec/danl-299-lec-07-2025-0922.html){target="_blank"}  
+
+- **Lecture 8 - Sorting Methods; Setting a New Index; Locating Observations/Values**   
+  [View Slides](../danl-lec/danl-299-lec-08-2025-0924.html){target="_blank"}  
+
+- **Lecture 9 - Adding, Removing, & Renaming Variables; Data Types**   
+  [View Slides](../danl-lec/danl-299-lec-09-2025-0929.html){target="_blank"} 
+  
+
+
+
+🎥 Looking for lecture recordings? You can only find those on Brightspace.
+
+
+
+## ✍️ Classwork
+
+🚧 Please complete [Classwork 5](../danl-cw/danl-299-cw-05.qmd) to practice Pandas - Loading, Summarizing, Selecting, Counting, Sorting, and Indexing Data.
+
+
+<!-- ## 📚 Recommended Reading -->
+
+
+## 💬 Discussion
+
+<font size = "5">Welcome to our Week 5 Discussion Board! 👋 </font>
+
+
+This space is designed for you to engage with your classmates about the material covered in Week 5.
+
+Whether you are looking to delve deeper into the content, share insights, or have questions about the content, this is the perfect place for you.
+
+If you have any specific questions for Byeong-Hak (**@bcdanl**) or peer classmate (@GitHub-Username) regarding the Week 5 materials or need clarification on any points, don't hesitate to ask here. 
+
+Let's collaborate and learn from each other!

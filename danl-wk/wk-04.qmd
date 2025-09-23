@@ -1,7 +1,7 @@
 ---
 title: Week 4
 subtitle: Python Basics; Pandas Basics
-date: 2025-09-08
+date: 2025-09-15
 from: markdown+emoji
 ---
 
