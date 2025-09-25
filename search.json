@@ -1152,7 +1152,7 @@
     "href": "listing-danl-299-hw.html",
     "title": "DANL 299 - Homework",
     "section": "",
-    "text": "Title\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nHomework 1\n\n\nPersonal Website and Python Basics\n\n\nSeptember 11, 2025\n\n\n\n\n\n\nNo matching items\n\n Back to top"
+    "text": "Title\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nHomework 2\n\n\nPandas Basics\n\n\nSeptember 25, 2025\n\n\n\n\nHomework 1\n\n\nPersonal Website and Python Basics\n\n\nSeptember 11, 2025\n\n\n\n\n\n\nNo matching items\n\n Back to top"
   },
   {
     "objectID": "danl-lec/danl-299-lec-05-2025-0910.html#booleans-conditions-and-if-statements-1",
@@ -2447,7 +2447,7 @@
     "href": "index.html#bullet-homework",
     "title": "DANL 299: Data Preparation and Management, Fall 2025",
     "section": "\\(\\bullet\\,\\) 💻 Homework",
-    "text": "\\(\\bullet\\,\\) 💻 Homework\n\n\n\n\n\n\nTitle\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nHomework 1\n\n\nPersonal Website and Python Basics\n\n\nSeptember 11, 2025\n\n\n\n\n\n\nNo matching items"
+    "text": "\\(\\bullet\\,\\) 💻 Homework\n\n\n\n\n\n\nTitle\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nHomework 1\n\n\nPersonal Website and Python Basics\n\n\nSeptember 11, 2025\n\n\n\n\nHomework 2\n\n\nPandas Basics\n\n\nSeptember 25, 2025\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "danl-wk/wk-03.html",
@@ -2567,5 +2567,166 @@
     "title": "Homework 1",
     "section": "Question 5",
     "text": "Question 5\n\nImport the math library and calculate the square root of 81 using the sqrt() function provided by the math library."
+  },
+  {
+    "objectID": "danl-hw/danl-299-hw-02.html",
+    "href": "danl-hw/danl-299-hw-02.html",
+    "title": "Homework 2",
+    "section": "",
+    "text": "import pandas as pd\nfrom itables import init_notebook_mode, show # for displaying an interactive DataFrame"
+  },
+  {
+    "objectID": "danl-hw/danl-299-hw-02.html#variable-description",
+    "href": "danl-hw/danl-299-hw-02.html#variable-description",
+    "title": "Homework 2",
+    "section": "Variable Description",
+    "text": "Variable Description\n\nFiscal_Year: Fiscal Year;\nPayroll_Number: Payroll Number;\nAgency_Name: The Payroll agency that the employee works for;\nLast_Name: Last name of employee;\nFirst_Name: First name of employee;\nMid_Init: Middle initial of employee;\nAgency_Start_Date: Date which employee began working for their current agency;\nWork_Location_Borough: Borough of employee’s primary work location;\nTitle_Description: Civil service title description of the employee;\nLeave_Status_as_of_June_30: Status of employee as of the close of the relevant fiscal year;\nBase_Salary: Base Salary assigned to the employee;\nPay_Basis: Lists whether the employee is paid on an hourly, per diem or annual basis;\nRegular_Hours: Number of regular hours employee worked in the fiscal year;\nRegular_Gross_Paid: The amount paid to the employee for base salary during the fiscal year;\nOT_Hours: Overtime Hours worked by employee in the fiscal year;\nTotal_OT_Paid: Total overtime pay paid to the employee in the fiscal year;\nTotal_Other_Pay: Includes any compensation in addition to gross salary and overtime pay, ie Differentials, lump sums, uniform allowance, meal allowance, retroactive pay increases, settlement amounts, and bonus pay, if applicable."
+  },
+  {
+    "objectID": "danl-hw/danl-299-hw-02.html#question-1",
+    "href": "danl-hw/danl-299-hw-02.html#question-1",
+    "title": "Homework 2",
+    "section": "Question 1",
+    "text": "Question 1\nSelect “First_Name”, “Last_Name”, “Base_Salary”, and “Total_OT_Paid”, then sort the DataFrame with these selected variables by “Base_Salary” in descending order and display the top 10 entries.\nAnswer"
+  },
+  {
+    "objectID": "danl-hw/danl-299-hw-02.html#question-2",
+    "href": "danl-hw/danl-299-hw-02.html#question-2",
+    "title": "Homework 2",
+    "section": "Question 2",
+    "text": "Question 2\nUsing set_index(), change the DataFrame’s index to “Last_Name”, then locate the data for a specific last name, say “BROWN”, and display their “Agency_Name”, “Base_Salary”, and “Total_OT_Paid”.\nAnswer"
+  },
+  {
+    "objectID": "danl-hw/danl-299-hw-02.html#question-3",
+    "href": "danl-hw/danl-299-hw-02.html#question-3",
+    "title": "Homework 2",
+    "section": "Question 3",
+    "text": "Question 3\nFind the 5 employees with the highest “Regular_Gross_Paid” and calculate their average “OT_Hours”. Also, reset the index if you have changed it previously.\nAnswer"
+  },
+  {
+    "objectID": "danl-hw/danl-299-hw-02.html#question-4",
+    "href": "danl-hw/danl-299-hw-02.html#question-4",
+    "title": "Homework 2",
+    "section": "Question 4",
+    "text": "Question 4\nSort the DataFrame by “Fiscal_Year” and “Total_Other_Pay” in descending order, then set “First_Name” as the index and use the loc accessor to retrieve the “Total_Other_Pay” for a specific first name, say “MICHAEL”.\nAnswer"
+  },
+  {
+    "objectID": "danl-hw/danl-299-hw-02.html#question-5",
+    "href": "danl-hw/danl-299-hw-02.html#question-5",
+    "title": "Homework 2",
+    "section": "Question 5",
+    "text": "Question 5\nSort the DataFrame first by “Work_Location_Borough” alphabetically, and then by “Total_Compensation” (sum of “Base_Salary” and “Total_OT_Paid”) in descending order within each borough.\nAnswer"
+  },
+  {
+    "objectID": "danl-hw/danl-299-hw-02.html#question-6",
+    "href": "danl-hw/danl-299-hw-02.html#question-6",
+    "title": "Homework 2",
+    "section": "Question 6",
+    "text": "Question 6\n\nSelect employees who have “OT_Hours” greater than 0, calculate their “OT_Rate” (“Total_OT_Paid” / “OT_Hours”), and then find the employee with the highest “OT_Rate”. Display their full name and “OT_Rate”.\n\nAnswer"
+  },
+  {
+    "objectID": "danl-hw/danl-299-hw-02.html#question-7",
+    "href": "danl-hw/danl-299-hw-02.html#question-7",
+    "title": "Homework 2",
+    "section": "Question 7",
+    "text": "Question 7\nCreate a new DataFrame that includes employees from the “DEPARTMENT OF EDUCATION ADMIN” agency where the variables are “First_Name”, “Last_Name”, “Title_Description”, “Base_Salary”, and “Total_OT_Paid”. Additionally, include a new variable “Total_Compensation” which is the sum of “Base_Salary” and “Total_OT_Paid”.\nAnswer"
+  },
+  {
+    "objectID": "danl-hw/danl-299-hw-02.html#question-8",
+    "href": "danl-hw/danl-299-hw-02.html#question-8",
+    "title": "Homework 2",
+    "section": "Question 8",
+    "text": "Question 8\n\nHow many employees have a “Base_Salary” within the top 10% of the DataFrame?\n\nAnswer"
+  },
+  {
+    "objectID": "danl-hw/danl-299-hw-02.html#question-9",
+    "href": "danl-hw/danl-299-hw-02.html#question-9",
+    "title": "Homework 2",
+    "section": "Question 9",
+    "text": "Question 9\nFilter the DataFrame for employees who have “OT_Hours” greater than 0 but less than 100, and their “Leave_Status_as_of_June_30” is “ACTIVE”.\nAnswer"
+  },
+  {
+    "objectID": "danl-hw/danl-299-hw-02.html#question-10",
+    "href": "danl-hw/danl-299-hw-02.html#question-10",
+    "title": "Homework 2",
+    "section": "Question 10",
+    "text": "Question 10\nFind the unique job titles in the “DEPARTMENT OF EDUCATION ADMIN” agency and count how many there are.\nAnswer"
+  },
+  {
+    "objectID": "danl-hw/danl-299-hw-02.html#question-11",
+    "href": "danl-hw/danl-299-hw-02.html#question-11",
+    "title": "Homework 2",
+    "section": "Question 11",
+    "text": "Question 11\n\nIdentify the employee(s) with the highest “Total_OT_Paid” in the DataFrame.\n\nInclude their “First_Name”, “Last_Name”, and “Total_OT_Paid”.\n\n\nAnswer"
+  },
+  {
+    "objectID": "danl-hw/danl-299-hw-02.html#question-12",
+    "href": "danl-hw/danl-299-hw-02.html#question-12",
+    "title": "Homework 2",
+    "section": "Question 12",
+    "text": "Question 12\n\nWhat percentage of the values is missing for each variable?\n\nAnswer"
+  },
+  {
+    "objectID": "danl-hw/danl-299-hw-02.html#question-13",
+    "href": "danl-hw/danl-299-hw-02.html#question-13",
+    "title": "Homework 2",
+    "section": "Question 13",
+    "text": "Question 13\n\nFill missing values in the “Last_Name” variable with “UNKNOWN”.\n\nAnswer"
+  },
+  {
+    "objectID": "danl-hw/danl-299-hw-02.html#variable-description-1",
+    "href": "danl-hw/danl-299-hw-02.html#variable-description-1",
+    "title": "Homework 2",
+    "section": "Variable description",
+    "text": "Variable description\n\nplay_id: Numeric play identifier that when used with game_id and drive provides the unique identifier for a single play\ngame_id: Ten digit identifier for NFL game.\ndrive: Numeric drive number in the game.\nweek: Season week.\nposteam: String abbreviation for the team with possession.\nqtr: Quarter of the game (5 is overtime).\nhalf_seconds_remaining: Numeric seconds remaining in the half.\ndown: The down for the given play.\n\nBasically you get four attempts (aka downs) to move the ball 10 yards (by either running with it or passing it).\nIf you make 10 yards then you get another set of four downs.\n\npass: Binary indicator if the play was a pass play.\nwp: Estimated winning probability for the posteam given the current situation at the start of the given play."
+  },
+  {
+    "objectID": "danl-hw/danl-299-hw-02.html#question-14",
+    "href": "danl-hw/danl-299-hw-02.html#question-14",
+    "title": "Homework 2",
+    "section": "Question 14",
+    "text": "Question 14\nIn DataFrame, NFL2022_stuffs, remove observations for which the value of posteam is missing.\nAnswer:"
+  },
+  {
+    "objectID": "danl-hw/danl-299-hw-02.html#question-15",
+    "href": "danl-hw/danl-299-hw-02.html#question-15",
+    "title": "Homework 2",
+    "section": "Question 15",
+    "text": "Question 15\n\nCalculate the mean value of pass for the BUF posteam when all the following conditions hold:\n\nwp is greater than 20% and less than 75%;\ndown is less than or equal to 2; and\nhalf_seconds_remaining is greater than 120.\n\n\nAnswer:"
+  },
+  {
+    "objectID": "danl-hw/danl-299-hw-02.html#question-16",
+    "href": "danl-hw/danl-299-hw-02.html#question-16",
+    "title": "Homework 2",
+    "section": "Question 16",
+    "text": "Question 16\n\nConsider the following DataFrame, NFL2022_epa:\n\n\nNFL2022_epa = pd.read_csv('https://bcdanl.github.io/data/NFL2022_epa.csv')\n\n\n\n\n\n  \n\n\n\n\nVariable Description for NFL2022_epa\n\nplay_id: Numeric play identifier that when used with game_id and drive provides the unique identifier for a single play\ngame_id: Ten digit identifier for NFL game.\ndrive: Numeric drive number in the game.\nposteam: String abbreviation for the team with possession.\npasser: Name of the player who passed a ball to a receiver by initially taking a three-step drop and backpedaling into the pocket to make a pass. (Mostly, they are quarterbacks)\nreceiver: Name of the receiver.\nepa: Expected points added (EPA) by the posteam for the given play.\n\n\n\nCreate the following DataFrame, NFL2022_stuffs_EPA, that includes\n\nAll the variables and the observations in the DataFrame, NFL2022_stuffs;\nThe variables, passer, receiver, and epa, from the DataFrame, NFL2022_epa by joining the two DataFrames.\n\nIn the resulting DataFrame, NFL2022_stuffs_EPA, please remove observations with NaN in passer after the join.\n\n\n\n\n\n\n\n\nAnswer:"
+  },
+  {
+    "objectID": "danl-hw/danl-299-hw-02.html#variable-description-2",
+    "href": "danl-hw/danl-299-hw-02.html#variable-description-2",
+    "title": "Homework 2",
+    "section": "Variable Description",
+    "text": "Variable Description\n\n\n\n\n\n\n\n\nvariable\ntype\ndescription\n\n\n\n\nName\nstring\nName of the Trash Wheel\n\n\nDumpster\ninteger\nDumpster number over time; The Trash Wheel can have multiple dumpsters in a day\n\n\nMonth\nstring\nMonth\n\n\nYear\ninteger\nYear\n\n\nDate\nstring\nDate (Daily)\n\n\nWeight\nfloat\nWeight in tons\n\n\nVolume\ninteger\nVolume in cubic yards\n\n\nPlasticBottles\nfloat\nNumber of plastic bottles\n\n\nPolystyrene\nfloat\nNumber of polystyrene items\n\n\nCigaretteButts\nfloat\nNumber of cigarette butts\n\n\nGlassBottles\nfloat\nNumber of glass bottles\n\n\nPlasticBags\nfloat\nNumber of plastic bags\n\n\nWrappers\nfloat\nNumber of wrappers\n\n\nSportsBalls\nfloat\nNumber of sports balls\n\n\nHomesPowered\ninteger\nHomes Powered - Each ton of trash equates to on average 500 kilowatts of electricity. An average household will use 30 kilowatts per day."
+  },
+  {
+    "objectID": "danl-hw/danl-299-hw-02.html#meet-the-mr.-trash-wheel-family",
+    "href": "danl-hw/danl-299-hw-02.html#meet-the-mr.-trash-wheel-family",
+    "title": "Homework 2",
+    "section": "Meet the Mr. Trash Wheel Family",
+    "text": "Meet the Mr. Trash Wheel Family\n\n\n\n\n\n\nMister Trash Wheel\n\n\n\n\nInstalled: May 9, 2014\nLocation: Jones Falls stream, Inner Harbor, Baltimore, MD\n\n\n\n\n\n\n\n\nProfessor Trash Wheel\n\n\n\n\nInstalled: December 4, 2016\nLocation: Harris Creek, Canton neighborhood, Baltimore, MD\n\n\n\n\n\n\n\n\nCaptain Trash Wheel\n\n\n\n\n\nInstalled: June 5, 2018\nLocation: Masonville Cove, Baltimore, MD\n\n\n\n\n\n\n\n\nGwynnda Trash Wheel\n\n\n\n\n\nInstalled: June 3, 2021\nLocation: Gwynns Falls, West Baltimore, MD"
+  },
+  {
+    "objectID": "danl-hw/danl-299-hw-02.html#question-17",
+    "href": "danl-hw/danl-299-hw-02.html#question-17",
+    "title": "Homework 2",
+    "section": "Question 17",
+    "text": "Question 17\n\nReshape the trashwheel DataFrame into a DataFrame called trashwheel_long that includes variables for “Name”, “Date”, “Dumpster”, “Trash_Type”, and “Number”.\n\nThe “Trash_Type” variable should indicate the type of trash from the original DataFrame, and “Number” should contain the corresponding values.\nFinally, sort trashwheel_long by “Name”, “Date”, “Dumpster”, and “Trash_Type” in ascending order.\nThe following displays the trashwheel_long DataFrame:\n\n\n\n\n\n\n\nAnswer:"
+  },
+  {
+    "objectID": "danl-hw/danl-299-hw-02.html#variable-description-3",
+    "href": "danl-hw/danl-299-hw-02.html#variable-description-3",
+    "title": "Homework 2",
+    "section": "Variable Description",
+    "text": "Variable Description\n\npid: playlist ID; unique ID for playlist\nplaylist_name: a name of playlist\npos: a position of the track within a playlist (starting from 0)\nartist_name: name of the track’s primary artist\ntrack_name: name of the track\nduration_ms: duration of the track in milliseconds\nalbum_name: name of the track’s album\n\n\n\nWrite a blog post about your favorite artist(s) in the spotify DataFrame using Jupyter Notebook, and add it to your online blog.\n\nIn your blog post, utilize counting, sorting, indexing, and filtering methods."
   }
 ]
