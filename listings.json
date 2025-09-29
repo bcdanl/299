@@ -18,6 +18,10 @@
     ]
   },
   {
+    "listing": "/listing-danl-299-wk.html",
+    "items": []
+  },
+  {
     "listing": "/listing-danl-299-cw.html",
     "items": [
       "/danl-cw/danl-299-cw-07.html",
@@ -62,9 +66,5 @@
       "/danl-hw/danl-299-hw-01.html",
       "/danl-hw/danl-299-hw-02.html"
     ]
-  },
-  {
-    "listing": "/listing-danl-299-wk.html",
-    "items": []
   }
 ]
