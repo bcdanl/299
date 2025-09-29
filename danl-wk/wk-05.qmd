@@ -28,8 +28,8 @@ In Week 5, we'll continue to discuss Pandas basics.
 
 ## ✍️ Classwork
 
-🚧 Please complete [Classwork 5](../danl-cw/danl-299-cw-05.qmd) to practice Pandas - Loading, Summarizing, Selecting, Counting, Sorting, and Indexing Data.
-
+- **Classwork 4 - Python Basics**  
+  [View Classwork](../danl-cw/danl-299-cw-04.html){target="_blank"} 
 
 <!-- ## 📚 Recommended Reading -->
 

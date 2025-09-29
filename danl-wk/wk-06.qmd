@@ -1,0 +1,55 @@
+---
+title: Week 6
+subtitle: Pandas Basics
+date: 2025-09-29
+from: markdown+emoji
+---
+
+In Week 6, we'll finish up lectures on Pandas basics.
+
+
+## 🏫 Lecture Slides 
+ 
+- **Lecture 10 — Filtering by a Condition**  
+  [View Slides](../danl-lec/danl-299-lec-10-2025-1001.html){target="_blank"}  
+
+- **Lecture 11 - Missing Values; Duplicates**   
+  [View Slides](../danl-lec/danl-299-lec-11-2025-1001.html){target="_blank"}  
+
+- **Lecture 12 - Reshaping DataFrames**   
+  [View Slides](../danl-lec/danl-299-lec-12-2025-1006.html){target="_blank"} 
+
+- **Lecture 13 -  Joining DataFrames**   
+  [View Slides](../danl-lec/danl-299-lec-13-2025-1006.html){target="_blank"} 
+  
+
+
+
+🎥 Looking for lecture recordings? You can only find those on Brightspace.
+
+
+
+## ✍️ Classwork
+
+- **Classwork 5 - Loading, Summarizing, Selecting, Counting, Sorting, and Indexing Data**  
+  [View Classwork](../danl-cw/danl-299-cw-05.html){target="_blank"} 
+
+- **Classwork 6 - Convering Data Types; Filtering Data; Missing Values/Duplicates**  
+  [View Classwork](../danl-cw/danl-299-cw-06.html){target="_blank"} 
+
+
+<!-- ## 📚 Recommended Reading -->
+
+
+## 💬 Discussion
+
+<font size = "5">Welcome to our Week 5 Discussion Board! 👋 </font>
+
+
+This space is designed for you to engage with your classmates about the material covered in Week 5.
+
+Whether you are looking to delve deeper into the content, share insights, or have questions about the content, this is the perfect place for you.
+
+If you have any specific questions for Byeong-Hak (**@bcdanl**) or peer classmate (@GitHub-Username) regarding the Week 5 materials or need clarification on any points, don't hesitate to ask here. 
+
+Let's collaborate and learn from each other!
