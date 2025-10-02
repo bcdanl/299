@@ -4,7 +4,7 @@
     "href": "listing-danl-299-lec.html",
     "title": "DANL 299 - Lecture",
     "section": "",
-    "text": "Title\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nLecture 1\n\n\nSyllabus and Course Outline\n\n\nAugust 25, 2025\n\n\n\n\nLecture 2\n\n\nPrologue; DANL Tools; Building a Website; Markdown\n\n\nAugust 27, 2025\n\n\n\n\nLecture 3\n\n\nGetting Started with Jupyter Notebook and Quarto\n\n\nSeptember 4, 2025\n\n\n\n\nLecture 4\n\n\nPy Basics - Variables, Data Types, Operators, Casting, Containers\n\n\nSeptember 8, 2025\n\n\n\n\nLecture 5\n\n\nPy Basics - if-else; Slicing; Functions; while & for; List & Dict; try-except\n\n\nSeptember 10, 2025\n\n\n\n\nLecture 6\n\n\npandas - Loading Data\n\n\nSeptember 17, 2025\n\n\n\n\nLecture 7\n\n\npandas - Getting a Data Summary; Selecting Variables; Counting\n\n\nSeptember 22, 2025\n\n\n\n\nLecture 8\n\n\npandas - Sorting Methods; Setting a New Index; Locating Observations/Values\n\n\nSeptember 24, 2025\n\n\n\n\nLecture 9\n\n\npandas - Adding, Removing, & Renaming Variables; Data Types\n\n\nSeptember 29, 2025\n\n\n\n\nLecture 10\n\n\npandas - Filtering by a Condition\n\n\nOctober 1, 2025\n\n\n\n\nLecture 11\n\n\npandas - Missing Values; Duplicates\n\n\nOctober 2, 2025\n\n\n\n\nLecture 12\n\n\npandas - Reshaping DataFrames\n\n\nOctober 8, 2025\n\n\n\n\n\n\nNo matching items\n\n Back to top"
+    "text": "Title\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nLecture 1\n\n\nSyllabus and Course Outline\n\n\nAugust 25, 2025\n\n\n\n\nLecture 2\n\n\nPrologue; DANL Tools; Building a Website; Markdown\n\n\nAugust 27, 2025\n\n\n\n\nLecture 3\n\n\nGetting Started with Jupyter Notebook and Quarto\n\n\nSeptember 4, 2025\n\n\n\n\nLecture 4\n\n\nPy Basics - Variables, Data Types, Operators, Casting, Containers\n\n\nSeptember 8, 2025\n\n\n\n\nLecture 5\n\n\nPy Basics - if-else; Slicing; Functions; while & for; List & Dict; try-except\n\n\nSeptember 10, 2025\n\n\n\n\nLecture 6\n\n\npandas - Loading Data\n\n\nSeptember 17, 2025\n\n\n\n\nLecture 7\n\n\npandas - Getting a Data Summary; Selecting Variables; Counting\n\n\nSeptember 22, 2025\n\n\n\n\nLecture 8\n\n\npandas - Sorting Methods; Setting a New Index; Locating Observations/Values\n\n\nSeptember 24, 2025\n\n\n\n\nLecture 9\n\n\npandas - Adding, Removing, & Renaming Variables; Data Types\n\n\nSeptember 29, 2025\n\n\n\n\nLecture 10\n\n\npandas - Filtering by a Condition\n\n\nOctober 1, 2025\n\n\n\n\nLecture 11\n\n\npandas - Missing Values; Duplicates\n\n\nOctober 2, 2025\n\n\n\n\nLecture 12\n\n\npandas - Reshaping DataFrames\n\n\nOctober 6, 2025\n\n\n\n\nLecture 13\n\n\npandas Basics - Joining DataFrames; Concatenating DataFrames\n\n\nOctober 8, 2025\n\n\n\n\n\n\nNo matching items\n\n Back to top"
   },
   {
     "objectID": "danl-hw/danl-299-hw-02.html",
@@ -2587,7 +2587,7 @@
     "href": "index.html#bullet-lecture",
     "title": "DANL 299: Data Preparation and Management, Fall 2025",
     "section": "\\(\\bullet\\,\\) 🚀 Lecture",
-    "text": "\\(\\bullet\\,\\) 🚀 Lecture\n\n\n\n\n\n\nTitle\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nLecture 1\n\n\nSyllabus and Course Outline\n\n\nAugust 25, 2025\n\n\n\n\nLecture 2\n\n\nPrologue; DANL Tools; Building a Website; Markdown\n\n\nAugust 27, 2025\n\n\n\n\nLecture 3\n\n\nGetting Started with Jupyter Notebook and Quarto\n\n\nSeptember 4, 2025\n\n\n\n\nLecture 4\n\n\nPy Basics - Variables, Data Types, Operators, Casting, Containers\n\n\nSeptember 8, 2025\n\n\n\n\nLecture 5\n\n\nPy Basics - if-else; Slicing; Functions; while & for; List & Dict; try-except\n\n\nSeptember 10, 2025\n\n\n\n\nLecture 6\n\n\npandas - Loading Data\n\n\nSeptember 17, 2025\n\n\n\n\nLecture 7\n\n\npandas - Getting a Data Summary; Selecting Variables; Counting\n\n\nSeptember 22, 2025\n\n\n\n\nLecture 8\n\n\npandas - Sorting Methods; Setting a New Index; Locating Observations/Values\n\n\nSeptember 24, 2025\n\n\n\n\nLecture 9\n\n\npandas - Adding, Removing, & Renaming Variables; Data Types\n\n\nSeptember 29, 2025\n\n\n\n\nLecture 10\n\n\npandas - Filtering by a Condition\n\n\nOctober 1, 2025\n\n\n\n\nLecture 11\n\n\npandas - Missing Values; Duplicates\n\n\nOctober 2, 2025\n\n\n\n\nLecture 12\n\n\npandas - Reshaping DataFrames\n\n\nOctober 8, 2025\n\n\n\n\n\n\nNo matching items"
+    "text": "\\(\\bullet\\,\\) 🚀 Lecture\n\n\n\n\n\n\nTitle\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nLecture 1\n\n\nSyllabus and Course Outline\n\n\nAugust 25, 2025\n\n\n\n\nLecture 2\n\n\nPrologue; DANL Tools; Building a Website; Markdown\n\n\nAugust 27, 2025\n\n\n\n\nLecture 3\n\n\nGetting Started with Jupyter Notebook and Quarto\n\n\nSeptember 4, 2025\n\n\n\n\nLecture 4\n\n\nPy Basics - Variables, Data Types, Operators, Casting, Containers\n\n\nSeptember 8, 2025\n\n\n\n\nLecture 5\n\n\nPy Basics - if-else; Slicing; Functions; while & for; List & Dict; try-except\n\n\nSeptember 10, 2025\n\n\n\n\nLecture 6\n\n\npandas - Loading Data\n\n\nSeptember 17, 2025\n\n\n\n\nLecture 7\n\n\npandas - Getting a Data Summary; Selecting Variables; Counting\n\n\nSeptember 22, 2025\n\n\n\n\nLecture 8\n\n\npandas - Sorting Methods; Setting a New Index; Locating Observations/Values\n\n\nSeptember 24, 2025\n\n\n\n\nLecture 9\n\n\npandas - Adding, Removing, & Renaming Variables; Data Types\n\n\nSeptember 29, 2025\n\n\n\n\nLecture 10\n\n\npandas - Filtering by a Condition\n\n\nOctober 1, 2025\n\n\n\n\nLecture 11\n\n\npandas - Missing Values; Duplicates\n\n\nOctober 2, 2025\n\n\n\n\nLecture 12\n\n\npandas - Reshaping DataFrames\n\n\nOctober 6, 2025\n\n\n\n\nLecture 13\n\n\npandas Basics - Joining DataFrames; Concatenating DataFrames\n\n\nOctober 8, 2025\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html#bullet-classwork",
@@ -2966,5 +2966,124 @@
     "title": "Lecture 12",
     "section": "Reshaping DataFrames",
     "text": "Reshaping DataFrames\nLet’s do Part 1 of Classwork 7!"
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-13-2025-1008.html#joining-dataframes-1",
+    "href": "danl-lec/danl-299-lec-13-2025-1008.html#joining-dataframes-1",
+    "title": "Lecture 13",
+    "section": "Joining DataFrames",
+    "text": "Joining DataFrames\nRelational Data\n\nSometimes, one data set is scattered across multiple files.\n\nThe size of the files can be huge.\nThe data collection process can be scattered across time and space.\nE.g., DataFrame for county-level data and DataFrame for geographic information, such as longitude and latitude.\n\nSometimes we want to combine two or more DataFrames based on common data values in those DataFrames.\n\nThis task is known in the database world as performing a “join.”\nWe can do this with the merge() method in Pandas."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-13-2025-1008.html#joining-dataframes-2",
+    "href": "danl-lec/danl-299-lec-13-2025-1008.html#joining-dataframes-2",
+    "title": "Lecture 13",
+    "section": "Joining DataFrames",
+    "text": "Joining DataFrames\nJoin, Relational Data, and Keys\n\n\n\n\n\n\n\n\nThe variables that are used to connect each pair of DataFrames are called keys.\nEach observation in a DataFrame is often uniquely identified by key variable(s).\nThe key variable enables relationships between the DataFrames to be defined."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-13-2025-1008.html#joining-dataframes-with-merge",
+    "href": "danl-lec/danl-299-lec-13-2025-1008.html#joining-dataframes-with-merge",
+    "title": "Lecture 13",
+    "section": "Joining DataFrames with merge()",
+    "text": "Joining DataFrames with merge()\n\n\n\n\n\nx = pd.DataFrame({\n    'key': [1, 2, 3],\n    'val_x': ['x1', 'x2', 'x3']\n})\n\ny = pd.DataFrame({\n    'key': [1, 2, 4],\n    'val_y': ['y1', 'y2', 'y3']\n})\n\n\n\nThe colored column represents the “key” variable.\nThe grey column represents the “value” variable."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-13-2025-1008.html#joining-dataframes-with-merge-1",
+    "href": "danl-lec/danl-299-lec-13-2025-1008.html#joining-dataframes-with-merge-1",
+    "title": "Lecture 13",
+    "section": "Joining DataFrames with merge()",
+    "text": "Joining DataFrames with merge()\nInner Join\n\nAn inner join matches pairs of observations whenever their keys are equal:\n\n\n\n\n# the default value for 'how' is 'inner'\n# so it doesn't actually need to be specified\nmerge_inner_1 = pd.merge(x, y, on='key')\nmerge_inner_2 = pd.merge(x, y, on='key', how='inner')\nmerge_inner_3 = x.merge(y, on='key')\nmerge_inner_4 = x.merge(y, on='key', how='inner')"
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-13-2025-1008.html#joining-dataframes-with-merge-2",
+    "href": "danl-lec/danl-299-lec-13-2025-1008.html#joining-dataframes-with-merge-2",
+    "title": "Lecture 13",
+    "section": "Joining DataFrames with merge()",
+    "text": "Joining DataFrames with merge()\nLeft Join\n\nA left join keeps all observations in x.\n\n\n\n\nmerge_left = pd.merge(x, y, on='key', how='left')\nmerge_left_x = x.merge(y, on='key', how='left')\n\nThe most commonly used join is the left join."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-13-2025-1008.html#joining-dataframes-with-merge-3",
+    "href": "danl-lec/danl-299-lec-13-2025-1008.html#joining-dataframes-with-merge-3",
+    "title": "Lecture 13",
+    "section": "Joining DataFrames with merge()",
+    "text": "Joining DataFrames with merge()\nRight Join\n\nA right join keeps all observations in y.\n\n\n\n\nmerge_right = pd.merge(x, y, on='key', how='right')\nmerge_right_x = x.merge(y, on='key', how='right')"
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-13-2025-1008.html#joining-dataframes-with-merge-4",
+    "href": "danl-lec/danl-299-lec-13-2025-1008.html#joining-dataframes-with-merge-4",
+    "title": "Lecture 13",
+    "section": "Joining DataFrames with merge()",
+    "text": "Joining DataFrames with merge()\nOuter (Full) Join\n\nA full join keeps all observations in x and y.\n\n\n\n\nmerge_outer = pd.merge(x, y, on='key', how='outer')\nmerge_outer_x = x.merge(y, on='key', how='outer')"
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-13-2025-1008.html#joining-dataframes-with-merge-5",
+    "href": "danl-lec/danl-299-lec-13-2025-1008.html#joining-dataframes-with-merge-5",
+    "title": "Lecture 13",
+    "section": "Joining DataFrames with merge()",
+    "text": "Joining DataFrames with merge()\nDuplicate keys: one-to-many\n\nOne DataFrame has duplicate keys (a one-to-many relationship).\n\n\n\n\n\n\nx = pd.DataFrame({\n    'key':[1, 2, 2, 3],\n    'val_x':['x1', 'x2', 'x3', 'x4']})\n\ny = pd.DataFrame({\n    'key':[1, 2],\n    'val_y':['y1', 'y2'] })\none_to_many = x.merge(y, on='key', \n                         how='left')"
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-13-2025-1008.html#joining-dataframes-with-merge-6",
+    "href": "danl-lec/danl-299-lec-13-2025-1008.html#joining-dataframes-with-merge-6",
+    "title": "Lecture 13",
+    "section": "Joining DataFrames with merge()",
+    "text": "Joining DataFrames with merge()\nDuplicate keys: many-to-many\n\nBoth DataFrames have duplicate keys (many-to-many relationship).\n\n\n\n\n\n\nx = pd.DataFrame({\n  'key':[1, 2, 2, 3],\n  'val_x':['x1','x2','x3','x4']})\n\ny = pd.DataFrame({\n  'key': [1, 2, 2, 3],\n  'val_y': ['y1', 'y2', 'y3', 'y4'] })\nmany_to_many = x.merge(y, on='key', \n                          how='left')\n\n\n\nIn practice, it is better to avoid the many-to-many join."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-13-2025-1008.html#joining-dataframes-with-merge-7",
+    "href": "danl-lec/danl-299-lec-13-2025-1008.html#joining-dataframes-with-merge-7",
+    "title": "Lecture 13",
+    "section": "Joining DataFrames with merge()",
+    "text": "Joining DataFrames with merge()\nDefining the key columns\n\n\nIf the left and right columns do not have the same name for the key variables, we can use the left_on and right_on parameters instead.\n\n\n\n\nx = pd.DataFrame({\n  'key_x': [1, 2, 3],\n  'val_x': ['x1', 'x2', 'x3']\n})\n\ny = pd.DataFrame({\n  'key_y': [1, 2],\n  'val_y': ['y1', 'y2'] })\n\nkeys_xy = \n  x.merge(y, left_on = 'key_x', \n             right_on = 'key_y', \n             how = 'left')"
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-13-2025-1008.html#joining-dataframes-with-merge-8",
+    "href": "danl-lec/danl-299-lec-13-2025-1008.html#joining-dataframes-with-merge-8",
+    "title": "Lecture 13",
+    "section": "Joining DataFrames with merge()",
+    "text": "Joining DataFrames with merge()\nLet’s do Part 2 of Classwork 7!"
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-13-2025-1008.html#data-concatenation-1",
+    "href": "danl-lec/danl-299-lec-13-2025-1008.html#data-concatenation-1",
+    "title": "Lecture 13",
+    "section": "Data Concatenation",
+    "text": "Data Concatenation\n\n\nConcatenation involves combining multiple DataFrames by adding rows or columns. This method is useful:\n\nWhen merging datasets that were split into parts;\nWhen appending new data to an existing dataset.\n\nLet’s consider the following example DataFrames:\n\ndf1 = pd.read_csv('https://bcdanl.github.io/data/concat_1.csv')\ndf2 = pd.read_csv('https://bcdanl.github.io/data/concat_2.csv')\ndf3 = pd.read_csv('https://bcdanl.github.io/data/concat_3.csv')\n\nWe will be working with .index and .columns in this Section.\n\ndf1.index\ndf1.columns"
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-13-2025-1008.html#data-concatenation-2",
+    "href": "danl-lec/danl-299-lec-13-2025-1008.html#data-concatenation-2",
+    "title": "Lecture 13",
+    "section": "Data Concatenation",
+    "text": "Data Concatenation\nAdd Rows\n\n\nConcatenating the DataFrames on top of each other uses the concat() method.\n\nrow_concat = pd.concat([df1, df2, df3])\n\n\nAll of the DataFrames to be concatenated are passed in a list.\n\npd.concat( [DataFrame_1, DataFrame_2, ... , DataFrame_N] )"
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-13-2025-1008.html#data-concatenation-3",
+    "href": "danl-lec/danl-299-lec-13-2025-1008.html#data-concatenation-3",
+    "title": "Lecture 13",
+    "section": "Data Concatenation",
+    "text": "Data Concatenation\nAdd Columns\n\n\nConcatenating columns is very similar to concatenating rows.\n\nThe main difference is the axis parameter in the concat() method.\nThe default value of axis is 0 (or axis = \"index\"), so it will concatenate data in a row-wise fashion.\nIf we pass axis = 1 (or axis = \"columns\") to the function, it will concatenate data in a column-wise manner.\n\n\npd.concat([df1, df2, df3], axis = \"columns\")\npd.concat([df1, df2, df3], axis = \"columns\", ignore_index = True)  \n\nignore_index=True to reset the column indices"
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-13-2025-1008.html#data-concatenation-4",
+    "href": "danl-lec/danl-299-lec-13-2025-1008.html#data-concatenation-4",
+    "title": "Lecture 13",
+    "section": "Data Concatenation",
+    "text": "Data Concatenation\nAdd a Series?\n\n\nLet’s consider a new Series and concatenate it with df1:\n\n# create a new row of data\nnew_row_series = pd.Series(['n1', 'n2', 'n3', 'n4'])\n\n# attempt to add the new row to a DataFrame\ndf = pd.concat([df1, new_row_series])\n\nNot only did our code not append the values as a row, but it also created a new column completely misaligned with everything else.\nWhy?"
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-13-2025-1008.html#data-concatenation-5",
+    "href": "danl-lec/danl-299-lec-13-2025-1008.html#data-concatenation-5",
+    "title": "Lecture 13",
+    "section": "Data Concatenation",
+    "text": "Data Concatenation\nAdd a Series?\n\n\nTo fix the problem, we need turn our Series into a DataFrame.\n\nThis DataFrame contains one row of data, and the column names are the ones the data will bind to.\n\n\nnew_row_df = pd.DataFrame(\n  # note the double brackets to create a \"row\" of data\n  data =[ [\"n1\", \"n2\", \"n3\", \"n4\"] ],\n  columns = df1.columns,\n)\n\ndf = pd.concat([df1, new_row_df])\n\n\nHow about this?\n\npd.concat([df1, new_row_series], axis = 1)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n:::\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n:::"
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-13-2025-1008.html#data-concatenation-6",
+    "href": "danl-lec/danl-299-lec-13-2025-1008.html#data-concatenation-6",
+    "title": "Lecture 13",
+    "section": "Data Concatenation",
+    "text": "Data Concatenation\nLet’s do Part 3 of Classwork 7!"
   }
 ]
