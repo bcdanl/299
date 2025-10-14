@@ -3077,7 +3077,7 @@
     "href": "danl-lec/danl-299-lec-13-2025-1008.html#data-concatenation-5",
     "title": "Lecture 13",
     "section": "Data Concatenation",
-    "text": "Data Concatenation\nAdd a Series?\n\n\nTo fix the problem, we need turn our Series into a DataFrame.\n\nThis DataFrame contains one row of data, and the column names are the ones the data will bind to.\n\n\nnew_row_df = pd.DataFrame(\n  # note the double brackets to create a \"row\" of data\n  data =[ [\"n1\", \"n2\", \"n3\", \"n4\"] ],\n  columns = df1.columns,\n)\n\ndf = pd.concat([df1, new_row_df])\n\n\nHow about this?\n\npd.concat([df1, new_row_series], axis = 1)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n:::\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n:::"
+    "text": "Data Concatenation\nAdd a Series?\n\n\nTo fix the problem, we need turn our Series into a DataFrame.\n\nThis DataFrame contains one row of data, and the column names are the ones the data will bind to.\n\n\nnew_row_df = pd.DataFrame(\n  # note the double brackets to create a \"row\" of data\n  data =[ [\"n1\", \"n2\", \"n3\", \"n4\"] ],\n  columns = df1.columns,\n)\n\ndf = pd.concat([df1, new_row_df])\n\n\nHow about this?\n\npd.concat([df1, new_row_series], axis = 1)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n:::"
   },
   {
     "objectID": "danl-lec/danl-299-lec-13-2025-1008.html#data-concatenation-6",
