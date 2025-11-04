@@ -4,7 +4,7 @@
     "href": "listing-danl-299-lec.html",
     "title": "DANL 299 - Lecture",
     "section": "",
-    "text": "Title\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nLecture 1\n\n\nSyllabus and Course Outline\n\n\nAugust 25, 2025\n\n\n\n\nLecture 2\n\n\nPrologue; DANL Tools; Building a Website; Markdown\n\n\nAugust 27, 2025\n\n\n\n\nLecture 3\n\n\nGetting Started with Jupyter Notebook and Quarto\n\n\nSeptember 4, 2025\n\n\n\n\nLecture 4\n\n\nPy Basics - Variables, Data Types, Operators, Casting, Containers\n\n\nSeptember 8, 2025\n\n\n\n\nLecture 5\n\n\nPy Basics - if-else; Slicing; Functions; while & for; List & Dict; try-except\n\n\nSeptember 10, 2025\n\n\n\n\nLecture 6\n\n\npandas - Loading Data\n\n\nSeptember 17, 2025\n\n\n\n\nLecture 7\n\n\npandas - Getting a Data Summary; Selecting Variables; Counting\n\n\nSeptember 22, 2025\n\n\n\n\nLecture 8\n\n\npandas - Sorting Methods; Setting a New Index; Locating Observations/Values\n\n\nSeptember 24, 2025\n\n\n\n\nLecture 9\n\n\npandas - Adding, Removing, & Renaming Variables; Data Types\n\n\nSeptember 29, 2025\n\n\n\n\nLecture 10\n\n\npandas - Filtering by a Condition\n\n\nOctober 1, 2025\n\n\n\n\nLecture 11\n\n\npandas - Missing Values; Duplicates\n\n\nOctober 2, 2025\n\n\n\n\nLecture 12\n\n\npandas - Reshaping DataFrames\n\n\nOctober 6, 2025\n\n\n\n\nLecture 13\n\n\npandas - Joining DataFrames; Concatenating DataFrames\n\n\nOctober 8, 2025\n\n\n\n\n\n\nNo matching items\n\n Back to top"
+    "text": "Title\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nLecture 14\n\n\nSpyder IDE; Scrapping Web-tables with pd.read_html()\n\n\nMarch 10, 2025\n\n\n\n\nLecture 1\n\n\nSyllabus and Course Outline\n\n\nAugust 25, 2025\n\n\n\n\nLecture 2\n\n\nPrologue; DANL Tools; Building a Website; Markdown\n\n\nAugust 27, 2025\n\n\n\n\nLecture 3\n\n\nGetting Started with Jupyter Notebook and Quarto\n\n\nSeptember 4, 2025\n\n\n\n\nLecture 4\n\n\nPy Basics - Variables, Data Types, Operators, Casting, Containers\n\n\nSeptember 8, 2025\n\n\n\n\nLecture 5\n\n\nPy Basics - if-else; Slicing; Functions; while & for; List & Dict; try-except\n\n\nSeptember 10, 2025\n\n\n\n\nLecture 6\n\n\npandas - Loading Data\n\n\nSeptember 17, 2025\n\n\n\n\nLecture 7\n\n\npandas - Getting a Data Summary; Selecting Variables; Counting\n\n\nSeptember 22, 2025\n\n\n\n\nLecture 8\n\n\npandas - Sorting Methods; Setting a New Index; Locating Observations/Values\n\n\nSeptember 24, 2025\n\n\n\n\nLecture 9\n\n\npandas - Adding, Removing, & Renaming Variables; Data Types\n\n\nSeptember 29, 2025\n\n\n\n\nLecture 10\n\n\npandas - Filtering by a Condition\n\n\nOctober 1, 2025\n\n\n\n\nLecture 11\n\n\npandas - Missing Values; Duplicates\n\n\nOctober 2, 2025\n\n\n\n\nLecture 12\n\n\npandas - Reshaping DataFrames\n\n\nOctober 6, 2025\n\n\n\n\nLecture 13\n\n\npandas - Joining DataFrames; Concatenating DataFrames\n\n\nOctober 8, 2025\n\n\n\n\nLecture 15\n\n\nPrimer on Web-scrapping\n\n\nNovember 4, 2025\n\n\n\n\nLecture 16\n\n\nWeb-scrapping with Python selenium\n\n\nNovember 5, 2025\n\n\n\n\nLecture 17\n\n\nData Collection with APIs\n\n\nNovember 10, 2025\n\n\n\n\nLecture 18\n\n\nData Visualization with seaborn\n\n\nNovember 12, 2025\n\n\n\n\nLecture 19\n\n\nGroup Operations\n\n\nDecember 1, 2025\n\n\n\n\n\n\nNo matching items\n\n Back to top"
   },
   {
     "objectID": "danl-hw/danl-299-hw-02.html",
@@ -277,7 +277,7 @@
     "href": "listing-danl-299-cw.html",
     "title": "DANL 299 - Classwork",
     "section": "",
-    "text": "Title\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nClasswork 7\n\n\nPandas - Reshaping DataFrames; Joining DataFrames; Data Concatenation\n\n\nOctober 6, 2025\n\n\n\n\nClasswork 6\n\n\nPandas - Convering Data Types; Filtering Data; Missing Values/Duplicates\n\n\nSeptember 29, 2025\n\n\n\n\nClasswork 5\n\n\nPandas - Loading, Summarizing, Selecting, Counting, Sorting, and Indexing Data\n\n\nSeptember 22, 2025\n\n\n\n\nClasswork 4\n\n\nPython Basics\n\n\nSeptember 8, 2025\n\n\n\n\nClasswork 3\n\n\nQuarto Website Basics\n\n\nSeptember 4, 2025\n\n\n\n\nClasswork 2\n\n\nMarkdown Basics\n\n\nAugust 27, 2025\n\n\n\n\nClasswork 1\n\n\nBuilding a Personal Website using Git, GitHub, and RStudio with Quarto\n\n\nAugust 25, 2025\n\n\n\n\n\n\nNo matching items\n\n Back to top"
+    "text": "Title\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nClasswork 14\n\n\nGroup Operation II\n\n\nDecember 3, 2025\n\n\n\n\nClasswork 13\n\n\nGroup Operation I\n\n\nDecember 1, 2025\n\n\n\n\nClasswork 12\n\n\nData Visualization with seaborn\n\n\nNovember 19, 2025\n\n\n\n\nClasswork 11\n\n\nData Collection with APIs\n\n\nNovember 17, 2025\n\n\n\n\nClasswork 10\n\n\nAdvanced Techniques for Python selenium\n\n\nNovember 12, 2025\n\n\n\n\nClasswork 9\n\n\nScrapping Data with Python selenium\n\n\nNovember 10, 2025\n\n\n\n\nClasswork 8\n\n\nScrapping Web-tables with pd.read_html()\n\n\nNovember 4, 2025\n\n\n\n\nClasswork 7\n\n\nPandas - Reshaping DataFrames; Joining DataFrames; Data Concatenation\n\n\nOctober 6, 2025\n\n\n\n\nClasswork 6\n\n\nPandas - Convering Data Types; Filtering Data; Missing Values/Duplicates\n\n\nSeptember 29, 2025\n\n\n\n\nClasswork 5\n\n\nPandas - Loading, Summarizing, Selecting, Counting, Sorting, and Indexing Data\n\n\nSeptember 22, 2025\n\n\n\n\nClasswork 4\n\n\nPython Basics\n\n\nSeptember 8, 2025\n\n\n\n\nClasswork 3\n\n\nQuarto Website Basics\n\n\nSeptember 4, 2025\n\n\n\n\nClasswork 2\n\n\nMarkdown Basics\n\n\nAugust 27, 2025\n\n\n\n\nClasswork 1\n\n\nBuilding a Personal Website using Git, GitHub, and RStudio with Quarto\n\n\nAugust 25, 2025\n\n\n\n\n\n\nNo matching items\n\n Back to top"
   },
   {
     "objectID": "danl-cw/danl-299-cw-02.html",
@@ -1306,7 +1306,7 @@
     "href": "listing-danl-299-hw.html",
     "title": "DANL 299 - Homework",
     "section": "",
-    "text": "Title\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nHomework 2\n\n\nPandas Basics\n\n\nSeptember 25, 2025\n\n\n\n\nHomework 1\n\n\nPersonal Website and Python Basics\n\n\nSeptember 11, 2025\n\n\n\n\n\n\nNo matching items\n\n Back to top"
+    "text": "Title\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nHomework 3\n\n\nPython selenium & Pandas Basics\n\n\nNovember 4, 2025\n\n\n\n\nHomework 2\n\n\nPandas Basics\n\n\nSeptember 25, 2025\n\n\n\n\nHomework 1\n\n\nPersonal Website and Python Basics\n\n\nSeptember 11, 2025\n\n\n\n\n\n\nNo matching items\n\n Back to top"
   },
   {
     "objectID": "danl-lec/danl-299-lec-05-2025-0910.html#booleans-conditions-and-if-statements-1",
@@ -2587,21 +2587,21 @@
     "href": "index.html#bullet-lecture",
     "title": "DANL 299: Data Preparation and Management, Fall 2025",
     "section": "\\(\\bullet\\,\\) 🚀 Lecture",
-    "text": "\\(\\bullet\\,\\) 🚀 Lecture\n\n\n\n\n\n\nTitle\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nLecture 1\n\n\nSyllabus and Course Outline\n\n\nAugust 25, 2025\n\n\n\n\nLecture 2\n\n\nPrologue; DANL Tools; Building a Website; Markdown\n\n\nAugust 27, 2025\n\n\n\n\nLecture 3\n\n\nGetting Started with Jupyter Notebook and Quarto\n\n\nSeptember 4, 2025\n\n\n\n\nLecture 4\n\n\nPy Basics - Variables, Data Types, Operators, Casting, Containers\n\n\nSeptember 8, 2025\n\n\n\n\nLecture 5\n\n\nPy Basics - if-else; Slicing; Functions; while & for; List & Dict; try-except\n\n\nSeptember 10, 2025\n\n\n\n\nLecture 6\n\n\npandas - Loading Data\n\n\nSeptember 17, 2025\n\n\n\n\nLecture 7\n\n\npandas - Getting a Data Summary; Selecting Variables; Counting\n\n\nSeptember 22, 2025\n\n\n\n\nLecture 8\n\n\npandas - Sorting Methods; Setting a New Index; Locating Observations/Values\n\n\nSeptember 24, 2025\n\n\n\n\nLecture 9\n\n\npandas - Adding, Removing, & Renaming Variables; Data Types\n\n\nSeptember 29, 2025\n\n\n\n\nLecture 10\n\n\npandas - Filtering by a Condition\n\n\nOctober 1, 2025\n\n\n\n\nLecture 11\n\n\npandas - Missing Values; Duplicates\n\n\nOctober 2, 2025\n\n\n\n\nLecture 12\n\n\npandas - Reshaping DataFrames\n\n\nOctober 6, 2025\n\n\n\n\nLecture 13\n\n\npandas - Joining DataFrames; Concatenating DataFrames\n\n\nOctober 8, 2025\n\n\n\n\n\n\nNo matching items"
+    "text": "\\(\\bullet\\,\\) 🚀 Lecture\n\n\n\n\n\n\nTitle\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nLecture 14\n\n\nSpyder IDE; Scrapping Web-tables with pd.read_html()\n\n\nMarch 10, 2025\n\n\n\n\nLecture 1\n\n\nSyllabus and Course Outline\n\n\nAugust 25, 2025\n\n\n\n\nLecture 2\n\n\nPrologue; DANL Tools; Building a Website; Markdown\n\n\nAugust 27, 2025\n\n\n\n\nLecture 3\n\n\nGetting Started with Jupyter Notebook and Quarto\n\n\nSeptember 4, 2025\n\n\n\n\nLecture 4\n\n\nPy Basics - Variables, Data Types, Operators, Casting, Containers\n\n\nSeptember 8, 2025\n\n\n\n\nLecture 5\n\n\nPy Basics - if-else; Slicing; Functions; while & for; List & Dict; try-except\n\n\nSeptember 10, 2025\n\n\n\n\nLecture 6\n\n\npandas - Loading Data\n\n\nSeptember 17, 2025\n\n\n\n\nLecture 7\n\n\npandas - Getting a Data Summary; Selecting Variables; Counting\n\n\nSeptember 22, 2025\n\n\n\n\nLecture 8\n\n\npandas - Sorting Methods; Setting a New Index; Locating Observations/Values\n\n\nSeptember 24, 2025\n\n\n\n\nLecture 9\n\n\npandas - Adding, Removing, & Renaming Variables; Data Types\n\n\nSeptember 29, 2025\n\n\n\n\nLecture 10\n\n\npandas - Filtering by a Condition\n\n\nOctober 1, 2025\n\n\n\n\nLecture 11\n\n\npandas - Missing Values; Duplicates\n\n\nOctober 2, 2025\n\n\n\n\nLecture 12\n\n\npandas - Reshaping DataFrames\n\n\nOctober 6, 2025\n\n\n\n\nLecture 13\n\n\npandas - Joining DataFrames; Concatenating DataFrames\n\n\nOctober 8, 2025\n\n\n\n\nLecture 15\n\n\nPrimer on Web-scrapping\n\n\nNovember 4, 2025\n\n\n\n\nLecture 16\n\n\nWeb-scrapping with Python selenium\n\n\nNovember 5, 2025\n\n\n\n\nLecture 17\n\n\nData Collection with APIs\n\n\nNovember 10, 2025\n\n\n\n\nLecture 18\n\n\nData Visualization with seaborn\n\n\nNovember 12, 2025\n\n\n\n\nLecture 19\n\n\nGroup Operations\n\n\nDecember 1, 2025\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html#bullet-classwork",
     "href": "index.html#bullet-classwork",
     "title": "DANL 299: Data Preparation and Management, Fall 2025",
     "section": "\\(\\bullet\\,\\) ⌨️ Classwork",
-    "text": "\\(\\bullet\\,\\) ⌨️ Classwork\n\n\n\n\n\n\nTitle\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nClasswork 1\n\n\nBuilding a Personal Website using Git, GitHub, and RStudio with Quarto\n\n\nAugust 25, 2025\n\n\n\n\nClasswork 2\n\n\nMarkdown Basics\n\n\nAugust 27, 2025\n\n\n\n\nClasswork 3\n\n\nQuarto Website Basics\n\n\nSeptember 4, 2025\n\n\n\n\nClasswork 4\n\n\nPython Basics\n\n\nSeptember 8, 2025\n\n\n\n\nClasswork 5\n\n\nPandas - Loading, Summarizing, Selecting, Counting, Sorting, and Indexing Data\n\n\nSeptember 22, 2025\n\n\n\n\nClasswork 6\n\n\nPandas - Convering Data Types; Filtering Data; Missing Values/Duplicates\n\n\nSeptember 29, 2025\n\n\n\n\nClasswork 7\n\n\nPandas - Reshaping DataFrames; Joining DataFrames; Data Concatenation\n\n\nOctober 6, 2025\n\n\n\n\n\n\nNo matching items"
+    "text": "\\(\\bullet\\,\\) ⌨️ Classwork\n\n\n\n\n\n\nTitle\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nClasswork 1\n\n\nBuilding a Personal Website using Git, GitHub, and RStudio with Quarto\n\n\nAugust 25, 2025\n\n\n\n\nClasswork 2\n\n\nMarkdown Basics\n\n\nAugust 27, 2025\n\n\n\n\nClasswork 3\n\n\nQuarto Website Basics\n\n\nSeptember 4, 2025\n\n\n\n\nClasswork 4\n\n\nPython Basics\n\n\nSeptember 8, 2025\n\n\n\n\nClasswork 5\n\n\nPandas - Loading, Summarizing, Selecting, Counting, Sorting, and Indexing Data\n\n\nSeptember 22, 2025\n\n\n\n\nClasswork 6\n\n\nPandas - Convering Data Types; Filtering Data; Missing Values/Duplicates\n\n\nSeptember 29, 2025\n\n\n\n\nClasswork 7\n\n\nPandas - Reshaping DataFrames; Joining DataFrames; Data Concatenation\n\n\nOctober 6, 2025\n\n\n\n\nClasswork 8\n\n\nScrapping Web-tables with pd.read_html()\n\n\nNovember 4, 2025\n\n\n\n\nClasswork 9\n\n\nScrapping Data with Python selenium\n\n\nNovember 10, 2025\n\n\n\n\nClasswork 10\n\n\nAdvanced Techniques for Python selenium\n\n\nNovember 12, 2025\n\n\n\n\nClasswork 11\n\n\nData Collection with APIs\n\n\nNovember 17, 2025\n\n\n\n\nClasswork 12\n\n\nData Visualization with seaborn\n\n\nNovember 19, 2025\n\n\n\n\nClasswork 13\n\n\nGroup Operation I\n\n\nDecember 1, 2025\n\n\n\n\nClasswork 14\n\n\nGroup Operation II\n\n\nDecember 3, 2025\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html#bullet-homework",
     "href": "index.html#bullet-homework",
     "title": "DANL 299: Data Preparation and Management, Fall 2025",
     "section": "\\(\\bullet\\,\\) 💻 Homework",
-    "text": "\\(\\bullet\\,\\) 💻 Homework\n\n\n\n\n\n\nTitle\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nHomework 1\n\n\nPersonal Website and Python Basics\n\n\nSeptember 11, 2025\n\n\n\n\nHomework 2\n\n\nPandas Basics\n\n\nSeptember 25, 2025\n\n\n\n\n\n\nNo matching items"
+    "text": "\\(\\bullet\\,\\) 💻 Homework\n\n\n\n\n\n\nTitle\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nHomework 1\n\n\nPersonal Website and Python Basics\n\n\nSeptember 11, 2025\n\n\n\n\nHomework 2\n\n\nPandas Basics\n\n\nSeptember 25, 2025\n\n\n\n\nHomework 3\n\n\nPython selenium & Pandas Basics\n\n\nNovember 4, 2025\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "danl-wk/wk-03.html",
@@ -3085,5 +3085,1349 @@
     "title": "Lecture 13",
     "section": "Data Concatenation",
     "text": "Data Concatenation\nLet’s do Part 3 of Classwork 7!"
+  },
+  {
+    "objectID": "danl-cw/danl-299-cw-14.html",
+    "href": "danl-cw/danl-299-cw-14.html",
+    "title": "Classwork 14",
+    "section": "",
+    "text": "The dataset ,beer_markets.csv, (with its pathname https://bcdanl.github.io/data/beer_markets.csv) includes information about beer purchases across different markets, brands, and households.\n\nimport pandas as pd\nimport numpy as np\nbeer = pd.read_csv('https://bcdanl.github.io/data/beer_markets.csv')\n\n\n\n\n\n\n\n\nEach observation in beer is a household-level transaction record for a purchase of beer."
+  },
+  {
+    "objectID": "danl-cw/danl-299-cw-14.html#direction",
+    "href": "danl-cw/danl-299-cw-14.html#direction",
+    "title": "Classwork 14",
+    "section": "",
+    "text": "The dataset ,beer_markets.csv, (with its pathname https://bcdanl.github.io/data/beer_markets.csv) includes information about beer purchases across different markets, brands, and households.\n\nimport pandas as pd\nimport numpy as np\nbeer = pd.read_csv('https://bcdanl.github.io/data/beer_markets.csv')\n\n\n\n\n\n\n\n\nEach observation in beer is a household-level transaction record for a purchase of beer."
+  },
+  {
+    "objectID": "danl-cw/danl-299-cw-14.html#variable-description",
+    "href": "danl-cw/danl-299-cw-14.html#variable-description",
+    "title": "Classwork 14",
+    "section": "Variable Description",
+    "text": "Variable Description\n\nhh: an identifier of the household;\nX_purchase_desc: details on the purchased item;\nquantity: the number of items purchased;\nbrand: Bud Light, Busch Light, Coors Light, Miller Lite, or Natural Light;\ndollar_spent: total dollar value of purchase;\nbeer_floz: total volume of beer, in fluid ounces;\nprice_per_floz: price per fl.oz. (i.e., beer spent/beer floz);\ncontainer: the type of container;\npromo: Whether the item was promoted (coupon or otherwise);\nmarket: Scan-track market (or state if rural);\ndemographic data, including gender, marital status, household income, class of work, race, education, age, the size of household, and whether or not the household has a microwave or a dishwasher."
+  },
+  {
+    "objectID": "danl-cw/danl-299-cw-14.html#question-1",
+    "href": "danl-cw/danl-299-cw-14.html#question-1",
+    "title": "Classwork 14",
+    "section": "Question 1",
+    "text": "Question 1\nWhat are the descriptive statistics (mean, count, min, max) for dollar_spent and beer_floz grouped by brand?\nAnswer:"
+  },
+  {
+    "objectID": "danl-cw/danl-299-cw-14.html#question-2",
+    "href": "danl-cw/danl-299-cw-14.html#question-2",
+    "title": "Classwork 14",
+    "section": "Question 2",
+    "text": "Question 2\n\nFor each market, find the average price_per_floz, total dollar_spent, and total beer_floz.\nWhich market has the highest average price_per_floz?"
+  },
+  {
+    "objectID": "danl-cw/danl-299-cw-14.html#question-3",
+    "href": "danl-cw/danl-299-cw-14.html#question-3",
+    "title": "Classwork 14",
+    "section": "Question 3",
+    "text": "Question 3\n\nCompute the share of dollar_spent on each brand as a percentage of the total spending by each household.\n\nIn the resulting DataFrame, retain only the following three variables:\n\nhh (household ID)\nbrand\ntotal dollars spent by the household\nThe calculated** percentage contribution** of spending on that brand\n\nEnsure the resulting DataFrame contains only one row per household–brand pair.\n\n\nAnswer:"
+  },
+  {
+    "objectID": "danl-cw/danl-299-cw-14.html#question-4",
+    "href": "danl-cw/danl-299-cw-14.html#question-4",
+    "title": "Classwork 14",
+    "section": "Question 4",
+    "text": "Question 4\n\nIdentify the brand with the highest price_per_floz in each market using a custom function with apply().\n\nAnswer:"
+  },
+  {
+    "objectID": "danl-cw/danl-299-cw-14.html#question-5",
+    "href": "danl-cw/danl-299-cw-14.html#question-5",
+    "title": "Classwork 14",
+    "section": "Question 5",
+    "text": "Question 5\n\nAmong households that have purchased BUD LIGHT at least once, what proportion only bought BUD LIGHT?\nAmong households that have purchased BUSCH LIGHT at least once, what proportion only bought BUSCH LIGHT?\nAmong households that have purchased COORS LIGHT at least once, what proportion only bought COORS LIGHT?\nAmong households that have purchased MILLER LITE at least once, what proportion only bought MILLER LITE?\nAmong households that have purchased NATURAL LIGHT at least once, what proportion only bought NATURAL LIGHT?\nWhich of these beer brands has the highest share of loyal customers, who purchase no other brand?\nFor example, let’s consider the following example DataFrame with the four households:\n\n\n\n\n\n\nIn this example, households 1, 2 and 3 purchased BUD at least once, and only the households 1 and 3 purchased BUD only. Therefore, among households that have purchased BUD LIGHT at least once, the proportion only bought BUD is 2/3 = 66.67%.\nAnswer:"
+  },
+  {
+    "objectID": "danl-cw/danl-299-cw-08.html",
+    "href": "danl-cw/danl-299-cw-08.html",
+    "title": "Classwork 8",
+    "section": "",
+    "text": "Question 1\n\nStore the table in the following webpage as a pandas’ DataFrame:\n\nGasoline Pump Components History\n\nConvert the abbreviated month-year string to datetime using pd.to_datetime() with format='%b-%y'.\n\nIf necessary, use the Series.str.replace() method.\n\nFor example, Series.str.replace('A', 'B') replaces “A” with “B” in Series.\n\n\n\n\nExport the DataFrame as a CSV file.\n\nAnswer:\n\n\n\nQuestion 2\n\nStore each table in the following webpage as a pandas’ DataFrame:\n\nhttps://www.geneseo.edu/business/student%20outcomes\n\nEnsure each table has appropriate column names and properly structured observations.\nExport the DataFrame as a CSV file.\n\nAnswer:\n\n\n\nDiscussion\nWelcome to our Classwork 8 Discussion Board! 👋 \nThis space is designed for you to engage with your classmates about the material covered in Classwork 8.\nWhether you are looking to delve deeper into the content, share insights, or have questions about the content, this is the perfect place for you.\nIf you have any specific questions for Byeong-Hak (@bcdanl) regarding the Classwork 8 materials or need clarification on any points, don’t hesitate to ask here.\nAll comments will be stored here.\nLet’s collaborate and learn from each other!\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "danl-cw/danl-299-cw-10.html",
+    "href": "danl-cw/danl-299-cw-10.html",
+    "title": "Classwork 10",
+    "section": "",
+    "text": "Question 1\n\nUse selenium to get to https://qavbox.github.io/demo/delay/.\n\nUse selenium to click the button with “Click me!”\nUse selenium to locate the text element that will be displayed after 5 seconds using WebDriverWait with EC.presence_of_element_located.\n\n\nIts XPath is '//*[@id=\"two\"]'\n\n\nAnswer:\n\n\n\nQuestion 2\n\nUse selenium to download all the Excel files in the following Census page:\n\nhttps://www2.census.gov/programs-surveys/popest/tables/2010-2019/counties/totals/\n\n\nAnswer:\n\n\n\nQuestion 3\n\nProvide your Python Selenium code to scrape the following information for each book in this website.\n\ncategory: category of a book\ntitle: title of a book\nprice: price of a book\n\nFind the most expensive book\nFind the category with the most number of books.\n\nAnswer:\n\n\n\nQuestion 4\n\nUse a for loop to collect historical stock price data for AAPL, MSFT, and NVDA, store it as a DataFrame, and export it as a CSV file.\n\nAdd a variable of Symbol to the resulting DataFrame.\nDate ranges from 2024-01-01 to 2025-03-31.\n\n\nsymbols = ['AAPL', 'MSFT', 'NVDA']\nAnswer:\n\n\n\nDiscussion\nWelcome to our Classwork 10 Discussion Board! 👋 \nThis space is designed for you to engage with your classmates about the material covered in Classwork 10.\nWhether you are looking to delve deeper into the content, share insights, or have questions about the content, this is the perfect place for you.\nIf you have any specific questions for Byeong-Hak (@bcdanl) regarding the Classwork 10 materials or need clarification on any points, don’t hesitate to ask here.\nLet’s collaborate and learn from each other!\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "danl-cw/danl-299-cw-13.html",
+    "href": "danl-cw/danl-299-cw-13.html",
+    "title": "Classwork 13",
+    "section": "",
+    "text": "The dataset ,cereals_oatmeal.csv,(with its pathname https://bcdanl.github.io/data/cereals_oatmeal.csv) is a listing of 77 popular breakfast cereals and oatmeal.\n\ncereal = pd.read_csv('https://bcdanl.github.io/data/cereals_oatmeal.csv')"
+  },
+  {
+    "objectID": "danl-cw/danl-299-cw-13.html#direction",
+    "href": "danl-cw/danl-299-cw-13.html#direction",
+    "title": "Classwork 13",
+    "section": "",
+    "text": "The dataset ,cereals_oatmeal.csv,(with its pathname https://bcdanl.github.io/data/cereals_oatmeal.csv) is a listing of 77 popular breakfast cereals and oatmeal.\n\ncereal = pd.read_csv('https://bcdanl.github.io/data/cereals_oatmeal.csv')"
+  },
+  {
+    "objectID": "danl-cw/danl-299-cw-13.html#question-1",
+    "href": "danl-cw/danl-299-cw-13.html#question-1",
+    "title": "Classwork 13",
+    "section": "Question 1",
+    "text": "Question 1\nGroup the data by Manufacturer, and determine the number of groups and the number of cereals per group.\nAnswer:"
+  },
+  {
+    "objectID": "danl-cw/danl-299-cw-13.html#question-2",
+    "href": "danl-cw/danl-299-cw-13.html#question-2",
+    "title": "Classwork 13",
+    "section": "Question 2",
+    "text": "Question 2\nCalculate the mean of the Calories, Fiber, and Sugars for every manufacturer.\nAnswer:"
+  },
+  {
+    "objectID": "danl-cw/danl-299-cw-13.html#question-3",
+    "href": "danl-cw/danl-299-cw-13.html#question-3",
+    "title": "Classwork 13",
+    "section": "Question 3",
+    "text": "Question 3\nCreate a new DataFrame that includes the maximum Sugars and the minimum Fiber per manufacturer.\nAnswer:"
+  },
+  {
+    "objectID": "danl-cw/danl-299-cw-13.html#question-4",
+    "href": "danl-cw/danl-299-cw-13.html#question-4",
+    "title": "Classwork 13",
+    "section": "Question 4",
+    "text": "Question 4\nAdd a Normalized_Sugars variable to the cereal DataFrame that standardizes each cereal’s sugar content within its manufacturer group.\n\\[\n\\text{Normalized\\_Sugars} = \\frac{\\text{Sugars} - \\text{mean(Sugars)}}{\\text{std(Sugars)}}\n\\]\nThis formula adjusts the sugar content of each product by subtracting the mean sugar content of its manufacturer and then dividing by the standard deviation of the sugar content within its manufacturer.\nAnswer:"
+  },
+  {
+    "objectID": "danl-cw/danl-299-cw-13.html#question-5",
+    "href": "danl-cw/danl-299-cw-13.html#question-5",
+    "title": "Classwork 13",
+    "section": "Question 5",
+    "text": "Question 5\nPut the two highest-sugar cereals for every manufacturer in a new DataFrame.\nAnswer:"
+  },
+  {
+    "objectID": "danl-cw/danl-299-cw-13.html#question-6",
+    "href": "danl-cw/danl-299-cw-13.html#question-6",
+    "title": "Classwork 13",
+    "section": "Question 6",
+    "text": "Question 6\n\nCompute the correlation between Calories and Sugars for each manufacturer.\n\ncorr() calculates the correlation between SERIES_1 and SERIES_2.\n\n\n\ncereal[\"Calories\"].corr( cereal[\"Sugars\"] ) # returns a correlation value\ncereal[[\"Calories\", \"Sugars\"]].corr() # returns a DataFrame of correlation matrix\ncereal[[\"Calories\", \"Sugars\", \"Fiber\"]].corr() # returns a DataFrame of correlation matrix\n\nAnswer:"
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-14-2025-1104.html",
+    "href": "danl-lec/danl-299-lec-14-2025-1104.html",
+    "title": "Lecture 14",
+    "section": "",
+    "text": "Scrapping web tables with pd.read_html()\nScrapping web data with selenium\nCollecting web data with application programming interfaces (APIs)"
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-14-2025-1104.html#data-collection",
+    "href": "danl-lec/danl-299-lec-14-2025-1104.html#data-collection",
+    "title": "Lecture 14",
+    "section": "",
+    "text": "Scrapping web tables with pd.read_html()\nScrapping web data with selenium\nCollecting web data with application programming interfaces (APIs)"
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-14-2025-1104.html#script-editor",
+    "href": "danl-lec/danl-299-lec-14-2025-1104.html#script-editor",
+    "title": "Lecture 14",
+    "section": "Script Editor",
+    "text": "Script Editor\n\n\n\n\n\n\n\n\n\n\n\n\n\nFrom Script Editor (red box), we can create, open and edit files."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-14-2025-1104.html#console-pane",
+    "href": "danl-lec/danl-299-lec-14-2025-1104.html#console-pane",
+    "title": "Lecture 14",
+    "section": "Console Pane",
+    "text": "Console Pane\n\n\n\n\n\n\n\n\n\n\n\n\n\nFrom Console Pane (blue box), we can interact directly with the Python interpreter, and type commands where Python will immediately execute them."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-14-2025-1104.html#variable-explorer",
+    "href": "danl-lec/danl-299-lec-14-2025-1104.html#variable-explorer",
+    "title": "Lecture 14",
+    "section": "Variable Explorer",
+    "text": "Variable Explorer\n\n\n\n\n\n\n\n\n\n\n\n\n\nFrom Variable Explorer (yellow box), we can see the values of variables, data frames, and other objects that are currently stored in memory."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-14-2025-1104.html#data-containers-in-variable-explorer",
+    "href": "danl-lec/danl-299-lec-14-2025-1104.html#data-containers-in-variable-explorer",
+    "title": "Lecture 14",
+    "section": "Data Containers in Variable Explorer",
+    "text": "Data Containers in Variable Explorer\n\n\n\n\n\n\n\n\n\n\n\n\n\nIf we doucle-click the objects such as list and DataFrame objects, we can see what data are contained in such objects."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-14-2025-1104.html#keyboard-shortcuts",
+    "href": "danl-lec/danl-299-lec-14-2025-1104.html#keyboard-shortcuts",
+    "title": "Lecture 14",
+    "section": "Keyboard Shortcuts",
+    "text": "Keyboard Shortcuts\n\nGeneral shortcuts\n\nUndo: Ctrl + z (command + z for Mac users)\nRedo: Ctrl + Shift + z (command + shift + z for Mac users)\nSelection: Ctrl + Shift + Arrow (⬆️ ➡️ ⬇️ ⬅️)\nPage Up/Down: Fn + ⬆️ / ⬇️\n\nDefault shortcuts\n\nComment (#): Ctrl + 1 (command + 1 for Mac users)\nBlock-comment: Ctrl + 4 (command + 4 for Mac users)\nRun selection (or a current line): F9\nRun cell: Ctrl + Enter (# %% defines a cell)"
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-14-2025-1104.html#comments-code-cells-and-keyboard-shortcuts",
+    "href": "danl-lec/danl-299-lec-14-2025-1104.html#comments-code-cells-and-keyboard-shortcuts",
+    "title": "Lecture 14",
+    "section": "Comments, Code Cells, and Keyboard Shortcuts",
+    "text": "Comments, Code Cells, and Keyboard Shortcuts\n# %%\n# =============================================================================\n# SECTION TITLE\n# =============================================================================\na = 1\n\nThe # mark is Spyder’s comment character.\nIt is recommended to use a coding block (defined by # %%) with block commenting (Ctrl/command + 4) for separating code sections.\nTo set your keyboard shortcuts,\n\nPreferences &gt; Keyboard Shortcuts &gt; Search “run” and/or “comment”\nSet the shortcuts for (1) run selection; (2) run cell; (3) toggle comment; and (4) blockcomment\nI use command + return for running a current line (selection)"
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-14-2025-1104.html#scrapping-tables-with-pd.read_html-1",
+    "href": "danl-lec/danl-299-lec-14-2025-1104.html#scrapping-tables-with-pd.read_html-1",
+    "title": "Lecture 14",
+    "section": "Scrapping Tables with pd.read_html()",
+    "text": "Scrapping Tables with pd.read_html()\n\n\nLet’s scrap the two tables in the following webpage:\n\nNational Park Visitation Sets New Record as Economic Engines\n\n\n\nimport pandas as pd\nurl = \"https://www.nps.gov/orgs/1207/national-park-visitation-sets-new-record-as-economic-engines.htm\"\n\ntables = pd.read_html(url)\nlen(tables)\n\nread_html() read HTML tables into a list of DataFrame objects."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-14-2025-1104.html#refining-web-scraped-data",
+    "href": "danl-lec/danl-299-lec-14-2025-1104.html#refining-web-scraped-data",
+    "title": "Lecture 14",
+    "section": "Refining Web-Scraped Data",
+    "text": "Refining Web-Scraped Data\n\nSetting Column Names & Resetting Index\n\n\nHow do we clean tables after extracting them from a webpage?\n\nHow can we set the first row of a DataFrame as its column names?\nHow can we remove the first row and reset the index?\n\n\n\ndf_0 = tables[0]\ndf_0.columns = df_0.iloc[0]  # Set the first row as column names\ndf_0 = df_0[1:].reset_index(drop=True)  # Remove the first row & reset index\n\nWhy reset_index(drop=True)?\n\nRemoves the old index and prevents it from being added as a new column.\nEnsures a clean, sequential index (starting from 0) for the modified DataFrame."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-14-2025-1104.html#finding-the-absolute-path-of-a-filefolder",
+    "href": "danl-lec/danl-299-lec-14-2025-1104.html#finding-the-absolute-path-of-a-filefolder",
+    "title": "Lecture 14",
+    "section": "Finding the Absolute Path of a File/Folder",
+    "text": "Finding the Absolute Path of a File/Folder\n\n\n\n\nWindows 11\n\nStep 1: Navigate to your folder using File Explorer.\nStep 2: Right-click the desired file or folder.\nStep 3: Click Copy as path.\nStep 4: Paste the path into your Python script (Ctrl + V).\nStep 5: Adjust backslashes in the path:\n\nOption 1: Replace backslashes (\\) with forward slashes (/).\nOption 2: Replace single backslashes (\\) with double backslashes (\\\\).\n\n\n\n\n\nMac\n\nStep 1: Navigate to your folder using Finder.\nStep 2: Select the file or folder by clicking on it.\nStep 3: Press Option + Command + C.\nStep 4: Paste the path into your Python script (Command + V)."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-14-2025-1104.html#exporting-a-dataframe-as-a-csv-file-with-to_csv",
+    "href": "danl-lec/danl-299-lec-14-2025-1104.html#exporting-a-dataframe-as-a-csv-file-with-to_csv",
+    "title": "Lecture 14",
+    "section": "Exporting a DataFrame as a CSV File with to_csv()",
+    "text": "Exporting a DataFrame as a CSV File with to_csv()\n\n\nTo export DataFrame as a CSV file, we use the to_csv() method.\n\nBefore exporting, you can set the working directory to organize and manage the location of the CSV file.\nThis helps in keeping your data analysis and exports well-organized.\n\n\n\n# Import the os module to interact with the operating system\nimport os  \n\n# Set the working directory path\nwd_path = 'PATH_TO_YOUR_DATA_FOLDER' # Do not choose your personal website folder\nos.chdir(wd_path)  # Change the current working directory to wd_path\nos.getcwd()  # Retrieve and return the current working directory\n\n# index=False to not write the row index in the CSV output\ntables[0].to_csv('table.csv', index =False)"
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-14-2025-1104.html#scrapping-tables-with-pd.read_html-2",
+    "href": "danl-lec/danl-299-lec-14-2025-1104.html#scrapping-tables-with-pd.read_html-2",
+    "title": "Lecture 14",
+    "section": "Scrapping Tables with pd.read_html()",
+    "text": "Scrapping Tables with pd.read_html()\nLet’s do Classwork 8!"
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-19-2025-1201.html",
+    "href": "danl-lec/danl-299-lec-19-2025-1201.html",
+    "title": "Lecture 19",
+    "section": "",
+    "text": "A function accepts one or more parameters and returns results.\nTwo key actions:\n\nDefine the function\nCall (execute) the function\n\n\n\n\n\n\n\nBegin with def, add the function name, parentheses for parameters, and finish the line with a colon :.\n\nExample: a function my_half() that returns half of its input.\n\n\n\ndef my_half(x):\n    return x / 2\n    \nmy_half(2)\n\nThe value supplied when calling the function is an argument.\nInside the function that value is copied to the matching parameter.\n\n\n\n\n\n\nA lambda function is an anonymous one‑liner.\nSyntax: lambda &lt;params&gt;: &lt;expression&gt;\n\n\nequiv_my_half = lambda x: x / 2\nequiv_my_half(2)\n\n\n\n\n\nPositional arguments must be supplied in the order the function expects.\nReordering them changes the meaning.\n\n\ndef my_ratio(x, y):\n    return x / y\n    \nequiv_my_ratio = lambda x, y: x / y\n\nmy_ratio(4, 2)\nmy_ratio(2, 4)"
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-19-2025-1201.html#what-is-a-user-defined-function",
+    "href": "danl-lec/danl-299-lec-19-2025-1201.html#what-is-a-user-defined-function",
+    "title": "Lecture 19",
+    "section": "",
+    "text": "A function accepts one or more parameters and returns results.\nTwo key actions:\n\nDefine the function\nCall (execute) the function"
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-19-2025-1201.html#defining-a-function",
+    "href": "danl-lec/danl-299-lec-19-2025-1201.html#defining-a-function",
+    "title": "Lecture 19",
+    "section": "",
+    "text": "Begin with def, add the function name, parentheses for parameters, and finish the line with a colon :.\n\nExample: a function my_half() that returns half of its input.\n\n\n\ndef my_half(x):\n    return x / 2\n    \nmy_half(2)\n\nThe value supplied when calling the function is an argument.\nInside the function that value is copied to the matching parameter."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-19-2025-1201.html#anonymous-lambda-functions",
+    "href": "danl-lec/danl-299-lec-19-2025-1201.html#anonymous-lambda-functions",
+    "title": "Lecture 19",
+    "section": "",
+    "text": "A lambda function is an anonymous one‑liner.\nSyntax: lambda &lt;params&gt;: &lt;expression&gt;\n\n\nequiv_my_half = lambda x: x / 2\nequiv_my_half(2)"
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-19-2025-1201.html#positional-arguments",
+    "href": "danl-lec/danl-299-lec-19-2025-1201.html#positional-arguments",
+    "title": "Lecture 19",
+    "section": "",
+    "text": "Positional arguments must be supplied in the order the function expects.\nReordering them changes the meaning.\n\n\ndef my_ratio(x, y):\n    return x / y\n    \nequiv_my_ratio = lambda x, y: x / y\n\nmy_ratio(4, 2)\nmy_ratio(2, 4)"
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-19-2025-1201.html#group-operations-with-groupby-split-apply-combine",
+    "href": "danl-lec/danl-299-lec-19-2025-1201.html#group-operations-with-groupby-split-apply-combine",
+    "title": "Lecture 19",
+    "section": "Group Operations with groupby() : Split-Apply-Combine",
+    "text": "Group Operations with groupby() : Split-Apply-Combine\n\n\n\n\n\n\n\n\n\n\nThe DataFrame.groupby() method creates a DataFrameGroupBy object that facilitates split-apply-combine operations:\n\nSplit the DataFrame into separate groups based on unique values in one or more columns.\nApply a method or UDF independently to each group (e.g., calculate sums, averages, or custom metrics).\nCombine results into a single summarized DataFrame."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-19-2025-1201.html#fortune-1000-dataset",
+    "href": "danl-lec/danl-299-lec-19-2025-1201.html#fortune-1000-dataset",
+    "title": "Lecture 19",
+    "section": "Fortune 1000 Dataset",
+    "text": "Fortune 1000 Dataset\n\n\nFortune 1000 lists the 1,000 largest U.S. companies by revenue.\n\nUpdated annually by Fortune magazine.\n\nThe file fortune1000_2024.csv contains the 2024 list.\n\n\n\nimport pandas as pd\nfortune1000 = pd.read_csv(\"https://bcdanl.github.io/data/fortune1000_2024.csv\")\n\nfortune = fortune1000[[\n    \"Rank\", \"Company\", \"Sector\", \"Industry\",\n    \"Revenues_M\", \"Profits_M\", \"Number_of_Employees\"\n]]\n\nA Sector can have many companies; an Industry is a sub‑category within a sector."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-19-2025-1201.html#why-group-operations",
+    "href": "danl-lec/danl-299-lec-19-2025-1201.html#why-group-operations",
+    "title": "Lecture 19",
+    "section": "Why Group Operations?",
+    "text": "Why Group Operations?\n\n\nSuppose we want the total revenue by sector.\nWithout group operations we would have to filter sector‑by‑sector:\n\n\nfortune[\"Sector\"].unique()\n\nin_retailing =  fortune[\"Sector\"] == \"Retailing\" \nretail_companies = fortune[ in_retailing ]\nretail_companies[\"Revenues_M\"].sum()\n\nDoing this for every sector is tedious — groupby() does it for us in one line."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-19-2025-1201.html#dataframegroupby-methods-and-attributes",
+    "href": "danl-lec/danl-299-lec-19-2025-1201.html#dataframegroupby-methods-and-attributes",
+    "title": "Lecture 19",
+    "section": "DataFrameGroupBy Methods and Attributes",
+    "text": "DataFrameGroupBy Methods and Attributes\nsectors = fortune.groupby(\"Sector\")\n\nsectors.groups\nlen(sectors)   \nsectors.describe()\n\ngroups — dictionary mapping each group label to the underlying row‑labels.\ndescribe() — one‑shot descriptive statistics within each group."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-19-2025-1201.html#quick-aggregations",
+    "href": "danl-lec/danl-299-lec-19-2025-1201.html#quick-aggregations",
+    "title": "Lecture 19",
+    "section": "Quick Aggregations",
+    "text": "Quick Aggregations\n\n\nWe can invoke methods on the DataFrameGroupBy object to apply aggregate operations to every group.\n\nAggregation is the process of taking multiple values and returning a single value.\n\n\n\nfortune.groupby(\"Sector\").size()\nfortune.groupby(\"Sector\").mean()\nfortune.groupby(\"Sector\").median()\nfortune.groupby(\"Sector\").max()\nfortune.groupby(\"Sector\").min()\nfortune.groupby(\"Sector\").sum()\n\nThe size() method on the DataFrameGroupBy object returns a Series with an alphabetical list of the groups and their observation counts."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-19-2025-1201.html#columnwise-aggregations",
+    "href": "danl-lec/danl-299-lec-19-2025-1201.html#columnwise-aggregations",
+    "title": "Lecture 19",
+    "section": "Column‑wise Aggregations",
+    "text": "Column‑wise Aggregations\nfortune.groupby(\"Sector\")[\"Revenues_M\"].mean()\nfortune.groupby(\"Sector\")[\"Revenues_M\"].median()\nfortune.groupby(\"Sector\")[\"Revenues_M\"].max()\nfortune.groupby(\"Sector\")[\"Revenues_M\"].min()\nfortune.groupby(\"Sector\")[\"Revenues_M\"].sum()\n\nWe can target a single variable by passing its name inside square brackets after the DataFrameGroupBy object.\n\nPandas returns a new object, a SeriesGroupBy."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-19-2025-1201.html#the-agg-method",
+    "href": "danl-lec/danl-299-lec-19-2025-1201.html#the-agg-method",
+    "title": "Lecture 19",
+    "section": "The agg() Method",
+    "text": "The agg() Method\nfortune.groupby(\"Sector\")[\"Revenues_M\"]  # this is a SeriesGroupBy object\nfortune.groupby(\"Sector\")[\"Revenues_M\"].agg('sum')\nfortune.groupby(\"Sector\")[\"Revenues_M\"].agg('mean')\nfortune.groupby(\"Sector\")[\"Revenues_M\"].agg('max')\nfortune.groupby(\"Sector\")[\"Revenues_M\"].agg('min')\n\nThe agg() method can also be used on a SeriesGroupBy.\nInstead of directly calling the aggregation method, we can call the agg() method, and pass the aggregation method we want in there."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-19-2025-1201.html#aggregation",
+    "href": "danl-lec/danl-299-lec-19-2025-1201.html#aggregation",
+    "title": "Lecture 19",
+    "section": "Aggregation",
+    "text": "Aggregation\nfortune.groupby(\"Sector\").agg(\n  Revenues_M_min = (\"Revenues_M\", \"min\"),\n  Profits_M_max = (\"Profits_M\", \"max\"),\n  Number_of_Employees_mean = (\"Number_of_Employees\", \"mean\")\n)\n\nThe agg() method can apply multiple aggregate operations to different variables and can accept a tuple as its argument.\n\nDataFrameGroupBy.agg(VARIABLE_NAME_1 = (\"VARIABLE_1\", \"STATISTICS\"), )"
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-19-2025-1201.html#useful-built-in-functions",
+    "href": "danl-lec/danl-299-lec-19-2025-1201.html#useful-built-in-functions",
+    "title": "Lecture 19",
+    "section": "Useful Built-in Functions",
+    "text": "Useful Built-in Functions\n\n\n\n\n\n\n\nAggregation\nDescription\n\n\n\n\nsize()\nNumber of observations in each group\n\n\ncount()\nNumber of non-missing values in each group\n\n\nnunique()\nNumber of unique/distinct values in each group\n\n\nvalue_counts()\nCount of unique values for a variable within each group\n\n\nmean(), median()\nMean and median values\n\n\nmin(), max()\nMinimum and maximum values\n\n\nstd()\nStandard deviation\n\n\nsum()\nSum of all values\n\n\n\n\nWe pass in whatever aggregation we want."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-19-2025-1201.html#agg-with-a-lambda-udf",
+    "href": "danl-lec/danl-299-lec-19-2025-1201.html#agg-with-a-lambda-udf",
+    "title": "Lecture 19",
+    "section": "agg() with a lambda UDF",
+    "text": "agg() with a lambda UDF\n\n\nSome built‑in function cannot be directly passed to agg().\nWe can then supply a lambda function that receives a Series and returns a single value:\n\n\nfortune.groupby(\"Sector\").agg(\n    Revenue_IQR = (\"Revenues_M\", lambda s: s.quantile(0.75) - s.quantile(0.25) )\n)\n\nAny one‑line function can be supplied inline as lambda s: ….\nThe function must return one value per group."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-19-2025-1201.html#agg-with-a-named-udf",
+    "href": "danl-lec/danl-299-lec-19-2025-1201.html#agg-with-a-named-udf",
+    "title": "Lecture 19",
+    "section": "agg() with a Named UDF",
+    "text": "agg() with a Named UDF\n\n\nWe can also define a named UDF once and then reference it in your agg() call:\n\n\n# 1. Define the UDF\ndef iqr(s):\n    return s.quantile(0.75) - s.quantile(0.25)\n\n# 2. Use it in agg()\n(\n  fortune\n  .groupby(\"Sector\")\n  .agg(Revenue_IQR=(\"Revenues_M\", iqr))\n)"
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-19-2025-1201.html#group-operations",
+    "href": "danl-lec/danl-299-lec-19-2025-1201.html#group-operations",
+    "title": "Lecture 19",
+    "section": "Group Operations",
+    "text": "Group Operations\nLet’s do Questions 1-3 in Classwork 13!"
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-19-2025-1201.html#transform-return-to-original-shape",
+    "href": "danl-lec/danl-299-lec-19-2025-1201.html#transform-return-to-original-shape",
+    "title": "Lecture 19",
+    "section": "transform() – Return to Original Shape",
+    "text": "transform() – Return to Original Shape\n\n\nJust like the agg() method, the transform() method can accept the built-in functions (e.g., 'sum', 'mean').\n\n\nfortune[\"Sector_rev_mean\"] = (\n    fortune.groupby(\"Sector\")[\"Revenues_M\"].transform(\"mean\")\n)\n\nUnlike the agg() method, the transform() method does not collapse DataFrame and goes back to the original index."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-19-2025-1201.html#transform-with-a-lambda-udf",
+    "href": "danl-lec/danl-299-lec-19-2025-1201.html#transform-with-a-lambda-udf",
+    "title": "Lecture 19",
+    "section": "transform() with a lambda UDF",
+    "text": "transform() with a lambda UDF\nfortune[\"Rev_centered\"] = (\n    fortune.groupby(\"Sector\")[\"Revenues_M\"]\n           .transform(lambda s: s - s.mean())\n)\n\nEach group’s mean is subtracted from its members, yielding a de‑meaned revenue variable."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-19-2025-1201.html#transform-with-a-named-udf",
+    "href": "danl-lec/danl-299-lec-19-2025-1201.html#transform-with-a-named-udf",
+    "title": "Lecture 19",
+    "section": "transform() with a Named UDF",
+    "text": "transform() with a Named UDF\n\n\nRather than an inline lambda, we can also define a named UDF and pass it to .transform():\n\n\ndef demean(s):\n    return s - s.mean()\n\nfortune[\"Rev_centered\"] = (\n    fortune\n      .groupby(\"Sector\")[\"Revenues_M\"]\n      .transform(demean)\n)"
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-19-2025-1201.html#dataframe.assign-and-dataframegroupby.transform",
+    "href": "danl-lec/danl-299-lec-19-2025-1201.html#dataframe.assign-and-dataframegroupby.transform",
+    "title": "Lecture 19",
+    "section": "DataFrame.assign() and DataFrameGroupBy.transform()",
+    "text": "DataFrame.assign() and DataFrameGroupBy.transform()\nsectors = fortune.groupby(\"Sector\")\n\nfortune_new = fortune.assign(\n    Year = 2024,\n    nCompanies = sectors.transform('size'),\n    Revenues_M_min = sectors['Revenues_M'].transform('min'),\n    Profits_M_max = sectors['Profits_M'].transform('max'),\n    Number_of_Employees_mean = sectors['Number_of_Employees'].transform('mean')\n)\n\nassign() can be used to add a new variable to a DataFrame.\n\nassign() is a DataFrame method, not a DataFrameGroupBy method."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-19-2025-1201.html#transform-with-shift",
+    "href": "danl-lec/danl-299-lec-19-2025-1201.html#transform-with-shift",
+    "title": "Lecture 19",
+    "section": "transform() with shift()",
+    "text": "transform() with shift()\n\n\nDatashift()Percentage Changes\n\n\n\nf_2021_2024 is a long-from DataFrame, containing 741 companies that appeared in the Fortune 1000 list consecutively from 2021 to 2024.\n\nf_2021_2024 = pd.read_csv(\"https://bcdanl.github.io/data/fortune741_2021_2024.csv\")\n\nHere we are interested in calculating the yearly revenue growth rate for each company in fortune_2021_2024 using the following formula: \\[\n\\text{(Revenue Growth Rate)}_{year} = \\frac{\\text{Revenue}_{year} - \\text{Revenue}_{year-1}}{\\text{Revenue}_{year-1}}\n\\]\n\n\n\nf_2021_2024['Revenues_M_last_year'] = f_2021_2024.groupby('Company')['Revenues_M'].shift(-1)\n\nWhat shift() does in pandas:\n\nshift() moves values up or down along the index (rows).\nIt shifts the data by a number of periods (default is 1 period down).\nIt is often used to compare a row with a previous (or future) row.\n\nshift(1): shift down (default)\nshift(-1): shift up\n\n\n\n\n\nf_2021_2024['GrowthRate_Revenue'] = (\n    (f_2021_2024['Revenues_M'] - f_2021_2024['Revenues_M_last_year']) / \n          f_2021_2024['Revenues_M_last_year']\n)\n\\[\n\\text{(Revenue Growth Rate)}_{year} = \\frac{\\text{Revenue}_{year} - \\text{Revenue}_{year-1}}{\\text{Revenue}_{year-1}}\n\\]\n\nUsing the historical daily stock data, we can calculate each company’s daily percentage change in stock price."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-19-2025-1201.html#group-operations-1",
+    "href": "danl-lec/danl-299-lec-19-2025-1201.html#group-operations-1",
+    "title": "Lecture 19",
+    "section": "Group Operations",
+    "text": "Group Operations\nLet’s do Question 4 in Classwork 13!"
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-19-2025-1201.html#applying-a-udf-to-all-groups",
+    "href": "danl-lec/danl-299-lec-19-2025-1201.html#applying-a-udf-to-all-groups",
+    "title": "Lecture 19",
+    "section": "Applying a UDF to All Groups",
+    "text": "Applying a UDF to All Groups\n\n\nSometimes we need something neither agg() nor transform() can do, like “top‑3 by revenue in each sector”.\n\nUse apply() and provide a method that operates on each group’s DataFrame.\n\n\n\nfortune_shuffled = pd.read_csv(\"https://bcdanl.github.io/data/fortune1000_2024_shuffled.csv\")\nsectors = fortune_shuffled.groupby(\"Sector\")\n\nHow can we get a DataFrame with top 5 companies in each sector?\n\nsort_values() with groupby()\nnlargest() with groupby()\n\nHowever, DataFrameGroupBy has no methods sort_values() or nlargest()."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-19-2025-1201.html#applying-a-lambda-udf-with-.apply",
+    "href": "danl-lec/danl-299-lec-19-2025-1201.html#applying-a-lambda-udf-with-.apply",
+    "title": "Lecture 19",
+    "section": "Applying a lambda UDF with .apply()",
+    "text": "Applying a lambda UDF with .apply()\n\n\nWe can directly apply a custom function (UDF) using a lambda expression with .apply():\n\n\nsectors.apply(lambda df: df.nlargest(1, \"Revenues_M\", keep=\"all\"))\n\nThis returns the largest observation(s) within each group.\nWhen we use DataFrame.groupby().apply(), pandas returns a MultiIndex where the first level is the group label and the second level is the original row index."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-19-2025-1201.html#passing-additional-parameters",
+    "href": "danl-lec/danl-299-lec-19-2025-1201.html#passing-additional-parameters",
+    "title": "Lecture 19",
+    "section": "Passing Additional Parameters",
+    "text": "Passing Additional Parameters\n\n\nHow can we apply a UDF with multiple parameters to DataFrameGroupBy object?\n\n\ndef get_nlargest_obs(df, n, var):\n  return df.nlargest(n, var, keep = \"all\")\n\nsectors.apply(get_nlargest_obs, 2, \"Revenues_M\")\n\nWhen applying a UDF with multiple parameters to DataFrameGroupBy object, we need to provide the rest of arguments to the apply() method."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-19-2025-1201.html#passing-additional-parameters-1",
+    "href": "danl-lec/danl-299-lec-19-2025-1201.html#passing-additional-parameters-1",
+    "title": "Lecture 19",
+    "section": "Passing Additional Parameters",
+    "text": "Passing Additional Parameters\n\n\nSuppose we want to filter groups based on a threshold for a given variable:\n\n\ndef filter_by_threshold(df, column, threshold):\n    return df[ df[column] &gt; threshold ]\n\nsectors.apply(filter_by_threshold, \"Revenues_M\", 5000)\n\nIn this example, the arguments \"Revenues_M\" and 5000 are passed to filter rows within each group."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-19-2025-1201.html#applying-a-udf-to-all-groups-1",
+    "href": "danl-lec/danl-299-lec-19-2025-1201.html#applying-a-udf-to-all-groups-1",
+    "title": "Lecture 19",
+    "section": "Applying a UDF to All Groups",
+    "text": "Applying a UDF to All Groups\n\n\nCan we apply a lambda function with multiple parameters to DataFrameGroupBy object?\n\n\nsectors.apply(lambda df: df.nlargest(2, \"Revenues_M\", keep=\"all\"))\n\nLambda functions do not support passing additional parameters directly in the apply() method!\n\nWe would typically need to provide arguments to additional parameters within the lambda function."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-19-2025-1201.html#agg-vs.-transform-vs.-apply",
+    "href": "danl-lec/danl-299-lec-19-2025-1201.html#agg-vs.-transform-vs.-apply",
+    "title": "Lecture 19",
+    "section": "agg() vs. transform() vs. apply()",
+    "text": "agg() vs. transform() vs. apply()\n\n\nUse agg() with .groupby() when summarizing multiple values into a single aggregated value per group.\n\nGroups become the new index labels.\n\n\nfortune.groupby(\"Sector\").agg(Revenue_mean = (\"Revenues_M\", \"mean\"))\n\nUse transform() with .groupby() when computing one aggregated value per observation.\n\nDoes not collapse the DataFrame.\n\n\nfortune[\"Revenue_diff_mean\"] = fortune[\"Revenues_M\"] - fortune.groupby(\"Sector\")[\"Revenues_M\"].transform(\"mean\")\n\nUse apply() with .groupby() for custom operations returning multiple observations per group.\n\nfortune.groupby(\"Sector\").apply(lambda x: x.nlargest(3, \"Revenues_M\", keep=\"all\") )"
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-19-2025-1201.html#agg-vs.-transform-vs-apply",
+    "href": "danl-lec/danl-299-lec-19-2025-1201.html#agg-vs.-transform-vs-apply",
+    "title": "Lecture 19",
+    "section": "agg() vs. transform() vs apply()",
+    "text": "agg() vs. transform() vs apply()\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMethod\nPurpose\nResult Shape\nExample Use Case\n\n\n\n\nagg()\nSummarize groups\nOne row per group\nCalculate average revenue by sector\n\n\ntransform()\nBroadcast group-level metrics\nSame shape as original DataFrame\nAdd a column that repeats each sector’s average revenue for every row\n\n\napply()\nComplex processing\nVaries with function\nGet top N companies in each sector"
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-19-2025-1201.html#group-operations-2",
+    "href": "danl-lec/danl-299-lec-19-2025-1201.html#group-operations-2",
+    "title": "Lecture 19",
+    "section": "Group Operations",
+    "text": "Group Operations\nLet’s do Questions 5-6 in Classwork 13!"
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-19-2025-1201.html#grouping-by-multiple-variables-1",
+    "href": "danl-lec/danl-299-lec-19-2025-1201.html#grouping-by-multiple-variables-1",
+    "title": "Lecture 19",
+    "section": "Grouping by Multiple Variables",
+    "text": "Grouping by Multiple Variables\nsector_and_industry = fortune.groupby([\"Sector\", \"Industry\"])\n\nsector_and_industry.groups\nlen(sector_and_industry)   \nsector_and_industry.describe()\n\nWe can create DataFrameGroupBy object with values from multiple variables.\n\nThis operation is optimal when a combination of variables serves as the best identifier for a group.\n\nGrouping on two or more columns gives us a MultiIndex whose levels correspond exactly to those grouping columns."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-19-2025-1201.html#aggregation-with-agg",
+    "href": "danl-lec/danl-299-lec-19-2025-1201.html#aggregation-with-agg",
+    "title": "Lecture 19",
+    "section": "Aggregation with agg()",
+    "text": "Aggregation with agg()\nagg_tbl = (\n    fortune\n    .groupby([\"Sector\", \"Industry\"])\n    .agg(\n        n_companies = (\"Company\",   \"size\"),\n        avg_rev     = (\"Revenues_M\",\"mean\"),\n        tot_rev     = (\"Revenues_M\",\"sum\")\n    )\n    .reset_index()  # Flattens the MultiIndex into ordinary columns\n)"
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-19-2025-1201.html#adding-new-variables-with-transform",
+    "href": "danl-lec/danl-299-lec-19-2025-1201.html#adding-new-variables-with-transform",
+    "title": "Lecture 19",
+    "section": "Adding New Variables with transform()",
+    "text": "Adding New Variables with transform()\nfortune['pct_of_industry_rev'] = (\n        fortune\n        .groupby([\"Sector\", \"Industry\"])[\"Revenues_M\"]\n        .transform(lambda x: x / x.sum() * 100)\n)"
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-19-2025-1201.html#custom-group-logic-with-apply",
+    "href": "danl-lec/danl-299-lec-19-2025-1201.html#custom-group-logic-with-apply",
+    "title": "Lecture 19",
+    "section": "Custom group logic with apply()",
+    "text": "Custom group logic with apply()\ndef above_median(df):\n    med = df[\"Revenues_M\"].median()\n    return df[ df[\"Revenues_M\"] &gt; med ]      \n\n(\n    fortune\n    .groupby([\"Sector\", \"Industry\"])\n    .apply(above_median)      \n)"
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-19-2025-1201.html#what-we-learned-this-semester",
+    "href": "danl-lec/danl-299-lec-19-2025-1201.html#what-we-learned-this-semester",
+    "title": "Lecture 19",
+    "section": "What We Learned This Semester",
+    "text": "What We Learned This Semester\n\nTools & Environments\n\nUsed Quarto/Jupyter Notebooks to communicate data analysis through your personal website managed with git and GitHub\n\nData Manipulation & Cleaning\n\nTransformed, reshaped, merged, summarized datasets\nApplied pandas for efficient and scalable data wrangling\n\nData Collection\n\nCollected data through web scraping with selenium\nRetrieved structured data from APIs using requests\n\nStock and ESG Data Project\n\nCollect, clean, visualize, and analyze stock and ESG data\nPresent your analysis through a fully published project webpage"
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-19-2025-1201.html#student-course-evaluation-sce",
+    "href": "danl-lec/danl-299-lec-19-2025-1201.html#student-course-evaluation-sce",
+    "title": "Lecture 19",
+    "section": "Student Course Evaluation (SCE)",
+    "text": "Student Course Evaluation (SCE)\n\n\nI have tried to improve your learning experience in this course.\nI value your feedback immensely.\nI request for your participation in the Student Course Evaluation (SCE).\n\n\n\n\nTake 10 minutes right now to complete the SCE.\nOn your laptop, access the SCE form for DANL 210 as follows:\n\nLog in to Knightweb\nClick on the “Surveys” option\nChoose DANL 210 and then complete the SCE survey."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-19-2025-1201.html#group-operations-3",
+    "href": "danl-lec/danl-299-lec-19-2025-1201.html#group-operations-3",
+    "title": "Lecture 19",
+    "section": "Group Operations",
+    "text": "Group Operations\nLet’s do Classwork 14!"
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-16-2025-1105.html",
+    "href": "danl-lec/danl-299-lec-16-2025-1105.html",
+    "title": "Lecture 16",
+    "section": "",
+    "text": "WebDriver is an wire protocol that defines a language-neutral interface for controlling the behavior of web browsers.\nThe purpose of WebDriver is to control the behavior of web browsers programmatically, allowing automated interactions such as:\n\nExtracting webpage content\nOpening a webpage\nClicking buttons\nFilling out forms\nRunning automated tests on web applications\n\nSelenium WebDriver refers to both the language bindings and the implementations of browser-controlling code.\n\n\n\n\n\nEach browser requires a specific WebDriver implementation, called a driver.\n\nWeb browsers (e.g., Chrome, Firefox, Edge) do not natively understand Selenium WebDriver commands.\nTo bridge this gap, each browser has its own WebDriver implementation, known as a driver.\n\nThe driver handles communication between Selenium WebDriver and the browser.\n\nThis driver acts as a middleman between Selenium WebDriver and the actual browser.\n\nDifferent browsers have specific drivers:\n\nChromeDriver for Chrome\nGeckoDriver for Firefox\n\n\n\n\n\n\n\n\nA simplified diagram of how WebDriver interacts with browser might look like this:\n\n\n\n\n\n\n\n\n\nWebDriver interacts with the browser via the driver in a two-way communication process:\n\nSends commands (e.g., open a page, click a button) to the browser.\nReceives responses from the browser.\n\n\n\n\n\n\nInstall the Chrome or FireFox web-browser if you do not have either of them.\n\nI will use the Chrome.\n\nInstall Selenium using pip:\n\nOn the Spyder Console, run the following:\npip install selenium\n\nSelenium with Python is a well-documented reference.\n\n\n\n\n\n\nTo begin with, we import (1) webdriver from selenium and (2) the By and Options classes.\n\nwebdriver.Chrome() opens the Chrome browser that is being controlled by automated test software, selenium.\n\n\n\n# Import the necessary modules from the Selenium package\nfrom selenium import webdriver  # Main module to control the browser\nfrom selenium.webdriver.common.by import By  # Helps locate elements on the webpage\nfrom selenium.webdriver.chrome.options import Options  # Allows setting browser options\n\n# Create an instance of Chrome options\noptions = Options()\noptions.add_argument(\"window-size=1400,1200\")  # Set the browser window size to 1400x1200\n\n# Initialize the Chrome WebDriver with the specified options\ndriver = webdriver.Chrome(options=options)  # Correct implementation\n\n# Now you can use 'driver' to control the Chrome browser\n\n\n\n\n\nget(url) from webdriver opens the specified URL in a web browser.\nWhen using webdriver in Google Chrome, you may see the message:\n\n“Chrome is being controlled by automated test software.”\n\n\n\nform_url = \"https://qavbox.github.io/demo/webtable/\"\ndriver.[?](form_url)\ndriver.close()\ndriver.quit()\n\nclose() terminates the current browser window.\nquit() completely exits the webdriver session, closing a browser window.\n\n\n\n\n\nOnce the Google Chrome window loads with the provided URL, we need to find specific elements to interact with.\n\nThe easiest way to identify elements is by using Developer Tools to inspect the webpage structure.\n\nTo inspect an element:\n\nRight-click anywhere on the webpage.\nSelect the Inspect option from the pop-up menu.\nIn the Elements panel, hover over the DOM structure to locate the desired element.\n\n\n\n\n\n\nWhen inspecting an element, look for:\n\nHTML tag (e.g., &lt;input&gt;, &lt;button&gt;, &lt;div&gt;) used for the element.\nAttributes (e.g., id, class, name) that define the element.\nAttribute values that help uniquely identify the element.\nPage structure to understand how elements are nested within each other."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-16-2025-1105.html#webdriver",
+    "href": "danl-lec/danl-299-lec-16-2025-1105.html#webdriver",
+    "title": "Lecture 16",
+    "section": "",
+    "text": "WebDriver is an wire protocol that defines a language-neutral interface for controlling the behavior of web browsers.\nThe purpose of WebDriver is to control the behavior of web browsers programmatically, allowing automated interactions such as:\n\nExtracting webpage content\nOpening a webpage\nClicking buttons\nFilling out forms\nRunning automated tests on web applications\n\nSelenium WebDriver refers to both the language bindings and the implementations of browser-controlling code."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-16-2025-1105.html#driver",
+    "href": "danl-lec/danl-299-lec-16-2025-1105.html#driver",
+    "title": "Lecture 16",
+    "section": "",
+    "text": "Each browser requires a specific WebDriver implementation, called a driver.\n\nWeb browsers (e.g., Chrome, Firefox, Edge) do not natively understand Selenium WebDriver commands.\nTo bridge this gap, each browser has its own WebDriver implementation, known as a driver.\n\nThe driver handles communication between Selenium WebDriver and the browser.\n\nThis driver acts as a middleman between Selenium WebDriver and the actual browser.\n\nDifferent browsers have specific drivers:\n\nChromeDriver for Chrome\nGeckoDriver for Firefox"
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-16-2025-1105.html#interaction-diagram",
+    "href": "danl-lec/danl-299-lec-16-2025-1105.html#interaction-diagram",
+    "title": "Lecture 16",
+    "section": "",
+    "text": "A simplified diagram of how WebDriver interacts with browser might look like this:\n\n\n\n\n\n\n\n\n\nWebDriver interacts with the browser via the driver in a two-way communication process:\n\nSends commands (e.g., open a page, click a button) to the browser.\nReceives responses from the browser."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-16-2025-1105.html#setting-up",
+    "href": "danl-lec/danl-299-lec-16-2025-1105.html#setting-up",
+    "title": "Lecture 16",
+    "section": "",
+    "text": "Install the Chrome or FireFox web-browser if you do not have either of them.\n\nI will use the Chrome.\n\nInstall Selenium using pip:\n\nOn the Spyder Console, run the following:\npip install selenium\n\nSelenium with Python is a well-documented reference."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-16-2025-1105.html#setting-up---webdriver.chrome",
+    "href": "danl-lec/danl-299-lec-16-2025-1105.html#setting-up---webdriver.chrome",
+    "title": "Lecture 16",
+    "section": "",
+    "text": "To begin with, we import (1) webdriver from selenium and (2) the By and Options classes.\n\nwebdriver.Chrome() opens the Chrome browser that is being controlled by automated test software, selenium.\n\n\n\n# Import the necessary modules from the Selenium package\nfrom selenium import webdriver  # Main module to control the browser\nfrom selenium.webdriver.common.by import By  # Helps locate elements on the webpage\nfrom selenium.webdriver.chrome.options import Options  # Allows setting browser options\n\n# Create an instance of Chrome options\noptions = Options()\noptions.add_argument(\"window-size=1400,1200\")  # Set the browser window size to 1400x1200\n\n# Initialize the Chrome WebDriver with the specified options\ndriver = webdriver.Chrome(options=options)  # Correct implementation\n\n# Now you can use 'driver' to control the Chrome browser"
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-16-2025-1105.html#get-method-in-webdriver",
+    "href": "danl-lec/danl-299-lec-16-2025-1105.html#get-method-in-webdriver",
+    "title": "Lecture 16",
+    "section": "",
+    "text": "get(url) from webdriver opens the specified URL in a web browser.\nWhen using webdriver in Google Chrome, you may see the message:\n\n“Chrome is being controlled by automated test software.”\n\n\n\nform_url = \"https://qavbox.github.io/demo/webtable/\"\ndriver.[?](form_url)\ndriver.close()\ndriver.quit()\n\nclose() terminates the current browser window.\nquit() completely exits the webdriver session, closing a browser window."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-16-2025-1105.html#inspecting-web-elements-with-find_element",
+    "href": "danl-lec/danl-299-lec-16-2025-1105.html#inspecting-web-elements-with-find_element",
+    "title": "Lecture 16",
+    "section": "",
+    "text": "Once the Google Chrome window loads with the provided URL, we need to find specific elements to interact with.\n\nThe easiest way to identify elements is by using Developer Tools to inspect the webpage structure.\n\nTo inspect an element:\n\nRight-click anywhere on the webpage.\nSelect the Inspect option from the pop-up menu.\nIn the Elements panel, hover over the DOM structure to locate the desired element."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-16-2025-1105.html#inspecting-web-elements-with-find_element-1",
+    "href": "danl-lec/danl-299-lec-16-2025-1105.html#inspecting-web-elements-with-find_element-1",
+    "title": "Lecture 16",
+    "section": "",
+    "text": "When inspecting an element, look for:\n\nHTML tag (e.g., &lt;input&gt;, &lt;button&gt;, &lt;div&gt;) used for the element.\nAttributes (e.g., id, class, name) that define the element.\nAttribute values that help uniquely identify the element.\nPage structure to understand how elements are nested within each other."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-16-2025-1105.html#locating-web-elements-by-find_element",
+    "href": "danl-lec/danl-299-lec-16-2025-1105.html#locating-web-elements-by-find_element",
+    "title": "Lecture 16",
+    "section": "Locating Web Elements by find_element()",
+    "text": "Locating Web Elements by find_element()\n\n\nThere are various strategies to locate elements in a page.\n\n\nfind_element(By.ID, \"id\")\nfind_element(By.CLASS_NAME, \"class name\")\nfind_element(By.NAME, \"name\")\nfind_element(By.CSS_SELECTOR, \"css selector\")\nfind_element(By.TAG_NAME, \"tag name\")\nfind_element(By.LINK_TEXT, \"link text\")\nfind_element(By.PARTIAL_LINK_TEXT, \"partial link text\")\nfind_element(By.XPATH, \"xpath\")\n\nSelenium provides the find_element() method to locate elements in a page.\nTo find multiple elements (these methods will return a list):\n\nfind_elements()"
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-16-2025-1105.html#find_elementby.id",
+    "href": "danl-lec/danl-299-lec-16-2025-1105.html#find_elementby.id",
+    "title": "Lecture 16",
+    "section": "find_element(By.ID, \"\")",
+    "text": "find_element(By.ID, \"\")\n\n\n(1)(2)\n\n\n\nfind_element(By.ID, \"\") & find_elements(By.ID, \"\"):\n\nReturn element(s) that match a given ID attribute value.\n\nExample HTML code where an element has an ID attribute form1:\n\n&lt;form id=\"form1\"&gt;...&lt;/form&gt;\n\n\n\nExample of locating the form using find_element(By.ID, \"\"):\n\nform = driver.find_element(By.ID, \"form1\")\nform.text  # Retrieves text content if available"
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-16-2025-1105.html#find_elementby.class_name",
+    "href": "danl-lec/danl-299-lec-16-2025-1105.html#find_elementby.class_name",
+    "title": "Lecture 16",
+    "section": "find_element(By.CLASS_NAME, \"\")",
+    "text": "find_element(By.CLASS_NAME, \"\")\n\n\n(1)(2)\n\n\n\nfind_element(By.CLASS_NAME, \"\") & find_elements(By.CLASS_NAME, \"\"):\n\nReturn element(s) matching a specific class attribute.\n\nExample HTML code with a homebtn class:\n\n&lt;div class=\"homebtn\" align=\"center\"&gt;...&lt;/div&gt;\n\n\nhome_button = driver.find_element(By.CLASS_NAME, \"homebtn\")\nhome_button.click()  # Clicks the home button\ndriver.back()  # Navigates back to the previous page"
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-16-2025-1105.html#find_elementby.name",
+    "href": "danl-lec/danl-299-lec-16-2025-1105.html#find_elementby.name",
+    "title": "Lecture 16",
+    "section": "find_element(By.NAME, \"\")",
+    "text": "find_element(By.NAME, \"\")\n\n\n(1)(2)\n\n\n\nfind_element(By.NAME, \"\") & find_elements(By.NAME, \"\"):\n\nReturn element(s) with a matching name attribute.\n\nExample HTML code with a name attribute home:\n\n&lt;input type=\"button\" class=\"btn\" name=\"home\" value=\"Home\" /&gt;\n\n\nhome_button2 = driver.find_element(By.NAME, \"home\")\nhome_button2.click()\ndriver.back()"
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-16-2025-1105.html#find_elementby.css_selector",
+    "href": "danl-lec/danl-299-lec-16-2025-1105.html#find_elementby.css_selector",
+    "title": "Lecture 16",
+    "section": "find_element(By.CSS_SELECTOR, \"\")",
+    "text": "find_element(By.CSS_SELECTOR, \"\")\n\n\n(1)(2)\n\n\n\nfind_element(By.CSS_SELECTOR, \"\") & find_elements(By.CSS_SELECTOR, \"\"):\n\nLocate element(s) using a CSS selector.\n\nInspect the webpage using browser Developer Tools.\nLocate the desired element in the Elements panel.\nRight-click and select Copy selector\n\nLet’s find out CSS selector for the Home button.\n\n\n\n\nhome_button3 = driver.find_element(By.CSS_SELECTOR, \"body &gt; div &gt; a &gt; input\")\nhome_button3.click()\ndriver.back()"
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-16-2025-1105.html#find_elementby.tag_name",
+    "href": "danl-lec/danl-299-lec-16-2025-1105.html#find_elementby.tag_name",
+    "title": "Lecture 16",
+    "section": "find_element(By.TAG_NAME, \"\")",
+    "text": "find_element(By.TAG_NAME, \"\")\n\n\n(1)(2)\n\n\n\nfind_element(By.TAG_NAME, \"\") & find_elements(By.TAG_NAME, \"\"):\n\nLocate element(s) by a specific HTML tag.\n\n\n\n\ntable01 = driver.find_element(By.ID, \"table01\")\nthead = table01.find_element(By.TAG_NAME, \"thead\")\nthead.text"
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-16-2025-1105.html#find_elementby.link_text",
+    "href": "danl-lec/danl-299-lec-16-2025-1105.html#find_elementby.link_text",
+    "title": "Lecture 16",
+    "section": "find_element(By.LINK_TEXT, \"\")",
+    "text": "find_element(By.LINK_TEXT, \"\")\n\n\n(1)(2)\n\n\n\nfind_element(By.LINK_TEXT, \"\") & find_elements(By.LINK_TEXT, \"\"):\n\nLocate link(s) using the exact text displayed.\n\nExample HTML for a Selenium link:\n\n&lt;a href=\"http://www.selenium.dev/\"&gt;Selenium&lt;/a&gt;\n\n\nselenium_link = driver.find_element(By.LINK_TEXT, \"Selenium\")\nselenium_link.click()\ndriver.back()"
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-16-2025-1105.html#find_elementby.partial_link_text",
+    "href": "danl-lec/danl-299-lec-16-2025-1105.html#find_elementby.partial_link_text",
+    "title": "Lecture 16",
+    "section": "find_element(By.PARTIAL_LINK_TEXT, \"\")",
+    "text": "find_element(By.PARTIAL_LINK_TEXT, \"\")\n\n\n(1)(2)\n\n\n\nFinds link(s) containing partial text.\n\n\n\nSelen_links = driver.find_elements(By.PARTIAL_LINK_TEXT, \"qav\")\nprint(len(Selen_links))\nSelen_links[0].click()\ndriver.back()"
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-16-2025-1105.html#find_elementby.xpath",
+    "href": "danl-lec/danl-299-lec-16-2025-1105.html#find_elementby.xpath",
+    "title": "Lecture 16",
+    "section": "find_element(By.XPATH, \"\")",
+    "text": "find_element(By.XPATH, \"\")\n\nUnderstanding XPath\n\nfind_element(By.XPATH, \"\") & find_elements(By.XPATH, \"\"):\n\nReturn element(s) that match the specified XPath query.\n\nXPath is a query language for searching and locating nodes in an XML document.\n\nSupported by all major web browsers.\nUsed in Selenium to find elements when ID, name, or class attributes are not available.\nPowerful for navigating complex HTML structures."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-16-2025-1105.html#basic-xpath-syntax",
+    "href": "danl-lec/danl-299-lec-16-2025-1105.html#basic-xpath-syntax",
+    "title": "Lecture 16",
+    "section": "Basic XPath Syntax",
+    "text": "Basic XPath Syntax\n//tag_name[@attribute='value']\n\n// → Selects elements anywhere in the document.\ntag_name → HTML tag (input, div, span, etc.).\n@attribute → Attribute name (id, class, aria-label, etc.).\nvalue → Attribute’s assigned value."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-16-2025-1105.html#absolute-vs.-relative-xpath",
+    "href": "danl-lec/danl-299-lec-16-2025-1105.html#absolute-vs.-relative-xpath",
+    "title": "Lecture 16",
+    "section": "Absolute vs. Relative XPath",
+    "text": "Absolute vs. Relative XPath\n\nAbsolute XPath → Defines the full path from the root node.\n\nReliable if the webpage structure does not change.\n\nRelative XPath → Defines the path starting from a known element.\n\nMore flexible—doesn’t break as easily if the structure changes."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-16-2025-1105.html#example-finding-a-table-element-with-xpath",
+    "href": "danl-lec/danl-299-lec-16-2025-1105.html#example-finding-a-table-element-with-xpath",
+    "title": "Lecture 16",
+    "section": "Example: Finding a Table Element with XPath",
+    "text": "Example: Finding a Table Element with XPath\n\nXPath can use attributes other than ID, name, or class to locate elements.\nSuppose we want to retrieve data from a second table on a webpage.\nThe table contains multiple &lt;tr&gt; (rows) and &lt;th&gt; (headers) without an easily identifiable ID or class.\nfind_element(By.TAG_NAME, \"\") is not reliable due to multiple &lt;tr&gt; and &lt;th&gt; tags."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-16-2025-1105.html#extracting-xpath-from-developer-tools",
+    "href": "danl-lec/danl-299-lec-16-2025-1105.html#extracting-xpath-from-developer-tools",
+    "title": "Lecture 16",
+    "section": "Extracting XPath from Developer Tools",
+    "text": "Extracting XPath from Developer Tools\n\n\nInspect the webpage using browser Developer Tools.\nLocate the desired element in the Elements panel.\nRight-click and select Copy XPath.\nExample extracted XPath:\n\n\n//*[@id=\"table02\"]/tbody/tr[1]/td[1]\n/html/body/form/fieldset/div/div/table/tbody/tr[1]/td[1]"
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-16-2025-1105.html#finding-an-element-using-xpath",
+    "href": "danl-lec/danl-299-lec-16-2025-1105.html#finding-an-element-using-xpath",
+    "title": "Lecture 16",
+    "section": "Finding an Element Using XPath",
+    "text": "Finding an Element Using XPath\n\n\nLocate “Tiger Nixon” in the second table:\n\n\nelt = driver.find_element(By.XPATH, '//*[@id=\"table02\"]/tbody/tr[1]/td[1]')\nprint(elt.text)  # Output the extracted text"
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-16-2025-1105.html#when-to-use-xpath",
+    "href": "danl-lec/danl-299-lec-16-2025-1105.html#when-to-use-xpath",
+    "title": "Lecture 16",
+    "section": "When to Use XPath",
+    "text": "When to Use XPath\n\nUse XPath when:\n\nThe element lacks a unique ID or class.\nOther locator methods (By.ID, By.CLASS_NAME, etc.) don’t work.\n\nLimitations:\n\nXPath is less efficient than ID-based locators.\nPage structure changes may break XPath-based automation.\n\nFor our tasks, however, XPath remains a reliable and effective method!"
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-16-2025-1105.html#retrieving-attribute-values-with-get_attribute",
+    "href": "danl-lec/danl-299-lec-16-2025-1105.html#retrieving-attribute-values-with-get_attribute",
+    "title": "Lecture 16",
+    "section": "Retrieving Attribute Values with get_attribute()",
+    "text": "Retrieving Attribute Values with get_attribute()\n\n\n(1)(2)\n\n\n\nget_attribute() extracts an element’s attribute value.\nUseful for retrieving hidden properties not visible on the page.\n\n&lt;a href=\"https://www.selenium.dev/\"&gt;Selenium&lt;/a&gt;\n&lt;input id=\"btn\" class=\"btn\" type=\"button\" onclick=\"change_text(this)\" value=\"Delete\"&gt;\n\n\ndriver.find_element(By.XPATH, '//*[@id=\"table01\"]/tbody/tr[2]/td[3]/a').get_attribute('href')\ndriver.find_element(By.XPATH, '//*[@id=\"btn\"]').get_attribute('value')"
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-16-2025-1105.html#web-scrapping-with-python-selenium-1",
+    "href": "danl-lec/danl-299-lec-16-2025-1105.html#web-scrapping-with-python-selenium-1",
+    "title": "Lecture 16",
+    "section": "Web-scrapping with Python selenium",
+    "text": "Web-scrapping with Python selenium\nLet’s do Classwork 9!"
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-16-2025-1105.html#nosuchelementexception-and-try-except-blocks",
+    "href": "danl-lec/danl-299-lec-16-2025-1105.html#nosuchelementexception-and-try-except-blocks",
+    "title": "Lecture 16",
+    "section": "NoSuchElementException and try-except blocks",
+    "text": "NoSuchElementException and try-except blocks\nfrom selenium.common.exceptions import NoSuchElementException\ntry:\n    elem = driver.find_element(By.XPATH, \"element_xpath\")\n    elem.click()\nexcept NoSuchElementException:\n    pass\n\nWhen a web element is not found, it throws the NoSuchElementException.\n\ntry-except can be used to avoid the termination of the selenium code.\n\nThis solution is to address the inconsistency in the DOM among the seemingly same pages."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-16-2025-1105.html#explicit-wait-with-time.sleep",
+    "href": "danl-lec/danl-299-lec-16-2025-1105.html#explicit-wait-with-time.sleep",
+    "title": "Lecture 16",
+    "section": "Explicit wait with time.sleep()",
+    "text": "Explicit wait with time.sleep()\nimport time\n\n# example webpage\nurl = \"https://qavbox.github.io/demo/delay/\"\ndriver.get(url)\n\ndriver.find_element(By.XPATH, '//*[@id=\"one\"]/input').click()\ntime.sleep(5)\nelement = driver.find_element(By.XPATH, '//*[@id=\"two\"]')\nelement.text\n\nThe time.sleep() method is an explicit wait to set the condition to be an exact time period to wait.\nIn general, a more efficient solution than time.sleep() would be to make WebDriver() wait only as long as required."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-16-2025-1105.html#implicit-wait-with-implicitly_wait",
+    "href": "danl-lec/danl-299-lec-16-2025-1105.html#implicit-wait-with-implicitly_wait",
+    "title": "Lecture 16",
+    "section": "Implicit wait with implicitly_wait()",
+    "text": "Implicit wait with implicitly_wait()\ndriver.find_element(By.XPATH, '//*[@id=\"oneMore\"]/input[1]').click()\ndriver.implicitly_wait(10)  # Wait up to 10 seconds for elements to appear\nelement2 = driver.find_element(By.ID, 'delay')\nelement2.text\n\nImplicit wait with implicitly_wait() directs the webdriver to wait for a certain measure of time before throwing an exception.\n\nApplies globally for the lifetime of the driver session.\n\nOnce this time is set, webdriver will wait for the element before the exception occurs."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-16-2025-1105.html#explicit-wait-with-webdriverwait-and-ec",
+    "href": "danl-lec/danl-299-lec-16-2025-1105.html#explicit-wait-with-webdriverwait-and-ec",
+    "title": "Lecture 16",
+    "section": "Explicit wait with WebDriverWait and EC",
+    "text": "Explicit wait with WebDriverWait and EC\n\n\n(0)(1)(2)(3)\n\n\n\nAn explicit wait allows you to wait for a specific condition before continuing.\nUses:\n\nWait for elements to appear, be visible, or be clickable.\nMore flexible and precise than implicit waits.\n\n\nfrom selenium.webdriver.support.ui import WebDriverWait\nfrom selenium.webdriver.support import expected_conditions as EC\n\n\n\nTo wait for presence_of_element_located:\n\nelement = ( \n  WebDriverWait(driver, 20)  # 20 is timeout in seconds when an expectation is called\n  .until(\n    EC.presence_of_element_located(\n      (By.XPATH, \"element_xpath\")\n      )\n    )\n) \n\n\n\nTo wait for visibility_of_element_located:\n\nelement = (\n  WebDriverWait(driver, 20)\n  .until(\n    EC.visibility_of_element_located(\n      (By.CSS_SELECTOR, \"element_css\")\n      )\n  )\n)\n\n\n\nTo wait for element_to_be_clickable:\n\nelement = (\n  WebDriverWait(driver, 20)\n  .until(\n    EC.element_to_be_clickable(\n      (By.LINK_TEXT, \"element_link_text\")\n      )\n    )\n)"
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-16-2025-1105.html#selenium-with-pd.read_html-for-table-scrapping-1",
+    "href": "danl-lec/danl-299-lec-16-2025-1105.html#selenium-with-pd.read_html-for-table-scrapping-1",
+    "title": "Lecture 16",
+    "section": "Selenium with pd.read_html() for Table Scrapping",
+    "text": "Selenium with pd.read_html() for Table Scrapping\n\nYahoo! Finance has probably renewed its database system, so that yfinance does not work now.\nYahoo! Finance uses web table to display historical data about a company’s stock.\nLet’s use Selenium with pd.read_html() to collect stock price data!"
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-16-2025-1105.html#selenium-with-pd.read_html-for-yahoo-finance-data",
+    "href": "danl-lec/danl-299-lec-16-2025-1105.html#selenium-with-pd.read_html-for-yahoo-finance-data",
+    "title": "Lecture 16",
+    "section": "Selenium with pd.read_html() for Yahoo! Finance Data",
+    "text": "Selenium with pd.read_html() for Yahoo! Finance Data\n\nSetupURLget_attribute(\"outerHTML\")\n\n\nimport pandas as pd\nimport os, time, random\nfrom selenium import webdriver\nfrom selenium.webdriver.common.by import By\nfrom io import StringIO\n\n# Set working directory\nos.chdir('/Users/bchoe/.../lecture-code/')\n\n# Launch Chrome browser\ndriver = webdriver.Chrome()\n\nStringIO turns that string into a file-like object, which is what pd.read_json() expects moving forward.\n\n\n\n\n# Load content page\nurl = 'https://finance.yahoo.com/quote/MSFT/history/?p=MSFT&period1=1672531200&period2=1743379200'\ndriver.get(url)\ntime.sleep(random.uniform(3, 5))  # wait for table to load\n\nperiod1 and period2 values for Yahoo Finance URLs uses Unix timestamps (number of seconds since January 1, 1970),\n\n1672531200 → 2023-01-01\n1743379200 → 2025-03-31\n\n\n\n\n# Extract the &lt;table&gt; HTML element\ntable_html = driver.find_element(By.TAG_NAME, 'table').get_attribute(\"outerHTML\")\n\n# Parse the HTML table into a pandas DataFrame\ndf = pd.read_html(StringIO(table_html))[0]\n\n.get_attribute(\"outerHTML\"): gets the entire HTML from the WebElement.\npd.read_html() parses HTML tables from a given URL or from raw HTML content, and returns a list of DataFrames."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-16-2025-1105.html#web-scrapping-with-python-selenium-2",
+    "href": "danl-lec/danl-299-lec-16-2025-1105.html#web-scrapping-with-python-selenium-2",
+    "title": "Lecture 16",
+    "section": "Web-scrapping with Python selenium",
+    "text": "Web-scrapping with Python selenium\nLet’s do Classwork 10!"
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-15-2025-1104.html",
+    "href": "danl-lec/danl-299-lec-15-2025-1104.html",
+    "title": "Lecture 15",
+    "section": "",
+    "text": "“If you can see things in your web browser, you can scrape them.”\n\n\nJust because you can scrape them doesn’t mean you should.\n\nIn US, it is currently legal to scrape data from the web using automated tools, as long as the data are publicly available.\n\nhiQ Labs vs. LinkedIn Corp. court ruling.\n\n\nIt is important to realize that the web scrapping tools are very powerful.\n\nIt is pretty straightforward to write up a program that can overwhelm a host server.\nThe host server tends to have built-in safeguards that will block you in case of a suspected malicious attack.\n\n\n\n\n\n\nRespect for website owners’ terms of service.\nRespect for copyright and intellectual property.\nRespect for client servers.\nRespect for privacy.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nComputers connected to the web are called clients and servers.\n\n\n\n\nClients are the typical web user’s internet-connected devices (e.g., a computer connected to Wi-Fi) and web-accessing software available on those devices (e.g., Firefox, Chrome).\nServers are computers that store webpages, sites, or apps.\nWhen a client device wants to access a webpage, a copy of the webpage is downloaded from the server onto the client machine to be displayed in the user’s web browser.\n\n\n\n\n\nHypertext Transfer Protocol (HTTP) is a language for clients and servers to speak to each other.\nHypertext Transfer Protocol Secure (HTTPS) is an encrypted version of HTTP that provides secure communication between them.\nWhen we type a web address with “https://” into our browser:\n\nThe browser finds the address of the server that hosts the website.\nThe browser and server establish a secure connection.\nThe browser sends an HTTPS request to the server, asking for the website’s content.\nIf the server approves the request, it responds with a 200 OK message and sends the encrypted website data to the client.\nThe browser decrypts and displays the website securely.\n\n\n\n\n\n# library for making HTTPS requests in Python\nimport requests  \n\n\n\n\n\np = 'https://bcdanl.github.io/210'\nresponse = requests.get(p)  \nprint(response.status_code)  \nprint(response.reason)      \n\n200 OK → The request is successful, and the server sends the requested content.\n\n\np = 'https://bcdanl.github.io/2100'\nresponse = requests.get(p)  \nprint(response.status_code)  \nprint(response.reason)       \n\n404 Not Found → The server cannot find the requested webpage.\nThis may happen due to a broken link, mistyped URL, or deleted page.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAn uniform resource locator (URL)—commonly know as a “web address”, specifies the location of a resource (such as a web page) on the internet.\nAn URL is usually composed of 5 parts\n\nThe 4th part, the “query string”, contains one or more parameters — in this case, there are two parameters: id and cat.\nThe 5th part, the “fragment”, is an internal page reference and may not be present.\n\n\n\n\n\n\nHyper Text Markup Language (HTML) is the standard markup language for creating Web pages.\n\nHTML describes the structure of a Web page.\n\nHTML consists of a series of elements.\nHTML elements tell the browser how to display the content.\n\nHTML elements label pieces of content such as “this is a heading”, “this is a paragraph”, “this is a link”, etc.\n\n\n\n\n\n\nBelow is a simple HTML document:\n\n\n&lt;!DOCTYPE html&gt;\n  &lt;html&gt;\n    &lt;head&gt;\n      &lt;title&gt;Page Title&lt;/title&gt;\n    &lt;/head&gt;\n    &lt;body&gt;\n      &lt;h1&gt;My First Heading&lt;/h1&gt;\n      &lt;p&gt;My first paragraph.&lt;/p&gt;\n    &lt;/body&gt;\n  &lt;/html&gt;\n\n\n\n\n\n\n\nAn HTML element is defined by a start tag, some content, and an end tag:\n\n\n&lt;tagname&gt;Content goes here...&lt;/tagname&gt;\n\n\n\n\n\n&lt;!DOCTYPE html&gt; declaration defines that this document is an HTML document.\n&lt;html&gt; element is the root element of an HTML page.\n&lt;head&gt; element contains meta information about the HTML page.\n&lt;title&gt; element specifies a title for the HTML page.\n\n&lt;title&gt; is shown in the browser’s title bar or in the page’s tab.\n\n&lt;body&gt; element defines the document’s body, and is a container for all the visible contents, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.\n\n&lt;h1&gt; element defines a large heading.\n&lt;p&gt; element defines a paragraph.\n\n\n\n\n\n\n\n&lt;a href=\"https://www.w3schools.com\"&gt;This is a link&lt;/a&gt;\n\nThe &lt;a&gt; tag defines an HTML link.\n\n\n\n\n&lt;img src=\"w3schools.jpg\" alt=\"W3Schools.com\" width=\"104\" height=\"142\"&gt;\n\nThe &lt;img&gt; tag defines an HTML image.\n\n\n\n\n\n\n&lt;table&gt; tag defines an HTML table.\n\n&lt;tr&gt; tag defines each table row.\n&lt;th&gt; tag defines each table header.\n&lt;td&gt; tag defines each data/cell.\n\n\n\n\n\n\n\nBelow is the example HTML table:\n\n\n&lt;table style=\"width:100%\"&gt;\n  &lt;tr&gt;\n    &lt;th&gt;Firstname&lt;/th&gt;\n    &lt;th&gt;Lastname&lt;/th&gt; \n    &lt;th&gt;Age&lt;/th&gt;\n  &lt;/tr&gt;\n  &lt;tr&gt;\n    &lt;td&gt;Eve&lt;/td&gt;\n    &lt;td&gt;Jackson&lt;/td&gt;\n    &lt;td&gt;94&lt;/td&gt;\n  &lt;/tr&gt;\n&lt;/table&gt;\n\n\n\n\n\n&lt;ul&gt;\n  &lt;li&gt;Coffee&lt;/li&gt;\n  &lt;li&gt;Tea&lt;/li&gt;\n  &lt;li&gt;Milk&lt;/li&gt;\n&lt;/ul&gt;\n\n&lt;ul&gt; tag defines an unordered lists.\n\n&lt;li&gt; tag defines each list item.\nThe list items will be marked with bullets (small black circles) by default.\n\n\n\n\n\n\n\n\n&lt;ol&gt;\n  &lt;li&gt;Coffee&lt;/li&gt;\n  &lt;li&gt;Tea&lt;/li&gt;\n  &lt;li&gt;Milk&lt;/li&gt;\n&lt;/ol&gt;\n\n&lt;ol&gt; tag defines an ordered lists.\n\n&lt;li&gt; tag defines each list item.\nThe list items will be marked with numbers by default.\n\n\n\n\n\n\n&lt;div style=\"background-color:black;color:white;padding:20px;\"&gt;\n  &lt;h2&gt;London&lt;/h2&gt;\n  &lt;p&gt;London is the capital city of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.&lt;/p&gt;\n&lt;/div&gt;\n\nBlock-level element → Starts on a new line and stretches to the full width.\n\nUsed as a container for structuring content.\nHas no required attributes, but style, class, and id are commonly used.\n\n&lt;div&gt; is used when grouping multiple elements together.\n\n\n\n\n&lt;p&gt;My mother has &lt;span style=\"color:blue;font-weight:bold\"&gt;blue&lt;/span&gt; eyes and my father has &lt;span style=\"color:darkolivegreen;font-weight:bold\"&gt;dark green&lt;/span&gt; eyes.&lt;/p&gt;\n\nInline element → Does not start on a new line; only takes up as much space as necessary.\n\nUsed to apply styling or scripting to specific text portions.\nHas no required attributes, but style, class, and id are commonly used.\n\n&lt;span&gt; is used when styling or modifying a small part of text inside a block.\n\n\n\n\n\nHTML elements can be nested (this means that elements can contain other elements).\n\nAll HTML documents consist of nested HTML elements.\n\nWe can view HTML source for web page.\n\nHit F12 key (in Chrome or FireFox).\nRight-click in an HTML page and select View Page Source (in Chrome), or similar in other browsers.\nRight-click on an element (or a blank area), and choose Inspect or Inspect Element to see what elements are made up of.\n\n\n\n\n\n\nTo parse HTML, it is convenient to represent our HTML document as a tree-like structure that contains information in nodes and links information through branches.\nThis tree-like structure is called the Document Object Model (DOM).\n\nDOM is a cross-platform and language-independent interface that treats an XML (eXtensible Markup Language) or HTML document as a tree structure wherein each node is an object representing a part of the document.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJavaScript (JS) is a client-side programming language that enhances web interactivity.\n\nIt runs directly in the user’s browser, reducing server load.\nJS is often used with third-party libraries to expand website functionality.\nIt enables dynamic content, user interactions, and animations.\n\n\n\n\n\n\nCSS is used to design and format the layout of a webpage.\n\nIt controls colors, fonts, text size, background, spacing, and display properties.\nAnalogy:\n\nHTML = The structure of a house (walls, roof, foundation).\n\nCSS = The decoration (paint, carpet, wallpapers).\n\nJS = The interactive elements (automatic doors, lights, smart devices).\n\n\n✅ Together, HTML, CSS, and JS form the foundation of modern web development."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-15-2025-1104.html#ethical-considerations",
+    "href": "danl-lec/danl-299-lec-15-2025-1104.html#ethical-considerations",
+    "title": "Lecture 15",
+    "section": "",
+    "text": "“If you can see things in your web browser, you can scrape them.”\n\n\nJust because you can scrape them doesn’t mean you should.\n\nIn US, it is currently legal to scrape data from the web using automated tools, as long as the data are publicly available.\n\nhiQ Labs vs. LinkedIn Corp. court ruling.\n\n\nIt is important to realize that the web scrapping tools are very powerful.\n\nIt is pretty straightforward to write up a program that can overwhelm a host server.\nThe host server tends to have built-in safeguards that will block you in case of a suspected malicious attack."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-15-2025-1104.html#ethical-considerations-1",
+    "href": "danl-lec/danl-299-lec-15-2025-1104.html#ethical-considerations-1",
+    "title": "Lecture 15",
+    "section": "",
+    "text": "Respect for website owners’ terms of service.\nRespect for copyright and intellectual property.\nRespect for client servers.\nRespect for privacy."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-15-2025-1104.html#clients-and-servers",
+    "href": "danl-lec/danl-299-lec-15-2025-1104.html#clients-and-servers",
+    "title": "Lecture 15",
+    "section": "",
+    "text": "Computers connected to the web are called clients and servers.\n\n\n\n\nClients are the typical web user’s internet-connected devices (e.g., a computer connected to Wi-Fi) and web-accessing software available on those devices (e.g., Firefox, Chrome).\nServers are computers that store webpages, sites, or apps.\nWhen a client device wants to access a webpage, a copy of the webpage is downloaded from the server onto the client machine to be displayed in the user’s web browser."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-15-2025-1104.html#hypertext-transfer-protocol-secure-https",
+    "href": "danl-lec/danl-299-lec-15-2025-1104.html#hypertext-transfer-protocol-secure-https",
+    "title": "Lecture 15",
+    "section": "",
+    "text": "Hypertext Transfer Protocol (HTTP) is a language for clients and servers to speak to each other.\nHypertext Transfer Protocol Secure (HTTPS) is an encrypted version of HTTP that provides secure communication between them.\nWhen we type a web address with “https://” into our browser:\n\nThe browser finds the address of the server that hosts the website.\nThe browser and server establish a secure connection.\nThe browser sends an HTTPS request to the server, asking for the website’s content.\nIf the server approves the request, it responds with a 200 OK message and sends the encrypted website data to the client.\nThe browser decrypts and displays the website securely."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-15-2025-1104.html#http-status-codes",
+    "href": "danl-lec/danl-299-lec-15-2025-1104.html#http-status-codes",
+    "title": "Lecture 15",
+    "section": "",
+    "text": "# library for making HTTPS requests in Python\nimport requests  \n\n\n\n\n\np = 'https://bcdanl.github.io/210'\nresponse = requests.get(p)  \nprint(response.status_code)  \nprint(response.reason)      \n\n200 OK → The request is successful, and the server sends the requested content.\n\n\np = 'https://bcdanl.github.io/2100'\nresponse = requests.get(p)  \nprint(response.status_code)  \nprint(response.reason)       \n\n404 Not Found → The server cannot find the requested webpage.\nThis may happen due to a broken link, mistyped URL, or deleted page."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-15-2025-1104.html#url",
+    "href": "danl-lec/danl-299-lec-15-2025-1104.html#url",
+    "title": "Lecture 15",
+    "section": "",
+    "text": "An uniform resource locator (URL)—commonly know as a “web address”, specifies the location of a resource (such as a web page) on the internet.\nAn URL is usually composed of 5 parts\n\nThe 4th part, the “query string”, contains one or more parameters — in this case, there are two parameters: id and cat.\nThe 5th part, the “fragment”, is an internal page reference and may not be present."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-15-2025-1104.html#html",
+    "href": "danl-lec/danl-299-lec-15-2025-1104.html#html",
+    "title": "Lecture 15",
+    "section": "",
+    "text": "Hyper Text Markup Language (HTML) is the standard markup language for creating Web pages.\n\nHTML describes the structure of a Web page.\n\nHTML consists of a series of elements.\nHTML elements tell the browser how to display the content.\n\nHTML elements label pieces of content such as “this is a heading”, “this is a paragraph”, “this is a link”, etc."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-15-2025-1104.html#html-example",
+    "href": "danl-lec/danl-299-lec-15-2025-1104.html#html-example",
+    "title": "Lecture 15",
+    "section": "",
+    "text": "Below is a simple HTML document:\n\n\n&lt;!DOCTYPE html&gt;\n  &lt;html&gt;\n    &lt;head&gt;\n      &lt;title&gt;Page Title&lt;/title&gt;\n    &lt;/head&gt;\n    &lt;body&gt;\n      &lt;h1&gt;My First Heading&lt;/h1&gt;\n      &lt;p&gt;My first paragraph.&lt;/p&gt;\n    &lt;/body&gt;\n  &lt;/html&gt;"
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-15-2025-1104.html#html-elements",
+    "href": "danl-lec/danl-299-lec-15-2025-1104.html#html-elements",
+    "title": "Lecture 15",
+    "section": "",
+    "text": "An HTML element is defined by a start tag, some content, and an end tag:\n\n\n&lt;tagname&gt;Content goes here...&lt;/tagname&gt;"
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-15-2025-1104.html#html-elements-1",
+    "href": "danl-lec/danl-299-lec-15-2025-1104.html#html-elements-1",
+    "title": "Lecture 15",
+    "section": "",
+    "text": "&lt;!DOCTYPE html&gt; declaration defines that this document is an HTML document.\n&lt;html&gt; element is the root element of an HTML page.\n&lt;head&gt; element contains meta information about the HTML page.\n&lt;title&gt; element specifies a title for the HTML page.\n\n&lt;title&gt; is shown in the browser’s title bar or in the page’s tab.\n\n&lt;body&gt; element defines the document’s body, and is a container for all the visible contents, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.\n\n&lt;h1&gt; element defines a large heading.\n&lt;p&gt; element defines a paragraph."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-15-2025-1104.html#html-body",
+    "href": "danl-lec/danl-299-lec-15-2025-1104.html#html-body",
+    "title": "Lecture 15",
+    "section": "",
+    "text": "&lt;a href=\"https://www.w3schools.com\"&gt;This is a link&lt;/a&gt;\n\nThe &lt;a&gt; tag defines an HTML link.\n\n\n\n\n&lt;img src=\"w3schools.jpg\" alt=\"W3Schools.com\" width=\"104\" height=\"142\"&gt;\n\nThe &lt;img&gt; tag defines an HTML image."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-15-2025-1104.html#html-tables",
+    "href": "danl-lec/danl-299-lec-15-2025-1104.html#html-tables",
+    "title": "Lecture 15",
+    "section": "",
+    "text": "&lt;table&gt; tag defines an HTML table.\n\n&lt;tr&gt; tag defines each table row.\n&lt;th&gt; tag defines each table header.\n&lt;td&gt; tag defines each data/cell."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-15-2025-1104.html#html-table-examples",
+    "href": "danl-lec/danl-299-lec-15-2025-1104.html#html-table-examples",
+    "title": "Lecture 15",
+    "section": "",
+    "text": "Below is the example HTML table:\n\n\n&lt;table style=\"width:100%\"&gt;\n  &lt;tr&gt;\n    &lt;th&gt;Firstname&lt;/th&gt;\n    &lt;th&gt;Lastname&lt;/th&gt; \n    &lt;th&gt;Age&lt;/th&gt;\n  &lt;/tr&gt;\n  &lt;tr&gt;\n    &lt;td&gt;Eve&lt;/td&gt;\n    &lt;td&gt;Jackson&lt;/td&gt;\n    &lt;td&gt;94&lt;/td&gt;\n  &lt;/tr&gt;\n&lt;/table&gt;"
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-15-2025-1104.html#html-lists",
+    "href": "danl-lec/danl-299-lec-15-2025-1104.html#html-lists",
+    "title": "Lecture 15",
+    "section": "",
+    "text": "&lt;ul&gt;\n  &lt;li&gt;Coffee&lt;/li&gt;\n  &lt;li&gt;Tea&lt;/li&gt;\n  &lt;li&gt;Milk&lt;/li&gt;\n&lt;/ul&gt;\n\n&lt;ul&gt; tag defines an unordered lists.\n\n&lt;li&gt; tag defines each list item.\nThe list items will be marked with bullets (small black circles) by default."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-15-2025-1104.html#html-lists-1",
+    "href": "danl-lec/danl-299-lec-15-2025-1104.html#html-lists-1",
+    "title": "Lecture 15",
+    "section": "",
+    "text": "&lt;ol&gt;\n  &lt;li&gt;Coffee&lt;/li&gt;\n  &lt;li&gt;Tea&lt;/li&gt;\n  &lt;li&gt;Milk&lt;/li&gt;\n&lt;/ol&gt;\n\n&lt;ol&gt; tag defines an ordered lists.\n\n&lt;li&gt; tag defines each list item.\nThe list items will be marked with numbers by default."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-15-2025-1104.html#div-block-level-container",
+    "href": "danl-lec/danl-299-lec-15-2025-1104.html#div-block-level-container",
+    "title": "Lecture 15",
+    "section": "",
+    "text": "&lt;div style=\"background-color:black;color:white;padding:20px;\"&gt;\n  &lt;h2&gt;London&lt;/h2&gt;\n  &lt;p&gt;London is the capital city of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.&lt;/p&gt;\n&lt;/div&gt;\n\nBlock-level element → Starts on a new line and stretches to the full width.\n\nUsed as a container for structuring content.\nHas no required attributes, but style, class, and id are commonly used.\n\n&lt;div&gt; is used when grouping multiple elements together."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-15-2025-1104.html#span-inline-container",
+    "href": "danl-lec/danl-299-lec-15-2025-1104.html#span-inline-container",
+    "title": "Lecture 15",
+    "section": "",
+    "text": "&lt;p&gt;My mother has &lt;span style=\"color:blue;font-weight:bold\"&gt;blue&lt;/span&gt; eyes and my father has &lt;span style=\"color:darkolivegreen;font-weight:bold\"&gt;dark green&lt;/span&gt; eyes.&lt;/p&gt;\n\nInline element → Does not start on a new line; only takes up as much space as necessary.\n\nUsed to apply styling or scripting to specific text portions.\nHas no required attributes, but style, class, and id are commonly used.\n\n&lt;span&gt; is used when styling or modifying a small part of text inside a block."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-15-2025-1104.html#html-source-code",
+    "href": "danl-lec/danl-299-lec-15-2025-1104.html#html-source-code",
+    "title": "Lecture 15",
+    "section": "",
+    "text": "HTML elements can be nested (this means that elements can contain other elements).\n\nAll HTML documents consist of nested HTML elements.\n\nWe can view HTML source for web page.\n\nHit F12 key (in Chrome or FireFox).\nRight-click in an HTML page and select View Page Source (in Chrome), or similar in other browsers.\nRight-click on an element (or a blank area), and choose Inspect or Inspect Element to see what elements are made up of."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-15-2025-1104.html#html-source-code-dom",
+    "href": "danl-lec/danl-299-lec-15-2025-1104.html#html-source-code-dom",
+    "title": "Lecture 15",
+    "section": "",
+    "text": "To parse HTML, it is convenient to represent our HTML document as a tree-like structure that contains information in nodes and links information through branches.\nThis tree-like structure is called the Document Object Model (DOM).\n\nDOM is a cross-platform and language-independent interface that treats an XML (eXtensible Markup Language) or HTML document as a tree structure wherein each node is an object representing a part of the document."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-15-2025-1104.html#javascript-js-adding-interactivity",
+    "href": "danl-lec/danl-299-lec-15-2025-1104.html#javascript-js-adding-interactivity",
+    "title": "Lecture 15",
+    "section": "",
+    "text": "JavaScript (JS) is a client-side programming language that enhances web interactivity.\n\nIt runs directly in the user’s browser, reducing server load.\nJS is often used with third-party libraries to expand website functionality.\nIt enables dynamic content, user interactions, and animations."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-15-2025-1104.html#cascading-style-sheets-css-styling-the-web",
+    "href": "danl-lec/danl-299-lec-15-2025-1104.html#cascading-style-sheets-css-styling-the-web",
+    "title": "Lecture 15",
+    "section": "",
+    "text": "CSS is used to design and format the layout of a webpage.\n\nIt controls colors, fonts, text size, background, spacing, and display properties.\nAnalogy:\n\nHTML = The structure of a house (walls, roof, foundation).\n\nCSS = The decoration (paint, carpet, wallpapers).\n\nJS = The interactive elements (automatic doors, lights, smart devices).\n\n\n✅ Together, HTML, CSS, and JS form the foundation of modern web development."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-18-2025-1112.html",
+    "href": "danl-lec/danl-299-lec-18-2025-1112.html",
+    "title": "Lecture 18",
+    "section": "",
+    "text": "EDA combines descriptive statistics, data transformation, and data visualization to help you:\n\nGenerate meaningful questions about your data\nExplore answers through visualizations, transformations, and descriptive statistics\nRefine your understanding by iterating on your questions and exploring new ones\n\nWhile descriptive statistics and data transformations are useful for exploring data, visualizations often reveal patterns in data more clearly.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGraphs and charts let us explore and learn about the structure of the information we have in DataFrame.\nGood data visualizations make it easier to communicate our ideas and findings to other people.\n\n\n\n\n\n\n\nA graphic should display as much information as it can, with the lowest possible cognitive strain to the viewer.\nStrive for clarity.\n\nMake the data stand out.\n\nAvoid too many superimposed elements (e.g., too many curves in the same graphing space).\nAvoid having the data all skewed to one side or the other of your graph.\n\n\nVisualization is an iterative process.\n\nWe should try making data visualization informative as much as we can.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCategoricalContinuousInteger\n\n\n\nA categorical variable is a variable whose value is obtained by counting.\n\nNumber of red marbles in a jar\nNumber of heads when flipping three coins\nStudents’ letter grade\nUS state/county\n\nCategorical variables should be category or string (object in DataFrame).\n\n\n\n\nA continuous variable is a variable whose value is obtained by measuring and can have a decimal or fractional value.\n\nHeight/weight of students\nTime it takes to get to school\nFuel efficiency of a vehicle (e.g., miles per gallon)\n\nContinuous variables should be float.\n\nWe can use astype('float') to make a variable float.\n\n\n\n\n\nFor data visualization, integer-type variables could be treated as either categorical or continuous, depending on the context of analysis.\nIf the values of an integer-type variable means an intensity or an order, the integer variable could be treated as continuous.\n\nA variable of age integers (18, 19, 20, 21, …) could be continuous.\nA variable of integer-valued MPG (27, 28, 29, 30, …) could be continuous.\n\nOtherwise, the integer variable is categorical.\n\nA variable of month integers (1, ,2, …, 12) is categorical.\n\nWe can use astype('int') to make a variable int.\n\n\n\n\n\n\n\n\n\n\nDistributionRelationshipTime TrendTypes of Viz\n\n\n\nFrom the distribution plots, we want to see the variation, the tendency of the values of a variable to change.\n\nWhich values are the most common? Why?\nHow normal is the data? How many peaks are there in the distribution?\nWhich values are rare?\n\n\n\n\n\nFrom the plots with two or more variables, we want to see co-variation, the tendency for the values of two or more variables to vary together in a related way.\nWhat type of co-variation occurs between variables?\n\nAre they positively associated?\nAre they negatively associated?\nAre there no association between them?\n\n\n\n\n\nFrom time-series plots, we want to see the evolution of a variable over time.\n\nIs there an overall upward or downward trend?\n\nDoes the trend look linear or non-linear?\n\nAre there seasonal or cyclical patterns (e.g., yearly, weekly)?\n\nDo we observe any outliers, shocks, or structural breaks that merit closer inspection?\n\n\n\n\n\nA distribution of a variable\n\nCategorical (e.g., bar charts and more)\nContinuous (e.g., histograms, box plots, and more)\n\nA relationship between two continuous variables (e.g., scatter plots, best fitting lines)\nA time trend of a variable (e.g., line plots, best fitting lines and more)\nExploring how distributions, relationships, and time trends vary across categories can reveal important patterns and insights.\nPlease check out general tips on data visualization in the project page."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-18-2025-1112.html#exploratory-data-analysis-eda",
+    "href": "danl-lec/danl-299-lec-18-2025-1112.html#exploratory-data-analysis-eda",
+    "title": "Lecture 18",
+    "section": "",
+    "text": "EDA combines descriptive statistics, data transformation, and data visualization to help you:\n\nGenerate meaningful questions about your data\nExplore answers through visualizations, transformations, and descriptive statistics\nRefine your understanding by iterating on your questions and exploring new ones\n\nWhile descriptive statistics and data transformations are useful for exploring data, visualizations often reveal patterns in data more clearly."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-18-2025-1112.html#data-visualization",
+    "href": "danl-lec/danl-299-lec-18-2025-1112.html#data-visualization",
+    "title": "Lecture 18",
+    "section": "",
+    "text": "Graphs and charts let us explore and learn about the structure of the information we have in DataFrame.\nGood data visualizations make it easier to communicate our ideas and findings to other people."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-18-2025-1112.html#key-points-in-data-visualization",
+    "href": "danl-lec/danl-299-lec-18-2025-1112.html#key-points-in-data-visualization",
+    "title": "Lecture 18",
+    "section": "",
+    "text": "A graphic should display as much information as it can, with the lowest possible cognitive strain to the viewer.\nStrive for clarity.\n\nMake the data stand out.\n\nAvoid too many superimposed elements (e.g., too many curves in the same graphing space).\nAvoid having the data all skewed to one side or the other of your graph.\n\n\nVisualization is an iterative process.\n\nWe should try making data visualization informative as much as we can."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-18-2025-1112.html#categorical-vs.-continuous-variables",
+    "href": "danl-lec/danl-299-lec-18-2025-1112.html#categorical-vs.-continuous-variables",
+    "title": "Lecture 18",
+    "section": "",
+    "text": "CategoricalContinuousInteger\n\n\n\nA categorical variable is a variable whose value is obtained by counting.\n\nNumber of red marbles in a jar\nNumber of heads when flipping three coins\nStudents’ letter grade\nUS state/county\n\nCategorical variables should be category or string (object in DataFrame).\n\n\n\n\nA continuous variable is a variable whose value is obtained by measuring and can have a decimal or fractional value.\n\nHeight/weight of students\nTime it takes to get to school\nFuel efficiency of a vehicle (e.g., miles per gallon)\n\nContinuous variables should be float.\n\nWe can use astype('float') to make a variable float.\n\n\n\n\n\nFor data visualization, integer-type variables could be treated as either categorical or continuous, depending on the context of analysis.\nIf the values of an integer-type variable means an intensity or an order, the integer variable could be treated as continuous.\n\nA variable of age integers (18, 19, 20, 21, …) could be continuous.\nA variable of integer-valued MPG (27, 28, 29, 30, …) could be continuous.\n\nOtherwise, the integer variable is categorical.\n\nA variable of month integers (1, ,2, …, 12) is categorical.\n\nWe can use astype('int') to make a variable int."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-18-2025-1112.html#making-discoveries-from-visualization",
+    "href": "danl-lec/danl-299-lec-18-2025-1112.html#making-discoveries-from-visualization",
+    "title": "Lecture 18",
+    "section": "",
+    "text": "DistributionRelationshipTime TrendTypes of Viz\n\n\n\nFrom the distribution plots, we want to see the variation, the tendency of the values of a variable to change.\n\nWhich values are the most common? Why?\nHow normal is the data? How many peaks are there in the distribution?\nWhich values are rare?\n\n\n\n\n\nFrom the plots with two or more variables, we want to see co-variation, the tendency for the values of two or more variables to vary together in a related way.\nWhat type of co-variation occurs between variables?\n\nAre they positively associated?\nAre they negatively associated?\nAre there no association between them?\n\n\n\n\n\nFrom time-series plots, we want to see the evolution of a variable over time.\n\nIs there an overall upward or downward trend?\n\nDoes the trend look linear or non-linear?\n\nAre there seasonal or cyclical patterns (e.g., yearly, weekly)?\n\nDo we observe any outliers, shocks, or structural breaks that merit closer inspection?\n\n\n\n\n\nA distribution of a variable\n\nCategorical (e.g., bar charts and more)\nContinuous (e.g., histograms, box plots, and more)\n\nA relationship between two continuous variables (e.g., scatter plots, best fitting lines)\nA time trend of a variable (e.g., line plots, best fitting lines and more)\nExploring how distributions, relationships, and time trends vary across categories can reveal important patterns and insights.\nPlease check out general tips on data visualization in the project page."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-18-2025-1112.html#getting-started-with-seaborn-1",
+    "href": "danl-lec/danl-299-lec-18-2025-1112.html#getting-started-with-seaborn-1",
+    "title": "Lecture 18",
+    "section": "Getting started with seaborn",
+    "text": "Getting started with seaborn\n\n\n\n\n\nseaborn is a Python data visualization library based on matplotlib.\n\nIt allows us to easily create beautiful but complex graphics using a simple interface.\n\n\n\nimport seaborn as sns\nimport matplotlib.pyplot as plt"
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-18-2025-1112.html#data-visualization-workflow-with-seaborn",
+    "href": "danl-lec/danl-299-lec-18-2025-1112.html#data-visualization-workflow-with-seaborn",
+    "title": "Lecture 18",
+    "section": "Data Visualization Workflow with seaborn",
+    "text": "Data Visualization Workflow with seaborn\n\n\nStep 1Step 2Step 3Step 4Step 5\n\n\n\nRead the descriptions of variables in a DataFrame if available.\nCheck the unit of an observation: Are all values in one single observation measured for:\n\nOne organization (e.g., university, company)?\nOne geographic unit (e.g., zip code, county, state, country)?\nOne person?\nOne person in a specific point of time (e.g., year, month, week)?\nOne geographic unit in a specific point of time?\nOne organization in a specific point of time?\n\n\n\n\n\nPrepare a DataFrame for visualization.\n\nAdding new variables\nFiltering observations\nMaking DataFrame longer/wider\nGroup operations\n\n\n\n\n\nFigure out whether variables of interests are categorical or continuous.\n\nCheck what types of the variables are (e.g., float, int, datetime64, object, category).\nUse astype(DTYPE) if needed.\n\n\n\n\n\nChoose appropriate\n\nGeometric objects (e.g., sns.histplot, sns.scatterplot)\nAesthetic mappings ((x = , y = , hue = ))\nFaceting (FacetGrid(DATA, row = , col = ).map(GEOMETRIC_OBJECT, VARIABLES) or col/row parameters in the function of geometric object)\n\n\n\n\n\nPay attention to the unit of x andy axes.\nRepeat the process until you are satisfied with the visualization output."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-18-2025-1112.html#datasets-and-plot-styles-in-seaborn",
+    "href": "danl-lec/danl-299-lec-18-2025-1112.html#datasets-and-plot-styles-in-seaborn",
+    "title": "Lecture 18",
+    "section": "Datasets and Plot Styles in seaborn",
+    "text": "Datasets and Plot Styles in seaborn\n\n\nLet’s get the names of DataFrames provided by the seaborn library:\n\nsns.get_dataset_names() \n\nMatplotlib provides plot styles:\n\nplt.style.available\nplt.style.use('STYLE_YOU_WANT_TO_USE')\n\nLet’s use the titanic and tips DataFrames:\n\ntitanic = sns.load_dataset('titanic')\ntips = sns.load_dataset('tips')"
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-18-2025-1112.html#bar-chart-with-sns.countplot",
+    "href": "danl-lec/danl-299-lec-18-2025-1112.html#bar-chart-with-sns.countplot",
+    "title": "Lecture 18",
+    "section": "Bar Chart with sns.countplot()",
+    "text": "Bar Chart with sns.countplot()\n\n\nExamplehue\n\n\n\n\nsns.countplot(data = titanic,\n              x =  'sex')\n\n\nMapping\n\ndata: DataFrame.\nx: Name of a categorical variable (column) in DataFrame\n\n\n\n\n\nA bar chart is used to plot the frequency of the different categories.\n\nIt is useful to visualize how values of a categorical variable are distributed.\nA variable is categorical if it can only take one of a small set of values.\n\nWe use sns.countplot() function to plot a bar chart\n\n\n\n\n\nsns.countplot(data = titanic,\n              x = 'sex',\n              hue = 'survived')\n\n\nMapping\n\nhue: Name of a categorical variable\n\n\n\n\n\nWe can further break up the bars in the bar chart based on another categorical variable.\n\nThis is useful to visualize how the distribution of a categorical variable varies by another categorical variable."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-18-2025-1112.html#histogram-with-sns.histplot",
+    "href": "danl-lec/danl-299-lec-18-2025-1112.html#histogram-with-sns.histplot",
+    "title": "Lecture 18",
+    "section": "Histogram with sns.histplot()",
+    "text": "Histogram with sns.histplot()\n\n\nsns.histplot(data = titanic,\n             x =  'age', \n             bins = 5)\n\n\nMapping\n\nbins: Number of bins\nbinwidth: Width of each bin\n\n\n\n\n\nA histogram is a continuous version of a bar chart.\n\nIt is used to plot the frequency of the different values.\nIt is useful to visualize how values of a continuous variable are distributed.\n\nWe use sns.histplot() function to plot a histogram\nUse either bins or binwidth.\n\nThe shape of a histogram is sensitive to bins/binwidth\nWe should experiment on bins/binwidth."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-18-2025-1112.html#boxplot-with-sns.boxplot",
+    "href": "danl-lec/danl-299-lec-18-2025-1112.html#boxplot-with-sns.boxplot",
+    "title": "Lecture 18",
+    "section": "Boxplot with sns.boxplot()",
+    "text": "Boxplot with sns.boxplot()\n\n\nExamplehue\n\n\n\n\nsns.boxplot(data = tips,\n            y = 'total_bill')\n\nsns.boxplot(data = tips,\n            x = 'time', \n            y = 'total_bill')\n\n\n\nA boxplot computes a summary of the distribution and then display a specially formatted box.\n\nIt is useful to visualize how values of a continuous variable are distributed across different values of a categorical variable.\n\nWe use sns.boxplot() function to plot a boxplot.\n\n\n\n\n\nsns.boxplot(data = tips,\n            x = 'time', \n            y = 'total_bill',\n            hue = 'time')\n\nsns.boxplot(data = tips,\n            x = 'time', \n            y = 'total_bill',\n            hue = 'smoker')\n\n\n\nMapping\n\nhue: Name of a categorical variable"
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-18-2025-1112.html#scatter-plot-with-sns.scatterplot-and-sns.lmplot",
+    "href": "danl-lec/danl-299-lec-18-2025-1112.html#scatter-plot-with-sns.scatterplot-and-sns.lmplot",
+    "title": "Lecture 18",
+    "section": "Scatter plot with sns.scatterplot() and sns.lmplot()",
+    "text": "Scatter plot with sns.scatterplot() and sns.lmplot()\n\n\nExamplehuelmplot()alphalmplot() Example\n\n\n\n\nsns.scatterplot(data = tips,\n                x = 'total_bill', \n                y = 'tip')\n\n\nMapping\n\nx: Name of a continuous variable on the horizontal axis\ny: Name of a continuous variable on the vertical axis\n\n\n\n\n\nA scatter plot is used to display the relationship between two continuous variables.\n\nWe can see co-variation as a pattern in the scattered points.\n\nWe use sns.scatterplot() function to plot a scatter plot.\n\n\n\nsns.scatterplot(data = tips,\n                x = 'total_bill', \n                y = 'tip',\n                hue = 'smoker')\n\nTo the scatter plot, we can add a hue-VARIABLE mapping to display how the relationship between two continuous variables varies by VARIABLE.\nSuppose we are interested in the following question:\n\nQ. Does a smoker and a non-smoker have a difference in tipping behavior?\n\n\n\n\nsns.lmplot(data = tips,\n           x = 'total_bill', \n           y = 'tip')\n\nFrom the scatter plot, it is often difficult to clearly see the relationship between two continuous variables.\n\nsns.lmplot() adds a line that fits well into the scattered points.\nThe best fitting line describes the overall relationship between two continuous variables.\n\n\n\n\n\n\nsns.scatterplot(data = tips,\n                x = 'total_bill', \n                y = 'tip',\n                alpha = .25)\n\nsns.lmplot(data = tips,\n           x = 'total_bill', \n           y = 'tip',\n           scatter_kws = {'alpha' : 0.2})\n\n\n\nIn a scatter plot, adding transparency with alpha helps address many data points on the same location.\n\nWe can map alpha to number between 0 and 1.\n\nalpha = 0: Full transparency\nalpha = 1: No transparency\n\n\n\n\n\nsns.lmplot(data = tips,\n           x = 'total_bill', \n           y = 'tip',\n           hue = 'smoker',\n           scatter_kws = {'alpha' : 0.5})\n\nTo the scatter plot, we can add a hue-VARIABLE mapping to display how the relationship between two continuous variables varies by VARIABLE.\nUsing the fitted lines, let’s answer the following question:\n\nQ. Does a smoker and a non-smoker have a difference in tipping behavior?"
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-18-2025-1112.html#line-cahrt-with-sns.lineplot",
+    "href": "danl-lec/danl-299-lec-18-2025-1112.html#line-cahrt-with-sns.lineplot",
+    "title": "Lecture 18",
+    "section": "Line cahrt with sns.lineplot()",
+    "text": "Line cahrt with sns.lineplot()\n\n\nExamplehue\n\n\n\n\npath_csv = 'https://bcdanl.github.io/data/dji.csv'\ndow = pd.read_csv(path_csv)\ndow['Date'] = dow['Date'].astype('datetime64')\n\nsns.lineplot(data = dow,\n             x =  'Date', \n             y =  'Close')\n\n\nMapping\n\nx: Name of a continuous variable (often time variable) on the horizontal axis\ny: Name of a continuous variable on the vertical axis\n\n\n\n\n\nA line chart is used to display the trend in a continuous variable or the change in a continuous variable over a categorical variable.\n\nsns.lineplot() draws a line by connecting the scattered points in order of the variable on the x-axis, so that it highlights exactly when changes occur.\n\n\n\n\n\n# New data\nhealthexp = ( \n  sns.load_dataset(\"healthexp\")\n  .sort_values([\"Country\", \"Year\"])\n  .query(\"Year &lt;= 2020\")\n  )\n\nsns.lineplot(data = healthexp,\n             x =  'Year', \n             y =  'Life_Expectancy',\n             hue = 'Country')\n\nFor line charts, we often need to group or connect observations to visualize the number of distinct lines."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-18-2025-1112.html#faceting",
+    "href": "danl-lec/danl-299-lec-18-2025-1112.html#faceting",
+    "title": "Lecture 18",
+    "section": "Faceting",
+    "text": "Faceting\n\n\nFaceting allows us to plot subsets (facets) of our data across subplots.\n\n\nFacetGrid(col/row).map()col/row\n\n\n(\n sns.FacetGrid(\n       data = titanic,\n       row='class',\n       col='sex')\n .map(sns.histplot, 'age')\n )\n\nWe create a .FacetGrid() object with the data we will be using and define how it will be subset with the row and col arguments:\nWe then use the .map() method to run a plotting function on each of the subsets, passing along any necessary arguments.\n\n\n\n\nSome geometric object, such as sns.lmplot(), does not work well with sns.FacetGrid().\n\nInstead, sns.lmplot() supports mapping, col = 'VAR' and row = 'VAR' to facet the plot.\n\n\nsns.lmplot(data = tips, \n           x = 'total_bill', y = 'tip', \n           hue = 'smoker',\n           scatter_kws = {'alpha' : 0.5},\n           col = 'smoker')"
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-18-2025-1112.html#visualizing-dataframes-with-seaborn",
+    "href": "danl-lec/danl-299-lec-18-2025-1112.html#visualizing-dataframes-with-seaborn",
+    "title": "Lecture 18",
+    "section": "Visualizing DataFrames with seaborn",
+    "text": "Visualizing DataFrames with seaborn\nLet’s do Classwork 12!"
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-17-2025-1110.html",
+    "href": "danl-lec/danl-299-lec-17-2025-1110.html",
+    "title": "Lecture 17",
+    "section": "",
+    "text": "To set your keyboard shortcuts,\n\nPreferences &gt; Keyboard Shortcuts &gt; Search “run” and/or “comment”\nSet the shortcuts for (1) run selection; (2) run cell; (3) toggle comment; (4) blockcomment; and (5) unblockcomment\n\nDefault shortcuts\n\nRun selection (a current line): F9\nRun cell: Ctrl + Enter\n\n# %% defines a coding cell\n\nComment (#): Ctrl/command + 1\nBlock-comment: Ctrl/command + 4\nUnblock-comment: Ctrl/command + 5"
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-17-2025-1110.html#spyder-ide",
+    "href": "danl-lec/danl-299-lec-17-2025-1110.html#spyder-ide",
+    "title": "Lecture 17",
+    "section": "",
+    "text": "To set your keyboard shortcuts,\n\nPreferences &gt; Keyboard Shortcuts &gt; Search “run” and/or “comment”\nSet the shortcuts for (1) run selection; (2) run cell; (3) toggle comment; (4) blockcomment; and (5) unblockcomment\n\nDefault shortcuts\n\nRun selection (a current line): F9\nRun cell: Ctrl + Enter\n\n# %% defines a coding cell\n\nComment (#): Ctrl/command + 1\nBlock-comment: Ctrl/command + 4\nUnblock-comment: Ctrl/command + 5"
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-17-2025-1110.html#web-scrapping-tips",
+    "href": "danl-lec/danl-299-lec-17-2025-1110.html#web-scrapping-tips",
+    "title": "Lecture 17",
+    "section": "Web-scrapping Tips",
+    "text": "Web-scrapping Tips\n\n\n\nMac\n\nUse a full screen mode for your Spyder IDE.\nUse a trackpad gesture with three fingers to move across screens, or command+tab to move between a Chrome web browser and a Spyder IDE.\n\n\n\n\nWindows\n\nUse Alt + Tab to move between a Chrome web browser and a Spyder IDE."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-17-2025-1110.html#web-scraping-tips",
+    "href": "danl-lec/danl-299-lec-17-2025-1110.html#web-scraping-tips",
+    "title": "Lecture 17",
+    "section": "Web Scraping Tips",
+    "text": "Web Scraping Tips\n\n\n\nOn Mac\n\nUse full-screen mode in your Spyder IDE for a distraction‑free environment.\nUse a three‑finger swipe on your trackpad or press Command+Tab to quickly switch between Chrome and Spyder IDE.\n\n\n\n\nOn Windows\n\nPress Alt+Tab to efficiently switch between your Chrome browser and Spyder."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-17-2025-1110.html#clients-and-servers",
+    "href": "danl-lec/danl-299-lec-17-2025-1110.html#clients-and-servers",
+    "title": "Lecture 17",
+    "section": "Clients and servers",
+    "text": "Clients and servers\n\n\n\n\n\n\n\n\n\n\nComputers connected to the web are called clients and servers.\n\n\n\n\nClients are the typical web user’s internet-connected devices (e.g., a computer connected to Wi-Fi) and web-accessing software available on those devices (e.g., Firefox, Chrome).\nServers are computers that store webpages, sites, or apps.\nWhen a client device wants to access a webpage, a copy of the webpage is downloaded from the server onto the client machine to be displayed in the user’s web browser."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-17-2025-1110.html#hypertext-transfer-protocol-secure-https",
+    "href": "danl-lec/danl-299-lec-17-2025-1110.html#hypertext-transfer-protocol-secure-https",
+    "title": "Lecture 17",
+    "section": "Hypertext Transfer Protocol Secure (HTTPS)",
+    "text": "Hypertext Transfer Protocol Secure (HTTPS)\n\nHypertext Transfer Protocol (HTTP) is a language for clients and servers to speak to each other.\nHypertext Transfer Protocol Secure (HTTPS) is an encrypted version of HTTP that provides secure communication between them.\nWhen we type a web address with “https://” into our browser:\n\nThe browser finds the address of the server that hosts the website.\nThe browser and server establish a secure connection.\nThe browser sends an HTTPS request to the server, asking for the website’s content.\nIf the server approves the request, it responds with a 200 OK message and sends the encrypted website data to the client.\nThe browser decrypts and displays the website securely."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-17-2025-1110.html#http-status-codes",
+    "href": "danl-lec/danl-299-lec-17-2025-1110.html#http-status-codes",
+    "title": "Lecture 17",
+    "section": "HTTP Status Codes",
+    "text": "HTTP Status Codes\n\n\nThe requests library is the de facto standard for making HTTP requests in Python.\n\n\n# library for making HTTPS requests in Python\nimport requests  \n\n\n\n\n\np = 'https://bcdanl.github.io/210'\nresponse = requests.get(p)  \nprint(response.status_code)  \n\n200 → The request is successful, and the server sends the requested content.\n\n\np = 'https://bcdanl.github.io/2100'\nresponse = requests.get(p)  \nprint(response.status_code)  \n\n404 Not Found → The server cannot find the requested webpage.\nThis may happen due to a broken link, mistyped URL, or deleted page."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-17-2025-1110.html#api-key-concepts",
+    "href": "danl-lec/danl-299-lec-17-2025-1110.html#api-key-concepts",
+    "title": "Lecture 17",
+    "section": "API: Key Concepts",
+    "text": "API: Key Concepts\n\n\nAPI stands for Application Programming Interface.\n\nIt enables data transmission between client and server.\n\nMethods: The “verbs” that clients use to talk with a server.\n\nThe main one that we’ll be using is GET (i.e., asking a server to retrieve information). Other common methods include POST, PUT, and DELETE.\n\nRequests: What the client asks of the server.\nResponse: The server’s response, which includes\n\nStatus Code (e.g., “404” if not found, or “200” if successful);\nContent (i.e. the content that we’re interested in);\nHeader (i.e., meta-information about the response)."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-17-2025-1110.html#understanding-the-requests-method",
+    "href": "danl-lec/danl-299-lec-17-2025-1110.html#understanding-the-requests-method",
+    "title": "Lecture 17",
+    "section": "Understanding the requests Method",
+    "text": "Understanding the requests Method\n\nWhat is requests?\n\nA Python library used to make HTTP requests to APIs and websites.\nSupports methods like GET, POST, PUT, DELETE, etc.\n\nUsing requests.get():\n\nSends a GET request to retrieve data from a specified URL.\nCommonly used when fetching data from APIs.\n\n\nimport requests\nurl = 'https://www.example.com/.....'\nparam_dicts = {.....}  # Optional, but we often need this\nresponse = requests.get(url, params=param_dicts)\n\nurl: API endpoint where data is requested.\nparam_dicts: Dictionary of query parameters sent with the request."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-17-2025-1110.html#api-endpoints",
+    "href": "danl-lec/danl-299-lec-17-2025-1110.html#api-endpoints",
+    "title": "Lecture 17",
+    "section": "API Endpoints",
+    "text": "API Endpoints\n\n\nIn the case of web APIs, we can access information directly from the API database if we specify the correct URL(s).\n\nThese URLs are known as API endpoints.\n\nNavigate your browser to an API endpoint and we’ll just see a load of the following format of texts:\n\nJSON (JavaScript Object Notation), or\nXML (Extensible Markup Language).\n\nWe can add a JSONView, a browser extension that renders JSON output nicely in Chrome or Firefox.\n\nhttps://jsonview.com/"
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-17-2025-1110.html#inspecting-the-response-object",
+    "href": "danl-lec/danl-299-lec-17-2025-1110.html#inspecting-the-response-object",
+    "title": "Lecture 17",
+    "section": "Inspecting the Response Object",
+    "text": "Inspecting the Response Object\n\nKey attributes and methods:\n\nresponse.status_code: Returns HTTP status code (e.g., 200 for success).\nresponse.json(): Converts JSON format data into a Python dictionary.\nresponse.text: Decoded text version of the response.content\n\nBest practices:\n\nAlways check status_code before processing the response.\nUse response.json() for easier handling of JSON data."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-17-2025-1110.html#example-nyc-open-data",
+    "href": "danl-lec/danl-299-lec-17-2025-1110.html#example-nyc-open-data",
+    "title": "Lecture 17",
+    "section": "Example: NYC Open Data",
+    "text": "Example: NYC Open Data\n\n\n(1)(2)(3)\n\n\n\nNYC Open Data (https://opendata.cityofnewyork.us) is free public data published by NYC agencies and other partners.\nMany metropolitan cities have the Open Data websites too:\n\nhttps://data.lacity.org\nhttps://opendata.dc.gov\nhttps://data.cityofchicago.org\n\n\n\n\n\nLet’s get the NYC’s Payroll Data.\n\nOpen the web page https://data.cityofnewyork.us/City-Government/Citywide-Payroll-Data-Fiscal-Year-/k397-673e in your browser.\nClick the “Actions”, and then “API”\nCopy the API endpoint that appears in the popup box.\n\n\n\n\nimport requests\nimport pandas as pd\n\nendpoint = 'https://data.cityofnewyork.us/resource/ic3t-wcy2.json'  ## API endpoint\nresponse = requests.get(endpoint)\ncontent = response.json() # to convert JSON response data to a dictionary\ndf = pd.DataFrame(content)\n\nThe request.get() method sends a GET request to the specified URL.\nresponse.json() automatically convert JSON data into a dictionary.\n\nJSON objects have the same format as Python dictionaries."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-17-2025-1110.html#example-federal-reserve-economic-data-fred",
+    "href": "danl-lec/danl-299-lec-17-2025-1110.html#example-federal-reserve-economic-data-fred",
+    "title": "Lecture 17",
+    "section": "Example: Federal Reserve Economic Data (FRED)",
+    "text": "Example: Federal Reserve Economic Data (FRED)\n\n\n(1)(2)(3)(4)(5)\n\n\n\nMost API interfaces will only let you access and download data after you have registered an API key with them.\nLet’s download economic data from the FRED https://fred.stlouisfed.org using its API.\nYou need to create an account https://fredaccount.stlouisfed.org/login/ to get an API key for your FRED account.\n\n\n\n\nAs with all APIs, a good place to start is the FRED API developer docs https://fred.stlouisfed.org/docs/api/fred/.\nWe are interested in series/observations https://fred.stlouisfed.org/docs/api/fred/series_observations.html\nThe parameters that we will use are api_key, file_type, and series_id.\nReplace “YOUR_API_KEY” with your actual API key in the following web address: https://api.stlouisfed.org/fred/series/observations?series_id=GNPCA&api_key=YOUR_API_KEY&file_type=json\n\n\n\n\nWe’re going to go through the requests, json, and pandas libraries.\n\nrequests comes with a variety of features that allow us to interact more flexibly and securely with web APIs.\n\n\nimport requests  # to handle API requests\nimport json      # to parse JSON response data\nimport pandas as pd\nparam_dicts = {\n  'api_key': 'YOUR_FRED_API_KEY', ## Change to your own key\n  'file_type': 'json',\n  'series_id': 'GDPC1'    ## ID for US real GDP\n}\nurl = \"https://api.stlouisfed.org/\"\nendpoint = \"series/observations\"\napi_endpoint = url + \"fred/\" + endpoint   # sum of strings\nresponse = requests.get(api_endpoint, params = param_dicts)\n\n\n\njson(): Converts JSON into a Python dictionary object.\n\n# Convert JSON response to Python dictionary.\ncontent = response.json() \n\n# Extract the \"observations\" list element.\ndf = pd.DataFrame( content['observations'] )\n\n\n\nBy default, all columns in the DataFrame from content are string-type.\n\nSo, we need to convert their types properly.\nThe DataFrame may also contains columns we do not need."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-17-2025-1110.html#data-collection-with-apis",
+    "href": "danl-lec/danl-299-lec-17-2025-1110.html#data-collection-with-apis",
+    "title": "Lecture 17",
+    "section": "Data Collection with APIs",
+    "text": "Data Collection with APIs\nLet’s do Classwork 11!"
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-17-2025-1110.html#using-the-new-york-times-api-1",
+    "href": "danl-lec/danl-299-lec-17-2025-1110.html#using-the-new-york-times-api-1",
+    "title": "Lecture 17",
+    "section": "Using the New York Times API",
+    "text": "Using the New York Times API\n\n\nStep 1Step 2Step 3Step 4ExamplesArticle Search\n\n\n\nSign Up and Sign In\n\nSign up at NYTimes Developer Portal\nVerify your NYT Developer account via email you use.\nSign in.\n\n\n\n\n\nRegister apps\n\nSelect My Apps from the user drop-down at the navigation bar.\nClick + New App to create a new app.\nEnter a name and description for the app in the New App dialog.\nClick Create.\nClick the APIs tab.\nClick the access toggle to enable or disable access to an API product from the app.\n\n\n\n\n\n\nAccess the API keys\n\nSelect My Apps from th user drop-down.\nClick the app in the list.\nView the API key on the App Details tab.\nConfirm that the status of the API key is Approved.\n\n\n\n\n\nCollect Data with pynytimes\npip install pynytimes\n\nWhile NYTimes Developer Portal APIs provides API documentation, it is time-consuming to go through the documentation.\nThere is an unofficial Python library called pynytimes that provides a more user-friendly interface for working with the NYTimes API.\nTo get started, check out Introduction to pynytimes.\n\n\n\n\n# Settings\nfrom pynytimes import NYTAPI\n\n# Initialize API with your key\nnyt = NYTAPI(\"YOUR_NYTIMES_API_KEY\", parse_dates=True)\n# Top Stories\ntop_stories = nyt.top_stories()\n\n# Get all the top stories from a specific category\ntop_climate_stories = nyt.top_stories(section = \"climate\")\n# Most Viewed\nmost_viewed = nyt.most_viewed()\n\n# Get most viewed articles of last 7 or 30 days\nmost_viewed = nyt.most_viewed(days = 7)\nmost_viewed = nyt.most_viewed(days = 30)\n\n\nfrom datetime import datetime\n\n# Define the date range\nstart = datetime(2024, 1, 1)\nend = datetime(2024, 12, 31)\n\n# Search articles related to climate within a date range\n  # This return only up to 10 articles.\narticles = nyt.article_search(\n    query=\"climate\",\n    dates={\"begin\": start, \"end\": end},\n)"
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-17-2025-1110.html#hidden-api-1",
+    "href": "danl-lec/danl-299-lec-17-2025-1110.html#hidden-api-1",
+    "title": "Lecture 17",
+    "section": "Hidden API",
+    "text": "Hidden API\n\nMost industry-scale websites display data from their database servers.\n\nMany of them do NOT provide official APIs to retrieve data.\n\nSometimes, it is possible to find their hidden APIs to retrieve data!\nExamples:\n\nPremier League Stats\nNordstrom"
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-17-2025-1110.html#hidden-api-2",
+    "href": "danl-lec/danl-299-lec-17-2025-1110.html#hidden-api-2",
+    "title": "Lecture 17",
+    "section": "Hidden API",
+    "text": "Hidden API\n\nHow can we find a hidden API?\n\nOn a web-browser (FireFox is recommended)\n\nF12 -&gt; Network -&gt; XHR (XMLHttpRequest)\nRefresh the webpage that loads data\nFind json type response that seems to have data\nRight-click that response -&gt; Copy as cURL (Client URL)\n\nOn an API tool such as Python curlconverter,\n\nPaste the cURL to the curl command textbox, and then click “Copy to clipboard” right below the code cell.\nPaste it on your Python script, and run it."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-17-2025-1110.html#details-on-requests-methods",
+    "href": "danl-lec/danl-299-lec-17-2025-1110.html#details-on-requests-methods",
+    "title": "Lecture 17",
+    "section": "Details on requests methods",
+    "text": "Details on requests methods\n\nOur course contents are limited to the very very basics of the requests methods.\nFor those who are interested in the Python’s requests, I recommend the following references:\n\nPython’s Requests Library (Guide)\nRequests: HTTP for Humans™"
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-17-2025-1110.html#fyi-on-web-data-collection-approaches",
+    "href": "danl-lec/danl-299-lec-17-2025-1110.html#fyi-on-web-data-collection-approaches",
+    "title": "Lecture 17",
+    "section": "FYI on Web-Data Collection Approaches",
+    "text": "FYI on Web-Data Collection Approaches"
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-17-2025-1110.html#what-is-hugging-face",
+    "href": "danl-lec/danl-299-lec-17-2025-1110.html#what-is-hugging-face",
+    "title": "Lecture 17",
+    "section": "What is Hugging Face?",
+    "text": "What is Hugging Face?\n\nA platform hosting thousands of open-source Language Models (LLMs), including text classification, summarization, question-answering, etc.\nFree to use for many models via the Inference API."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-17-2025-1110.html#how-to-get-a-free-token",
+    "href": "danl-lec/danl-299-lec-17-2025-1110.html#how-to-get-a-free-token",
+    "title": "Lecture 17",
+    "section": "How to Get a Free Token",
+    "text": "How to Get a Free Token\n\nCreate a Hugging Face account at huggingface.co.\nGo to your Profile → Settings → Access Tokens.\nClick New token → Give it a name → Choose Read role.\nCopy the generated token (looks like: hf_xxx...). Keep your API token private."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-17-2025-1110.html#editing-api-token-permissions",
+    "href": "danl-lec/danl-299-lec-17-2025-1110.html#editing-api-token-permissions",
+    "title": "Lecture 17",
+    "section": "Editing API Token Permissions",
+    "text": "Editing API Token Permissions\n\nOn the Access Tokens page, you’ll see a list of your existing tokens.\nTypically, you can select a token and look for an Edit or … (ellipsis) option to change its permissions.\nIf you do not see an option to edit permissions:\n\nYou may need to create a new token with the desired permissions. Some tokens are fixed after creation.\n\nCheck that you’ve granted the following if you need summarization:\n\nInference: “Make calls to Inference Providers”\nRepositories (Read): “Read access to contents of all repos under your personal namespace”\nOptionally: other read privileges, if your project needs them."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-17-2025-1110.html#api-endpoint",
+    "href": "danl-lec/danl-299-lec-17-2025-1110.html#api-endpoint",
+    "title": "Lecture 17",
+    "section": "API Endpoint",
+    "text": "API Endpoint\n\nInference API URL: Each model has a unique endpoint.\nFor example, facebook/bart-large-cnn (a summarization model) uses:\nhttps://api-inference.huggingface.co/models/facebook/bart-large-cnn"
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-17-2025-1110.html#what-does-this-api-do",
+    "href": "danl-lec/danl-299-lec-17-2025-1110.html#what-does-this-api-do",
+    "title": "Lecture 17",
+    "section": "What Does This API Do?",
+    "text": "What Does This API Do?\n\nTakes your text as an input (prompt).\nReturns a summarized version of that text (or some other transformation, depending on the model).\nExample: Summarizing multiple movie plots into one concise paragraph."
+  },
+  {
+    "objectID": "danl-lec/danl-299-lec-17-2025-1110.html#example-code-snippet",
+    "href": "danl-lec/danl-299-lec-17-2025-1110.html#example-code-snippet",
+    "title": "Lecture 17",
+    "section": "Example Code Snippet",
+    "text": "Example Code Snippet\n\n\nPromptSetupPOST request\n\n\n# Text you'd like to summarize\ntext_to_summarize = \"\"\"\nSummarize the following movie plot in a sentence.\nFour misfits are suddenly pulled through a mysterious portal into a bizarre cubic wonderland that thrives on imagination. \nTo get back home they'll have to master this world while embarking on a quest with an unexpected expert crafter.\n\"\"\"\n\n\nimport requests\n# Your Hugging Face token (replace with your real token)\nHF_API_TOKEN = \"hf_your_real_token_here\"\n\n# The summarization model's API URL\nAPI_URL = \"https://api-inference.huggingface.co/models/facebook/bart-large-cnn\"\n\n# Add your token to the request headers\nheaders = {\"Authorization\": f\"Bearer {HF_API_TOKEN}\"}\npayload = {\"inputs\": text_to_summarize}\n\nheaders: The “Authorization”: “Bearer …” header lets Hugging Face know you have permission to use their API.\npayload: The {“inputs”: } tells the model what text to summarize.\nrequests.post(): Sends your text to the model’s endpoint.\n\n\n\n# Send POST request\nresponse = requests.post(API_URL, headers=headers, json=payload)\n\n# Check response and extract the summary\nif response.status_code == 200:\n    output = response.json()\n    summary = output[0][\"summary_text\"]\n    print(\"\\nSummary from Hugging Face Inference API:\")\n    print(summary)\nelse:\n    print(f\"\\nAPI request failed with status code {response.status_code}:\")\n    print(response.text)"
+  },
+  {
+    "objectID": "danl-cw/danl-299-cw-12.html",
+    "href": "danl-cw/danl-299-cw-12.html",
+    "title": "Classwork 12",
+    "section": "",
+    "text": "The dataset ,beer_markets.csv, (with its pathname https://bcdanl.github.io/data/beer_markets.csv) includes information about beer purchases across different markets, brands, and households.\nimport pandas as pd\nimport seaborn as sns\nimport matplotlib.pyplot as plt\nbeer = pd.read_csv('https://bcdanl.github.io/data/beer_markets.csv')\n\n\n\n\n\n  \n\n\n\n\nEach observation in beer is a household-level transaction record for a purchase of beer.\n\n\n\n\n\nhh: an identifier of the household;\nX_purchase_desc: details on the purchased item;\nquantity: the number of items purchased;\nbrand: Bud Light, Busch Light, Coors Light, Miller Lite, or Natural Light;\ndollar_spent: total dollar value of purchase;\nbeer_floz: total volume of beer, in fluid ounces;\nprice_per_floz: price per fl.oz. (i.e., beer spent/beer floz);\ncontainer: the type of container;\npromo: Whether the item was promoted (coupon or otherwise);\nmarket: Scan-track market (or state if rural);\ndemographic data, including gender, marital status, household income, class of work, race, education, age, the size of household, and whether or not the household has a microwave or a dishwasher.\n\n\n\n\n\nProvide (1) seaborn code and (2) a simple comment to describe how the distribution of price_per_floz varies by brand.\n\nAnswer:\n\n\n\n\n\nProvide (1) seaborn code and (2) a simple comment to describe how the relationship between log(price_per_floz) and log(beer_floz) varies by brand.\n\nBelow adds log(price_per_floz) and log(beer_floz) to the beer_mkt DataFrame using numpy’s log() function:\n\n\nimport numpy as np\nbeer_mkt['log_price_per_floz'] = np.log( beer_mkt['price_per_floz'] )\nbeer_mkt['log_beer_floz'] = np.log( beer_mkt['beer_floz'] )\nAnswer:"
+  },
+  {
+    "objectID": "danl-cw/danl-299-cw-12.html#direction",
+    "href": "danl-cw/danl-299-cw-12.html#direction",
+    "title": "Classwork 12",
+    "section": "",
+    "text": "The dataset ,beer_markets.csv, (with its pathname https://bcdanl.github.io/data/beer_markets.csv) includes information about beer purchases across different markets, brands, and households.\nimport pandas as pd\nimport seaborn as sns\nimport matplotlib.pyplot as plt\nbeer = pd.read_csv('https://bcdanl.github.io/data/beer_markets.csv')\n\n\n\n\n\n  \n\n\n\n\nEach observation in beer is a household-level transaction record for a purchase of beer."
+  },
+  {
+    "objectID": "danl-cw/danl-299-cw-12.html#variable-description",
+    "href": "danl-cw/danl-299-cw-12.html#variable-description",
+    "title": "Classwork 12",
+    "section": "",
+    "text": "hh: an identifier of the household;\nX_purchase_desc: details on the purchased item;\nquantity: the number of items purchased;\nbrand: Bud Light, Busch Light, Coors Light, Miller Lite, or Natural Light;\ndollar_spent: total dollar value of purchase;\nbeer_floz: total volume of beer, in fluid ounces;\nprice_per_floz: price per fl.oz. (i.e., beer spent/beer floz);\ncontainer: the type of container;\npromo: Whether the item was promoted (coupon or otherwise);\nmarket: Scan-track market (or state if rural);\ndemographic data, including gender, marital status, household income, class of work, race, education, age, the size of household, and whether or not the household has a microwave or a dishwasher."
+  },
+  {
+    "objectID": "danl-cw/danl-299-cw-12.html#question-1",
+    "href": "danl-cw/danl-299-cw-12.html#question-1",
+    "title": "Classwork 12",
+    "section": "",
+    "text": "Provide (1) seaborn code and (2) a simple comment to describe how the distribution of price_per_floz varies by brand.\n\nAnswer:"
+  },
+  {
+    "objectID": "danl-cw/danl-299-cw-12.html#question-2",
+    "href": "danl-cw/danl-299-cw-12.html#question-2",
+    "title": "Classwork 12",
+    "section": "",
+    "text": "Provide (1) seaborn code and (2) a simple comment to describe how the relationship between log(price_per_floz) and log(beer_floz) varies by brand.\n\nBelow adds log(price_per_floz) and log(beer_floz) to the beer_mkt DataFrame using numpy’s log() function:\n\n\nimport numpy as np\nbeer_mkt['log_price_per_floz'] = np.log( beer_mkt['price_per_floz'] )\nbeer_mkt['log_beer_floz'] = np.log( beer_mkt['beer_floz'] )\nAnswer:"
+  },
+  {
+    "objectID": "danl-cw/danl-299-cw-12.html#question-3",
+    "href": "danl-cw/danl-299-cw-12.html#question-3",
+    "title": "Classwork 12",
+    "section": "Question 3",
+    "text": "Question 3\n\nProvide (1) seaborn code and (2) a simple comment to describe how the daily trend of Close varies by company.\n\nAnswer:"
+  },
+  {
+    "objectID": "danl-cw/danl-299-cw-11.html",
+    "href": "danl-cw/danl-299-cw-11.html",
+    "title": "Classwork 11",
+    "section": "",
+    "text": "Question 1\nProvide a Python code to get New York City air quality surveillance data using the following API endpoint:\nhttps://data.cityofnewyork.us/resource/c3uy-2p5r.json\n\nUse the following query parameter dictionary in your request, which sets the “$limit” to control how many rows are returned:\n\n# query parameters (e.g., limit rows)\nparam_dict = {\n    \"$limit\": 100   # You can increase this to get more observations\n}\nAnswer:\n\n\n\nQuestion 2\n\nUse the FRED API to retrieve two macroeconomic indicators:\n\nU.S. Real GDP (series_id = “GDPC1”)\nU.S. Unemployment Rate (series_id = “UNRATE”)\n\nThen, use pandas to replicate the following DataFrame:\n\n\n\n\n\n\n\n\n\n\nAnswer:\n\n\n\nDiscussion\nWelcome to our Classwork 11 Discussion Board! 👋 \nThis space is designed for you to engage with your classmates about the material covered in Classwork 11.\nWhether you are looking to delve deeper into the content, share insights, or have questions about the content, this is the perfect place for you.\nIf you have any specific questions for Byeong-Hak (@bcdanl) regarding the Classwork 11 materials or need clarification on any points, don’t hesitate to ask here.\nLet’s collaborate and learn from each other!\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "danl-cw/danl-299-cw-09.html",
+    "href": "danl-cw/danl-299-cw-09.html",
+    "title": "Classwork 9",
+    "section": "",
+    "text": "Below is to set up the web scrapping environment with Python selenium:\nimport pandas as pd\nimport os\nimport time\nimport random\nfrom selenium import webdriver\nfrom selenium.webdriver.common.by import By\nfrom selenium.webdriver.chrome.options import Options\n\nwd_path = 'PATHNAME_FOR_YOUR_DATA_DIRECTORY'   # 'YOUR_DATA_DIRECTORY'\nos.chdir(wd_path)\n\n\nQuestion 1\n\nUse Python Selenium to scrap the table in the following webpage as a pandas’ DataFrame:\n\nhttps://www.eia.gov/petroleum/gasdiesel/gaspump_hist.php\n\nExport the DataFrame as a CSV file.\nTip: Consider using loop over a XPath f-string:\n\nfor i in range(1, 10):\n    xpath = f'/html/body/div[1]/div[2]/div/div[4]/div/div[1]/div/table/tbody/tr[{i}]/td[1]'\n    print(xpath)\nAnswer:\n\n\n\nQuestion 2\n\nProvide your Python Selenium code to scrape all the quotes in this website.\n\nYou should create the two DataFrames with the following variables:\n\n\nDataFrame about each quote with the following variables:\n\n\nquote\nauthor\ntags\nabout, URL for description about each author.\n\n\nDataFrame about each author with the following variables:\n\n\nabout, URL for description about each author.\nborn_date\nborn_location\nauthor_description\n\nFind the top 15 most frequently occurred tags.\nSave the two DataFrames in the CSV files.\n\nAnswer:\n\n\n\nDiscussion\nWelcome to our Classwork 9 Discussion Board! 👋 \nThis space is designed for you to engage with your classmates about the material covered in Classwork 9.\nWhether you are looking to delve deeper into the content, share insights, or have questions about the content, this is the perfect place for you.\nIf you have any specific questions for Byeong-Hak (@bcdanl) regarding the Classwork 9 materials or need clarification on any points, don’t hesitate to ask here.\nAll comments will be stored here.\nLet’s collaborate and learn from each other!\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "danl-wk/wk-07.html",
+    "href": "danl-wk/wk-07.html",
+    "title": "Week 6",
+    "section": "",
+    "text": "In Week 6, we’ll finish up lectures on Pandas basics."
+  },
+  {
+    "objectID": "danl-wk/wk-07.html#lecture-slides",
+    "href": "danl-wk/wk-07.html#lecture-slides",
+    "title": "Week 6",
+    "section": "🏫 Lecture Slides",
+    "text": "🏫 Lecture Slides\n\nLecture 10 — Filtering by a Condition\nView Slides\nLecture 11 - Missing Values; Duplicates\nView Slides\nLecture 12 - Reshaping DataFrames\nView Slides\nLecture 13 - Joining DataFrames\nView Slides\n\n🎥 Looking for lecture recordings? You can only find those on Brightspace."
+  },
+  {
+    "objectID": "danl-wk/wk-07.html#classwork",
+    "href": "danl-wk/wk-07.html#classwork",
+    "title": "Week 6",
+    "section": "✍️ Classwork",
+    "text": "✍️ Classwork\n\nClasswork 5 - Loading, Summarizing, Selecting, Counting, Sorting, and Indexing Data\nView Classwork\nClasswork 6 - Convering Data Types; Filtering Data; Missing Values/Duplicates\nView Classwork"
+  },
+  {
+    "objectID": "danl-wk/wk-07.html#discussion",
+    "href": "danl-wk/wk-07.html#discussion",
+    "title": "Week 6",
+    "section": "💬 Discussion",
+    "text": "💬 Discussion\nWelcome to our Week 5 Discussion Board! 👋 \nThis space is designed for you to engage with your classmates about the material covered in Week 5.\nWhether you are looking to delve deeper into the content, share insights, or have questions about the content, this is the perfect place for you.\nIf you have any specific questions for Byeong-Hak (@bcdanl) or peer classmate (@GitHub-Username) regarding the Week 5 materials or need clarification on any points, don’t hesitate to ask here.\nLet’s collaborate and learn from each other!"
+  },
+  {
+    "objectID": "danl-hw/danl-299-hw-03.html",
+    "href": "danl-hw/danl-299-hw-03.html",
+    "title": "Homework 3",
+    "section": "",
+    "text": "import pandas as pd"
+  },
+  {
+    "objectID": "danl-hw/danl-299-hw-03.html#duplicated",
+    "href": "danl-hw/danl-299-hw-03.html#duplicated",
+    "title": "Homework 3",
+    "section": "duplicated()",
+    "text": "duplicated()\nThe duplicated() function returns a boolean Series indicating whether each row is a duplicate based on specified columns.\n\nParameters:\n\nsubset: Columns to consider when identifying duplicates\nkeep:\n\n'first' (default): Marks duplicates after the first as True\n'last': Marks duplicates before the last as True\nFalse: Marks all duplicates as True\n\n\n\n\n🔢 Example DataFrame\n\ndf = pd.DataFrame({\n    \"pid\": [1, 1, 2, 2, 2, 3],\n    \"artist_name\": [\"A\", \"A\", \"B\", \"B\", \"B\", \"C\"],\n    \"track_name\": [\"x\", \"x\", \"y\", \"y\", \"y\", \"z\"]\n})\n\n\n\n\n\n  \n\n\n\n\ndf.duplicated(subset=[\"pid\", \"artist_name\", \"track_name\"], keep='first')\n\n0    False\n1     True\n2    False\n3     True\n4     True\n5    False\ndtype: bool\n\ndf.duplicated(subset=[\"pid\", \"artist_name\", \"track_name\"], keep='last')\n\n0     True\n1    False\n2     True\n3     True\n4    False\n5    False\ndtype: bool\n\ndf.duplicated(subset=[\"pid\", \"artist_name\", \"track_name\"], keep=False)\n\n0     True\n1     True\n2     True\n3     True\n4     True\n5    False\ndtype: bool"
+  },
+  {
+    "objectID": "danl-hw/danl-299-hw-03.html#drop_duplicates",
+    "href": "danl-hw/danl-299-hw-03.html#drop_duplicates",
+    "title": "Homework 3",
+    "section": "drop_duplicates()",
+    "text": "drop_duplicates()\nThe drop_duplicates() function removes duplicate rows based on specified columns. The behavior is controlled by the keep parameter.\n\nParameters:\n\nsubset: Columns to consider when identifying duplicates\nkeep:\n\n'first' (default): Keeps the first occurrence, removes the rest\n'last': Keeps the last occurrence, removes the rest\nFalse: Removes all duplicates, keeping only unique entries\n\n\n\n\n🔢 Example DataFrame\n\ndf = pd.DataFrame({\n    \"pid\": [1, 1, 2, 2, 2, 3],\n    \"artist_name\": [\"A\", \"A\", \"B\", \"B\", \"B\", \"C\"],\n    \"track_name\": [\"x\", \"x\", \"y\", \"y\", \"y\", \"z\"]\n})\n\n\n\n\n\n  \n\n\n\n\ndf.drop_duplicates(subset=[\"pid\", \"artist_name\", \"track_name\"], keep='first')\n\n   pid artist_name track_name\n0    1           A          x\n2    2           B          y\n5    3           C          z\n\ndf.drop_duplicates(subset=[\"pid\", \"artist_name\", \"track_name\"], keep='last')\n\n   pid artist_name track_name\n1    1           A          x\n4    2           B          y\n5    3           C          z\n\ndf.drop_duplicates(subset=[\"pid\", \"artist_name\", \"track_name\"], keep=False)\n\n   pid artist_name track_name\n5    3           C          z"
+  },
+  {
+    "objectID": "danl-hw/danl-299-hw-03.html#question-1",
+    "href": "danl-hw/danl-299-hw-03.html#question-1",
+    "title": "Homework 3",
+    "section": "Question 1",
+    "text": "Question 1\n\nGo to the following Internet Movie Database (IMDb) webpage for\n\nTop 200 Family Movies and TV Shows (sorted by Popularity).\n\nProvide your Python Selenium code to scrape the following information about Top 200 Family Movies and TV Shows by Popularity.\n\nYou should create the following variables in the DataFrame:\n\nranking (e.g., 1, 2, 3)\ntitle (e.g., Snow White, Freakier Friday)\nyear (e.g., 2025, 2025-)\nruntime (e.g., 1h 56m, 1h 40m)\nrating (e.g., PG, TV-G, G)\nimdb_score (e.g., 7.6, 6.5)\nvotes (e.g., 1.4k, 70k)\nmetascore (e.g., 56, 74)\nplot (e.g., A princess joins forces with seven dwarfs to liberate her kingdom from her cruel stepmother the Evil Queen.)\n\n\nSuppose ranking and title are initially combined in a single column called ranking_title, with values like:\n\n“1. Snow White”\n“2. Freakier Friday”\n\nYou can split this column into ranking and title using the following code:\n\n# Split the 'ranking_title' column into two new variables, 'ranking' and 'title'\n# by the first occurrence of a period (dot). \n\n# n=1 ensures the split to be limited to the first dot.\n# expand=True tells pandas to return the results in a DataFrame\n  # If expand were False, the result would be a Series of lists.\n\ndf[['ranking', 'title']] = df['ranking_title'].str.split('.', n=1, expand=True)\ndf = df.drop(columns=['ranking_title'])\n\nFinally, export the resulting DataFrame to the CSV file."
+  },
+  {
+    "objectID": "danl-hw/danl-299-hw-03.html#variable-description",
+    "href": "danl-hw/danl-299-hw-03.html#variable-description",
+    "title": "Homework 3",
+    "section": "Variable Description",
+    "text": "Variable Description\n\npid: playlist ID; unique ID for playlist\nplaylist_name: a name of playlist\npos: a position of the track within a playlist (starting from 0)\nartist_name: name of the track’s primary artist\ntrack_name: name of the track\nduration_ms: duration of the track in milliseconds\nalbum_name: name of the track’s album"
+  },
+  {
+    "objectID": "danl-hw/danl-299-hw-03.html#definition-of-a-song",
+    "href": "danl-hw/danl-299-hw-03.html#definition-of-a-song",
+    "title": "Homework 3",
+    "section": "Definition of a Song",
+    "text": "Definition of a Song\n\nIn Part 2, a song is defined as a combination of a artist_name value and a track_name value.\nE.g., the following provides the 12 distinct songs with the same track_name—I Love You:"
+  },
+  {
+    "objectID": "danl-hw/danl-299-hw-03.html#question-2",
+    "href": "danl-hw/danl-299-hw-03.html#question-2",
+    "title": "Homework 3",
+    "section": "Question 2",
+    "text": "Question 2\n\nWrite a Python code to identify the top five songs with the highest frequency of appearances in the spotify DataFrame."
+  },
+  {
+    "objectID": "danl-hw/danl-299-hw-03.html#question-3",
+    "href": "danl-hw/danl-299-hw-03.html#question-3",
+    "title": "Homework 3",
+    "section": "Question 3",
+    "text": "Question 3\n\nWrite a Python code to create a DataFrame that contains information about how often each song occurs within the spotify DataFrame.\n\nIn this new DataFrame, each observation should represent a distinct song.\n\nThen, write a Python code to identify top 5% songs based on their frequency of appearances."
+  },
+  {
+    "objectID": "danl-hw/danl-299-hw-03.html#question-4",
+    "href": "danl-hw/danl-299-hw-03.html#question-4",
+    "title": "Homework 3",
+    "section": "Question 4",
+    "text": "Question 4\n\nWrite a Python code to list all artists who have more than 50 unique songs in the sportify DataFrame."
+  },
+  {
+    "objectID": "danl-hw/danl-299-hw-03.html#question-5",
+    "href": "danl-hw/danl-299-hw-03.html#question-5",
+    "title": "Homework 3",
+    "section": "Question 5",
+    "text": "Question 5\n\nWrite a Python code to create a DataFrame that identifies all the playlists featuring the song “One Dance” by Drake."
+  },
+  {
+    "objectID": "danl-hw/danl-299-hw-03.html#question-6",
+    "href": "danl-hw/danl-299-hw-03.html#question-6",
+    "title": "Homework 3",
+    "section": "Question 6",
+    "text": "Question 6\n\nWrite a Python code to identify the longest and shortest duration songs (based on duration_ms) for each unique artist."
+  },
+  {
+    "objectID": "danl-hw/danl-299-hw-03.html#question-7",
+    "href": "danl-hw/danl-299-hw-03.html#question-7",
+    "title": "Homework 3",
+    "section": "Question 7",
+    "text": "Question 7\nWrite a Python code to find the same song(s) appearing more than once in the same playlist.\n\nUsing drop_duplicates() with index-based filtering.\n\n\n\nUsing duplicated() with standard filtering.\n\nThe subset and keep parameters work similarly to those in drop_duplicates()"
+  },
+  {
+    "objectID": "danl-hw/danl-299-hw-03.html#question-8",
+    "href": "danl-hw/danl-299-hw-03.html#question-8",
+    "title": "Homework 3",
+    "section": "Question 8",
+    "text": "Question 8\n\nWrite a Python code to filter all songs that appear in more than 100 different playlists."
+  },
+  {
+    "objectID": "danl-hw/danl-299-hw-03.html#variable-description-1",
+    "href": "danl-hw/danl-299-hw-03.html#variable-description-1",
+    "title": "Homework 3",
+    "section": "Variable description",
+    "text": "Variable description\n\ntconst: alphanumeric unique identifier of the title\ntitle_type: the type/format of the title\n\n(movie, video, or tvMovie)\n\nprimary_title: the more popular title / the title used by the filmmakers on promotional materials at the point of release\nsimple_title: the title in lowercase, with punctuation removed, for easier filtering and grouping\nyear: the release year of a title\nruntime_minutes: primary runtime of the title, in minutes\naverage_rating: weighted average of all the individual user ratings on IMDb\nnum_votes: number of votes the title has received on IMDb (titles with fewer than 10 votes were not included in this dataset)\n\n\n\n\nThe following is another DataFrame holiday_movie_genres that is related with the DataFrame holiday_movies:\n\nholiday_movie_genres = pd.read_csv(\"https://bcdanl.github.io/data/holiday_movie_genres.csv\")\n\n\n\n  \n\n\n\nThe DataFrame holiday_movie_genres include up to three genres associated with the titles that appear in the DataFrame."
+  },
+  {
+    "objectID": "danl-hw/danl-299-hw-03.html#variable-description-2",
+    "href": "danl-hw/danl-299-hw-03.html#variable-description-2",
+    "title": "Homework 3",
+    "section": "Variable description",
+    "text": "Variable description\n\ntconst: alphanumeric unique identifier of the title\ngenres: genres associated with the title, one row per genre\n\n\n\nUsing the provided DataFrames, write a blog post about Christmas movies in a Jupyter Notebook and publish it on your online blog.\n\nIn your analysis, make use of counting, sorting, indexing, filtering, and joining techniques."
   }
 ]

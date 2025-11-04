@@ -1,0 +1,445 @@
+---
+title: Homework 3
+subtitle: Python `selenium` & Pandas Basics
+date: 2025-11-04
+from: markdown+emoji
+format:
+  html:
+    code-fold: true
+execute: 
+  eval: false
+language: 
+  code-summary: "Click to Check the Answer!"
+---
+
+
+```{r}
+#| echo: false
+
+reticulate::use_condaenv("/Users/bchoe/anaconda3", required = TRUE)
+```
+
+
+
+```{.python}
+import pandas as pd
+```
+
+# Direction
+
+- Please submit your **Python Script** for **Part 1 and Part 2 in Homework 3** to Brightspace with the name below:
+
+  - `danl_299_hw3_LASTNAME_FIRSTNAME.py`\
+  ( e.g., `danl_299_hw3_choe_byeonghak.py` )
+
+- The due is November 17, 2025, 5:15 P.M.
+
+- Please send Prof. Choe an email ([bchoe@geneseo.edu](mailto::bchoe@geneseo.edu)) if you have any questions.
+
+<br><br><br>
+
+
+# Understanding `duplicated()` and `drop_duplicates()` in Pandas
+
+## `duplicated()`
+
+The `duplicated()` function returns a **boolean Series** indicating whether each row is a **duplicate** based on specified columns.
+
+### Parameters:
+- `subset`: Columns to consider when identifying duplicates
+- `keep`:
+  - `'first'` (default): Marks duplicates **after the first** as `True`
+  - `'last'`: Marks duplicates **before the last** as `True`
+  - `False`: Marks **all duplicates** as `True`
+
+
+### 🔢 Example DataFrame
+```{python}
+#| echo: false
+#| eval: true
+import pandas as pd
+from itables import init_notebook_mode, show # for displaying an interactive DataFrame
+
+```
+
+```{python}
+#| eval: true
+#| code-fold: false
+
+df = pd.DataFrame({
+    "pid": [1, 1, 2, 2, 2, 3],
+    "artist_name": ["A", "A", "B", "B", "B", "C"],
+    "track_name": ["x", "x", "y", "y", "y", "z"]
+})
+
+```
+
+
+```{r}
+#| eval: true
+#| echo: false
+#| warning: false
+library(tidyverse)
+df <- tibble(
+  pid = c(1, 1, 2, 2, 2, 3),
+  artist_name = c("A", "A", "B", "B", "B", "C"),
+  track_name = c("x", "x", "y", "y", "y", "z")
+)
+
+rmarkdown::paged_table(df,
+                       options = list(rows.print = 25))
+```
+
+```{python}
+#| eval: true
+#| code-fold: false
+df.duplicated(subset=["pid", "artist_name", "track_name"], keep='first')
+df.duplicated(subset=["pid", "artist_name", "track_name"], keep='last')
+df.duplicated(subset=["pid", "artist_name", "track_name"], keep=False)
+```
+
+
+
+<br>
+
+## `drop_duplicates()`
+
+The `drop_duplicates()` function removes duplicate rows based on specified columns. The behavior is controlled by the `keep` parameter.
+
+### Parameters:
+- `subset`: Columns to consider when identifying duplicates
+- `keep`:
+  - `'first'` (default): Keeps the **first occurrence**, removes the rest
+  - `'last'`: Keeps the **last occurrence**, removes the rest
+  - `False`: Removes **all duplicates**, keeping only unique entries
+
+
+### 🔢 Example DataFrame
+
+```{python}
+#| eval: true
+#| code-fold: false
+df = pd.DataFrame({
+    "pid": [1, 1, 2, 2, 2, 3],
+    "artist_name": ["A", "A", "B", "B", "B", "C"],
+    "track_name": ["x", "x", "y", "y", "y", "z"]
+})
+```
+
+
+```{r}
+#| eval: true
+#| echo: false
+#| warning: false
+
+df <- tibble(
+  pid = c(1, 1, 2, 2, 2, 3),
+  artist_name = c("A", "A", "B", "B", "B", "C"),
+  track_name = c("x", "x", "y", "y", "y", "z")
+)
+
+rmarkdown::paged_table(df,
+                       options = list(rows.print = 25))
+```
+
+```{python}
+#| eval: true
+#| code-fold: false
+
+df.drop_duplicates(subset=["pid", "artist_name", "track_name"], keep='first')
+df.drop_duplicates(subset=["pid", "artist_name", "track_name"], keep='last')
+df.drop_duplicates(subset=["pid", "artist_name", "track_name"], keep=False)
+```
+
+
+<br>
+
+
+
+# Part 1. Collecting the IMDb Data using Python `Selenium`
+
+<br>
+
+<p align="center">
+  <img src="https://bcdanl.github.io/lec_figs/IMDB_Logo.png" width="600px">
+</p>
+
+<br>
+
+## Question 1
+- Go to the following Internet Movie Database (IMDb) webpage for 
+  - [Top 200 Family Movies and TV Shows (sorted by Popularity)](https://www.imdb.com/search/title/?genres=family&sort=popularity,desc&count=200).
+ 
+- Provide your Python Selenium code to scrape the following information about **Top 200 Family Movies and TV Shows by Popularity**. 
+  - You should create the following variables in the DataFrame:
+    - `ranking`	(e.g., 1, 2, 3)
+    - `title`	(e.g., *Snow White, Freakier Friday*)
+    - `year`	(e.g., 2025, 2025-)
+    - `runtime`	(e.g., 1h 56m, 1h 40m)
+    - `rating` (e.g., PG, TV-G, G)
+    - `imdb_score` (e.g., 7.6, 6.5)
+    - `votes` (e.g., 1.4k, 70k)
+    - `metascore`	(e.g., 56, 74)
+    - `plot` (e.g., *A princess joins forces with seven dwarfs to liberate her kingdom from her cruel stepmother the Evil Queen.*)
+
+
+- Suppose `ranking` and `title` are initially combined in a single column called `ranking_title`, with values like:
+  - "1. Snow White"
+  - "2. Freakier Friday"
+- You can split this column into `ranking` and `title` using the following code:
+
+```{.python}
+# Split the 'ranking_title' column into two new variables, 'ranking' and 'title'
+# by the first occurrence of a period (dot). 
+
+# n=1 ensures the split to be limited to the first dot.
+# expand=True tells pandas to return the results in a DataFrame
+  # If expand were False, the result would be a Series of lists.
+
+df[['ranking', 'title']] = df['ranking_title'].str.split('.', n=1, expand=True)
+df = df.drop(columns=['ranking_title'])
+```
+
+- Finally, export the resulting DataFrame to the CSV file.
+
+
+
+
+<br><br>
+
+
+
+
+# Part 2. Pandas Basic
+
+<br>
+<p align="center">
+  <img src="https://bcdanl.github.io/lec_figs/spotify.png" width="400px">
+</p>
+
+<br>
+
+Below is `spotify` `DataFrame` that reads the file `spotify_all.csv` containing data of Spotify users' playlist information (Source: [Spotify Million Playlist Dataset Challenge](https://www.aicrowd.com/challenges/spotify-million-playlist-dataset-challenge)).
+
+```{.python}
+spotify = pd.read_csv('https://bcdanl.github.io/data/spotify_all.csv')
+```
+
+
+```{r}
+#| eval: true
+#| echo: false
+#| warning: false
+
+rmarkdown::paged_table(readr::read_csv('https://bcdanl.github.io/data/spotify_all.csv'),
+                       options = list(rows.print = 25))
+```
+
+<br>
+
+## Variable Description
+
+- `pid`: playlist ID; unique ID for playlist
+- `playlist_name`: a name of playlist
+- `pos`: a position of the track within a playlist (starting from 0)
+- `artist_name`: name of the track’s primary artist
+- `track_name`: name of the track
+- `duration_ms`: duration of the track in milliseconds
+- `album_name`: name of the track’s album
+
+
+## Definition of a Song
+- In Part 2, a **song** is defined as a combination of a `artist_name` value and a `track_name` value.
+
+- E.g., the following provides the 12 distinct songs with the same `track_name`---**I Love You**:
+
+```{r}
+#| eval: true
+#| echo: false
+#| warning: false
+
+library(tidyverse)
+
+rmarkdown::paged_table(
+  read_csv('https://bcdanl.github.io/data/spotify_all.csv') |> 
+  count(artist_name, track_name) |> 
+  filter(track_name == 'I Love You') |> 
+  select(-n), 
+  options = list(rows.print = 12)
+)
+```
+
+<br>
+
+## Question 2
+
+- Write a Python code to identify the top five songs with the highest frequency of appearances in the `spotify` DataFrame.
+
+
+
+<br>
+
+## Question 3
+
+- Write a Python code to create a DataFrame that contains information about how often each song occurs within the `spotify` DataFrame.
+  - In this new DataFrame, each observation should represent a distinct song.
+
+- Then, write a Python code to identify top 5% songs based on their frequency of appearances.
+
+
+
+
+<br>
+
+
+## Question 4
+- Write a Python code to list all artists who have more than 50 unique songs in the `sportify` DataFrame.
+
+
+
+<br>
+
+
+
+
+## Question 5
+- Write a Python code to create a DataFrame that identifies all the playlists featuring the song “One Dance” by Drake.
+
+
+<br>
+
+## Question 6
+- Write a Python code to identify the longest and shortest duration songs (based on `duration_ms`) for each unique artist.
+
+
+
+
+<br>
+
+
+
+## Question 7
+Write a Python code to find the same song(s) appearing more than once in the same playlist.
+
+
+- Using `drop_duplicates()` with index-based filtering.
+
+<br>
+
+
+- Using `duplicated()` with standard filtering.
+  - The `subset` and `keep` parameters work similarly to those in `drop_duplicates()`
+
+
+
+<br><br>
+
+
+
+## Question 8
+- Write a Python code to filter all songs that appear in more than 100 different playlists.
+
+
+
+<br><br>
+
+
+
+# Part 3. Jupyter Notebook Blogging
+
+<br>
+
+<p align="center">
+  <img src="https://bcdanl.github.io/lec_figs/christmas_movies.jpg" width="600px">
+</p>
+
+<br>
+
+
+
+```{.python}
+holiday_movies = pd.read_csv("https://bcdanl.github.io/data/holiday_movies.csv")
+```
+
+
+- The DataFrame `holiday_movies` comes from the IMDb. 
+
+
+- The following is the DataFrame, `holiday_movies`.
+```{r, results = 'asis'}
+#| eval: true
+#| echo: false
+rmarkdown::paged_table(read_csv("https://bcdanl.github.io/data/holiday_movies.csv"),
+                       options = list(rows.print = 20,
+                                      cols.print = 6,
+                                      pages.print = 0,
+                                      paged.print = F
+                                      )) 
+```
+
+
+## Variable description
+
+- `tconst`: alphanumeric unique identifier of the title
+
+- `title_type`: the type/format of the title 
+  - (movie, video, or tvMovie)
+
+- `primary_title`: the more popular title / the title used by the filmmakers on promotional materials at the point of release
+
+- `simple_title`: the title in lowercase, with punctuation removed, for easier filtering and grouping
+
+- `year`: the release year of a title
+
+- `runtime_minutes`: primary runtime of the title, in minutes
+
+- `average_rating`: weighted average of all the individual user ratings on IMDb
+
+- `num_votes`: number of votes the title has received on IMDb (titles with fewer than 10 votes were not included in this dataset)
+
+<br>
+
+
+<br>
+
+
+- The following is another DataFrame `holiday_movie_genres` that is related with the DataFrame `holiday_movies`:
+
+
+```{.python}
+holiday_movie_genres = pd.read_csv("https://bcdanl.github.io/data/holiday_movie_genres.csv")
+```
+
+
+
+```{r, results = 'asis'}
+#| eval: true
+#| echo: false
+
+
+holiday_movie_genres <- read_csv("https://bcdanl.github.io/data/holiday_movie_genres.csv")
+rmarkdown::paged_table(holiday_movie_genres,
+                       options = list(rows.print = 20,
+                                      cols.print = 6,
+                                      pages.print = 0,
+                                      paged.print = F
+                                      )) 
+```
+
+- The DataFrame `holiday_movie_genres` include up to three genres associated with the titles that appear in the DataFrame.
+
+
+## Variable description
+
+  - `tconst`: alphanumeric unique identifier of the title
+  - `genres`: genres associated with the title, one row per genre
+
+
+<br>
+
+-	Using the provided DataFrames, write a blog post about Christmas movies in a Jupyter Notebook and publish it on your online blog.
+	-	In your analysis, make use of counting, sorting, indexing, filtering, and joining techniques.
+	
+<br>
+
+  
