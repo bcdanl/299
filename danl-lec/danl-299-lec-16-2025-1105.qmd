@@ -505,7 +505,7 @@ driver.find_element(By.XPATH, '//*[@id="btn"]').get_attribute('value')
 
 ## Web-scrapping with Python `selenium`
 
-Let's do [**Classwork 9**](https://bcdanl.github.io/210/danl-cw/danl-210-cw-09.html)!
+Let's do [**Classwork 9**](https://bcdanl.github.io/299/danl-cw/danl-299-cw-09.html)!
 
 
 
@@ -706,7 +706,7 @@ df = pd.read_html(StringIO(table_html))[0]
 
 ## Web-scrapping with Python `selenium`
 
-Let's do [**Classwork 10**](https://bcdanl.github.io/210/danl-cw/danl-210-cw-10.html)!
+Let's do [**Classwork 10**](https://bcdanl.github.io/299/danl-cw/danl-299-cw-10.html)!
 
 
 

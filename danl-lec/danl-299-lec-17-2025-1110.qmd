@@ -170,7 +170,7 @@ import requests
 ::: {.column width="50%"}
 
 ```{.python}
-p = 'https://bcdanl.github.io/210'
+p = 'https://bcdanl.github.io/299'
 response = requests.get(p)  
 print(response.status_code)  
 ```
@@ -182,7 +182,7 @@ print(response.status_code)
 ::: {.column width="50%"}
 
 ```{.python}
-p = 'https://bcdanl.github.io/2100'
+p = 'https://bcdanl.github.io/2990'
 response = requests.get(p)  
 print(response.status_code)  
 ```
@@ -390,7 +390,7 @@ df = pd.DataFrame( content['observations'] )
 
 ## Data Collection with APIs
 
-Let's do [**Classwork 11**](https://bcdanl.github.io/210/danl-cw/danl-210-cw-11.html)!
+Let's do [**Classwork 11**](https://bcdanl.github.io/299/danl-cw/danl-299-cw-11.html)!
 
 
 # **Using the New York Times API** {background-color="#1c4982"}

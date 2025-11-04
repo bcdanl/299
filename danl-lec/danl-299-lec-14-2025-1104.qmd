@@ -290,7 +290,7 @@ tables[0].to_csv('table.csv', index =False)
 
 ## Scrapping Tables with `pd.read_html()`
 
-Let's do [**Classwork 8**](https://bcdanl.github.io/210/danl-cw/danl-210-cw-08.html)!
+Let's do [**Classwork 8**](https://bcdanl.github.io/299/danl-cw/danl-299-cw-08.html)!
 
 
 

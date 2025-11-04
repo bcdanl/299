@@ -226,7 +226,7 @@ theme_set(theme_fivethirtyeight()+
 - A **time trend** of a variable (e.g., **line plots**, **best fitting lines** and more)
 
 - Exploring **how distributions, relationships, and time trends vary across categories** can reveal important patterns and insights.
-- Please check out [**general tips on data visualization**](https://bcdanl.github.io/210/danl-rw/danl-210-project.html#general-tips-on-data-visualization) in the project page.
+- Please check out [**general tips on data visualization**](https://bcdanl.github.io/299/danl-rw/danl-299-project.html#general-tips-on-data-visualization) in the project page.
 
 :::
 :::
@@ -715,6 +715,6 @@ sns.lmplot(data = tips,
 ## Visualizing `DataFrames` with `seaborn`
 
 
-Let's do [**Classwork 12**](https://bcdanl.github.io/210/danl-cw/danl-210-cw-12.html)!
+Let's do [**Classwork 12**](https://bcdanl.github.io/299/danl-cw/danl-299-cw-12.html)!
 
 
