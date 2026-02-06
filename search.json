@@ -1075,7 +1075,7 @@
     "href": "danl-lec/danl-299-lec-19-2025-1201.html#fortune-1000-dataset",
     "title": "Lecture 19",
     "section": "Fortune 1000 Dataset",
-    "text": "Fortune 1000 Dataset\n\n\nFortune 1000 lists the 1,000 largest U.S. companies by revenue.\n\nUpdated annually by Fortune magazine.\n\nThe file fortune1000_2024.csv contains the 2024 list.\n\n\n\nimport pandas as pd\nfortune1000 = pd.read_csv(\"https://bcdanl.github.io/data/fortune1000_2024.csv\")\n\nfortune = fortune1000[[\n    \"Rank\", \"Company\", \"Sector\", \"Industry\",\n    \"Revenues_M\", \"Profits_M\", \"Number_of_Employees\"\n]]\n\nA Sector can have many companies; an Industry is a sub‑category within a sector."
+    "text": "Fortune 1000 Dataset\n\n\nFortune 1000 lists the 1,000 largest U.S. companies by revenue.\n\nUpdated annually by Fortune magazine.\n\nThe file fortune1000_2025.csv contains the 2025 list.\n\n\n\nimport pandas as pd\nfortune1000 = pd.read_csv(\"https://bcdanl.github.io/data/fortune1000_2025.csv\")\n\nfortune = fortune1000[[\n    \"Rank\", \"Company\", \"Sector\", \"Industry\",\n    \"Revenues_M\", \"Profits_M\", \"Number_of_Employees\"\n]]\n\nA Sector can have many companies; an Industry is a sub‑category within a sector."
   },
   {
     "objectID": "danl-lec/danl-299-lec-19-2025-1201.html#why-group-operations",
@@ -1145,7 +1145,7 @@
     "href": "danl-lec/danl-299-lec-19-2025-1201.html#group-operations",
     "title": "Lecture 19",
     "section": "Group Operations",
-    "text": "Group Operations\nLet’s do Questions 1-3 in Classwork 13!"
+    "text": "Group Operations\nLet’s do Classwork 13!"
   },
   {
     "objectID": "danl-lec/danl-299-lec-19-2025-1201.html#transform-return-to-original-shape",
@@ -1173,28 +1173,28 @@
     "href": "danl-lec/danl-299-lec-19-2025-1201.html#dataframe.assign-and-dataframegroupby.transform",
     "title": "Lecture 19",
     "section": "DataFrame.assign() and DataFrameGroupBy.transform()",
-    "text": "DataFrame.assign() and DataFrameGroupBy.transform()\nsectors = fortune.groupby(\"Sector\")\n\nfortune_new = fortune.assign(\n    Year = 2024,\n    nCompanies = sectors.transform('size'),\n    Revenues_M_min = sectors['Revenues_M'].transform('min'),\n    Profits_M_max = sectors['Profits_M'].transform('max'),\n    Number_of_Employees_mean = sectors['Number_of_Employees'].transform('mean')\n)\n\nassign() can be used to add a new variable to a DataFrame.\n\nassign() is a DataFrame method, not a DataFrameGroupBy method."
+    "text": "DataFrame.assign() and DataFrameGroupBy.transform()\nsectors = fortune.groupby(\"Sector\")\n\nfortune_new = fortune.assign(\n    Year = 2025,\n    nCompanies = sectors.transform('size'),\n    Revenues_M_min = sectors['Revenues_M'].transform('min'),\n    Profits_M_max = sectors['Profits_M'].transform('max'),\n    Number_of_Employees_mean = sectors['Number_of_Employees'].transform('mean')\n)\n\nassign() can be used to add a new variable to a DataFrame.\n\nassign() is a DataFrame method, not a DataFrameGroupBy method."
   },
   {
     "objectID": "danl-lec/danl-299-lec-19-2025-1201.html#transform-with-shift",
     "href": "danl-lec/danl-299-lec-19-2025-1201.html#transform-with-shift",
     "title": "Lecture 19",
     "section": "transform() with shift()",
-    "text": "transform() with shift()\n\n\nDatashift()Percentage Changes\n\n\n\nf_2021_2024 is a long-from DataFrame, containing 741 companies that appeared in the Fortune 1000 list consecutively from 2021 to 2024.\n\nf_2021_2024 = pd.read_csv(\"https://bcdanl.github.io/data/fortune741_2021_2024.csv\")\n\nHere we are interested in calculating the yearly revenue growth rate for each company in fortune_2021_2024 using the following formula: \\[\n\\text{(Revenue Growth Rate)}_{year} = \\frac{\\text{Revenue}_{year} - \\text{Revenue}_{year-1}}{\\text{Revenue}_{year-1}}\n\\]\n\n\n\nf_2021_2024['Revenues_M_last_year'] = f_2021_2024.groupby('Company')['Revenues_M'].shift(-1)\n\nWhat shift() does in pandas:\n\nshift() moves values up or down along the index (rows).\nIt shifts the data by a number of periods (default is 1 period down).\nIt is often used to compare a row with a previous (or future) row.\n\nshift(1): shift down (default)\nshift(-1): shift up\n\n\n\n\n\nf_2021_2024['GrowthRate_Revenue'] = (\n    (f_2021_2024['Revenues_M'] - f_2021_2024['Revenues_M_last_year']) / \n          f_2021_2024['Revenues_M_last_year']\n)\n\\[\n\\text{(Revenue Growth Rate)}_{year} = \\frac{\\text{Revenue}_{year} - \\text{Revenue}_{year-1}}{\\text{Revenue}_{year-1}}\n\\]\n\nUsing the historical daily stock data, we can calculate each company’s daily percentage change in stock price."
+    "text": "transform() with shift()\n\n\nDatashift()Percentage Changes\n\n\n\nf_2021_2025 is a long-from DataFrame, containing 705 companies that appeared in the Fortune 1000 list consecutively from 2021 to 2025.\n\nf_2021_2025 = pd.read_csv(\"https://bcdanl.github.io/data/fortune705_2021_2025.csv\")\n\nHere we are interested in calculating the yearly revenue growth rate for each company in fortune_2021_2025 using the following formula: \\[\n\\text{(Revenue Growth Rate)}_{year} = \\frac{\\text{Revenue}_{year} - \\text{Revenue}_{year-1}}{\\text{Revenue}_{year-1}}\n\\]\n\n\n\nf_2021_2025['Revenues_M_last_year'] = f_2021_2025.groupby('Company')['Revenues_M'].shift(-1)\n\nWhat shift() does in pandas:\n\nshift() moves values up or down along the index (rows).\nIt shifts the data by a number of periods (default is 1 period down).\nIt is often used to compare a row with a previous (or future) row.\n\nshift(1): shift down (default)\nshift(-1): shift up\n\n\n\n\n\nf_2021_2025['GrowthRate_Revenue'] = (\n    (f_2021_2025['Revenues_M'] - f_2021_2025['Revenues_M_last_year']) / \n          f_2021_2025['Revenues_M_last_year']\n)\n\\[\n\\text{(Revenue Growth Rate)}_{year} = \\frac{\\text{Revenue}_{year} - \\text{Revenue}_{year-1}}{\\text{Revenue}_{year-1}}\n\\]\n\nUsing the historical daily stock data, we can calculate each company’s daily percentage change in stock price."
   },
   {
     "objectID": "danl-lec/danl-299-lec-19-2025-1201.html#group-operations-1",
     "href": "danl-lec/danl-299-lec-19-2025-1201.html#group-operations-1",
     "title": "Lecture 19",
     "section": "Group Operations",
-    "text": "Group Operations\nLet’s do Question 4 in Classwork 13!"
+    "text": "Group Operations\nLet’s do Classwork 14!"
   },
   {
     "objectID": "danl-lec/danl-299-lec-19-2025-1201.html#applying-a-udf-to-all-groups",
     "href": "danl-lec/danl-299-lec-19-2025-1201.html#applying-a-udf-to-all-groups",
     "title": "Lecture 19",
     "section": "Applying a UDF to All Groups",
-    "text": "Applying a UDF to All Groups\n\n\nSometimes we need something neither agg() nor transform() can do, like “top‑3 by revenue in each sector”.\n\nUse apply() and provide a method that operates on each group’s DataFrame.\n\n\n\nfortune_shuffled = pd.read_csv(\"https://bcdanl.github.io/data/fortune1000_2024_shuffled.csv\")\nsectors = fortune_shuffled.groupby(\"Sector\")\n\nHow can we get a DataFrame with top 5 companies in each sector?\n\nsort_values() with groupby()\nnlargest() with groupby()\n\nHowever, DataFrameGroupBy has no methods sort_values() or nlargest()."
+    "text": "Applying a UDF to All Groups\n\n\nSometimes we need something neither agg() nor transform() can do, like “top‑3 by revenue in each sector”.\n\nUse apply() and provide a method that operates on each group’s DataFrame.\n\n\n\nfortune_shuffled = pd.read_csv(\"https://bcdanl.github.io/data/fortune1000_2025_shuffled.csv\")\nsectors = fortune_shuffled.groupby(\"Sector\")\n\nHow can we get a DataFrame with top 5 companies in each sector?\n\nsort_values() with groupby()\nnlargest() with groupby()\n\nHowever, DataFrameGroupBy has no methods sort_values() or nlargest()."
   },
   {
     "objectID": "danl-lec/danl-299-lec-19-2025-1201.html#applying-a-lambda-udf-with-.apply",
