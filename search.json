@@ -298,7 +298,7 @@
     "href": "index.html#bullet-homework",
     "title": "DANL 299: Data Preparation and Management, Fall 2025",
     "section": "\\(\\bullet\\,\\) 💻 Homework",
-    "text": "\\(\\bullet\\,\\) 💻 Homework\n\n\n\n\n\n\nTitle\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nHomework 1\n\n\nPersonal Website and Python Basics\n\n\nSeptember 11, 2025\n\n\n\n\nHomework 2\n\n\nPandas Basics\n\n\nSeptember 25, 2025\n\n\n\n\nHomework 3\n\n\nPython selenium & Pandas Basics\n\n\nNovember 4, 2025\n\n\n\n\nHomework 4\n\n\nPython selenium, APIs, & Pandas Basics\n\n\nNovember 24, 2025\n\n\n\n\n\n\nNo matching items"
+    "text": "\\(\\bullet\\,\\) 💻 Homework\n\n\n\n\n\n\nTitle\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nHomework 1\n\n\nPersonal Website and Python Basics\n\n\nSeptember 11, 2025\n\n\n\n\nHomework 2\n\n\nPandas Basics\n\n\nSeptember 25, 2025\n\n\n\n\nHomework 3\n\n\nPython selenium & Pandas Basics\n\n\nNovember 4, 2025\n\n\n\n\nHomework 4\n\n\nPython selenium, APIs, & Pandas Basics\n\n\nNovember 24, 2025\n\n\n\n\nHomework 5\n\n\nPandas Group Operations\n\n\nFebruary 7, 2026\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "danl-cw/danl-299-cw-09.html",
@@ -2286,7 +2286,7 @@
     "href": "listing-danl-299-hw.html",
     "title": "DANL 299 - Homework",
     "section": "",
-    "text": "Title\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nHomework 4\n\n\nPython selenium, APIs, & Pandas Basics\n\n\nNovember 24, 2025\n\n\n\n\nHomework 3\n\n\nPython selenium & Pandas Basics\n\n\nNovember 4, 2025\n\n\n\n\nHomework 2\n\n\nPandas Basics\n\n\nSeptember 25, 2025\n\n\n\n\nHomework 1\n\n\nPersonal Website and Python Basics\n\n\nSeptember 11, 2025\n\n\n\n\n\n\nNo matching items\n\n Back to top"
+    "text": "Title\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nHomework 5\n\n\nPandas Group Operations\n\n\nFebruary 7, 2026\n\n\n\n\nHomework 4\n\n\nPython selenium, APIs, & Pandas Basics\n\n\nNovember 24, 2025\n\n\n\n\nHomework 3\n\n\nPython selenium & Pandas Basics\n\n\nNovember 4, 2025\n\n\n\n\nHomework 2\n\n\nPandas Basics\n\n\nSeptember 25, 2025\n\n\n\n\nHomework 1\n\n\nPersonal Website and Python Basics\n\n\nSeptember 11, 2025\n\n\n\n\n\n\nNo matching items\n\n Back to top"
   },
   {
     "objectID": "danl-lec/danl-299-lec-16-2025-1105.html#webdriver",
@@ -4303,5 +4303,159 @@
     "title": "Homework 4",
     "section": "Question 13",
     "text": "Question 13\n\nWrite a Python code to create the following DataFrame, City_Physician_or_NPP, which counts the number of physicians and the non-physician practitioners (NPPs) in each city."
+  },
+  {
+    "objectID": "danl-hw/danl-299-hw-05.html",
+    "href": "danl-hw/danl-299-hw-05.html",
+    "title": "Homework 5",
+    "section": "",
+    "text": "Please email your Python Script for Part 1 and Part 2 in Homework 5 with the name below:\n\ndanl_210_hw5_LASTNAME_FIRSTNAME.py\n( e.g., danl_210_hw5_choe_byeonghak.py )\n\nThe due for Part 1 and Part 2 in Homework 5 is February 25, Wednesday, 2026, 11:59 P.M.\nThe due for Part 3 in Homework 5 is February 28, Saturday, 2026, 11:59 P.M.\nPlease send Prof. Choe an email (bchoe@geneseo.edu) if you have any questions."
+  },
+  {
+    "objectID": "danl-hw/danl-299-hw-05.html#variable-description",
+    "href": "danl-hw/danl-299-hw-05.html#variable-description",
+    "title": "Homework 5",
+    "section": "Variable Description",
+    "text": "Variable Description\n\npid: playlist ID; unique ID for playlist\nplaylist_name: a name of playlist\npos: a position of the track within a playlist (starting from 0)\nartist_name: name of the track’s primary artist\ntrack_name: name of the track\nduration_ms: duration of the track in milliseconds\nalbum_name: name of the track’s album"
+  },
+  {
+    "objectID": "danl-hw/danl-299-hw-05.html#definition-of-a-song",
+    "href": "danl-hw/danl-299-hw-05.html#definition-of-a-song",
+    "title": "Homework 5",
+    "section": "Definition of a Song",
+    "text": "Definition of a Song\n\nIn Part 2, a song is defined as a combination of a artist_name value and a track_name value.\nE.g., the following provides the 12 distinct songs with the same track_name—I Love You:"
+  },
+  {
+    "objectID": "danl-hw/danl-299-hw-05.html#question-1",
+    "href": "danl-hw/danl-299-hw-05.html#question-1",
+    "title": "Homework 5",
+    "section": "Question 1",
+    "text": "Question 1\nWrite code with pandas groupby() to calculate the total duration (in minutes) of each playlist and then sort by the total duration in descending order to identify the playlists from longest to shortest total playtime."
+  },
+  {
+    "objectID": "danl-hw/danl-299-hw-05.html#question-2",
+    "href": "danl-hw/danl-299-hw-05.html#question-2",
+    "title": "Homework 5",
+    "section": "Question 2",
+    "text": "Question 2\nWrite code with pandas groupby() to identify the top five songs with the highest frequency of appearances in the spotify DataFrame."
+  },
+  {
+    "objectID": "danl-hw/danl-299-hw-05.html#question-3",
+    "href": "danl-hw/danl-299-hw-05.html#question-3",
+    "title": "Homework 5",
+    "section": "Question 3",
+    "text": "Question 3\n\nWrite code with pandas groupby() to create a DataFrame that contains information about how often each song occurs within the spotify DataFrame.\n\nIn this new DataFrame, each observation should represent a distinct song.\n\nThen, identify top 5% songs based on their frequency of appearances."
+  },
+  {
+    "objectID": "danl-hw/danl-299-hw-05.html#question-4",
+    "href": "danl-hw/danl-299-hw-05.html#question-4",
+    "title": "Homework 5",
+    "section": "Question 4",
+    "text": "Question 4\nWrite code with pandas groupby() to list all artists who have more than 50 unique songs in the sportify DataFrame."
+  },
+  {
+    "objectID": "danl-hw/danl-299-hw-05.html#question-5",
+    "href": "danl-hw/danl-299-hw-05.html#question-5",
+    "title": "Homework 5",
+    "section": "Question 5",
+    "text": "Question 5\nWrite code with pandas groupby() to create a DataFrame that identifies all the playlists featuring the song “One Dance” by Drake."
+  },
+  {
+    "objectID": "danl-hw/danl-299-hw-05.html#question-6",
+    "href": "danl-hw/danl-299-hw-05.html#question-6",
+    "title": "Homework 5",
+    "section": "Question 6",
+    "text": "Question 6\nWrite code with pandas groupby() to identify the longest and shortest duration songs (based on duration_ms) for each unique artist."
+  },
+  {
+    "objectID": "danl-hw/danl-299-hw-05.html#question-7",
+    "href": "danl-hw/danl-299-hw-05.html#question-7",
+    "title": "Homework 5",
+    "section": "Question 7",
+    "text": "Question 7\nWrite code with pandas groupby() to find the same song(s) appearing more than once in the same playlist."
+  },
+  {
+    "objectID": "danl-hw/danl-299-hw-05.html#question-8",
+    "href": "danl-hw/danl-299-hw-05.html#question-8",
+    "title": "Homework 5",
+    "section": "Question 8",
+    "text": "Question 8\nWrite code with pandas groupby() to filter all songs that appear in more than 100 different playlists."
+  },
+  {
+    "objectID": "danl-hw/danl-299-hw-05.html#variable-description-1",
+    "href": "danl-hw/danl-299-hw-05.html#variable-description-1",
+    "title": "Homework 5",
+    "section": "Variable Description",
+    "text": "Variable Description\n\n\n\n\n\n\n\nVariable\nDescription\n\n\n\n\nid\nUnique identifier for the product\n\n\nbrandId\nUnique identifier for the brand\n\n\nbrandName\nName of the brand\n\n\nname\nProduct name or title\n\n\nreviewCount\nNumber of customer reviews\n\n\nreviewStarRating\nAverage star rating from customer reviews\n\n\ncurrent_p\nCurrent price\n\n\nclearance_p\nClearance price (NA if not available for clearance)\n\n\n\n\nIf the product is on clearance, the product’s current_p equals its clearance_p."
+  },
+  {
+    "objectID": "danl-hw/danl-299-hw-05.html#question-9",
+    "href": "danl-hw/danl-299-hw-05.html#question-9",
+    "title": "Homework 5",
+    "section": "Question 9",
+    "text": "Question 9\nAdd a new variable discount_pct to the shoes DataFrame that shows the percentage markdown for clearance items (0 % for non-clearance).\n\\[\n(\\text{Discount Percentage}) = 100 \\times \\frac{(\\text{Current Price}) - (\\text{Clearnace Price})}{(\\text{Current Price})}\n\\]\n\nNote that the value of discount_pct is zero for all observations."
+  },
+  {
+    "objectID": "danl-hw/danl-299-hw-05.html#question-10",
+    "href": "danl-hw/danl-299-hw-05.html#question-10",
+    "title": "Homework 5",
+    "section": "Question 10",
+    "text": "Question 10\nFor each brand, compute the interquartile range (IQR) of its current_p."
+  },
+  {
+    "objectID": "danl-hw/danl-299-hw-05.html#question-11",
+    "href": "danl-hw/danl-299-hw-05.html#question-11",
+    "title": "Homework 5",
+    "section": "Question 11",
+    "text": "Question 11\nList the top 20 brands with the highest average star rating, considering only brands that have at least 1000 reviews total."
+  },
+  {
+    "objectID": "danl-hw/danl-299-hw-05.html#question-12",
+    "href": "danl-hw/danl-299-hw-05.html#question-12",
+    "title": "Homework 5",
+    "section": "Question 12",
+    "text": "Question 12\nFor each brand, compute the proportion of products on clearance. Return the result sorted from highest to lowest proportion."
+  },
+  {
+    "objectID": "danl-hw/danl-299-hw-05.html#question-13",
+    "href": "danl-hw/danl-299-hw-05.html#question-13",
+    "title": "Homework 5",
+    "section": "Question 13",
+    "text": "Question 13\nFor every brand, calculate the correlation between product price (current_p) and star rating. Keep only brands with more than 100 products."
+  },
+  {
+    "objectID": "danl-hw/danl-299-hw-05.html#question-14",
+    "href": "danl-hw/danl-299-hw-05.html#question-14",
+    "title": "Homework 5",
+    "section": "Question 14",
+    "text": "Question 14\nIdentify “premium” products inside each brand as those priced above the 90th percentile of that brand. Among these premium items, what fraction are on clearance overall?"
+  },
+  {
+    "objectID": "danl-hw/danl-299-hw-05.html#question-15",
+    "href": "danl-hw/danl-299-hw-05.html#question-15",
+    "title": "Homework 5",
+    "section": "Question 15",
+    "text": "Question 15\nAfter binning current_p into price quartiles with pd.qcut(), count the number of clearance products for each brand–quartile combination.\n\nBelow explains pd.qcut():\n\nshoes[\"price_qtile\"] = pd.qcut(shoes[\"current_p\"], 4, labels=[\"Q1\",\"Q2\",\"Q3\",\"Q4\"])\n\npd.qcut(shoes[\"current_p\"], 4, …)\n\nqcut stands for “quantile cut.”\nGiven the series of prices, it computes the 0th, 25th, 50th, 75th, and 100th percentiles.\nIt then assigns each product to one of four bins so that each bin contains (as close as possible to) the same number of products.\n\nlabels=[\"Q1\",\"Q2\",\"Q3\",\"Q4\"]\n\nInstead of getting the default interval‐notation (e.g. (10.0, 25.5]), each bin is labeled “Q1” through “Q4.”\n“Q1” will be the lowest 25% of prices, “Q2” the next 25%, and so on, up to “Q4” for the top‐priced 25%.\n\nAssignment into shoes[\"price_qtile\"]\n\nThe result is a categorical variable in your shoes DataFrame.\nYou can now easily group or filter by “Q1”, “Q2”, etc., rather than working with numeric cut‐points."
+  },
+  {
+    "objectID": "danl-hw/danl-299-hw-05.html#question-16",
+    "href": "danl-hw/danl-299-hw-05.html#question-16",
+    "title": "Homework 5",
+    "section": "Question 16",
+    "text": "Question 16\n\nFor each brand in the shoes DataFrame, add a new variable rev_scaled that re-scales reviewCount to the [0, 1] range.\n\nThe product with the highest reviewCount within its brand has a value 1 in the rev_scaled variable.\nThe product with the lowest reviewCount within its brand has a value 0 in the rev_scaled variable."
+  },
+  {
+    "objectID": "danl-hw/danl-299-hw-05.html#spotify-blog-homework-2",
+    "href": "danl-hw/danl-299-hw-05.html#spotify-blog-homework-2",
+    "title": "Homework 5",
+    "section": "Spotify Blog (Homework 2)",
+    "text": "Spotify Blog (Homework 2)\nAdd the following section to your Spotify blog:\n\nCode\n\nUse pandas to identify the ten artists with the most tracks.\n\nUse seaborn to plot the distribution of pos for each of those artists.\n\nDescription\nWrite 2–3 sentences explaining how the pos distribution differs across these top ten artists."
+  },
+  {
+    "objectID": "danl-hw/danl-299-hw-05.html#holiday-movie-blog-homework-3",
+    "href": "danl-hw/danl-299-hw-05.html#holiday-movie-blog-homework-3",
+    "title": "Homework 5",
+    "section": "Holiday Movie Blog (Homework 3)",
+    "text": "Holiday Movie Blog (Homework 3)\nAdd the following section to your Holiday Movie blog:\n\nCode\n\nUse pandas to select the five genres with the highest film counts.\n\nUse numpy to add a new variable, log of num_votes.\nUse seaborn to plot the relationship between log of num_votes and average_rating, grouping by genre and coloring or faceting by title_type.\n\nDescription\nWrite 2–3 sentences describing how the log of num_votes vs. average_rating relationship varies among the top five genres and between different title_types."
   }
 ]
