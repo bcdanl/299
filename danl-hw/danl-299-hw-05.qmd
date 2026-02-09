@@ -173,21 +173,10 @@ Write code with pandas `groupby()` to filter all songs that appear in more than 
 Below is `shoes` `DataFrame` that reads the file `onlinestore_shoes_simple.csv` containing data of "shoes" search information from an online store.
 
 ```{.python}
-#| eval: false
-#| echo: true
-#| code-fold: false
-#| message: false
-#| warning: false
-
 shoes = pd.read_csv('https://bcdanl.github.io/data/onlinestore_shoes_simple.csv')
 ```
 
 ```{.python}
-#| echo: false
-#| eval: true
-#| warning: false
-#| message: false
-
 import pandas as pd
 import numpy as np
 shoes = pd.read_csv('https://bcdanl.github.io/data/onlinestore_shoes_simple.csv')
