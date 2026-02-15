@@ -1,6 +1,6 @@
 ---
 title: Homework 1
-subtitle: Personal Website and Python Basics
+subtitle: Survey, Personal Website, and Python Basics
 date: 2025-09-11
 from: markdown+emoji
 execute: 
@@ -16,21 +16,40 @@ language:
 
 # Direction
 
-- Please submit your **Jupyter Notebook** for **Part 2 in Homework 1** to Brightspace with the name below:
+- Please submit your **Jupyter Notebook** for **Part 3 in Homework 1** to Brightspace with the name below:
 
-  - `danl-299-hw1-LASTNAME-FIRSTNAME.ipynb`\
-  ( e.g., `danl-299-hw1-choe-byeonghak.ipynb` )
+  - `danl-210-hw1-LASTNAME-FIRSTNAME.ipynb`\
+  ( e.g., `danl-210-hw1-choe-byeonghak.ipynb` )
 
-- The due is September 22, 2025, 5:15 P.M.
-
-- Please note that the use of generative AI tools (e.g., ChatGPT, Copilot) is prohibited for this assignment.
+- The due is February 17, 2025, 10:30 A.M.
 
 - Please send Prof. Choe an email ([bchoe@geneseo.edu](mailto::bchoe@geneseo.edu)) if you have any questions.
 
 <br><br><br>
 
 
-# Part 1. Quarto Website
+# Descriptive Statistics
+
+The following provides the descriptive statistics for each part of Homework 1:
+
+```{r}
+#| echo: false
+#| eval: true
+sum <- readr::read_csv("https://bcdanl.github.io/data/spring-2025-danl-210-hw1-stat.csv")
+DT::datatable(sum, options = list(pageLength = nrow(sum)))
+```
+
+<br>
+
+# Part 1. Survey
+
+Please complete the following survey:
+
+- [Link to Google Form Survey](https://docs.google.com/forms/d/e/1FAIpQLSePMyEUYogXUtNq5AV1P2mKHEJiyVDg4GrdmiiMJzx6z4w90A/viewform?usp=header)
+
+<br><br><br>
+
+# Part 2. Quarto Website
 
 1. Decorate your website:
   - Replace `YOUR NAME` with your name in `_quarto.yml` and `index.qmd`.
@@ -50,7 +69,7 @@ language:
     - `pandas_basic.ipynb` and `seaborn_basic.ipynb` files are available from Brightspace.
 
 4. Add a "Python Basics" blog post to your blog using **Jupyter Notebook**.
-  - In your "Python Basics" blog post, briefly explain Python Basics we discussed in [Lecture 4](https://bcdanl.github.io/299/danl-lec/danl-299-lec-04-2025-0908.html) and [Lecture 5](https://bcdanl.github.io/299/danl-lec/danl-299-lec-05-2025-0910.html), and in [Classwork 4](https://bcdanl.github.io/299/danl-cw/danl-299-cw-04.html)
+  - In your "Python Basics" blog post, briefly explain Python Basics we discussed in [Lecture 4](https://bcdanl.github.io/210/danl-lec/danl-210-lec-04-2025-0131.html) and [Lecture 5](https://bcdanl.github.io/210/danl-lec/danl-210-lec-05-2025-0203.html), and in [Classwork 4](https://bcdanl.github.io/210/danl-cw/danl-210-cw-04.html)
   - Choose a proper image file for a thumbnail for a blog post.
   - An YAML header template for a blog post can be found below, including an image option:
   
@@ -58,7 +77,7 @@ language:
 ---
 title: BLOG_TITLE
 author: YOUR_NAME
-date: 2025-09-11
+date: 2025-02-14
 categories: [tag_1, tag_2, tag_3] # tags for a blog post (e.g., python)
 image: "image.png"
 
@@ -74,7 +93,7 @@ toc: true
 <br><br><br>
 
 
-# Part 2. Python Basics
+# Part 3. Python Basics
 
 
 ## Question 0
@@ -93,6 +112,9 @@ Provide your GitHub username.
 
 
 ```{python}
+list_numbers = list(range(1, 11))
+list_numbers.append(11)
+list_numbers.remove(5)
 ```
 
 
@@ -114,6 +136,17 @@ dict_salaries = {'Alice': 50000, 'Bob': 60000, 'Charlie': 70000}
 
 
 ```{python}
+dict_salaries = {'Alice': 50000, 'Bob': 60000, 'Charlie': 70000}
+dict_salaries['Dana'] = 65000
+dict_salaries['Alice'] = 55000
+
+for name, salary in dict_salaries.items():
+    print(name, ":", salary)
+    
+# An f-string (formatted string literal) is a way to embed expressions 
+  # inside string literals using curly braces `{}`.
+for name, salary in dict_salaries.items():
+    print(f'{name}: {salary}')
 ```
 
 
@@ -135,6 +168,13 @@ dict_salaries = {'Alice': 50000, 'Bob': 60000, 'Charlie': 70000}
 
 
 ```{python}
+salary = 75000
+if salary < 50000:
+    print('Low')
+elif 50000 <= salary < 100000:
+    print('Medium')
+else:
+    print('High')
 ```
 
 <br>
@@ -152,6 +192,21 @@ dict_salaries = {'Alice': 50000, 'Bob': 60000, 'Charlie': 70000}
 
 
 ```{python}
+role = 'Manager'
+salary = 85000
+
+if role == 'Manager':
+    if salary > 80000:
+        print('Eligible for bonus')
+    else:
+        print('No action needed')
+elif role == 'Analyst':
+    if salary < 60000:
+        print('Eligible for raise')
+    else:
+        print('No action needed')
+else:
+    print('No action needed')
 ```
 
 <br><br>
@@ -173,6 +228,14 @@ list_salaries = [45000, 60000, 75000, 120000, 30000]
 
 
 ```{python}
+list_salaries = [45000, 60000, 75000, 120000, 30000]
+average_salary = sum(list_salaries) / len(list_salaries)
+
+for salary in list_salaries:
+    if salary > average_salary:
+        print(f'{salary} is Above Average')
+    else:
+        print(f'{salary} is Below Average')
 ```
 
 <br>
@@ -187,6 +250,10 @@ list_salaries = [45000, 60000, 75000, 120000, 30000]
 
 
 ```{python}
+salary = 50000
+while salary <= 80000:
+    print(f'Salary: {salary}')
+    salary += 5000
 ```
 
 <br>
@@ -205,6 +272,11 @@ salaries = {'Alice': 50000, 'Bob': 60000, 'Charlie': 70000, 'Dana': 45000}
 
 
 ```{python}
+salaries = {'Alice': 50000, 'Bob': 60000, 'Charlie': 70000, 'Dana': 45000}
+
+for name, salary in salaries.items():
+    if salary > 55000:
+        print(f'{name} earns more than 55000')
 ```
 
 
@@ -225,6 +297,22 @@ data_list = [42, 3.14, 'Data Analytics', True, None, [1, 2, 3], {'key': 'value'}
 
 
 ```{python}
+data_list = [42, 3.14, 'Data Analytics', True, None, [1, 2, 3], {'key': 'value'}, (4, 5)]
+
+for item in data_list:
+    print(f'Original: {item}, Type: {type(item)}')
+    
+    if item == 42:
+        item = str(item)
+        print(f'Converted 42 to string: {item}, Type: {type(item)}')
+    
+    if item == 3.14:
+        item = float(str(item))
+        print(f'Converted "3.14" to float: {item}, Type: {type(item)}')
+
+    if item is True:
+        item = int(item)
+        print(f'Converted True to integer: {item}, Type: {type(item)}')
 ```
 
 <br><br>
@@ -247,6 +335,14 @@ b = 0
 
 
 ```{python}
+a = 10
+b = 0
+
+try:
+    result = a / b
+    print(result)
+except ZeroDivisionError:
+    print('Cannot divide by zero!')
 ```
 
 <br>
@@ -265,6 +361,14 @@ salaries = {'Alice': 50000, 'Bob': None, 'Charlie': 70000, 'Dana': None, 'Eve': 
 
 
 ```{python}
+salaries = {'Alice': 50000, 'Bob': None, 'Charlie': 70000, 'Dana': None, 'Eve': 80000}
+total = 0
+
+for name, salary in salaries.items():
+    try:
+        total += salary
+    except TypeError:
+        continue
 ```
 
 <br><br>
@@ -278,6 +382,8 @@ salaries = {'Alice': 50000, 'Bob': None, 'Charlie': 70000, 'Dana': None, 'Eve': 
 
 
 ```{python}
+import math
+math.sqrt(81)
 ```
 
 <br><br>
