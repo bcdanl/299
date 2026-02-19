@@ -21,19 +21,28 @@ library(tidyverse)
 
 
 
+# Descriptive Statistics
+
+The following provides the descriptive statistics for each part of the Homework 4:
+
+```{r}
+#| echo: false
+#| eval: true
+sum <- readr::read_csv("https://bcdanl.github.io/data/spring-2025-danl-210-hw4-stat.csv")
+DT::datatable(sum, options = list(pageLength = nrow(sum)), rownames = FALSE)
+```
+
+<br>
 
 
 # Direction
 
-- Please submit your **Python Script** for **Part 1 in Homework 4** to Brightspace with the name below:
+- Please submit your **Python Script** for **Part 1 and Part 2 in Homework 4** to Brightspace with the name below:
 
-  - `danl_299_hw4_LASTNAME_FIRSTNAME.py`\
-  ( e.g., `danl_299_hw4_choe_byeonghak.py` )
+  - `danl_210_hw4_LASTNAME_FIRSTNAME.py`\
+  ( e.g., `danl_210_hw4_choe_byeonghak.py` )
 
-- The due for Part 1 in Homework 4 is December 8, 2025, 5:15 P.M.
-
-- The due for Part 2 in Homework 4 is February 2, 2025, 5:15 P.M.
-
+- The due is April 18, 2025, 10:30 A.M.
 
 - Please send Prof. Choe an email ([bchoe@geneseo.edu](mailto::bchoe@geneseo.edu)) if you have any questions.
 
@@ -48,6 +57,54 @@ library(tidyverse)
 - Provide a Python Selenium code to download all the MS Excel files in the webpage above.
   - Please make sure that you do not download any PDF files.
 
+
+```{python}
+# %%
+# =============================================================================
+# Setup
+# =============================================================================
+
+# import pandas as pd
+# import numpy as np
+# import os
+# from selenium.webdriver.chrome.service import Service
+
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.common.by import By
+import time
+import random
+
+# Optional: Set your desired download directory
+  # Default download directory is usually "Download"
+download_dir = '/Users/bchoe/My Drive/suny-geneseo/spring2025/lecture-code/data'
+
+chrome_options = Options()
+chrome_options.add_experimental_option("prefs", {
+    "download.default_directory": download_dir,
+    "download.prompt_for_download": False,
+    "download.directory_upgrade": True,
+    "safebrowsing.enabled": True  # Allow downloads without warnings
+})
+
+driver = webdriver.Chrome(options=chrome_options)
+url = 'https://www.nyc.gov/site/finance/property/property-annualized-sales-update.page'
+driver.get(url)
+
+# %%
+# =============================================================================
+# Downloading only Excel files (.xlsx or .xls)
+# =============================================================================
+
+excel_files_1 = driver.find_elements(By.PARTIAL_LINK_TEXT, 'Download')
+excel_files_2 = driver.find_elements(By.PARTIAL_LINK_TEXT, 'M')
+excel_files = excel_files_1 + excel_files_2
+
+for item in excel_files:
+    if ".x" in item.get_attribute('href'):
+        item.click()
+        time.sleep(random.uniform(.5, 1.25))
+```
 
 
 <br><br>
@@ -73,7 +130,7 @@ DT::datatable(df)
 
 <br>
 
-For more information regarding the index, please visit [Standard & Poor's](https://www.spglobal.com/spdji/es/documents/methodologies/methodology-sp-cotality-cs-home-price-indices.pdf). There is more information about home price sales pairs in the Methodology section. Copyright, 2025, Standard & Poor's Financial Services LLC. 
+For more information regarding the index, please visit [Standard & Poor's](https://www.spglobal.com/spdji/en/documents/methodologies/methodology-sp-corelogic-cs-home-price-indices.pdf). There is more information about home price sales pairs in the Methodology section. Copyright, 2016, Standard & Poor's Financial Services LLC. 
 
 
 Provide a Python code (**excluding your FRED API key**) to construct the following DataFrame:
@@ -142,6 +199,73 @@ df_sorted = df.sort_values('tier')
 ```
 
 <br>
+
+Making requests to the FRED API
+```{python}
+import requests
+import pandas as pd
+
+url = 'https://bcdanl.github.io/data/fred_api_series_housing_price.csv'
+series_housing_price = pd.read_csv(url)
+
+api_key = 'YOUR_API_KEY'
+endpoint = "series/observations"
+url = "https://api.stlouisfed.org/"
+
+df_all = pd.DataFrame()
+for val in series_housing_price['id'].tolist():
+    params = {
+      'api_key': api_key, 
+      'file_type': 'json',
+      'series_id': f'{val}'    
+    }
+    response = requests.get(url + "fred/" + endpoint, 
+                            params = params)
+    
+    # Convert JSON response to Python dictionary.
+    fred = response.json() 
+    
+    # Extract the "observations" list element.
+    df = pd.DataFrame( fred['observations'] )
+    df = df[['date', 'value']]
+    df['id'] = val
+    df_all = pd.concat([df_all, df], ignore_index=True)
+
+```
+
+<br>
+
+Cleaning raw data
+```{python}
+# Join
+df_all = df_all.merge(df_housing, on = 'id', how = 'left')
+
+# String operations
+df_all['title'] = df_all['title'].str.replace('Home Price Index (', '')
+df_all[['tier', 'city']] = df_all['title'].str.split(' Tier\) for ', expand=True)
+df_all[['city', 'state']] = df_all['city'].str.split(', ', expand=True)
+
+# Selecting variables
+df_all = df_all[['city', 'state', 'tier', 'date', 'value']]
+
+# Renaming
+df_all = df_all.rename( columns = { "value": "home_price_index" } )
+
+# Converting Data Types
+df_all = df_all.astype({'value': 'float',
+                        'date': 'datetime64[ns]'})
+tier_order = ['Low', 'Middle', 'High']  # your desired order
+df_all['tier'] = pd.Categorical(df_all['tier'], categories=tier_order, ordered=True)
+
+# Sorting
+df_all = df_all.sort_values(['state', 'city', 'date', 'tier'],
+                            ascending = [True, True, False, True])
+
+# Exporting DataFrame as a CSV file
+df_all.to_csv("PATHNAME_OF_df_all.csv",
+              index=False)
+```
+
 
 
 <br><br><br>
@@ -213,6 +337,10 @@ rmarkdown::paged_table(cms_ny_2022)
 ## Question 3
 - Write a Python code to convert the **string** type `Physician_or_NPP` variable into the **category** type variable.
 
+```{r}
+cms_ny_2022['Physician_or_NPP'] = cms_ny_2022['Physician_or_NPP'].astype('category')
+
+```
 
 
 <br>
@@ -239,12 +367,33 @@ rmarkdown::paged_table(df)
 ```
 
 
+`np.where()`
+```{python}
+q4 = cms_ny_2022[['Specialty', 'Specialty_Detail']]
+q4['Specialty_Detail'] = np.where(q4['Specialty_Detail'].isna(),
+                                  q4['Specialty'],
+                                  q4['Specialty_Detail']
+                                  )
+
+```
+
+`fillna()`
+```{r}
+q4 = cms_ny_2022[['Specialty', 'Specialty_Detail']]
+q4['Specialty_Detail']=q4['Specialty_Detail'].fillna(q4['Specialty'])
+```
+
 <br>
 
 ## Question 5
 Write a Python code to count the number of transactions in which the payment amount (i.e., `Amount_of_Payment`) falls in the top 10% of all payments in the DataFrame. 
 
 
+
+```{python}
+top10pct = cms_ny_2022['Amount_of_Payment'].quantile(.9)
+cms_ny_2022[ cms_ny_2022['Amount_of_Payment'] > top10pct].shape[0]
+```
 
 <br>
 
@@ -254,6 +403,15 @@ Write a Python code to count the number of transactions in which the payment amo
 Write a Python code to identify the city or cities with the highest number of non-missing values in the `Specialty_Detail` variable of the `cms_ny_2022` DataFrame.
 
 
+
+```{python}
+(
+ cms_ny_2022[ ~cms_ny_2022['Specialty_Detail'].isna() ]['City']
+ .value_counts()
+ .reset_index()
+ .nlargest(1, 'count', keep="all")
+ )
+```
 
 <br>
 
@@ -278,6 +436,14 @@ rmarkdown::paged_table(df)
 
 
 
+```{python}
+(
+ cms_ny_2022[['Taxonomy', 'Specialty_Detail']]
+ .value_counts()
+ .reset_index()
+ .sort_values(['Taxonomy', 'Specialty_Detail'])
+ )
+```
 
 <br>
 
@@ -294,7 +460,6 @@ rmarkdown::paged_table(df)
 #| message: false
 df <- cms_ny_2022 |> 
   filter(Taxonomy == "Dental Providers") |> 
-  group_by(Taxonomy) |> 
   summarise(n_unique = n_distinct(Specialty_Detail))
 
 rmarkdown::paged_table(df)
@@ -303,6 +468,21 @@ rmarkdown::paged_table(df)
 
 
 
+```{python}
+(
+ cms_ny_2022[cms_ny_2022['Taxonomy'] == "Dental Providers"]['Specialty_Detail']
+ .nunique()
+ )
+```
+
+
+```{python}
+(
+ cms_ny_2022[cms_ny_2022['Taxonomy'] == "Dental Providers"]['Specialty_Detail']
+ .value_counts()
+ .shape[0]
+ )
+```
 
 <br>
 
@@ -311,6 +491,27 @@ rmarkdown::paged_table(df)
 - Write a Python code (1) to count the number of missing values and (2) to calculate mean, standard deviation, minimum, first quartile, median, third quartile, and maximum of the `Amount_of_Payment` variable for the value **Dermatology** in the `Specialty` variable.
 
 
+
+```{python}
+(
+ cms_ny_2022[cms_ny_2022['Specialty'] == "Dermatology"][['Amount_of_Payment']]
+ .info()
+ )
+```
+
+
+```{python}
+x = cms_ny_2022[cms_ny_2022['Specialty'] == "Dermatology"]['Amount_of_Payment'].isna()
+sum(x)
+```
+
+
+```{python}
+(
+ cms_ny_2022[cms_ny_2022['Specialty'] == "Dermatology"]['Amount_of_Payment']
+ .describe()
+ )
+```
 
 <br>
 
@@ -340,6 +541,100 @@ rmarkdown::paged_table(df, options = list(rows.print = nrow(df)))
 
 ```
 
+
+<br>
+Using join
+```{python}
+df = (
+      cms_ny_2022[['City', 'Physician_or_NPP', 'NPI']]
+      .drop_duplicates()[['City', 'Physician_or_NPP']]
+      .value_counts()
+      .reset_index()
+      )
+
+df_1 = (
+        cms_ny_2022[['City', 'Physician_or_NPP', 'NPI']]
+        .drop_duplicates()['City']
+        .value_counts()
+        .reset_index()
+        .rename( columns = {'count' : 'Total_Count'})
+        )
+
+df = (
+      df
+      .merge(df_1, on = 'City', how = 'left')
+      .sort_values(['Total_Count', 'Physician_or_NPP'], ascending = [False, True])
+      )
+      
+df['Percent'] = 100 * df['count'] / df['Total_Count']
+```
+
+<br>
+
+Using for-loop with dictionary container
+```{python}
+cms_ny_2022.shape[0]
+cms_ny_2022['NPI'].nunique()
+
+df = (
+ cms_ny_2022[['City', 'Physician_or_NPP', 'NPI']]
+ .drop_duplicates()[['City', 'Physician_or_NPP']]
+ .value_counts()
+ .reset_index()
+ )
+
+d = {}
+for city in cms_ny_2022['City'].unique():
+    val = df[ df['City'] == city ]['count'].sum()
+    d[ city ] = val
+    
+df_tot = pd.DataFrame([d]).T.reset_index()
+df_tot.columns = ['City', 'Total_Count']
+
+df = df.merge(df_tot, on='City', how = 'left')
+df['Percent'] = 100 * df['count'] / df['Total_Count']
+df = df.sort_values(['Total_Count', 'City'], ascending = [False, True])
+```
+
+
+<br>
+
+Group operation with `groupby()`
+```{python}
+df_grouped = (
+ cms_ny_2022[['City', 'Physician_or_NPP', 'NPI']]
+ .drop_duplicates()
+ .groupby(['City', 'Physician_or_NPP'])
+ .size()  # number of observations in each group
+ .reset_index(name='count')
+ )
+
+df_grouped['Total_Count'] = df_grouped.groupby('City')['count'].transform('sum')
+df_grouped['Percent'] = (100 * df_grouped['count'] / df_grouped['Total_Count'])
+df_grouped = df_grouped.sort_values(['Total_Count', 'City'], ascending = [False, True])
+```
+
+
+<br>
+
+Group operation with `assign()` and `lambda`
+```{python}
+df_grouped = (
+    cms_ny_2022[['City', 'Physician_or_NPP', 'NPI']]
+    .drop_duplicates()
+    .groupby(['City', 'Physician_or_NPP'])
+    .size()
+    .reset_index(name = 'count')
+    .assign(
+        Total_Count = lambda df: df.groupby('City')['count'].transform('sum'),
+        Percent = lambda df: 100 * df['count'] / df['Total_Count']
+    )
+    .sort_values(['Total_Count', 'City'], ascending=[False, True])
+)
+
+
+```
+
 <br>
 
 
@@ -358,13 +653,35 @@ rmarkdown::paged_table(df, options = list(rows.print = nrow(df)))
 df_producer_city <- cms_ny_2022 |> 
   filter(City %in% c('Rochester', 'Buffalo', 'Syracuse'),
          Product_Manufacturer == "AbbVie Inc.") |> 
-  group_by(Product_Manufacturer) |> 
   summarise(Total_Amount_of_Payment = round(sum(Amount_of_Payment, na.rm = T), 2),
             count = n())
 
 rmarkdown::paged_table(df_producer_city)
 ```
 
+
+<br>
+
+```{python}
+(
+ cms_ny_2022.query(
+     'Product_Manufacturer == "AbbVie Inc." & City.isin(["Rochester", "Buffalo", "Syracuse"])'
+     )['Amount_of_Payment']
+ .sum()
+ )
+```
+
+
+<br>
+
+```{python}
+(
+ cms_ny_2022.query(
+     'Product_Manufacturer == "AbbVie Inc." & City.isin(["Rochester", "Buffalo", "Syracuse"])'
+     )
+ .shape[0]
+ )
+```
 
 <br>
 
@@ -429,6 +746,34 @@ rmarkdown::paged_table(cms_ny_2022_records)
 - Write a Python code to create the `cms_ny_2022` DataFrame by using the `cms_ny_2022_npi` and `cms_ny_2022_records` DataFrames. 
 
 
+<br>
+
+Below is the many-to-many join. Therefore, the `cms_ny_2022_new` DataFrame has more observations than `cms_ny_2022`.
+```{python}
+cms_ny_2022_new = cms_ny_2022_records.merge(cms_ny_2022_npi, on = 'NPI', how = 'left')
+```
+
+
+<br>
+
+This happens because `NPI` variable in the `cms_ny_2022_npi` DataFrame has duplicate values.
+
+```{python}
+# Dividing `cms_ny_2022_npi` into the two DataFrames
+cms_ny_2022_npi_dup = cms_ny_2022_npi[cms_ny_2022_npi['NPI'].duplicated(keep=False)].sort_values('NPI')
+cms_ny_2022_npi_unique = cms_ny_2022_npi[~cms_ny_2022_npi['NPI'].duplicated(keep=False)]
+
+# Creating a DataFrame with only non-duplicate values in NPI variable:
+cms_ny_2022_npi_dup_to_unique = cms_ny_2022_npi_dup.drop_duplicates(subset=['NPI'], keep='first')
+cms_ny_2022_npi_unique_all = pd.concat([cms_ny_2022_npi_unique, cms_ny_2022_npi_dup_to_unique])
+
+# Below can match the number of observations in cms_ny_2022, 
+# but may not match values in non-NPI variables in cms_ny_2022_npi
+cms_ny_2022_new2 = cms_ny_2022_records.merge(cms_ny_2022_npi_unique_all, on = 'NPI', how = 'left')
+
+# To replicate cms_ny_2022, we need to create a new key variable that uniquely identifies observations in `cms_ny_2022_npi`.
+```
+
 
 <br>
 
@@ -452,5 +797,38 @@ rmarkdown::paged_table(City_Physician_or_NPP, options = list(rows.print = nrow(C
 
 
 <br>
+
+
+Below is correct:
+```{python}
+City_Physician_or_NPP = (
+    cms_ny_2022[['City', 'Physician_or_NPP', 'NPI']]
+    .drop_duplicates()[['City', 'Physician_or_NPP']]
+    .value_counts()
+    .reset_index()
+    .pivot(index = 'City',
+           columns = 'Physician_or_NPP',
+           values = 'count'
+           )
+    .reset_index()
+    )
+```
+
+
+<br>
+
+Below is incorrect:
+```{python}
+City_Physician_or_NPP = (
+    cms_ny_2022[['City', 'Physician_or_NPP']]
+    .value_counts()
+    .reset_index()
+    .pivot(index = 'City',
+           columns = 'Physician_or_NPP',
+           values = 'count'
+           )
+    .reset_index()
+    )
+```
 
 

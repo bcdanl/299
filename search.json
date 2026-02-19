@@ -2286,7 +2286,7 @@
     "href": "listing-danl-299-hw.html",
     "title": "DANL 299 - Homework",
     "section": "",
-    "text": "Title\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nHomework 5\n\n\nPandas Group Operations\n\n\nFebruary 7, 2026\n\n\n\n\nHomework 4\n\n\nPython selenium, APIs, & Pandas Basics\n\n\nNovember 24, 2025\n\n\n\n\nHomework 3\n\n\nPython selenium & Pandas Basics\n\n\nNovember 4, 2025\n\n\n\n\nHomework 2\n\n\nPandas Basics\n\n\nSeptember 25, 2025\n\n\n\n\nHomework 1\n\n\nSurvey, Personal Website, and Python Basics\n\n\nSeptember 11, 2025\n\n\n\n\n\n\nNo matching items\n\n Back to top"
+    "text": "Title\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nHomework 5\n\n\nPandas Group Operations\n\n\nFebruary 7, 2026\n\n\n\n\nHomework 4\n\n\nPython selenium, APIs, & Pandas Basics\n\n\nNovember 24, 2025\n\n\n\n\nHomework 4\n\n\nPython selenium, APIs, & Pandas Basics\n\n\nNovember 24, 2025\n\n\n\n\nHomework 3\n\n\nPython selenium & Pandas Basics\n\n\nNovember 4, 2025\n\n\n\n\nHomework 2\n\n\nPandas Basics\n\n\nSeptember 25, 2025\n\n\n\n\nHomework 1\n\n\nSurvey, Personal Website, and Python Basics\n\n\nSeptember 11, 2025\n\n\n\n\n\n\nNo matching items\n\n Back to top"
   },
   {
     "objectID": "danl-lec/danl-299-lec-16-2025-1105.html#webdriver",
@@ -4204,21 +4204,21 @@
     "href": "danl-hw/danl-299-hw-04.html",
     "title": "Homework 4",
     "section": "",
-    "text": "Please submit your Python Script for Part 1 in Homework 4 to Brightspace with the name below:\n\ndanl_299_hw4_LASTNAME_FIRSTNAME.py\n( e.g., danl_299_hw4_choe_byeonghak.py )\n\nThe due for Part 1 in Homework 4 is December 8, 2025, 5:15 P.M.\nThe due for Part 2 in Homework 4 is February 2, 2025, 5:15 P.M.\nPlease send Prof. Choe an email (bchoe@geneseo.edu) if you have any questions."
+    "text": "The following provides the descriptive statistics for each part of the Homework 4:"
   },
   {
     "objectID": "danl-hw/danl-299-hw-04.html#question-1",
     "href": "danl-hw/danl-299-hw-04.html#question-1",
     "title": "Homework 4",
     "section": "Question 1",
-    "text": "Question 1\n\nGo to the following webpage: https://www.nyc.gov/site/finance/property/property-annualized-sales-update.page\nProvide a Python Selenium code to download all the MS Excel files in the webpage above.\n\nPlease make sure that you do not download any PDF files."
+    "text": "Question 1\n\nGo to the following webpage: https://www.nyc.gov/site/finance/property/property-annualized-sales-update.page\nProvide a Python Selenium code to download all the MS Excel files in the webpage above.\n\nPlease make sure that you do not download any PDF files.\n\n\n\n\nClick to Check the Answer!\n# %%\n# =============================================================================\n# Setup\n# =============================================================================\n\n# import pandas as pd\n# import numpy as np\n# import os\n# from selenium.webdriver.chrome.service import Service\n\nfrom selenium import webdriver\nfrom selenium.webdriver.chrome.options import Options\nfrom selenium.webdriver.common.by import By\nimport time\nimport random\n\n# Optional: Set your desired download directory\n  # Default download directory is usually \"Download\"\ndownload_dir = '/Users/bchoe/My Drive/suny-geneseo/spring2025/lecture-code/data'\n\nchrome_options = Options()\nchrome_options.add_experimental_option(\"prefs\", {\n    \"download.default_directory\": download_dir,\n    \"download.prompt_for_download\": False,\n    \"download.directory_upgrade\": True,\n    \"safebrowsing.enabled\": True  # Allow downloads without warnings\n})\n\ndriver = webdriver.Chrome(options=chrome_options)\nurl = 'https://www.nyc.gov/site/finance/property/property-annualized-sales-update.page'\ndriver.get(url)\n\n# %%\n# =============================================================================\n# Downloading only Excel files (.xlsx or .xls)\n# =============================================================================\n\nexcel_files_1 = driver.find_elements(By.PARTIAL_LINK_TEXT, 'Download')\nexcel_files_2 = driver.find_elements(By.PARTIAL_LINK_TEXT, 'M')\nexcel_files = excel_files_1 + excel_files_2\n\nfor item in excel_files:\n    if \".x\" in item.get_attribute('href'):\n        item.click()\n        time.sleep(random.uniform(.5, 1.25))"
   },
   {
     "objectID": "danl-hw/danl-299-hw-04.html#question-2",
     "href": "danl-hw/danl-299-hw-04.html#question-2",
     "title": "Homework 4",
     "section": "Question 2",
-    "text": "Question 2\nThe series_housing_price DataFrame contains FRED series ids for the Home Price Index across 16 metropolitan statistical areas, each categorized into three price tiers: low, middle, and high.\nurl = 'https://bcdanl.github.io/data/fred_api_series_housing_price.csv'\nseries_housing_price = pd.read_csv(url)\n\n\n\n\n\n\n\n\nFor more information regarding the index, please visit Standard & Poor’s. There is more information about home price sales pairs in the Methodology section. Copyright, 2025, Standard & Poor’s Financial Services LLC.\nProvide a Python code (excluding your FRED API key) to construct the following DataFrame:\n\n\n\n\n\n\n\n\n\n\n\n\n\nNote that the id variable in the series_housing_price DataFrame corresponds to the series_id key used in the parameter dictionary (param_dicts) used for making requests to the FRED API.\nTo iterate over the id values in the series_housing_price DataFrame, you can convert the variable to a list using .tolist():\n\nfor val in series_housing_price['id'].tolist():\n   # do something with val\n\nBelow replaces ‘Home Price Index (’ with ’’ (empty string) in the title column:\n\ndf_all['title'] = df_all['title'].str.replace('Home Price Index (', '')\n\nThe title column can split into the tier and city variables using the following code:\n\n# Split the 'title' column into two new variables, 'ranking' and 'title'\n# by the first occurrence of \" Tier) for \". \n\n# expand=True tells pandas to return the results in a DataFrame\n  # If expand were False, the result would be a Series of lists.\n\n# Use \\) to escape the closing parenthesis, which has special meaning in regex\ndf_all[['tier', 'city']] = df_all['title'].str.split(' Tier\\) for ', expand=True)  \n\nThe DataFrame is sorted first by state, then by city within each state, then by date in descending order within each city, and finally by tier within each city-date group.\n\nTo sort observations in a custom order (like Low, Middle, High), you can convert the tier variable to a categorical variable with an explicit order, and then sort.\n\n\ndf = pd.DataFrame({\n    'tier': ['Middle', 'High', 'Low', 'Middle', 'Low'],\n    'city': ['NY', 'LA', 'CHI', 'SF', 'SEA']\n})\n\ntier_order = ['Low', 'Middle', 'High']\ndf['tier'] = pd.Categorical(df['tier'], categories=tier_order, ordered=True)\n\ndf_sorted = df.sort_values('tier')"
+    "text": "Question 2\nThe series_housing_price DataFrame contains FRED series ids for the Home Price Index across 16 metropolitan statistical areas, each categorized into three price tiers: low, middle, and high.\nurl = 'https://bcdanl.github.io/data/fred_api_series_housing_price.csv'\nseries_housing_price = pd.read_csv(url)\n\n\n\n\n\n\n\n\nFor more information regarding the index, please visit Standard & Poor’s. There is more information about home price sales pairs in the Methodology section. Copyright, 2016, Standard & Poor’s Financial Services LLC.\nProvide a Python code (excluding your FRED API key) to construct the following DataFrame:\n\n\n\n\n\n\n\n\n\n\n\n\n\nNote that the id variable in the series_housing_price DataFrame corresponds to the series_id key used in the parameter dictionary (param_dicts) used for making requests to the FRED API.\nTo iterate over the id values in the series_housing_price DataFrame, you can convert the variable to a list using .tolist():\n\nfor val in series_housing_price['id'].tolist():\n   # do something with val\n\nBelow replaces ‘Home Price Index (’ with ’’ (empty string) in the title column:\n\ndf_all['title'] = df_all['title'].str.replace('Home Price Index (', '')\n\nThe title column can split into the tier and city variables using the following code:\n\n# Split the 'title' column into two new variables, 'ranking' and 'title'\n# by the first occurrence of \" Tier) for \". \n\n# expand=True tells pandas to return the results in a DataFrame\n  # If expand were False, the result would be a Series of lists.\n\n# Use \\) to escape the closing parenthesis, which has special meaning in regex\ndf_all[['tier', 'city']] = df_all['title'].str.split(' Tier\\) for ', expand=True)  \n\nThe DataFrame is sorted first by state, then by city within each state, then by date in descending order within each city, and finally by tier within each city-date group.\n\nTo sort observations in a custom order (like Low, Middle, High), you can convert the tier variable to a categorical variable with an explicit order, and then sort.\n\n\ndf = pd.DataFrame({\n    'tier': ['Middle', 'High', 'Low', 'Middle', 'Low'],\n    'city': ['NY', 'LA', 'CHI', 'SF', 'SEA']\n})\n\ntier_order = ['Low', 'Middle', 'High']\ndf['tier'] = pd.Categorical(df['tier'], categories=tier_order, ordered=True)\n\ndf_sorted = df.sort_values('tier')\n\nMaking requests to the FRED API\n\n\nClick to Check the Answer!\nimport requests\nimport pandas as pd\n\nurl = 'https://bcdanl.github.io/data/fred_api_series_housing_price.csv'\nseries_housing_price = pd.read_csv(url)\n\napi_key = 'YOUR_API_KEY'\nendpoint = \"series/observations\"\nurl = \"https://api.stlouisfed.org/\"\n\ndf_all = pd.DataFrame()\nfor val in series_housing_price['id'].tolist():\n    params = {\n      'api_key': api_key, \n      'file_type': 'json',\n      'series_id': f'{val}'    \n    }\n    response = requests.get(url + \"fred/\" + endpoint, \n                            params = params)\n    \n    # Convert JSON response to Python dictionary.\n    fred = response.json() \n    \n    # Extract the \"observations\" list element.\n    df = pd.DataFrame( fred['observations'] )\n    df = df[['date', 'value']]\n    df['id'] = val\n    df_all = pd.concat([df_all, df], ignore_index=True)\n\n\n\nCleaning raw data\n\n\nClick to Check the Answer!\n# Join\ndf_all = df_all.merge(df_housing, on = 'id', how = 'left')\n\n# String operations\ndf_all['title'] = df_all['title'].str.replace('Home Price Index (', '')\ndf_all[['tier', 'city']] = df_all['title'].str.split(' Tier\\) for ', expand=True)\ndf_all[['city', 'state']] = df_all['city'].str.split(', ', expand=True)\n\n# Selecting variables\ndf_all = df_all[['city', 'state', 'tier', 'date', 'value']]\n\n# Renaming\ndf_all = df_all.rename( columns = { \"value\": \"home_price_index\" } )\n\n# Converting Data Types\ndf_all = df_all.astype({'value': 'float',\n                        'date': 'datetime64[ns]'})\ntier_order = ['Low', 'Middle', 'High']  # your desired order\ndf_all['tier'] = pd.Categorical(df_all['tier'], categories=tier_order, ordered=True)\n\n# Sorting\ndf_all = df_all.sort_values(['state', 'city', 'date', 'tier'],\n                            ascending = [True, True, False, True])\n\n# Exporting DataFrame as a CSV file\ndf_all.to_csv(\"PATHNAME_OF_df_all.csv\",\n              index=False)"
   },
   {
     "objectID": "danl-hw/danl-299-hw-04.html#variable-description",
@@ -4232,77 +4232,77 @@
     "href": "danl-hw/danl-299-hw-04.html#question-3",
     "title": "Homework 4",
     "section": "Question 3",
-    "text": "Question 3\n\nWrite a Python code to convert the string type Physician_or_NPP variable into the category type variable."
+    "text": "Question 3\n\nWrite a Python code to convert the string type Physician_or_NPP variable into the category type variable.\n\n\n\nClick to Check the Answer!\ncms_ny_2022['Physician_or_NPP'] = cms_ny_2022['Physician_or_NPP'].astype('category')"
   },
   {
     "objectID": "danl-hw/danl-299-hw-04.html#question-4",
     "href": "danl-hw/danl-299-hw-04.html#question-4",
     "title": "Homework 4",
     "section": "Question 4",
-    "text": "Question 4\n\nWrite a Python code to replace the NaN value of the Specialty_Detail variable with the value of the Specialty variable.\n\nFor example, the following shows that\n\nAll NaN values in the Specialty_Detail variable, where the Specialty is Physician Assistant, are replaced with Physician Assistant."
+    "text": "Question 4\n\nWrite a Python code to replace the NaN value of the Specialty_Detail variable with the value of the Specialty variable.\n\nFor example, the following shows that\n\nAll NaN values in the Specialty_Detail variable, where the Specialty is Physician Assistant, are replaced with Physician Assistant.\n\n\n\n\n\n\n\n  \n\n\n\nnp.where()\n\n\nClick to Check the Answer!\nq4 = cms_ny_2022[['Specialty', 'Specialty_Detail']]\nq4['Specialty_Detail'] = np.where(q4['Specialty_Detail'].isna(),\n                                  q4['Specialty'],\n                                  q4['Specialty_Detail']\n                                  )\n\n\nfillna()\n\n\nClick to Check the Answer!\nq4 = cms_ny_2022[['Specialty', 'Specialty_Detail']]\nq4['Specialty_Detail']=q4['Specialty_Detail'].fillna(q4['Specialty'])"
   },
   {
     "objectID": "danl-hw/danl-299-hw-04.html#question-5",
     "href": "danl-hw/danl-299-hw-04.html#question-5",
     "title": "Homework 4",
     "section": "Question 5",
-    "text": "Question 5\nWrite a Python code to count the number of transactions in which the payment amount (i.e., Amount_of_Payment) falls in the top 10% of all payments in the DataFrame."
+    "text": "Question 5\nWrite a Python code to count the number of transactions in which the payment amount (i.e., Amount_of_Payment) falls in the top 10% of all payments in the DataFrame.\n\n\nClick to Check the Answer!\ntop10pct = cms_ny_2022['Amount_of_Payment'].quantile(.9)\ncms_ny_2022[ cms_ny_2022['Amount_of_Payment'] &gt; top10pct].shape[0]"
   },
   {
     "objectID": "danl-hw/danl-299-hw-04.html#question-6",
     "href": "danl-hw/danl-299-hw-04.html#question-6",
     "title": "Homework 4",
     "section": "Question 6",
-    "text": "Question 6\nWrite a Python code to identify the city or cities with the highest number of non-missing values in the Specialty_Detail variable of the cms_ny_2022 DataFrame."
+    "text": "Question 6\nWrite a Python code to identify the city or cities with the highest number of non-missing values in the Specialty_Detail variable of the cms_ny_2022 DataFrame.\n\n\nClick to Check the Answer!\n(\n cms_ny_2022[ ~cms_ny_2022['Specialty_Detail'].isna() ]['City']\n .value_counts()\n .reset_index()\n .nlargest(1, 'count', keep=\"all\")\n )"
   },
   {
     "objectID": "danl-hw/danl-299-hw-04.html#question-7",
     "href": "danl-hw/danl-299-hw-04.html#question-7",
     "title": "Homework 4",
     "section": "Question 7",
-    "text": "Question 7\n\nWrite a Python code to count the number of occurrences of each unique value in Specialty_Detail for each unique value in Taxonomy.\n\nFor example, the following displays the number of occurrences of each unique value in Specialty_Detail for the Dental Providers Taxonomy value."
+    "text": "Question 7\n\nWrite a Python code to count the number of occurrences of each unique value in Specialty_Detail for each unique value in Taxonomy.\n\nFor example, the following displays the number of occurrences of each unique value in Specialty_Detail for the Dental Providers Taxonomy value.\n\n\n\n\n\n\n  \n\n\n\n\n\nClick to Check the Answer!\n(\n cms_ny_2022[['Taxonomy', 'Specialty_Detail']]\n .value_counts()\n .reset_index()\n .sort_values(['Taxonomy', 'Specialty_Detail'])\n )"
   },
   {
     "objectID": "danl-hw/danl-299-hw-04.html#question-8",
     "href": "danl-hw/danl-299-hw-04.html#question-8",
     "title": "Homework 4",
     "section": "Question 8",
-    "text": "Question 8\n\nWrite a Python code to count the number of unique Specialty_Detail values for the value “Dental Providers” in Taxonomy."
+    "text": "Question 8\n\nWrite a Python code to count the number of unique Specialty_Detail values for the value “Dental Providers” in Taxonomy.\n\n\n\n\n\n  \n\n\n\n\n\nClick to Check the Answer!\n(\n cms_ny_2022[cms_ny_2022['Taxonomy'] == \"Dental Providers\"]['Specialty_Detail']\n .nunique()\n )\n\n\n\n\nClick to Check the Answer!\n(\n cms_ny_2022[cms_ny_2022['Taxonomy'] == \"Dental Providers\"]['Specialty_Detail']\n .value_counts()\n .shape[0]\n )"
   },
   {
     "objectID": "danl-hw/danl-299-hw-04.html#question-9",
     "href": "danl-hw/danl-299-hw-04.html#question-9",
     "title": "Homework 4",
     "section": "Question 9",
-    "text": "Question 9\n\nWrite a Python code (1) to count the number of missing values and (2) to calculate mean, standard deviation, minimum, first quartile, median, third quartile, and maximum of the Amount_of_Payment variable for the value Dermatology in the Specialty variable."
+    "text": "Question 9\n\nWrite a Python code (1) to count the number of missing values and (2) to calculate mean, standard deviation, minimum, first quartile, median, third quartile, and maximum of the Amount_of_Payment variable for the value Dermatology in the Specialty variable.\n\n\n\nClick to Check the Answer!\n(\n cms_ny_2022[cms_ny_2022['Specialty'] == \"Dermatology\"][['Amount_of_Payment']]\n .info()\n )\n\n\n\n\nClick to Check the Answer!\nx = cms_ny_2022[cms_ny_2022['Specialty'] == \"Dermatology\"]['Amount_of_Payment'].isna()\nsum(x)\n\n\n\n\nClick to Check the Answer!\n(\n cms_ny_2022[cms_ny_2022['Specialty'] == \"Dermatology\"]['Amount_of_Payment']\n .describe()\n )"
   },
   {
     "objectID": "danl-hw/danl-299-hw-04.html#question-10",
     "href": "danl-hw/danl-299-hw-04.html#question-10",
     "title": "Homework 4",
     "section": "Question 10",
-    "text": "Question 10\n\nWrite a Python code to replicate the following DataFrame, which calculates (1) the number of physicians in each city, (2) the number of NPPs in each city, (3) the number of physicians and NPPs in each city, and (4) the percentage of physicians and NPPs in each city, as shown below.\n\nEnsure that the sum of the percentages of physicians and NPPs within each city is 100.\nEnsure that the observations are sorted by Total_Count and City in descending and ascending orders, respectively."
+    "text": "Question 10\n\nWrite a Python code to replicate the following DataFrame, which calculates (1) the number of physicians in each city, (2) the number of NPPs in each city, (3) the number of physicians and NPPs in each city, and (4) the percentage of physicians and NPPs in each city, as shown below.\n\nEnsure that the sum of the percentages of physicians and NPPs within each city is 100.\nEnsure that the observations are sorted by Total_Count and City in descending and ascending orders, respectively.\n\n\n\n\n\n\n  \n\n\n\n Using join\n\n\nClick to Check the Answer!\ndf = (\n      cms_ny_2022[['City', 'Physician_or_NPP', 'NPI']]\n      .drop_duplicates()[['City', 'Physician_or_NPP']]\n      .value_counts()\n      .reset_index()\n      )\n\ndf_1 = (\n        cms_ny_2022[['City', 'Physician_or_NPP', 'NPI']]\n        .drop_duplicates()['City']\n        .value_counts()\n        .reset_index()\n        .rename( columns = {'count' : 'Total_Count'})\n        )\n\ndf = (\n      df\n      .merge(df_1, on = 'City', how = 'left')\n      .sort_values(['Total_Count', 'Physician_or_NPP'], ascending = [False, True])\n      )\n      \ndf['Percent'] = 100 * df['count'] / df['Total_Count']\n\n\n\nUsing for-loop with dictionary container\n\n\nClick to Check the Answer!\ncms_ny_2022.shape[0]\ncms_ny_2022['NPI'].nunique()\n\ndf = (\n cms_ny_2022[['City', 'Physician_or_NPP', 'NPI']]\n .drop_duplicates()[['City', 'Physician_or_NPP']]\n .value_counts()\n .reset_index()\n )\n\nd = {}\nfor city in cms_ny_2022['City'].unique():\n    val = df[ df['City'] == city ]['count'].sum()\n    d[ city ] = val\n    \ndf_tot = pd.DataFrame([d]).T.reset_index()\ndf_tot.columns = ['City', 'Total_Count']\n\ndf = df.merge(df_tot, on='City', how = 'left')\ndf['Percent'] = 100 * df['count'] / df['Total_Count']\ndf = df.sort_values(['Total_Count', 'City'], ascending = [False, True])\n\n\n\nGroup operation with groupby()\n\n\nClick to Check the Answer!\ndf_grouped = (\n cms_ny_2022[['City', 'Physician_or_NPP', 'NPI']]\n .drop_duplicates()\n .groupby(['City', 'Physician_or_NPP'])\n .size()  # number of observations in each group\n .reset_index(name='count')\n )\n\ndf_grouped['Total_Count'] = df_grouped.groupby('City')['count'].transform('sum')\ndf_grouped['Percent'] = (100 * df_grouped['count'] / df_grouped['Total_Count'])\ndf_grouped = df_grouped.sort_values(['Total_Count', 'City'], ascending = [False, True])\n\n\n\nGroup operation with assign() and lambda\n\n\nClick to Check the Answer!\ndf_grouped = (\n    cms_ny_2022[['City', 'Physician_or_NPP', 'NPI']]\n    .drop_duplicates()\n    .groupby(['City', 'Physician_or_NPP'])\n    .size()\n    .reset_index(name = 'count')\n    .assign(\n        Total_Count = lambda df: df.groupby('City')['count'].transform('sum'),\n        Percent = lambda df: 100 * df['count'] / df['Total_Count']\n    )\n    .sort_values(['Total_Count', 'City'], ascending=[False, True])\n)"
   },
   {
     "objectID": "danl-hw/danl-299-hw-04.html#question-11",
     "href": "danl-hw/danl-299-hw-04.html#question-11",
     "title": "Homework 4",
     "section": "Question 11",
-    "text": "Question 11\n\nWrite a Python code to calculate:\n\nThe total Amount_of_Payment the Product_Manufacturer AbbVie Inc. paid to physicians and non-physician practitioners (NPPs) in Cities of Rochester, Buffalo, and Syracuse.\nHow many times the Product_Manufacturer AbbVie Inc. paid to physicians and non-physician practitioners (NPPs) in in Cities of Rochester, Buffalo, and Syracuse."
+    "text": "Question 11\n\nWrite a Python code to calculate:\n\nThe total Amount_of_Payment the Product_Manufacturer AbbVie Inc. paid to physicians and non-physician practitioners (NPPs) in Cities of Rochester, Buffalo, and Syracuse.\nHow many times the Product_Manufacturer AbbVie Inc. paid to physicians and non-physician practitioners (NPPs) in in Cities of Rochester, Buffalo, and Syracuse.\n\n\n\n\n\n\n  \n\n\n\n\n\n\nClick to Check the Answer!\n(\n cms_ny_2022.query(\n     'Product_Manufacturer == \"AbbVie Inc.\" & City.isin([\"Rochester\", \"Buffalo\", \"Syracuse\"])'\n     )['Amount_of_Payment']\n .sum()\n )\n\n\n\n\n\nClick to Check the Answer!\n(\n cms_ny_2022.query(\n     'Product_Manufacturer == \"AbbVie Inc.\" & City.isin([\"Rochester\", \"Buffalo\", \"Syracuse\"])'\n     )\n .shape[0]\n )"
   },
   {
     "objectID": "danl-hw/danl-299-hw-04.html#question-12",
     "href": "danl-hw/danl-299-hw-04.html#question-12",
     "title": "Homework 4",
     "section": "Question 12",
-    "text": "Question 12\n\nConsider the following two DataFrames, cms_ny_2022_npi and cms_ny_2022_records:\n\ncms_ny_2022_npi = pd.read_csv('https://bcdanl.github.io/data/cms-2022-cities-npi.csv')\n\n\n\n\n  \n\n\n\n\ncms_ny_2022_npi: This DataFrame is created from cms_ny_2022 by selecting only the columns NPI, Physician_or_NPP, First_Name, Last_Name, City, Type, Taxonomy, Specialty, and Specialty_Detail.\nIn addition, it contains only unique observations (i.e., there are no duplicate rows).\n\ncms_ny_2022_records = pd.read_csv('https://bcdanl.github.io/data/cms-2022-cities-records.csv')\n\n\n\n\n  \n\n\n\n\ncms_ny_2022_records: This DataFrame is derived from cms_ny_2022 by including every observation but only retaining the columns Record_ID, Month, Day, Amount_of_Payment, Product, Product_Manufacturer, and NPI.\nWrite a Python code to create the cms_ny_2022 DataFrame by using the cms_ny_2022_npi and cms_ny_2022_records DataFrames."
+    "text": "Question 12\n\nConsider the following two DataFrames, cms_ny_2022_npi and cms_ny_2022_records:\n\ncms_ny_2022_npi = pd.read_csv('https://bcdanl.github.io/data/cms-2022-cities-npi.csv')\n\n\n\n\n  \n\n\n\n\ncms_ny_2022_npi: This DataFrame is created from cms_ny_2022 by selecting only the columns NPI, Physician_or_NPP, First_Name, Last_Name, City, Type, Taxonomy, Specialty, and Specialty_Detail.\nIn addition, it contains only unique observations (i.e., there are no duplicate rows).\n\ncms_ny_2022_records = pd.read_csv('https://bcdanl.github.io/data/cms-2022-cities-records.csv')\n\n\n\n\n  \n\n\n\n\ncms_ny_2022_records: This DataFrame is derived from cms_ny_2022 by including every observation but only retaining the columns Record_ID, Month, Day, Amount_of_Payment, Product, Product_Manufacturer, and NPI.\nWrite a Python code to create the cms_ny_2022 DataFrame by using the cms_ny_2022_npi and cms_ny_2022_records DataFrames.\n\n\nBelow is the many-to-many join. Therefore, the cms_ny_2022_new DataFrame has more observations than cms_ny_2022.\n\n\nClick to Check the Answer!\ncms_ny_2022_new = cms_ny_2022_records.merge(cms_ny_2022_npi, on = 'NPI', how = 'left')\n\n\n\nThis happens because NPI variable in the cms_ny_2022_npi DataFrame has duplicate values.\n\n\nClick to Check the Answer!\n# Dividing `cms_ny_2022_npi` into the two DataFrames\ncms_ny_2022_npi_dup = cms_ny_2022_npi[cms_ny_2022_npi['NPI'].duplicated(keep=False)].sort_values('NPI')\ncms_ny_2022_npi_unique = cms_ny_2022_npi[~cms_ny_2022_npi['NPI'].duplicated(keep=False)]\n\n# Creating a DataFrame with only non-duplicate values in NPI variable:\ncms_ny_2022_npi_dup_to_unique = cms_ny_2022_npi_dup.drop_duplicates(subset=['NPI'], keep='first')\ncms_ny_2022_npi_unique_all = pd.concat([cms_ny_2022_npi_unique, cms_ny_2022_npi_dup_to_unique])\n\n# Below can match the number of observations in cms_ny_2022, \n# but may not match values in non-NPI variables in cms_ny_2022_npi\ncms_ny_2022_new2 = cms_ny_2022_records.merge(cms_ny_2022_npi_unique_all, on = 'NPI', how = 'left')\n\n# To replicate cms_ny_2022, we need to create a new key variable that uniquely identifies observations in `cms_ny_2022_npi`."
   },
   {
     "objectID": "danl-hw/danl-299-hw-04.html#question-13",
     "href": "danl-hw/danl-299-hw-04.html#question-13",
     "title": "Homework 4",
     "section": "Question 13",
-    "text": "Question 13\n\nWrite a Python code to create the following DataFrame, City_Physician_or_NPP, which counts the number of physicians and the non-physician practitioners (NPPs) in each city."
+    "text": "Question 13\n\nWrite a Python code to create the following DataFrame, City_Physician_or_NPP, which counts the number of physicians and the non-physician practitioners (NPPs) in each city.\n\n\n\n\n\n  \n\n\n\n\nBelow is correct:\n\n\nClick to Check the Answer!\nCity_Physician_or_NPP = (\n    cms_ny_2022[['City', 'Physician_or_NPP', 'NPI']]\n    .drop_duplicates()[['City', 'Physician_or_NPP']]\n    .value_counts()\n    .reset_index()\n    .pivot(index = 'City',\n           columns = 'Physician_or_NPP',\n           values = 'count'\n           )\n    .reset_index()\n    )\n\n\n\nBelow is incorrect:\n\n\nClick to Check the Answer!\nCity_Physician_or_NPP = (\n    cms_ny_2022[['City', 'Physician_or_NPP']]\n    .value_counts()\n    .reset_index()\n    .pivot(index = 'City',\n           columns = 'Physician_or_NPP',\n           values = 'count'\n           )\n    .reset_index()\n    )"
   },
   {
     "objectID": "danl-hw/danl-299-hw-05.html",
@@ -4457,5 +4457,110 @@
     "title": "Homework 5",
     "section": "Holiday Movie Blog (Homework 3)",
     "text": "Holiday Movie Blog (Homework 3)\nAdd the following section to your Holiday Movie blog:\n\nCode\n\nUse pandas to select the five genres with the highest film counts.\n\nUse numpy to add a new variable, log of num_votes.\nUse seaborn to plot the relationship between log of num_votes and average_rating, grouping by genre and coloring or faceting by title_type.\n\nDescription\nWrite 2–3 sentences describing how the log of num_votes vs. average_rating relationship varies among the top five genres and between different title_types."
+  },
+  {
+    "objectID": "danl-hw/danl-299-hw-04q.html",
+    "href": "danl-hw/danl-299-hw-04q.html",
+    "title": "Homework 4",
+    "section": "",
+    "text": "Please submit your Python Script for Part 1 in Homework 4 to Brightspace with the name below:\n\ndanl_299_hw4_LASTNAME_FIRSTNAME.py\n( e.g., danl_299_hw4_choe_byeonghak.py )\n\nThe due for Part 1 in Homework 4 is December 8, 2025, 5:15 P.M.\nThe due for Part 2 in Homework 4 is February 2, 2025, 5:15 P.M.\nPlease send Prof. Choe an email (bchoe@geneseo.edu) if you have any questions."
+  },
+  {
+    "objectID": "danl-hw/danl-299-hw-04q.html#question-1",
+    "href": "danl-hw/danl-299-hw-04q.html#question-1",
+    "title": "Homework 4",
+    "section": "Question 1",
+    "text": "Question 1\n\nGo to the following webpage: https://www.nyc.gov/site/finance/property/property-annualized-sales-update.page\nProvide a Python Selenium code to download all the MS Excel files in the webpage above.\n\nPlease make sure that you do not download any PDF files."
+  },
+  {
+    "objectID": "danl-hw/danl-299-hw-04q.html#question-2",
+    "href": "danl-hw/danl-299-hw-04q.html#question-2",
+    "title": "Homework 4",
+    "section": "Question 2",
+    "text": "Question 2\nThe series_housing_price DataFrame contains FRED series ids for the Home Price Index across 16 metropolitan statistical areas, each categorized into three price tiers: low, middle, and high.\nurl = 'https://bcdanl.github.io/data/fred_api_series_housing_price.csv'\nseries_housing_price = pd.read_csv(url)\n\n\n\n\n\n\n\n\nFor more information regarding the index, please visit Standard & Poor’s. There is more information about home price sales pairs in the Methodology section. Copyright, 2025, Standard & Poor’s Financial Services LLC.\nProvide a Python code (excluding your FRED API key) to construct the following DataFrame:\n\n\n\n\n\n\n\n\n\n\n\n\n\nNote that the id variable in the series_housing_price DataFrame corresponds to the series_id key used in the parameter dictionary (param_dicts) used for making requests to the FRED API.\nTo iterate over the id values in the series_housing_price DataFrame, you can convert the variable to a list using .tolist():\n\nfor val in series_housing_price['id'].tolist():\n   # do something with val\n\nBelow replaces ‘Home Price Index (’ with ’’ (empty string) in the title column:\n\ndf_all['title'] = df_all['title'].str.replace('Home Price Index (', '')\n\nThe title column can split into the tier and city variables using the following code:\n\n# Split the 'title' column into two new variables, 'ranking' and 'title'\n# by the first occurrence of \" Tier) for \". \n\n# expand=True tells pandas to return the results in a DataFrame\n  # If expand were False, the result would be a Series of lists.\n\n# Use \\) to escape the closing parenthesis, which has special meaning in regex\ndf_all[['tier', 'city']] = df_all['title'].str.split(' Tier\\) for ', expand=True)  \n\nThe DataFrame is sorted first by state, then by city within each state, then by date in descending order within each city, and finally by tier within each city-date group.\n\nTo sort observations in a custom order (like Low, Middle, High), you can convert the tier variable to a categorical variable with an explicit order, and then sort.\n\n\ndf = pd.DataFrame({\n    'tier': ['Middle', 'High', 'Low', 'Middle', 'Low'],\n    'city': ['NY', 'LA', 'CHI', 'SF', 'SEA']\n})\n\ntier_order = ['Low', 'Middle', 'High']\ndf['tier'] = pd.Categorical(df['tier'], categories=tier_order, ordered=True)\n\ndf_sorted = df.sort_values('tier')"
+  },
+  {
+    "objectID": "danl-hw/danl-299-hw-04q.html#variable-description",
+    "href": "danl-hw/danl-299-hw-04q.html#variable-description",
+    "title": "Homework 4",
+    "section": "Variable Description",
+    "text": "Variable Description\n\n\n\n\n\n\n\n\nvariable\ntype\ndescription\n\n\n\n\nRecord_ID\nnumeric\nUnique identifier for a transaction between a manufacturer and a physician or an NPP\n\n\nMonth\nnumeric\nMonth\n\n\nDay\nnumeric\nYear\n\n\nAmount_of_Payment\nnumeric\nUS dollar amount of payment to a physician or NPP\n\n\nProduct\nchracter\nAn indicator showing if the product is a Drug, Device, Biological, or Medical Supply.\n\n\nProduct_Manufacturer\nchracter\nManufacturer making the payment to a physician/NPP\n\n\nNPI\nnumeric\nNational Provider Identifier, a unique identification number for a physician/NPP receiving the payment\n\n\nPhysician_or_NPP\nchracter\nAn indicator showing if the recipient of the payment is a physician or non-physician practitioner (NPP)\n\n\nFirst_Name\nchracter\nFirst name of physician/NPP in New York state\n\n\nLast_Name\nchracter\nLast name of physician/NPP in New York state\n\n\nCity\nchracter\nCity of the physician/NPP in New York state\n\n\nType\nchracter\nType of physician/NPP (e.g., Medical Doctor, Doctor of Optometry, Nurse Practitioner, Physician Assistant, and more)\n\n\nTaxonomy\nchracter\nStandardized taxonomy of medical service provider (e.g., Allopathic & Osteopathic Physicians, Chiropractic Providers, Dental Providers, Physician Assistants & Advanced Practice Nursing Providers, and more)\n\n\nSpecialty\nchracter\nA specialty chosen within the standardized taxonomy (e.g., Psychiatry & Neurology, Physician Assistant, Chiropractor, Dentist, Family Medicine, Neurological Surgery, and more)\n\n\nSpecialty_Detail\nchracter\nDetail in the specialty if any (e.g., Family, Gastroenterology, Cardiovascular Disease, Neurology, Psychiatry, and more)\n\n\n\n\nNote that each physician/NPP corresponds to one single Specialty_Detail value."
+  },
+  {
+    "objectID": "danl-hw/danl-299-hw-04q.html#question-3",
+    "href": "danl-hw/danl-299-hw-04q.html#question-3",
+    "title": "Homework 4",
+    "section": "Question 3",
+    "text": "Question 3\n\nWrite a Python code to convert the string type Physician_or_NPP variable into the category type variable."
+  },
+  {
+    "objectID": "danl-hw/danl-299-hw-04q.html#question-4",
+    "href": "danl-hw/danl-299-hw-04q.html#question-4",
+    "title": "Homework 4",
+    "section": "Question 4",
+    "text": "Question 4\n\nWrite a Python code to replace the NaN value of the Specialty_Detail variable with the value of the Specialty variable.\n\nFor example, the following shows that\n\nAll NaN values in the Specialty_Detail variable, where the Specialty is Physician Assistant, are replaced with Physician Assistant."
+  },
+  {
+    "objectID": "danl-hw/danl-299-hw-04q.html#question-5",
+    "href": "danl-hw/danl-299-hw-04q.html#question-5",
+    "title": "Homework 4",
+    "section": "Question 5",
+    "text": "Question 5\nWrite a Python code to count the number of transactions in which the payment amount (i.e., Amount_of_Payment) falls in the top 10% of all payments in the DataFrame."
+  },
+  {
+    "objectID": "danl-hw/danl-299-hw-04q.html#question-6",
+    "href": "danl-hw/danl-299-hw-04q.html#question-6",
+    "title": "Homework 4",
+    "section": "Question 6",
+    "text": "Question 6\nWrite a Python code to identify the city or cities with the highest number of non-missing values in the Specialty_Detail variable of the cms_ny_2022 DataFrame."
+  },
+  {
+    "objectID": "danl-hw/danl-299-hw-04q.html#question-7",
+    "href": "danl-hw/danl-299-hw-04q.html#question-7",
+    "title": "Homework 4",
+    "section": "Question 7",
+    "text": "Question 7\n\nWrite a Python code to count the number of occurrences of each unique value in Specialty_Detail for each unique value in Taxonomy.\n\nFor example, the following displays the number of occurrences of each unique value in Specialty_Detail for the Dental Providers Taxonomy value."
+  },
+  {
+    "objectID": "danl-hw/danl-299-hw-04q.html#question-8",
+    "href": "danl-hw/danl-299-hw-04q.html#question-8",
+    "title": "Homework 4",
+    "section": "Question 8",
+    "text": "Question 8\n\nWrite a Python code to count the number of unique Specialty_Detail values for the value “Dental Providers” in Taxonomy."
+  },
+  {
+    "objectID": "danl-hw/danl-299-hw-04q.html#question-9",
+    "href": "danl-hw/danl-299-hw-04q.html#question-9",
+    "title": "Homework 4",
+    "section": "Question 9",
+    "text": "Question 9\n\nWrite a Python code (1) to count the number of missing values and (2) to calculate mean, standard deviation, minimum, first quartile, median, third quartile, and maximum of the Amount_of_Payment variable for the value Dermatology in the Specialty variable."
+  },
+  {
+    "objectID": "danl-hw/danl-299-hw-04q.html#question-10",
+    "href": "danl-hw/danl-299-hw-04q.html#question-10",
+    "title": "Homework 4",
+    "section": "Question 10",
+    "text": "Question 10\n\nWrite a Python code to replicate the following DataFrame, which calculates (1) the number of physicians in each city, (2) the number of NPPs in each city, (3) the number of physicians and NPPs in each city, and (4) the percentage of physicians and NPPs in each city, as shown below.\n\nEnsure that the sum of the percentages of physicians and NPPs within each city is 100.\nEnsure that the observations are sorted by Total_Count and City in descending and ascending orders, respectively."
+  },
+  {
+    "objectID": "danl-hw/danl-299-hw-04q.html#question-11",
+    "href": "danl-hw/danl-299-hw-04q.html#question-11",
+    "title": "Homework 4",
+    "section": "Question 11",
+    "text": "Question 11\n\nWrite a Python code to calculate:\n\nThe total Amount_of_Payment the Product_Manufacturer AbbVie Inc. paid to physicians and non-physician practitioners (NPPs) in Cities of Rochester, Buffalo, and Syracuse.\nHow many times the Product_Manufacturer AbbVie Inc. paid to physicians and non-physician practitioners (NPPs) in in Cities of Rochester, Buffalo, and Syracuse."
+  },
+  {
+    "objectID": "danl-hw/danl-299-hw-04q.html#question-12",
+    "href": "danl-hw/danl-299-hw-04q.html#question-12",
+    "title": "Homework 4",
+    "section": "Question 12",
+    "text": "Question 12\n\nConsider the following two DataFrames, cms_ny_2022_npi and cms_ny_2022_records:\n\ncms_ny_2022_npi = pd.read_csv('https://bcdanl.github.io/data/cms-2022-cities-npi.csv')\n\n\n\n\n  \n\n\n\n\ncms_ny_2022_npi: This DataFrame is created from cms_ny_2022 by selecting only the columns NPI, Physician_or_NPP, First_Name, Last_Name, City, Type, Taxonomy, Specialty, and Specialty_Detail.\nIn addition, it contains only unique observations (i.e., there are no duplicate rows).\n\ncms_ny_2022_records = pd.read_csv('https://bcdanl.github.io/data/cms-2022-cities-records.csv')\n\n\n\n\n  \n\n\n\n\ncms_ny_2022_records: This DataFrame is derived from cms_ny_2022 by including every observation but only retaining the columns Record_ID, Month, Day, Amount_of_Payment, Product, Product_Manufacturer, and NPI.\nWrite a Python code to create the cms_ny_2022 DataFrame by using the cms_ny_2022_npi and cms_ny_2022_records DataFrames."
+  },
+  {
+    "objectID": "danl-hw/danl-299-hw-04q.html#question-13",
+    "href": "danl-hw/danl-299-hw-04q.html#question-13",
+    "title": "Homework 4",
+    "section": "Question 13",
+    "text": "Question 13\n\nWrite a Python code to create the following DataFrame, City_Physician_or_NPP, which counts the number of physicians and the non-physician practitioners (NPPs) in each city."
   }
 ]
