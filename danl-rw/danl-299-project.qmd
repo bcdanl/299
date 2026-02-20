@@ -39,6 +39,73 @@ theme_set(theme_ipsum() +
 
 <br>
 
+
+# Project Submissions
+
+Please submit the following three items for your project:
+
+1. A Python Script File (*.py) for Data Collection
+
+Submit the scripts used to collect your data.
+
+- ` danl_299_LASTNAME_FIRSTNAME_stock_data_collection.py`
+
+
+2. A CSV File (*.csv)
+
+Export your final DataFrames as CSV files using the Python scripts above
+
+- ` danl_299_LASTNAME_FIRSTNAME_stock.csv`
+
+Contains daily stock market data from the beginning of 2024 to March 31, 2025, with the following columns:
+
+- `Symbol`: Company’s stock ticker
+- `Name`: Company name
+- `Date`: Trading date
+- `Open`: Opening price on the date
+- `High`: Highest price on the date
+- `Low`: Lowest price on the date
+- `Close`: Closing price on the date
+- `Adj Close`: Adjusted close price accounting for splits and dividends
+- `Volume`: Trading volume
+- `Dividend`: Cash dividend paid per share on the date (if any), as reported by Yahoo Finance
+
+
+
+Note: A CSV file must not exceed 30 MB.
+
+
+3. Jupyter Notebook File (*.ipynb) for Your Project Webpage
+
+Filename: ` danl_299_LASTNAME_FIRSTNAME_stock_ESG.ipynb`
+
+Include your full Python code;(excluding the data collection scripts) and your project explanation, written clearly in text cells.
+
+File size limit: 30 MB
+
+
+
+Note: For data loading in Google Colab, you may use the `file.upload()` function. 
+
+
+
+## Project Webpage Publication
+
+In addition to submitting your files:
+
+Publish your final project as a webpage on your personal website
+
+Add a working link to the project in your site’s navigation bar
+
+This must also be completed by the deadline below
+
+**Deadline**: Sunday, March 1, 11:59 P.M.
+
+
+
+<br><br>
+
+
 # Project
 
 1. Collect the following data from [Yahoo! Finance](https://finance.yahoo.com):  

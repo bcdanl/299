@@ -4576,5 +4576,12 @@
     "title": "Unifying Environmental, Social, and Governance (ESG) Metrics with Financial Analysis",
     "section": "Uploading CSV Files to Google Colab via Google Drive",
     "text": "Uploading CSV Files to Google Colab via Google Drive\nWhen you work in Google Colab, your notebook runs on a temporary cloud computer.\nTo access files you already have in your Google Drive (like a CSV), you first need to mount your Drive.\nfrom google.colab import drive\ndrive.mount('/content/drive')\n\nWhat this code does\n\nfrom google.colab import drive\nImports Colab’s built-in tool for connecting to Google Drive.\ndrive.mount(\"/content/drive\")\nConnects (mounts) your Google Drive into Colab at the folder path:\n/content/drive\n\n\n\n\nWhat you will see after running it\n\nColab will ask you to sign in to your Google account.\nYou will approve permission for Colab to access your Drive.\nAfter that, your Drive files will appear under:\n\n/content/drive/MyDrive/\n\n\n\nExample: read a CSV file from Google Drive\nimport pandas as pd\n\ndf = pd.read_csv(\"/content/drive/MyDrive/path/to/your_file.csv\")"
+  },
+  {
+    "objectID": "danl-rw/danl-299-project.html#project-webpage-publication",
+    "href": "danl-rw/danl-299-project.html#project-webpage-publication",
+    "title": "Unifying Environmental, Social, and Governance (ESG) Metrics with Financial Analysis",
+    "section": "Project Webpage Publication",
+    "text": "Project Webpage Publication\nIn addition to submitting your files:\nPublish your final project as a webpage on your personal website\nAdd a working link to the project in your site’s navigation bar\nThis must also be completed by the deadline below\nDeadline: Sunday, March 1, 11:59 P.M."
   }
 ]
