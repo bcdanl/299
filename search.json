@@ -4562,5 +4562,19 @@
     "title": "Homework 4",
     "section": "Question 13",
     "text": "Question 13\n\nWrite a Python code to create the following DataFrame, City_Physician_or_NPP, which counts the number of physicians and the non-physician practitioners (NPPs) in each city."
+  },
+  {
+    "objectID": "danl-rw/danl-299-project.html#how-to-extract-year-from-a-datetime-variable-in-pandas",
+    "href": "danl-rw/danl-299-project.html#how-to-extract-year-from-a-datetime-variable-in-pandas",
+    "title": "Unifying Environmental, Social, and Governance (ESG) Metrics with Financial Analysis",
+    "section": "How to Extract Year from a Datetime Variable in pandas",
+    "text": "How to Extract Year from a Datetime Variable in pandas\nIf you would like to extract the year from a datetime variable in a pandas DataFrame, you can use the .dt.year accessor. Below is an example:\nimport pandas as pd\n\n# Sample DataFrame with string dates\ndata = {\n    'Symbol': ['AAPL', 'MSFT', 'GOOG'],\n    'Date': ['2024-12-29', '2024-12-30', '2025-01-03'],\n    'Close': [130.21, 265.78, 122.34]\n}\n\ndf = pd.DataFrame(data)\n\n# Convert 'Date' column to datetime\ndf['Date'] = pd.to_datetime(df['Date'])\n\n# Extract year from 'Date' column\ndf['Year'] = df['Date'].dt.year\nThis will add a new Year variable to the df DataFrame containing the corresponding year for each date."
+  },
+  {
+    "objectID": "danl-rw/danl-299-project.html#uploading-csv-files-to-google-colab-via-google-drive",
+    "href": "danl-rw/danl-299-project.html#uploading-csv-files-to-google-colab-via-google-drive",
+    "title": "Unifying Environmental, Social, and Governance (ESG) Metrics with Financial Analysis",
+    "section": "Uploading CSV Files to Google Colab via Google Drive",
+    "text": "Uploading CSV Files to Google Colab via Google Drive\nWhen you work in Google Colab, your notebook runs on a temporary cloud computer.\nTo access files you already have in your Google Drive (like a CSV), you first need to mount your Drive.\nfrom google.colab import drive\ndrive.mount('/content/drive')\n\nWhat this code does\n\nfrom google.colab import drive\nImports Colab’s built-in tool for connecting to Google Drive.\ndrive.mount(\"/content/drive\")\nConnects (mounts) your Google Drive into Colab at the folder path:\n/content/drive\n\n\n\n\nWhat you will see after running it\n\nColab will ask you to sign in to your Google account.\nYou will approve permission for Colab to access your Drive.\nAfter that, your Drive files will appear under:\n\n/content/drive/MyDrive/\n\n\n\nExample: read a CSV file from Google Drive\nimport pandas as pd\n\ndf = pd.read_csv(\"/content/drive/MyDrive/path/to/your_file.csv\")"
   }
 ]

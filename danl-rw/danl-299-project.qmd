@@ -33,7 +33,7 @@ theme_set(theme_ipsum() +
                 axis.title.y = element_text(size = rel(1.5) ))
           )
 
-reticulate::use_condaenv("/Users/bchoe/anaconda3", required = TRUE)
+# reticulate::use_condaenv("/Users/bchoe/anaconda3", required = TRUE)
 
 ```
 
@@ -588,6 +588,74 @@ Here are some general tips for describing the time trend of a variable:
 
 -	**Add Narration**: 
     - Connect the visualization to real-world phenomena and/or your idea that could help explain it, adding insight into what is happening.
+
+
+## How to Extract Year from a Datetime Variable in pandas
+
+If you would like to extract the year from a datetime variable in a pandas DataFrame, you can use the `.dt.year` accessor. Below is an example:
+
+```{.python}
+import pandas as pd
+
+# Sample DataFrame with string dates
+data = {
+    'Symbol': ['AAPL', 'MSFT', 'GOOG'],
+    'Date': ['2024-12-29', '2024-12-30', '2025-01-03'],
+    'Close': [130.21, 265.78, 122.34]
+}
+
+df = pd.DataFrame(data)
+
+# Convert 'Date' column to datetime
+df['Date'] = pd.to_datetime(df['Date'])
+
+# Extract year from 'Date' column
+df['Year'] = df['Date'].dt.year
+```
+
+
+This will add a new Year variable to the df DataFrame containing the corresponding year for each date.
+
+<br>
+
+## Uploading CSV Files to Google Colab via Google Drive
+
+When you work in **Google Colab**, your notebook runs on a temporary cloud computer.  
+To access files you already have in your **Google Drive** (like a CSV), you first need to **mount** your Drive.
+
+```{.python}
+from google.colab import drive
+drive.mount('/content/drive')
+```
+
+### What this code does
+
+- `from google.colab import drive`  
+  Imports Colab's built-in tool for connecting to Google Drive.
+
+- `drive.mount("/content/drive")`  
+  Connects (mounts) your Google Drive into Colab at the folder path:  
+  `/content/drive`
+
+---
+
+### What you will see after running it
+
+1. Colab will ask you to sign in to your Google account.
+2. You will approve permission for Colab to access your Drive.
+3. After that, your Drive files will appear under:
+
+`/content/drive/MyDrive/`
+
+---
+
+### Example: read a CSV file from Google Drive
+
+```{.python}
+import pandas as pd
+
+df = pd.read_csv("/content/drive/MyDrive/path/to/your_file.csv")
+```
 
 
 

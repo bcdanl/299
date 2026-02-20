@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Byeong-Hak Choe">
-<meta name="dcterms.date" content="2025-08-22">
+<meta name="dcterms.date" content="2026-02-19">
 
 <title>Unifying Environmental, Social, and Governance (ESG) Metrics with Financial Analysis | Byeong-Hak Choe</title>
 <style>
@@ -307,6 +307,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#time-trend-of-a-variable" id="toc-time-trend-of-a-variable" class="nav-link" data-scroll-target="#time-trend-of-a-variable">Time Trend of a Variable</a></li>
   <li><a href="#interpreting-visualization" id="toc-interpreting-visualization" class="nav-link" data-scroll-target="#interpreting-visualization">Interpreting Visualization</a></li>
   </ul></li>
+  <li><a href="#how-to-extract-year-from-a-datetime-variable-in-pandas" id="toc-how-to-extract-year-from-a-datetime-variable-in-pandas" class="nav-link" data-scroll-target="#how-to-extract-year-from-a-datetime-variable-in-pandas">How to Extract Year from a Datetime Variable in pandas</a></li>
+  <li><a href="#uploading-csv-files-to-google-colab-via-google-drive" id="toc-uploading-csv-files-to-google-colab-via-google-drive" class="nav-link" data-scroll-target="#uploading-csv-files-to-google-colab-via-google-drive">Uploading CSV Files to Google Colab via Google Drive</a>
+  <ul class="collapse">
+  <li><a href="#what-this-code-does" id="toc-what-this-code-does" class="nav-link" data-scroll-target="#what-this-code-does">What this code does</a></li>
+  <li><a href="#what-you-will-see-after-running-it" id="toc-what-you-will-see-after-running-it" class="nav-link" data-scroll-target="#what-you-will-see-after-running-it">What you will see after running it</a></li>
+  <li><a href="#example-read-a-csv-file-from-google-drive" id="toc-example-read-a-csv-file-from-google-drive" class="nav-link" data-scroll-target="#example-read-a-csv-file-from-google-drive">Example: read a CSV file from Google Drive</a></li>
+  </ul></li>
   </ul></li>
   <li><a href="#rubric" id="toc-rubric" class="nav-link" data-scroll-target="#rubric">Rubric</a>
   <ul>
@@ -346,7 +353,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">August 22, 2025</p>
+      <p class="date">February 19, 2026</p>
     </div>
   </div>
   
@@ -1003,6 +1010,62 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li>Connect the visualization to real-world phenomena and/or your idea that could help explain it, adding insight into what is happening.</li>
 </ul></li>
 </ul>
+</section>
+</section>
+<section id="how-to-extract-year-from-a-datetime-variable-in-pandas" class="level2">
+<h2 class="anchored" data-anchor-id="how-to-extract-year-from-a-datetime-variable-in-pandas">How to Extract Year from a Datetime Variable in pandas</h2>
+<p>If you would like to extract the year from a datetime variable in a pandas DataFrame, you can use the <code>.dt.year</code> accessor. Below is an example:</p>
+<div class="sourceCode" id="cb12"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Sample DataFrame with string dates</span></span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> {</span>
+<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a>    <span class="st">'Symbol'</span>: [<span class="st">'AAPL'</span>, <span class="st">'MSFT'</span>, <span class="st">'GOOG'</span>],</span>
+<span id="cb12-6"><a href="#cb12-6" aria-hidden="true" tabindex="-1"></a>    <span class="st">'Date'</span>: [<span class="st">'2024-12-29'</span>, <span class="st">'2024-12-30'</span>, <span class="st">'2025-01-03'</span>],</span>
+<span id="cb12-7"><a href="#cb12-7" aria-hidden="true" tabindex="-1"></a>    <span class="st">'Close'</span>: [<span class="fl">130.21</span>, <span class="fl">265.78</span>, <span class="fl">122.34</span>]</span>
+<span id="cb12-8"><a href="#cb12-8" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb12-9"><a href="#cb12-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-10"><a href="#cb12-10" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> pd.DataFrame(data)</span>
+<span id="cb12-11"><a href="#cb12-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-12"><a href="#cb12-12" aria-hidden="true" tabindex="-1"></a><span class="co"># Convert 'Date' column to datetime</span></span>
+<span id="cb12-13"><a href="#cb12-13" aria-hidden="true" tabindex="-1"></a>df[<span class="st">'Date'</span>] <span class="op">=</span> pd.to_datetime(df[<span class="st">'Date'</span>])</span>
+<span id="cb12-14"><a href="#cb12-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-15"><a href="#cb12-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Extract year from 'Date' column</span></span>
+<span id="cb12-16"><a href="#cb12-16" aria-hidden="true" tabindex="-1"></a>df[<span class="st">'Year'</span>] <span class="op">=</span> df[<span class="st">'Date'</span>].dt.year</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>This will add a new Year variable to the df DataFrame containing the corresponding year for each date.</p>
+<p><br></p>
+</section>
+<section id="uploading-csv-files-to-google-colab-via-google-drive" class="level2">
+<h2 class="anchored" data-anchor-id="uploading-csv-files-to-google-colab-via-google-drive">Uploading CSV Files to Google Colab via Google Drive</h2>
+<p>When you work in <strong>Google Colab</strong>, your notebook runs on a temporary cloud computer.<br>
+To access files you already have in your <strong>Google Drive</strong> (like a CSV), you first need to <strong>mount</strong> your Drive.</p>
+<div class="sourceCode" id="cb13"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> google.colab <span class="im">import</span> drive</span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>drive.mount(<span class="st">'/content/drive'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<section id="what-this-code-does" class="level3">
+<h3 class="anchored" data-anchor-id="what-this-code-does">What this code does</h3>
+<ul>
+<li><p><code>from google.colab import drive</code><br>
+Imports Colab’s built-in tool for connecting to Google Drive.</p></li>
+<li><p><code>drive.mount("/content/drive")</code><br>
+Connects (mounts) your Google Drive into Colab at the folder path:<br>
+<code>/content/drive</code></p></li>
+</ul>
+<hr>
+</section>
+<section id="what-you-will-see-after-running-it" class="level3">
+<h3 class="anchored" data-anchor-id="what-you-will-see-after-running-it">What you will see after running it</h3>
+<ol type="1">
+<li>Colab will ask you to sign in to your Google account.</li>
+<li>You will approve permission for Colab to access your Drive.</li>
+<li>After that, your Drive files will appear under:</li>
+</ol>
+<p><code>/content/drive/MyDrive/</code></p>
+<hr>
+</section>
+<section id="example-read-a-csv-file-from-google-drive" class="level3">
+<h3 class="anchored" data-anchor-id="example-read-a-csv-file-from-google-drive">Example: read a CSV file from Google Drive</h3>
+<div class="sourceCode" id="cb14"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> pd.read_csv(<span class="st">"/content/drive/MyDrive/path/to/your_file.csv"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p><br><br><br></p>
 </section>
 </section>
