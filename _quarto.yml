@@ -44,7 +44,7 @@ website:
       - text: ✍️️ Project
         href: danl-rw/danl-299-project.qmd
       - text: ✏️ Exam
-        href: danl-ex/danl-299-exam-1-a.qmd
+        href: listing-danl-299-ex.qmd
                 
       - section: 🗓️ Weeks
         contents:
