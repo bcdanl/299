@@ -15,7 +15,7 @@ from: markdown+emoji
 
 library(DT)
 library(reticulate)
-reticulate::use_condaenv("/Users/bchoe/anaconda3", required = TRUE)
+# reticulate::use_condaenv("/Users/bchoe/anaconda3", required = TRUE)
 ```
 
 

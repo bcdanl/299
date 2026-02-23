@@ -11,7 +11,7 @@ from: markdown+emoji
 #| echo: false
 #| eval: true
 
-reticulate::use_condaenv("/Users/bchoe/anaconda3", required = TRUE)
+# reticulate::use_condaenv("/Users/bchoe/anaconda3", required = TRUE)
 ```
 
 # Direction

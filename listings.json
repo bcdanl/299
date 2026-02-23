@@ -75,7 +75,6 @@
     "items": [
       "/danl-hw/danl-299-hw-05.html",
       "/danl-hw/danl-299-hw-04.html",
-      "/danl-hw/danl-299-hw-04q.html",
       "/danl-hw/danl-299-hw-03.html",
       "/danl-hw/danl-299-hw-02.html",
       "/danl-hw/danl-299-hw-01.html"
@@ -98,6 +97,13 @@
       "/danl-cw/danl-299-cw-03.html",
       "/danl-cw/danl-299-cw-02.html",
       "/danl-cw/danl-299-cw-01.html"
+    ]
+  },
+  {
+    "listing": "/listing-danl-299-ex.html",
+    "items": [
+      "/danl-ex/danl-299-exam-1-a.html",
+      "/danl-ex/danl-299-exam-2-a.html"
     ]
   }
 ]
