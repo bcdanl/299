@@ -87,7 +87,7 @@ File size limit: 30 MB
 
 Note: For data loading in Google Colab, you may use the `file.upload()` function. 
 
-
+- [This lecture slide](https://bcdanl.github.io/299/danl-lec/danl-299-lec-06-2025-0917.html#/loading-data-1) could be useful for data loading in Google Colab.
 
 ## Project Webpage Publication
 
